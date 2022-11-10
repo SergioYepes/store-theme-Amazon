@@ -1,0 +1,168 @@
+{
+    "flex-layout.row#home__categorySlider--first":{
+    "children":[
+        "flex-layout.col#home__categorySlider--first"
+        ]
+    },
+    "flex-layout.col#home__categorySlider--first":{
+        "children":[
+            "flex-layout.row#home__categorySlider--head",
+            "slider-layout#home__categorySlider--first"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7
+        }
+    },
+    "flex-layout.row#home__categorySlider--head":{
+        "children":[
+            "rich-text#home__categorySlider--head",
+            "link#home__categorySlider--head"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7,
+            "blockClass":"productSlider--head",
+            "colSizing":"auto"
+        }
+    },
+    "link#home__categorySlider--head":{
+        "props":{
+            "label":"Ver más",
+            "href":"#"
+        }
+    },
+    "rich-text#home__categorySlider--head":{
+        "props":{
+            "text":"Tienda de Navidad: compra por categorías",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+
+    "slider-layout#home__categorySlider--first":{
+        "props": {
+            "itemsPerPage": {
+              "desktop": 6,
+              "tablet": 4,
+              "phone": 3
+            },
+            "showNavigationArrows":"desktopOnly",
+            "showPaginationDots":"disable",
+            "infinite":false
+        },
+        "children":[
+            "image#home__categorySlider--first",
+            "image#home__categorySlider--second",
+            "image#home__categorySlider--third",
+            "image#home__categorySlider--fourth",
+            "image#home__categorySlider--fifth",
+            "image#home__categorySlider--sixth",
+            "image#home__categorySlider--seventh",
+            "image#home__categorySlider--eighth",
+            "image#home__categorySlider--nineth",
+            "image#home__categorySlider--tenth"
+        ]
+    },
+    "image#home__categorySlider--first":{
+        "props": {
+            "src": "assets/img/categorySlider1--first.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider--second":{
+        "props": {
+            "src": "assets/img/categorySlider1--second.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider--third":{
+        "props": {
+            "src": "assets/img/categorySlider1--third.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider--fourth":{
+        "props": {
+            "src": "assets/img/categorySlider1--fourth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider--fifth":{
+        "props": {
+            "src": "assets/img/categorySlider1--fifth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider--sixth":{
+        "props": {
+            "src": "assets/img/categorySlider1--sixth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider--seventh":{
+        "props": {
+            "src": "assets/img/categorySlider1--seventh.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider--eighth":{
+        "props": {
+            "src": "assets/img/categorySlider1--eighth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider--nineth":{
+        "props": {
+            "src": "assets/img/categorySlider1--nineth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider--tenth":{
+        "props": {
+            "src": "assets/img/categorySlider1--tenth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    }
+
+}

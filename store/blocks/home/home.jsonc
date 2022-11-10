@@ -1,0 +1,23 @@
+{
+  "store.home": { 
+    "blocks": [
+      "flex-layout.row#home"
+    ]
+  },
+  "flex-layout.row#home":{
+    "children":[
+      "flex-layout.col#home"
+    ]
+  },
+  "flex-layout.col#home":{
+    "children":[
+      "slider-layout#home__slider--children",
+      "flex-layout.row#home__info--first",
+      "flex-layout.row#home__info--second",
+      "flex-layout.row#home__categorySlider--first",
+      "flex-layout.row#home__categorySlider--second",
+      "flex-layout.row#home__showcaseProduct--first"
+    ]
+  }
+
+}

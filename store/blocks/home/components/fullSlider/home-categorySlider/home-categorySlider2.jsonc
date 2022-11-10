@@ -1,0 +1,157 @@
+{
+    "flex-layout.row#home__categorySlider--second":{
+        "children":[
+            "flex-layout.col#home__categorySlider2--first"
+            ]
+    },
+    "flex-layout.col#home__categorySlider2--first":{
+        "children":[
+            "flex-layout.row#home__categorySlider2--head",
+            "slider-layout#home__categorySlider2--first"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7
+        }
+    },
+    "flex-layout.row#home__categorySlider2--head":{
+        "children":[
+            "rich-text#home__categorySlider2--head",
+            "link#home__categorySlider2--head"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7,
+            "blockClass":"productSlider--head",
+            "colSizing":"auto"
+        }
+    },
+    "link#home__categorySlider2--head":{
+        "props":{
+            "label":"Más Información",
+            "href":"#"
+        }
+    },
+    "rich-text#home__categorySlider2--head":{
+        "props":{
+            "text":"Nuestro Impacto en España",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+
+    "slider-layout#home__categorySlider2--first":{
+        "props": {
+            "itemsPerPage": {
+              "desktop": 6,
+              "tablet": 4,
+              "phone": 3
+            },
+            "showNavigationArrows":"desktopOnly",
+            "showPaginationDots":"disable",
+            "infinite":false
+        },
+        "children":[
+            "image#home__categorySlider2--first",
+            "image#home__categorySlider2--second",
+            "image#home__categorySlider2--third",
+            "image#home__categorySlider2--fourth",
+            "image#home__categorySlider2--fifth",
+            "image#home__categorySlider2--sixth",
+            "image#home__categorySlider2--seventh",
+            "image#home__categorySlider2--eighth",
+            "image#home__categorySlider2--nineth"
+        ]
+    },
+    "image#home__categorySlider2--first":{
+        "props": {
+            "src": "assets/img/categorySlider2/categorySlider2--first.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider2--second":{
+        "props": {
+            "src": "assets/img/categorySlider2/categorySlider2--second.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider2--third":{
+        "props": {
+            "src": "assets/img/categorySlider2/categorySlider2--third.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider2--fourth":{
+        "props": {
+            "src": "assets/img/categorySlider2/categorySlider2--fourth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider2--fifth":{
+        "props": {
+            "src": "assets/img/categorySlider2/categorySlider2--fifth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider2--sixth":{
+        "props": {
+            "src": "assets/img/categorySlider2/categorySlider2--sixth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider2--seventh":{
+        "props": {
+            "src": "assets/img/categorySlider2/categorySlider2--seventh.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider2--eighth":{
+        "props": {
+            "src": "assets/img/categorySlider2/categorySlider2--eighth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider2--nineth":{
+        "props": {
+            "src": "assets/img/categorySlider2/categorySlider2--nineth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    }
+
+}

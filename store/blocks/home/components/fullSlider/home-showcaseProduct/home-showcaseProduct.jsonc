@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#home__showcaseProduct--first":{
+        "children":[
+            "flex-layout.col#home__showcaseProduct1--first"
+            // "flex-layout.col#home__showcaseProduct1--second",
+            // "flex-layout.col#home__showcaseProduct1--third",
+            // "flex-layout.col#home__showcaseProduct1--fourth"
+        ]
+
+    },
+    "flex-layout.col#home__showcaseProduct1--first":{
+
+    }
+}

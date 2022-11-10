@@ -1,0 +1,134 @@
+{
+    "flex-layout.row#home__info--first":{
+        "children":[
+            "flex-layout.col#home__info--first",
+            "flex-layout.col#home__info--second",
+            "flex-layout.col#home__info--third",
+            "flex-layout.col#home__info--fourth"
+        ]
+    },
+    "flex-layout.col#home__info--first":{
+        "children":[
+            "rich-text#home__info--first",
+            "image#home__info--first",
+            "link#home__info--first"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7
+        }
+    },
+    "flex-layout.col#home__info--second":{
+        "children":[
+            "rich-text#home__info--second",
+            "image#home__info--second",
+            "link#home__info--second"
+        ],
+        "props":{
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.col#home__info--third":{
+        "children":[
+            "rich-text#home__info--third",
+            "image#home__info--third",
+            "link#home__info--third"
+        ],
+        "props":{
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.col#home__info--fourth":{
+        "children":[
+            "rich-text#home__info--fourth",
+            "login#home__info--fourth"
+        ],
+        "props":{
+            "horizontalAlign":"center"
+        }
+    },
+    "rich-text#home__info--first":{
+        "props":{
+            "text":"Ofertas relámpago",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+    "rich-text#home__info--second":{
+        "props":{
+            "text":"Ofertas en Outlet",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+    "rich-text#home__info--third":{
+        "props":{
+            "text":"¿Buscas un regalo?",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+    "rich-text#home__info--fourth":{
+        "props":{
+            "text":"Identifícate para una mejor experiencia",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+    "image#home__info--first":{
+        "props": {
+            "src": "assets/img/home__info--first.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"250px",
+            "link":{
+                "url":"#"
+            }
+          }
+    },
+    "link#home__info--first":{
+        "props":{
+            "label":"Explora ahora",
+            "href":"#"
+        }
+    },
+    "image#home__info--second":{
+        "props": {
+            "src": "assets/img/home__info--second.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"250px",
+            "link":{
+                "url":"#"
+            }
+          }
+    },
+    "link#home__info--second":{
+        "props":{
+            "label":"Explora ahora",
+            "href":"#"
+        }
+    },
+    "image#home__info--third":{
+        "props": {
+            "src": "assets/img/home__info--third.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"250px",
+            "link":{
+                "url":"#"
+            }
+          }
+    },
+    "link#home__info--third":{
+        "props":{
+            "label":"Descubre algunas ideas",
+            "href":"#"
+        }
+    },
+    "login#home__info--fourth":{
+        "props":{
+            "logInButtonBehavior":"link",
+            "iconLabel":"Inicia sesión de una manera segura"
+        }
+    }
+
+    
+}

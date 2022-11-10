@@ -1,0 +1,15 @@
+/* .flexRowContent--home__section--one{
+    background-color: brown;
+} */
+.flexCol--section__two--item :global(.vtex-store-link-0-x-buttonLink){
+    background:green
+}
+ /* .flexRow--productSlider--head{
+    max-width: 75vw;
+} */
+.flexRow--productSlider--head :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+} 

@@ -1,0 +1,8 @@
+:global(.vtex-store__template) {
+    --promotions-color: #ffed00;
+    --green-offers: #289e36;
+    --discounts: #7ac537;
+    --dynamic-texts: #843a8d;
+    --card-descriptions: #c47373;
+    --promotion-flags: #525252;
+  }

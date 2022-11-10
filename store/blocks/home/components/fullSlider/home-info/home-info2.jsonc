@@ -1,0 +1,144 @@
+{
+    "flex-layout.row#home__info--second":{
+        "children":[
+            "flex-layout.col#home__info2--first",
+            "flex-layout.col#home__info2--second",
+            "flex-layout.col#home__info2--third",
+            "flex-layout.col#home__info2--fourth"
+        ]
+    },
+    "flex-layout.col#home__info2--first":{
+        "children":[
+            "rich-text#home__info2--first",
+            "image#home__info2--first",
+            "link#home__info2--first"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7
+        }
+    },
+    "flex-layout.col#home__info2--second":{
+        "children":[
+            "rich-text#home__info2--second",
+            "image#home__info2--second",
+            "link#home__info2--second"
+        ],
+        "props":{
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.col#home__info2--third":{
+        "children":[
+            "rich-text#home__info2--third",
+            "image#home__info2--third",
+            "link#home__info2--third"
+        ],
+        "props":{
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.col#home__info2--fourth":{
+        "children":[
+            "rich-text#home__info2--fourth",
+            "image#home__info2--fourth",
+            "link#home__info2--fourth"
+        ],
+        "props":{
+            "horizontalAlign":"center"
+        }
+    },
+    "rich-text#home__info2--first":{
+        "props":{
+            "text":"Ideas para Casa y cocina",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+    "rich-text#home__info2--second":{
+        "props":{
+            "text":"Nuestra selección de belleza",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+    "rich-text#home__info2--third":{
+        "props":{
+            "text":"Descubre los productos más vendidos",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+    "rich-text#home__info2--fourth":{
+        "props":{
+            "text":"Informática y accesorios",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+    "image#home__info2--first":{
+        "props": {
+            "src": "assets/img/home__info2--first.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"250px",
+            "link":{
+                "url":"#"
+            }
+          }
+    },
+    "image#home__info2--second":{
+        "props": {
+            "src": "assets/img/home__info2--second.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"250px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__info2--third":{
+        "props": {
+            "src": "assets/img/home__info2--third.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"250px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__info2--fourth":{
+        "props": {
+            "src": "assets/img/home__info2--fourth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"250px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "link#home__info2--first":{
+        "props":{
+            "label":"Saber más",
+            "href":"#"
+        }
+    },
+    "link#home__info2--second":{
+        "props":{
+            "label":"Descubre más",
+            "href":"#"
+        }
+    },
+    "link#home__info2--third":{
+        "props":{
+            "label":"Descúbrelos",
+            "href":"#"
+        }
+    },
+    "link#home__info2--fourth":{
+        "props":{
+            "label":"Descubre más",
+            "href":"#"
+        }
+    }
+
+}

@@ -1,0 +1,62 @@
+{
+    "slider-layout#home__slider--children": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "home__slider",
+          "showPaginationDots":"mobileOnly",
+          "autoplay":{
+            "timeout":6000,
+            "stopOnHover": true
+          },
+          "arrowSize":25
+        },
+        "children": [
+            "image#home__slider1", 
+            "image#home__slider4", 
+            "image#home__slider5",
+            "image#home__slider7",
+            "image#home__slider8"    
+        ]
+      },
+    
+      "image#home__slider1": {
+        "props": {
+          "src": "assets/img/home-slider1.jpg"
+        }
+      },
+      "image#home__slider4": {
+        "props": {
+          "src": "assets/img/home-slider4.jpg"
+        }
+      },
+      "image#home__slider5": {
+        "props": {
+          "src": "assets/img/home-slider5.jpg"
+        }
+      },
+      "image#home__slider7": {
+        "props": {
+          "src": "assets/img/home-slider7.jpg"
+        }
+      },
+      "image#home__slider8": {
+        "props": {
+          "src": "assets/img/home-slider8.jpg"
+        }
+      },
+      "rich-text#home__slider":{
+            "props": { 
+            "text": "VAMOOOS",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-1"
+            }
+      }
+      
+}
