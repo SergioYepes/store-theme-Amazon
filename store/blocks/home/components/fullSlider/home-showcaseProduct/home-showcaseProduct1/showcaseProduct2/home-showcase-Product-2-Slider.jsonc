@@ -1,0 +1,82 @@
+{
+    "slider-layout#home__showcaseProductCard1--second":{
+        "props": {
+            "itemsPerPage": {
+              "desktop": 1,
+              "tablet": 1,
+              "phone":1
+            },
+            "showNavigationArrows":"desktopOnly",
+            "showPaginationDots":"disable"
+        },
+        "children":[
+            "image#home__showcaseProduct1Slider2--first",
+            "image#home__showcaseProduct1Slider2--second",
+            "image#home__showcaseProduct1Slider2--third",
+            "image#home__showcaseProduct1Slider2--fourth",
+            "image#home__showcaseProduct1Slider2--fifth",
+            "image#home__showcaseProduct1Slider2--sixth"
+        ]
+    },
+    
+    "image#home__showcaseProduct1Slider2--first":{
+        "props": {
+            "src": "assets/img/showcaseProduct1/secondCont/showcaseProduct1__secondCont--first.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__showcaseProduct1Slider2--second":{
+        "props": {
+            "src": "assets/img/showcaseProduct1/secondCont/showcaseProduct1__secondCont--second.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__showcaseProduct1Slider2--third":{
+        "props": {
+            "src": "assets/img/showcaseProduct1/secondCont/showcaseProduct1__secondCont--third.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__showcaseProduct1Slider2--fourth":{
+        "props": {
+            "src": "assets/img/showcaseProduct1/secondCont/showcaseProduct1__secondCont--fourth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__showcaseProduct1Slider2--fifth":{
+        "props": {
+            "src": "assets/img/showcaseProduct1/secondCont/showcaseProduct1__secondCont--fifth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__showcaseProduct1Slider2--sixth":{
+        "props": {
+            "src": "assets/img/showcaseProduct1/secondCont/showcaseProduct1__secondCont--sixth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    }
+}

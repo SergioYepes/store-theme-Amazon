@@ -1,0 +1,54 @@
+{
+    "flex-layout.col#home__showcaseProductCard1--first":{
+        "children":[
+            "rich-text#home__showcaseProductCard1--head1",
+            "slider-layout#home__showcaseProductCard1--first",
+            "link#home__showcaseProduct1Card--title",
+            "flex-layout.row#home__showcaseProductCard1--price",  
+            "link#home__showcaseProduct1Card--first"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7
+        }
+    },
+    "flex-layout.row#home__showcaseProductCard1--price":{
+        "children":[
+            "rich-text#home__showcaseProduct1Card--price",
+            "rich-text#home__showcaseProduct1Card--cents"
+        ],
+        "props":{
+            "colSizing":"auto"
+        }
+    },
+    "rich-text#home__showcaseProductCard1--head1":{
+        "props":{
+            "text":"Ideas de regalos para el",
+            "blockClass":"rich-text--homeInfo"
+            // "textColor": "c-on-emphasis"
+        }
+    },
+    "link#home__showcaseProduct1Card--title":{
+        "props":{
+            "label":"PUMA Tazon 6 FM, zapatillas de Running Hombre",
+            "href":"#"
+        }
+    },
+    "rich-text#home__showcaseProduct1Card--price":{
+        "props":{
+            "text":"Desde 45",
+            "blockClass":"rich-text--showcaseProduct--price"     
+        }
+    },"rich-text#home__showcaseProduct1Card--cents":{
+        "props":{
+            "text":"02€",
+            "blockClass":"rich-text--showcaseProduct--cents"     
+        }
+    },
+    "link#home__showcaseProduct1Card--first":{
+        "props":{
+            "label":"Ver más",
+            "href":"#"
+        }
+    }
+}

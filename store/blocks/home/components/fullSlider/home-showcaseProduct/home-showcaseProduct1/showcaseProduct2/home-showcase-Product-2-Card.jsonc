@@ -1,0 +1,54 @@
+{
+    "flex-layout.col#home__showcaseProductCard1--second":{
+        "children":[
+            "rich-text#home__showcaseProductCard1--head2",
+            "slider-layout#home__showcaseProductCard1--second",
+            "link#home__showcaseProduct1Card--title2",
+            "flex-layout.row#home__showcaseProductCard1--price2",  
+            "link#home__showcaseProduct1Card--first"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7
+        }
+    },
+    "flex-layout.row#home__showcaseProductCard1--price2":{
+        "children":[
+            "rich-text#home__showcaseProduct1Card--price2",
+            "rich-text#home__showcaseProduct1Card--cents2"
+        ],
+        "props":{
+            "colSizing":"auto"
+        }
+    },
+    "rich-text#home__showcaseProductCard1--head2":{
+        "props":{
+            "text":"Ideas de regalos juguetes",
+            "blockClass":"rich-text--homeInfo",
+            "textColor": "c-on-emphasis"
+        }
+    },
+    "link#home__showcaseProduct1Card--title2":{
+        "props":{
+            "label":"EXTSUD Alfombra Piano de Suelo Alfombrilla Musical Estera de Baile Tapete para Niños 100 * 36cm ",
+            "href":"#"
+        }
+    },
+    "rich-text#home__showcaseProduct1Card--price2":{
+        "props":{
+            "text":"20",
+            "blockClass":"rich-text--showcaseProduct--price"     
+        }
+    },"rich-text#home__showcaseProduct1Card--cents2":{
+        "props":{
+            "text":"99€",
+            "blockClass":"rich-text--showcaseProduct--cents"     
+        }
+    },
+    "link#home__showcaseProduct1Card--first":{
+        "props":{
+            "label":"Ver más",
+            "href":"#"
+        }
+    }
+}

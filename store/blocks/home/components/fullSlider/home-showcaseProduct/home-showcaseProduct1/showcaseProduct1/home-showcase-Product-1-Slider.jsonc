@@ -1,0 +1,82 @@
+{
+    "slider-layout#home__showcaseProductCard1--first":{
+        "props": {
+            "itemsPerPage": {
+              "desktop": 1,
+              "tablet": 1,
+              "phone":1
+            },
+            "showNavigationArrows":"desktopOnly",
+            "showPaginationDots":"disable"
+        },
+        "children":[
+            "image#home__showcaseProduct1Slider--first",
+            "image#home__showcaseProduct1Slider--second",
+            "image#home__showcaseProduct1Slider--third",
+            "image#home__showcaseProduct1Slider--fourth",
+            "image#home__showcaseProduct1Slider--fifth",
+            "image#home__showcaseProduct1Slider--sixth"
+        ]
+    },
+    
+    "image#home__showcaseProduct1Slider--first":{
+        "props": {
+            "src": "assets/img/showcaseProduct1/firstCont/showcaseProduct1__firstCont--first.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__showcaseProduct1Slider--second":{
+        "props": {
+            "src": "assets/img/showcaseProduct1/firstCont/showcaseProduct1__firstCont--second.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__showcaseProduct1Slider--third":{
+        "props": {
+            "src": "assets/img/showcaseProduct1/firstCont/showcaseProduct1__firstCont--third.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__showcaseProduct1Slider--fourth":{
+        "props": {
+            "src": "assets/img/showcaseProduct1/firstCont/showcaseProduct1__firstCont--fourth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__showcaseProduct1Slider--fifth":{
+        "props": {
+            "src": "assets/img/showcaseProduct1/firstCont/showcaseProduct1__firstCont--fifth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__showcaseProduct1Slider--sixth":{
+        "props": {
+            "src": "assets/img/showcaseProduct1/firstCont/showcaseProduct1__firstCont--sixth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    }
+}
