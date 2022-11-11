@@ -1,0 +1,196 @@
+{
+    "flex-layout.row#home__categorySlider--fourth":{
+        "children":[
+            "flex-layout.col#home__categorySlider4--first"
+            ]
+    },
+    "flex-layout.col#home__categorySlider4--first":{
+        "children":[
+            "flex-layout.row#home__categorySlider4--head",
+            "slider-layout#home__categorySlider4--first"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7
+        }
+    },
+    "flex-layout.row#home__categorySlider4--head":{
+        "children":[
+            "rich-text#home__categorySlider4--head"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7,
+            "blockClass":"productSlider--head",
+            "colSizing":"auto"
+        }
+    },
+    "rich-text#home__categorySlider4--head":{
+        "props":{
+            "text":"Productos de Belleza y Cuidado Personal que se vuelven a comprar con frecuencia",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+
+    "slider-layout#home__categorySlider4--first":{
+        "props": {
+            "itemsPerPage": {
+              "desktop": 7,
+              "tablet": 4,
+              "phone": 3
+            },
+            "showNavigationArrows":"desktopOnly",
+            "showPaginationDots":"disable",
+            "infinite":false
+        },
+        "children":[
+            "image#home__categorySlider4--first",
+            "image#home__categorySlider4--second",
+            "image#home__categorySlider4--third",
+            "image#home__categorySlider4--fourth",
+            "image#home__categorySlider4--fifth",
+            "image#home__categorySlider4--sixth",
+            "image#home__categorySlider4--seventh",
+            "image#home__categorySlider4--eighth",
+            "image#home__categorySlider4--nineth",
+            "image#home__categorySlider4--tenth",
+            "image#home__categorySlider4--eleventh",
+            "image#home__categorySlider4--twelfth",
+            "image#home__categorySlider4--thirteenth"
+
+        ]
+    },
+    "image#home__categorySlider4--first":{
+        "props": {
+            "src": "assets/img/categorySlider4/categorySlider4--first.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider4--second":{
+        "props": {
+            "src": "assets/img/categorySlider4/categorySlider4--second.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider4--third":{
+        "props": {
+            "src": "assets/img/categorySlider4/categorySlider4--third.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider4--fourth":{
+        "props": {
+            "src": "assets/img/categorySlider4/categorySlider4--fourth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider4--fifth":{
+        "props": {
+            "src": "assets/img/categorySlider4/categorySlider4--fifth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider4--sixth":{
+        "props": {
+            "src": "assets/img/categorySlider4/categorySlider4--sixth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider4--seventh":{
+        "props": {
+            "src": "assets/img/categorySlider4/categorySlider4--seventh.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider4--eighth":{
+        "props": {
+            "src": "assets/img/categorySlider4/categorySlider4--eighth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider4--nineth":{
+        "props": {
+            "src": "assets/img/categorySlider4/categorySlider4--nineth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider4--tenth":{
+        "props": {
+            "src": "assets/img/categorySlider4/categorySlider4--tenth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider4--eleventh":{
+        "props": {
+            "src": "assets/img/categorySlider4/categorySlider4--eleventh.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider4--twelfth":{
+        "props": {
+            "src": "assets/img/categorySlider4/categorySlider4--twelfth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider4--thirteenth":{
+        "props": {
+            "src": "assets/img/categorySlider4/categorySlider4--thirteenth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    }
+
+
+}

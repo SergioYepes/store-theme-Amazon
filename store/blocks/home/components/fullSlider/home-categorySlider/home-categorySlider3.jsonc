@@ -1,0 +1,167 @@
+{
+    "flex-layout.row#home__categorySlider--third":{
+        "children":[
+            "flex-layout.col#home__categorySlider3--first"
+            ]
+    },
+    "flex-layout.col#home__categorySlider3--first":{
+        "children":[
+            "flex-layout.row#home__categorySlider3--head",
+            "slider-layout#home__categorySlider3--first"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7
+        }
+    },
+    "flex-layout.row#home__categorySlider3--head":{
+        "children":[
+            "rich-text#home__categorySlider3--head",
+            "link#home__categorySlider3--head"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7,
+            "blockClass":"productSlider--head",
+            "colSizing":"auto"
+        }
+    },
+    "link#home__categorySlider3--head":{
+        "props":{
+            "label":"Ver más",
+            "href":"#"
+        }
+    },
+    "rich-text#home__categorySlider3--head":{
+        "props":{
+            "text":"Tienda de Navidad: compra por categorías",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+
+    "slider-layout#home__categorySlider3--first":{
+        "props": {
+            "itemsPerPage": {
+              "desktop": 6,
+              "tablet": 4,
+              "phone": 3
+            },
+            "showNavigationArrows":"desktopOnly",
+            "showPaginationDots":"disable",
+            "infinite":false
+        },
+        "children":[
+            "image#home__categorySlider3--first",
+            "image#home__categorySlider3--second",
+            "image#home__categorySlider3--third",
+            "image#home__categorySlider3--fourth",
+            "image#home__categorySlider3--fifth",
+            "image#home__categorySlider3--sixth",
+            "image#home__categorySlider3--seventh",
+            "image#home__categorySlider3--eighth",
+            "image#home__categorySlider3--nineth"
+        ]
+    },
+    "image#home__categorySlider3--first":{
+        "props": {
+            "src": "assets/img/categorySlider3/categorySlider3--first.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider3--second":{
+        "props": {
+            "src": "assets/img/categorySlider3/categorySlider3--second.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider3--third":{
+        "props": {
+            "src": "assets/img/categorySlider3/categorySlider3--third.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider3--fourth":{
+        "props": {
+            "src": "assets/img/categorySlider3/categorySlider3--fourth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider3--fifth":{
+        "props": {
+            "src": "assets/img/categorySlider3/categorySlider3--fifth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider3--sixth":{
+        "props": {
+            "src": "assets/img/categorySlider3/categorySlider3--sixth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider3--seventh":{
+        "props": {
+            "src": "assets/img/categorySlider3/categorySlider3--seventh.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider3--eighth":{
+        "props": {
+            "src": "assets/img/categorySlider3/categorySlider3--eighth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider3--nineth":{
+        "props": {
+            "src": "assets/img/categorySlider3/categorySlider3--nineth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider3--tenth":{
+        "props": {
+            "src": "assets/img/categorySlider3/categorySlider3--tenth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    }
+
+}

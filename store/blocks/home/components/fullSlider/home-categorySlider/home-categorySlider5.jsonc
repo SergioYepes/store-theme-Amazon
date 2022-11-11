@@ -1,0 +1,156 @@
+{
+    "flex-layout.row#home__categorySlider--fifth":{
+        "children":[
+            "flex-layout.col#home__categorySlider5--first"
+            ]
+    },
+    "flex-layout.col#home__categorySlider5--first":{
+        "children":[
+            "flex-layout.row#home__categorySlider5--head",
+            "slider-layout#home__categorySlider5--first"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7
+        }
+    },
+    "flex-layout.row#home__categorySlider5--head":{
+        "children":[
+            "rich-text#home__categorySlider5--head",
+            "link#home__categorySlider5--head"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7,
+            "blockClass":"productSlider--head",
+            "colSizing":"auto"
+        }
+    },
+    "link#home__categorySlider5--head":{
+        "props":{
+            "label":"Comprar ahora",
+            "href":"#"
+        }
+    },
+    "rich-text#home__categorySlider5--head":{
+        "props":{
+            "text":"Descubre Amazon Launchpad",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+
+    "slider-layout#home__categorySlider5--first":{
+        "props": {
+            "itemsPerPage": {
+              "desktop": 6,
+              "tablet": 4,
+              "phone": 3
+            },
+            "showNavigationArrows":"desktopOnly",
+            "showPaginationDots":"disable",
+            "infinite":false
+        },
+        "children":[
+            "image#home__categorySlider5--first",
+            "image#home__categorySlider5--second",
+            "image#home__categorySlider5--third",
+            "image#home__categorySlider5--fourth",
+            "image#home__categorySlider5--fifth",
+            "image#home__categorySlider5--sixth",
+            "image#home__categorySlider5--eighth",
+            "image#home__categorySlider5--nineth"
+        ]
+    },
+    "image#home__categorySlider5--first":{
+        "props": {
+            "src": "assets/img/categorySlider5/categorySlider5--first.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider5--second":{
+        "props": {
+            "src": "assets/img/categorySlider5/categorySlider5--second.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider5--third":{
+        "props": {
+            "src": "assets/img/categorySlider5/categorySlider5--third.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider5--fourth":{
+        "props": {
+            "src": "assets/img/categorySlider5/categorySlider5--fourth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider5--fifth":{
+        "props": {
+            "src": "assets/img/categorySlider5/categorySlider5--fifth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider5--sixth":{
+        "props": {
+            "src": "assets/img/categorySlider5/categorySlider5--sixth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider5--eighth":{
+        "props": {
+            "src": "assets/img/categorySlider5/categorySlider5--eighth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider5--nineth":{
+        "props": {
+            "src": "assets/img/categorySlider5/categorySlider5--nineth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider5--tenth":{
+        "props": {
+            "src": "assets/img/categorySlider5/categorySlider5--tenth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    }
+
+}
