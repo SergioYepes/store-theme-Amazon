@@ -1,0 +1,78 @@
+{
+    "flex-layout.row#home__info--fourth":{
+        "children":[
+            "flex-layout.row#home__priceless--fifth",
+            "flex-layout.col#home__info4--second",
+            "flex-layout.col#home__info4--third",
+            "flex-layout.row#home__priceless--sixth"
+            
+        ]
+    },
+    
+    "flex-layout.col#home__info4--second":{
+        "children":[
+            "rich-text#home__info4--second",
+            "image#home__info4--second",
+            "link#home__info4--second"
+        ],
+        "props":{
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.col#home__info4--third":{
+        "children":[
+            "rich-text#home__info4--third",
+            "image#home__info4--third",
+            "link#home__info4--third"
+        ],
+        "props":{
+            "horizontalAlign":"left"
+        }
+    },
+    "rich-text#home__info4--second":{
+        "props":{
+            "text":"New World de Amazon",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+    "rich-text#home__info4--third":{
+        "props":{
+            "text":"Ideas de regalo de pequeños negocios",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+    "image#home__info4--second":{
+        "props": {
+            "src": "assets/img/home__info4--second.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"250px",
+            "link":{
+                "url":"#"
+            }
+          }
+    },
+    "link#home__info4--second":{
+        "props":{
+            "label":"Ver más",
+            "href":"#"
+        }
+    },
+    "image#home__info4--third":{
+        "props": {
+            "src": "assets/img/home__info4--third.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"250px",
+            "link":{
+                "url":"#"
+            }
+          }
+    },
+    "link#home__info4--third":{
+        "props":{
+            "label":"Comprar ahora",
+            "href":"#"
+        }
+    }  
+}

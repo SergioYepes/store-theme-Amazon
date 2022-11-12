@@ -1,0 +1,44 @@
+{
+    "flex-layout.row#home__ideas--second":{
+        "children":[
+            "flex-layout.col#home__ideas--third",
+            "flex-layout.row#home__priceless--third",
+            "flex-layout.row#home__priceless--fourth",
+            "flex-layout.col#home__ideas2--first"
+        ]
+    },
+    "flex-layout.col#home__ideas2--first":{
+        "children":[
+            "rich-text#home__ideas2--first",
+            "image#home__ideas2--first",
+            "link#home__ideas2--first"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7
+        }
+    },
+    "rich-text#home__ideas2--first":{
+        "props":{
+            "text":"Alquila películas por solo 1,99€ cada una",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+    "image#home__ideas2--first":{
+        "props": {
+            "src": "assets/img/ideas/home__ideas2--first.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"250px",
+            "link":{
+                "url":"#"
+            }
+          }
+    },
+    "link#home__ideas2--first":{
+        "props":{
+            "label":"Descubre ahora",
+            "href":"#"
+        }
+    }
+}

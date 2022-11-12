@@ -16,14 +16,12 @@
 .flexCol--Home-ideas--Block{
     display: flex;
     height: 130px;
-    border: 1px solid red
-    
+    border: 1px solid red;
 }
 .flexCol--Home-ideas--Block :global(.vtex-store-link-0-x-link){
     text-decoration: none;
     color:rgb(72, 72, 72);
     font-size: 10px;
-    overflow-y: hidden;
 }
 .flexRow--home_ideas-BlockPrices{
     width: 30px;

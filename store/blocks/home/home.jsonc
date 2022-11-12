@@ -16,11 +16,14 @@
       "flex-layout.row#home__info--second",
       "flex-layout.row#home__categorySlider--third",
       "flex-layout.row#home__categorySlider--fourth",
-      "flex-layout.row#home__ideas--first",
+      "flex-layout.row#home__ideas--second",
       "flex-layout.row#home__categorySlider--second",
       "flex-layout.row#home__categorySlider--fifth",
+      "flex-layout.row#home__info--third",
+      "flex-layout.row#home__categorySlider--sixth",
+      "flex-layout.row#home__categorySlider--seventh",
       "flex-layout.row#home__categorySlider--first",
-      "flex-layout.row#home__showcaseProduct--first"
+      "flex-layout.row#home__info--fourth"
     ]
   }
 

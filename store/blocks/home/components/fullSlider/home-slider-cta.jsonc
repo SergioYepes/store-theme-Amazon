@@ -18,11 +18,11 @@
         },
         "children": [
             "video#home__slider1",
-            "image#home__slider2", 
             "image#home__slider4", 
             "image#home__slider5",
             "image#home__slider7",
-            "image#home__slider8"    
+            "image#home__slider8",    
+            "image#home__slider2" 
         ]
       },
     
@@ -30,7 +30,7 @@
         "props": {
           "width": "100%",
           "height": "100%",
-          "loop": false,
+          "loop": true,
           "autoPlay": true,
           "muted": false,
           "src": "assets/videos/slider.mp4"

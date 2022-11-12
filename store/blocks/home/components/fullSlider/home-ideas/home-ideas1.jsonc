@@ -268,7 +268,8 @@
     "link#home__ideas--Block-one-name":{
         "props":{
             "label":"EXTSUD Alfombra Piano de Suelo Alfombrilla Musical Estera de Baile Tapete para Niños 100 * 36cm",
-            "href":"#"
+            "href":"#",
+            "blockClass":"Home-ideas--link"
         }
     },
     "link#home__home__ideas--Block-one-price--big":{
@@ -287,7 +288,8 @@
     "link#home__ideas--Block-two-name":{
         "props":{
             "label":"Waggles, mi perrito salchicha. Peluche interactivo que camina, ladra y mueve la cola como un perro salchicha real.",
-            "href":"#"
+            "href":"#",
+            "blockClass":"Home-ideas--link"
         }
     },
     "link#home__home__ideas--Block-two-price--big":{
@@ -306,7 +308,8 @@
     "link#home__ideas--Block-three-name":{
         "props":{
             "label":"Ludilo - Batalla De Genios Original, Juegos De Mesa Para Niños, Rompecabezas Madera, Juegos Educativos 6 Años O Más",
-            "href":"#"
+            "href":"#",
+            "blockClass":"Home-ideas--link"
         }
     },
     "link#home__home__ideas--Block-three-price--big":{
@@ -325,7 +328,8 @@
     "link#home__ideas--Block-four-name":{
         "props":{
             "label":"Ludilo - Batalla De Genios Original, Juegos De Mesa Para Niños, Rompecabezas Madera, Juegos Educativos 6 Años O Más",
-            "href":"#"
+            "href":"#",
+            "blockClass":"Home-ideas--link"
         }
     },
     "link#home__home__ideas--Block-four-price--big":{

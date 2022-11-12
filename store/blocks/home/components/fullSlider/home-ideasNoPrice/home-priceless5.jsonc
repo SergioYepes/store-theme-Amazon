@@ -1,0 +1,146 @@
+{ 
+    "flex-layout.row#home__priceless--fifth":{
+        "children":[
+            "flex-layout.col#home__priceless5--first"
+        ]
+    },
+    "flex-layout.col#home__priceless5--first":{
+        "children":[
+            "rich-text#home__priceless5--first",
+            "flex-layout.row#home__priceless5-Block1",
+            "flex-layout.row#home__priceless5-Block2",
+            "link#home__priceless5--first"
+        ],
+        "props":{
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.row#home__priceless5-Block1":{
+        "children":[
+            "flex-layout.col#home__priceless5--Block-first",
+            "flex-layout.col#home__priceless5--Block-second"
+        ]
+    },
+    "flex-layout.row#home__priceless5-Block2":{
+        "children":[
+            "flex-layout.col#home__priceless5--Block-third",
+            "flex-layout.col#home__priceless5--Block-fourth"
+        ]
+    },"flex-layout.col#home__priceless5--Block-first":{
+        "children":[
+            "image#home__priceless5--Block-one",
+            "link#home__priceless5--Block-one-name"
+        ],
+        "props":{
+            "blockClass":"Home-ideas--Block"
+        }
+    },
+    "flex-layout.col#home__priceless5--Block-second":{
+        "children":[
+            "image#home__priceless5--Block-two",
+            "link#home__priceless5--Block-two-name"
+        ],
+        "props":{
+            "blockClass":"Home-ideas--Block"
+        }
+    },
+    "flex-layout.col#home__priceless5--Block-third":{
+        "children":[
+            "image#home__priceless5--Block-three",
+            "link#home__priceless5--Block-three-name"
+        ],
+        "props":{
+            "blockClass":"Home-ideas--Block"
+        }
+    },
+    "flex-layout.col#home__priceless5--Block-fourth":{
+        "children":[
+            "image#home__priceless5--Block-four",
+            "link#home__priceless5--Block-four-name"
+        ],
+        "props":{
+            "blockClass":"Home-ideas--Block"
+        }
+    },
+    "rich-text#home__priceless5--first":{
+        "props":{
+            "text":"Moda Made in Italy",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+    "link#home__priceless5--first":{
+        "props":{
+            "label":"Comprar ropa de Amazon Aware",
+            "href":"#"
+        }
+    },
+    "image#home__priceless5--Block-one":{
+        "props":{
+            "src": "assets/img/priceless/priceless5/home__priceless5--Block-one.jpg",
+            "maxHeight": "130px",
+            "maxWidth":"130px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__priceless5--Block-two":{
+        "props":{
+            "src": "assets/img/priceless/priceless5/home__priceless5--Block-two.jpg",
+            "maxHeight": "150px",
+            "maxWidth":"150px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__priceless5--Block-three":{
+        "props":{
+            "src": "assets/img/priceless/priceless5/home__priceless5--Block-three.jpg",
+            "maxHeight": "150px",
+            "maxWidth":"150px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__priceless5--Block-four":{
+        "props":{
+            "src": "assets/img/priceless/priceless5/home__priceless5--Block-four.jpg",
+            "maxHeight": "150px",
+            "maxWidth":"150px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "link#home__priceless5--Block-one-name":{
+        "props":{
+            "label":"Mujer",
+            "href":"#",
+            "blockClass":"Home-ideas--link"
+        }
+    },
+    "link#home__priceless5--Block-two-name":{
+        "props":{
+            "label":"Hombre",
+            "href":"#",
+            "blockClass":"Home-ideas--link"
+        }
+    },
+    "link#home__priceless5--Block-three-name":{
+        "props":{
+            "label":"Niños",
+            "href":"#",
+            "blockClass":"Home-ideas--link"
+        }
+    },
+    "link#home__priceless5--Block-four-name":{
+        "props":{
+            "label":"Bebé",
+            "href":"#",
+            "blockClass":"Home-ideas--link"
+        }
+    }
+}

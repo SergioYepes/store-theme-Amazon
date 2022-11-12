@@ -15,7 +15,9 @@
     "flex-layout.row#home__showcaseProductCard1--price":{
         "children":[
             "rich-text#home__showcaseProduct1Card--price",
-            "rich-text#home__showcaseProduct1Card--cents"
+            "rich-text#home__showcaseProduct1Card--cents",
+            "rich-text#home__showcaseProduct1Card--PVPR",
+            "rich-text#home__showcaseProduct1Card--prev"
         ],
         "props":{
             "colSizing":"auto"
@@ -23,14 +25,14 @@
     },
     "rich-text#home__showcaseProductCard1--head1":{
         "props":{
-            "text":"Ideas de regalos para el",
+            "text":"Ideas de regalos para ella",
             "blockClass":"rich-text--homeInfo"
             // "textColor": "c-on-emphasis"
         }
     },
     "link#home__showcaseProduct1Card--title":{
         "props":{
-            "label":"PUMA Tazon 6 FM, zapatillas de Running Hombre",
+            "label":"Olay Regenerist Crema Facial De Día y Olay Retinol 24 Crema Hidratante De Noche Con Retinol, Pack x 2 Uds, 24H De...",
             "href":"#"
         }
     },
@@ -39,12 +41,26 @@
             "text":"Desde 45",
             "blockClass":"rich-text--showcaseProduct--price"     
         }
-    },"rich-text#home__showcaseProduct1Card--cents":{
+    },
+    "rich-text#home__showcaseProduct1Card--cents":{
         "props":{
             "text":"02€",
             "blockClass":"rich-text--showcaseProduct--cents"     
         }
     },
+    "rich-text#home__showcaseProduct1Card--PVPR":{
+        "props":{
+            "text":"PVPR",
+            "blockClass":"rich-text--showcaseProduct--PVPR"     
+        }
+    },
+    "rich-text#home__showcaseProduct1Card--prev":{
+        "props":{
+            "text":"54,99€",
+            "blockClass":"rich-text--showcaseProduct--prev"     
+        }
+    },
+    
     "link#home__showcaseProduct1Card--first":{
         "props":{
             "label":"Ver más",

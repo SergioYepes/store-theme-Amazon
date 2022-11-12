@@ -4,7 +4,8 @@
             "flex-layout.col#home__info2--first",
             "flex-layout.col#home__info2--second",
             "flex-layout.col#home__info2--third",
-            "flex-layout.col#home__info2--fourth"
+            // "flex-layout.col#home__info2--fourth"
+            "flex-layout.row#home__priceless--second"
         ]
     },
     "flex-layout.col#home__info2--first":{

@@ -1,0 +1,269 @@
+{
+    "flex-layout.row#home__categorySlider--sixth":{
+        "children":[
+            "flex-layout.col#home__categorySlider6--first"
+            ]
+    },
+    "flex-layout.col#home__categorySlider6--first":{
+        "children":[
+            "flex-layout.row#home__categorySlider6--head",
+            "slider-layout#home__categorySlider6--first"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7
+        }
+    },
+    "flex-layout.row#home__categorySlider6--head":{
+        "children":[
+            "rich-text#home__categorySlider6--head",
+            "link#home__categorySlider6--head"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "marginLeft":7,
+            "blockClass":"productSlider--head",
+            "colSizing":"auto"
+        }
+    },
+    "link#home__categorySlider6--head":{
+        "props":{
+            "label":"Ver más",
+            "href":"#"
+        }
+    },
+    "rich-text#home__categorySlider6--head":{
+        "props":{
+            "text":"Ofertas Inesperadas",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+
+    "slider-layout#home__categorySlider6--first":{
+        "props": {
+            "itemsPerPage": {
+              "desktop": 6,
+              "tablet": 4,
+              "phone": 3
+            },
+            "showNavigationArrows":"desktopOnly",
+            "showPaginationDots":"disable",
+            "infinite":false
+        },
+        "children":[
+            "image#home__categorySlider6--first",
+            "image#home__categorySlider6--second",
+            "image#home__categorySlider6--third",
+            "image#home__categorySlider6--fourth",
+            "image#home__categorySlider6--fifth",
+            "image#home__categorySlider6--sixth",
+            "image#home__categorySlider6--seventh",
+            "image#home__categorySlider6--eighth",
+            "image#home__categorySlider6--nineth",
+            "image#home__categorySlider6--tenth",
+            "image#home__categorySlider6--eleventh",
+            "image#home__categorySlider6--twelfth",
+            "image#home__categorySlider6--thirteenth",
+            "image#home__categorySlider6--fourteenth",
+            "image#home__categorySlider6--fifteenth",
+            "image#home__categorySlider6--sixteenth"
+            // "image#home__categorySlider6--seventeenth",
+            // "image#home__categorySlider6--eighteenth",
+            // "image#home__categorySlider6--nineteenth",
+            // "image#home__categorySlider6--twentieth"
+        ]
+    },
+    "image#home__categorySlider6--first":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--first.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider6--second":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--second.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider6--third":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--third.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider6--fourth":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--fourth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider6--fifth":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--fifth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider6--sixth":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--sixth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider6--seventh":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--seventh.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider6--eighth":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--eighth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider6--nineth":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--nineth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider6--tenth":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--tenth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider6--eleventh":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--eleventh.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider6--twelfth":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--twelfth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider6--thirteenth":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--thirteenth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider6--fourteenth":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--fourteenth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider6--fifteenth":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--fifteenth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__categorySlider6--sixteenth":{
+        "props": {
+            "src": "assets/img/categorySlider6/categorySlider6--sixteenth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    }
+    // "image#home__categorySlider6--seventeenth":{
+    //     "src": "assets/img/categorySlider6/categorySlider6--seventeenth.jpg",
+    //         "maxHeight": "220px",
+    //         "maxWidth":"220px",
+    //         "link":{
+    //             "url":"#"
+    //         }
+    // },
+    // "image#home__categorySlider6--eighteenth":{
+    //     "src": "assets/img/categorySlider6/categorySlider6--eighteenth.jpg",
+    //         "maxHeight": "220px",
+    //         "maxWidth":"220px",
+    //         "link":{
+    //             "url":"#"
+    //         }
+    // },
+    // "image#home__categorySlider6--nineteenth":{
+    //     "src": "assets/img/categorySlider6/categorySlider6--nineteenth.jpg",
+    //         "maxHeight": "220px",
+    //         "maxWidth":"220px",
+    //         "link":{
+    //             "url":"#"
+    //         }
+    // },
+    // "image#home__categorySlider6--twentieth":{
+    //     "src": "assets/img/categorySlider6/categorySlider6--twentieth.jpg",
+    //         "maxHeight": "220px",
+    //         "maxWidth":"220px",
+    //         "link":{
+    //             "url":"#"
+    //         }
+    // }
+}
