@@ -1,0 +1,226 @@
+{
+    "header-row#desktop": {
+        "props": {
+          "blockClass": "sticky-header"
+          
+        },
+        "children": [
+          "flex-layout.row#desktop"
+        ]
+      },
+      "flex-layout.row#desktop": {
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "flex-layout.row#logo-desktop",
+          "link#spacer",
+          "overlay-trigger",
+          "flex-layout.row#searchBar",
+          "link#locateMenu",
+          "login",
+          "link#devoluciones",
+          "minicart.v2"
+        ]
+        
+      },
+      "login": {
+        "props": {
+          "emailAndPasswordTitle": "LOG-IN",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "logInButtonBehavior":"link"
+        }
+      },
+      "flex-layout.row#spacer": {
+        "props": {
+          "blockClass":"spacer",
+          "horizontalAlign":"center"
+        },
+        "children":[
+          "flex-layout.row#iconPointer",
+          "flex-layout.col#Envios"
+        ]
+      },
+      "flex-layout.row#iconPointer":{
+        "children":[
+          "logo#iconPointer"
+        ]
+      },
+      "flex-layout.col#Envios":{
+        "children":[
+          "rich-text#envios",
+          "rich-text#aColombia"
+        ],
+        "props":{
+          
+        }
+      },
+      "flex-layout.row#logo-desktop": {
+        "props": {
+          "blockClass":"logo-row"
+        },
+        "children": [
+          "logo",
+          "link#logo-desktop"
+        ]
+      },
+      "flex-layout.row#searchBar":{
+        "children":[
+          "search-bar"
+        ],
+        "props":{
+          // "colSizing":"auto",
+          // "autocompleteFullWidth": true,
+          "width":"grow",
+          "blockClass":"barContainer"
+        }
+      },
+      "flex-layout.row#locate":{
+        "children":[
+            "flex-layout.col#locate"
+        ]
+      },
+      "flex-layout.col#locate":{
+        "children":[
+            "rich-text#castellano",
+            "logo#españa"
+        ]
+      },
+      "search-bar":{
+        "props":{
+          "blockClass":"bar",
+          "displayMode":"search-and-clear-buttons",
+          "blurOnSubmit":true
+        }
+      },
+      "overlay-trigger": {
+          "children": [
+            "rich-text#Departamentos",
+            "overlay-layout"    
+          ],
+          "props":{
+            "blockClass":"Departamentos"
+          }
+        },
+      "overlay-layout": {
+          "props": {
+            "placement": "bottom",
+            "backdrop":"visible"
+          },
+          "children": [
+            "link#cundina"
+          ]
+        },
+      "overlay-trigger#hoverLocate":{
+          "props":{
+            "placement": "bottom"
+          },
+          "children":[
+
+          ]
+      },
+      "link#logo-desktop":{
+        "props":{
+          "label":".es",
+          "href":"/"
+        }
+      },
+      "link#cundina": {
+          "props": {
+            "label": "\nCundinamarca",
+            "href": "#",
+            "blockClass": "link"
+          }
+        },
+      "link#devoluciones":{
+        "children":[
+          "rich-text#devoluciones",
+          "rich-text#ypedidos"
+        ],
+        "props":{
+          "href":"#",
+          "displayMode":"button"
+        }
+      },
+      "link#spacer":{
+        "children":[
+          "flex-layout.row#spacer"
+        ],
+        "props":{
+          "href":"/Enviar",
+          "displayMode":"button"
+        }
+      },
+      "link#locateMenu":{
+        "children":[
+            "flex-layout.row#locate"
+            // "overlay-trigger#hoverLocate"
+        ],
+        "props":{
+            "href":"/locate",
+            "displayMode":"button"
+        }
+      },
+      "logo": {
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "assets/svg/amazon_logo.svg",
+          "width": "80"
+        }
+      },
+      "logo#iconPointer": {
+        "props": {
+          "href": "#",
+          "url": "assets/svg/puntero.svg",
+          "width": "20"
+        }
+      },
+      "logo#españa":{
+        "props":{
+            "href": "#",
+            "url": "assets/svg/bandera-de-espana.png",
+            "width": "20"  
+        }
+      },
+      
+      "rich-text#envios":{
+        "props":{
+          "text":"Enviar a"
+        }
+      },
+      "rich-text#aColombia":{
+        "props":{
+          "text":"Colombia"
+        }
+      },
+      "rich-text#Departamentos":{
+        "props":{
+          "text":"Todos los departamentos"
+        }
+      },
+      "rich-text#devoluciones":{
+        "props":{
+          "text":"Devoluciones",
+          "blockClass":""
+        }
+      },
+      "rich-text#ypedidos":{
+        "props":{
+          "text":"y Pedidos",
+          "blockClass": ""
+        }
+      },
+      "rich-text#castellano":{
+        "props":{
+            "text":"castellano",
+            "blockClass":""
+        }
+      }
+}
