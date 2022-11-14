@@ -1,0 +1,77 @@
+{
+    "menu#header__mobile":{
+        "children":[
+            "menu-item#department1",
+            "menu-item#department2"
+        ],
+        "props":{
+            "orientation":"vertical"
+        }
+    },
+    "menu-item#department1":{
+        "props":{
+            "id":"department1",
+            "type":"custom",
+            "itemProps":{
+                "type":"external",
+                "href":"https://www.google.com",
+                "noFollow":true,
+                "tagTitle":"google title",
+                "text":"Google"
+            }
+        },
+        "blocks": [
+            "submenu.accordion#department1"
+        ]
+    },
+    "submenu.accordion#department1":{
+        "children": [
+            "menu#department1"
+        ]
+    },
+    "menu#department1":{
+        "children": [
+            "menu-item#category1",
+            "menu-item#category2"
+        ]
+    },
+    "menu-item#category1":{
+        "props":{
+            "id":"category1",
+            "type":"custom",
+            "itemProps":{
+                "type":"external",
+                "href":"https://www.google.com/intl/es_co/drive",
+                "noFollow":true,
+                "tagTitle":"google drive title",
+                "text":"google drive"
+            }
+        }
+    },
+    "menu-item#category2":{
+        "props":{
+            "id":"category2",
+            "type":"custom",
+            "itemProps":{
+                "type":"external",
+                "href":"https://fonts.google.com/knowledge",
+                "noFollow":true,
+                "tagTitle":"google fonts title",
+                "text":"google fonts"
+            }
+        }
+    },
+    "menu-item#department2":{
+        "props":{
+            "id":"department2",
+            "type":"custom",
+            "itemProps":{
+                "type":"external",
+                "href":"https://www.youtube.com",
+                "noFollow":true,
+                "tagTitle":"youtube title",
+                "text":"youtube"
+            }
+        }
+    }
+}

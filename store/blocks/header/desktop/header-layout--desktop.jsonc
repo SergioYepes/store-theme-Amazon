@@ -1,0 +1,170 @@
+{
+    "header-layout.desktop": {
+        "children": [
+          "sticky-layout#desktop"
+        ],
+        "props":{
+          "blockClass":"main-header-desktop"
+        }
+      },
+      "sticky-layout#desktop": {
+        "props": {
+          "blockClass": "sticky-header"
+          
+        },
+        "children": [
+          "flex-layout.row#desktop"
+        ]
+      },
+      "flex-layout.row#desktop": {
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "flex-layout.row#logo-desktop",
+          "flex-layout.row#spacer",
+          "overlay-trigger",
+          "flex-layout.row#searchBar",
+          "locale-switcher",
+          "login",
+          "link#devoluciones",
+          "minicart.v2"
+        ]
+        
+      },
+      "login": {
+        "props": {
+          "emailAndPasswordTitle": "LOG-IN",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "logInButtonBehavior":"link"
+        }
+      },
+      "flex-layout.row#spacer": {
+        "props": {
+          "blockClass":"spacer",
+          "horizontalAlign":"center"
+        },
+        "children":[
+          "flex-layout.row#iconPointer",
+          "flex-layout.col#Envios"
+        ]
+      },
+      "flex-layout.row#iconPointer":{
+        "children":[
+          "logo#iconPointer"
+        ]
+      },
+      "flex-layout.col#Envios":{
+        "children":[
+          "rich-text#envios",
+          "rich-text#aColombia"
+        ],
+        "props":{
+          
+        }
+      },
+      "flex-layout.row#logo-desktop": {
+        "props": {
+          "blockClass":"logo-row"
+        },
+        "children": [
+          "logo",
+          "link#logo-desktop"
+        ]
+      },
+      "flex-layout.row#searchBar":{
+        "children":[
+          "search-bar"
+        ],
+        "props":{
+          // "colSizing":"auto",
+          // "autocompleteFullWidth": true,
+          "width":"grow",
+          "blockClass":"barContainer"
+        }
+      },
+      "search-bar":{
+        "props":{
+          "blockClass":"bar",
+          "displayMode":"search-and-clear-buttons",
+          "blurOnSubmit":true
+        }
+      },
+      "overlay-trigger": {
+          "children": [
+            "rich-text#Departamentos",
+            "overlay-layout"    
+          ],
+          "props":{
+            "blockClass":"Departamentos"
+          }
+        },
+      "overlay-layout": {
+          "props": {
+            "placement": "bottom",
+            "backdrop":"visible"
+          },
+          "children": [
+            "link#cundina"
+          ]
+        },
+      "link#cundina": {
+          "props": {
+            "label": "\nCundinamarca",
+            "href": "#",
+            "blockClass": "link"
+          }
+        },
+      "link#devoluciones":{
+        "children":[
+          "rich-text#aColombia",
+          "flex-layout.col#Envios"
+        ],
+        "props":{
+          "href":"#",
+          "displayMode":"button"
+        }
+      },
+      "logo": {
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "assets/svg/amazon_logo.svg",
+          "width": "80"
+        }
+      },
+      "logo#iconPointer": {
+        "props": {
+          "href": "#",
+          "url": "assets/svg/puntero.svg",
+          "width": "20"
+        }
+      },
+      "link#logo-desktop":{
+        "props":{
+          "label":".es",
+          "href":"/"
+        }
+      },
+      "rich-text#envios":{
+        "props":{
+          "text":"Enviar a"
+        }
+      },
+      "rich-text#aColombia":{
+        "props":{
+          "text":"Colombia"
+        }
+      },
+      "rich-text#Departamentos":{
+        "props":{
+          "text":"Todos los departamentos"
+        }
+      }
+}

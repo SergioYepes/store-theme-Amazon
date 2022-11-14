@@ -1,0 +1,39 @@
+{
+      "header-layout.mobile": {
+        "children": ["sticky-layout#mobile"]
+      },
+      "sticky-layout#mobile": {
+        "children": ["flex-layout.row#mobile"]
+      },
+      "flex-layout.row#mobile": {
+        "children": [
+        //   "drawer#header__mobile--menu",
+          "logo",
+          "flex-layout.row#spacer",
+          "login",
+          "minicart.v2"
+        ],
+        "props": {
+          "blockClass": "main-header-mobile",
+          "preventHorizontalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "fullWidth": true
+        }
+      }
+    //   "drawer#header__mobile--menu": {
+    //     "children": ["menu#header__mobile"],
+    //     "blocks":[
+    //         "drawer-trigger"
+    //     ]
+    //   },
+    //   "drawer-trigger":{
+    //     "children": [
+    //         "rich-text#prueba"
+    //     ]
+    //   },
+    //   "rich-text#prueba":{
+    //     "props":{
+    //         "text":"fokiuuuun"
+    //     }
+    //   }
+}
