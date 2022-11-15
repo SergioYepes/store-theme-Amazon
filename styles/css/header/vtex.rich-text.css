@@ -1,0 +1,39 @@
+.paragraph{
+    margin: 0px;
+    font-size: 15px;
+    width:auto;
+    color: #ffff;
+}
+.paragraph--font{
+    font-size: 11px;
+}
+.paragraph--deptosMenu{
+    color: rgb(11, 0, 0);
+}
+.paragraph--ez{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    width: auto;
+}
+.paragraph--todo{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 50px;
+}
+.paragraph--Departamentos{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(65, 64, 64);
+}
+.paragraph--Font{
+    font-weight: 700;
+}
+.paragraph--Departamentos:hover{
+    color: #000;
+}
+.container--ez{
+    justify-content: center;
+}

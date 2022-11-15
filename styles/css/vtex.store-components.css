@@ -1,3 +1,21 @@
+.searchBarContainer{
+    padding: 0;
+}
 .searchBarInnerContainer--bar{
     max-width: 100%;
+}
+.searchBarInnerContainer--bar :global(.vtex-input-prefix__group){
+    height:50px
+}
+
+.searchBarIcon--bar--external-search{
+    background-color: #febd69 
+}
+
+.sizeDesktop{
+    min-width: 15px;
+    justify-content: left;
+    align-items: center;
+    display: inline-block;
+    padding: 0px
 }

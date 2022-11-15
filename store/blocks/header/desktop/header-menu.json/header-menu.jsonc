@@ -1,0 +1,17 @@
+{
+    "menu#header-sticky2":{
+        "children":[
+            "flex-layout.col#header-sticky2"
+        ]
+    },
+    "flex-layout.col#header-sticky2":{
+        "children":[
+            // "link#header-sticky2--header",
+            "flex-layout.row#header-sticky2--tendencias",
+            "flex-layout.row#header-sticky2--Contenido"
+            // "flex-layout.row#header-sticky2--Departamentos",
+            // "flex-layout.row#header-sticky2--Programas",
+            // "flex-layout.row#header-sticky2--Ayuda"   
+        ]
+    }
+}

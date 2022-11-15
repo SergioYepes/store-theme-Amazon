@@ -1,3 +1,6 @@
-/* .childrenContainer--drawerButton{
-    width: 100px;
-} */
+.buttonLink{
+    height: auto;
+    min-width:auto;
+    margin-left: 2px;
+    margin-right: 2px;
+}

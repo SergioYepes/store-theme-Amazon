@@ -40,7 +40,8 @@
       "flex-layout.row#spacer": {
         "props": {
           "blockClass":"spacer",
-          "horizontalAlign":"center"
+          "horizontalAlign":"center",
+          "colSizing":"auto"
         },
         "children":[
           "flex-layout.row#iconPointer",
@@ -50,7 +51,10 @@
       "flex-layout.row#iconPointer":{
         "children":[
           "logo#iconPointer"
-        ]
+        ],
+        "props":{
+          "blockClass":"icon"
+        }
       },
       "flex-layout.col#Envios":{
         "children":[
@@ -58,7 +62,7 @@
           "rich-text#aColombia"
         ],
         "props":{
-          
+          "blockClass":"envios"
         }
       },
       "flex-layout.row#logo-desktop": {
@@ -66,7 +70,6 @@
           "blockClass":"logo-row"
         },
         "children": [
-          "logo",
           "link#logo-desktop"
         ]
       },
@@ -90,7 +93,20 @@
         "children":[
             "rich-text#castellano",
             "logo#españa"
-        ]
+        ],
+        "props":{
+          "blockClass":"locate"
+        }
+      },
+      "flex-layout.row#logo":{
+        "children":[
+          "logo",
+          "rich-text#.es"
+        ],
+        "props":{
+          "blockClass":"ez",
+          "colSizing":"auto"
+        }
       },
       "search-bar":{
         "props":{
@@ -126,9 +142,12 @@
           ]
       },
       "link#logo-desktop":{
+        "children":[
+          "flex-layout.row#logo"
+        ],
         "props":{
-          "label":".es",
-          "href":"/"
+          "href":"/",
+          "displayMode":"button"
         }
       },
       "link#cundina": {
@@ -172,7 +191,7 @@
           "title": "Logo",
           "href": "/",
           "url": "assets/svg/amazon_logo.svg",
-          "width": "80"
+          "width": "120"
         }
       },
       "logo#iconPointer": {
@@ -192,35 +211,45 @@
       
       "rich-text#envios":{
         "props":{
-          "text":"Enviar a"
+          "text":"Enviar a",
+          "blockClass":"font"
         }
       },
       "rich-text#aColombia":{
         "props":{
-          "text":"Colombia"
+          "text":"Colombia",
+          "blockClass":"Font"
         }
       },
       "rich-text#Departamentos":{
         "props":{
-          "text":"Todos los departamentos"
+          "text":"Todos los departamentos",
+          "blockClass":"Departamentos"
         }
+
       },
       "rich-text#devoluciones":{
         "props":{
           "text":"Devoluciones",
-          "blockClass":""
+          "blockClass":"font"
         }
       },
       "rich-text#ypedidos":{
         "props":{
           "text":"y Pedidos",
-          "blockClass": ""
+          "blockClass": "Font"
         }
       },
       "rich-text#castellano":{
         "props":{
             "text":"castellano",
             "blockClass":""
+        }
+      },
+      "rich-text#.es":{
+        "props":{
+          "text":".es",
+          "blockClass":"ez"
         }
       }
 }

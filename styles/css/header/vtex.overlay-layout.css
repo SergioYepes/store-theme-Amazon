@@ -1,0 +1,10 @@
+.trigger--Departamentos{
+    background-color:#f3f3f3;
+    height:50px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px 0px 0px 10px;
+}
+.trigger--Departamentos:hover{
+    background-color:#8f8d8d;
+}

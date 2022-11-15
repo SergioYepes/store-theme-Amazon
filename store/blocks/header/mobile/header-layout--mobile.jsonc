@@ -7,7 +7,7 @@
       },
       "flex-layout.row#mobile": {
         "children": [
-        //   "drawer#header__mobile--menu",
+          // "drawer#header__mobile--menu",
           "logo",
           "flex-layout.row#spacer",
           "login",
@@ -19,21 +19,21 @@
           "preserveLayoutOnMobile": true,
           "fullWidth": true
         }
-      },
-      "drawer#header__mobile--menu": {
-        "children": ["menu#header__mobile"],
-        "blocks":[
-            "drawer-trigger"
-        ]
-      },
-      "drawer-trigger":{
-        "children": [
-            "rich-text#prueba"
-        ]
-      },
-      "rich-text#prueba":{
-        "props":{
-            "text":"fokiuuuun"
-        }
       }
+      // "drawer#header__mobile--menu": {
+      //   "children": ["menu#header__mobile"],
+      //   "blocks":[
+      //       "drawer-trigger"
+      //   ]
+      // },
+      // "drawer-trigger":{
+      //   "children": [
+      //       "rich-text#prueba"
+      //   ]
+      // },
+      // "rich-text#prueba":{
+      //   "props":{
+      //       "text":"fokiuuuun"
+      //   }
+      // }
 }

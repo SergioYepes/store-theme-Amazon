@@ -1,6 +1,9 @@
 .headerRowBackground--sticky-header{
     background-color: #0f1111;
+    min-width: 100%;
 }
 .headerRowBackground--sticky-header2{
     background-color: #232f3e;
+    max-height: 40px;
+    min-width: 100%;
 }

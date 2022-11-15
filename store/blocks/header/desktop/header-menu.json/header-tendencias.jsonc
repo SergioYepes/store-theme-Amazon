@@ -1,0 +1,60 @@
+{
+    "flex-layout.row#header-sticky2--tendencias":{
+        "children":[
+            "flex-layout.col#header-sticky2--tendencias"
+        ]
+    },
+    "flex-layout.col#header-sticky2--tendencias":{
+        "children":[
+            "rich-text#header-sticky2--tendencias",
+            "menu-item#header-sticky2--vendidos",
+            "menu-item#header-sticky2--Novedades",
+            "menu-item#header-sticky2--momento"
+        ]
+    },
+    "rich-text#header-sticky2--tendencias":{
+        "props":{
+            "text":"Tendencias",
+            "blockClass":"deptosMenu"
+        }
+    },
+    "menu-item#header-sticky2--vendidos":{
+        "props":{
+            "id":"department1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"https://www.google.com",
+                "noFollow":true,
+                "tagTitle":"Los mas Vendidos",
+                "text":"Los más Vendidos"
+            }
+        }
+    },
+    "menu-item#header-sticky2--Novedades":{
+        "props":{
+            "id":"department2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Últimas Novedades",
+                "text":"Últimas Novedades"
+            }
+        }
+    },
+    "menu-item#header-sticky2--momento":{
+        "props":{
+            "id":"department3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Productos del momento",
+                "text":"Productos del momento"
+            }
+        }
+    }
+}

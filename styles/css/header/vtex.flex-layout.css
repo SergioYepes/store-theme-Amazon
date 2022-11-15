@@ -4,3 +4,35 @@
 .flexRow--barContainer{
     width: 500px 
 }
+.flexRow--icon{
+    width:20px !important
+}
+.flexRowContent{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.flexRowContent--desktop2{
+    max-height: 40px;
+}
+.flexRowContent--spacer{
+    width: fit-content;
+}
+.flexRowContent--ez{
+    width: fit-content;
+}
+.flexRow--desktop2{
+    min-width: 100%;
+}
+.flexRow--spacer{
+    width: auto;
+}
+.flexCol--envios{
+    width: min-content;
+}
+.flexCol--locate{
+    align-items: center;
+}
+/* .stretchChildrenWidth.flex{
+    width: auto;
+} */
