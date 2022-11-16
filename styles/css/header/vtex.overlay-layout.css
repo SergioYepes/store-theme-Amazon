@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     border-radius: 10px 0px 0px 10px;
+    z-index: 0 !important;
 }
 .trigger--Departamentos:hover{
     background-color:#8f8d8d;

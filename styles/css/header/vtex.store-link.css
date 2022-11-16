@@ -1,6 +1,7 @@
 .buttonLink{
     height: auto;
     min-width:auto;
+    padding: 0 1px;
     margin-left: 2px;
     margin-right: 2px;
 }

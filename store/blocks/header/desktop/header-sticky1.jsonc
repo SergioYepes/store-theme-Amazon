@@ -24,7 +24,7 @@
           "link#locateMenu",
           "login",
           "link#devoluciones",
-          "minicart.v2"
+          "link#cart"
         ]
         
       },
@@ -108,12 +108,33 @@
           "colSizing":"auto"
         }
       },
+      "flex-layout.row#cart":{
+        "children":[
+          "minicart.v2",
+          "rich-text#cesta"
+        ],
+        "props":{
+          "colSizing":"auto",
+          "blockClass":"cart"
+        } 
+      },
+      
       "search-bar":{
+        "blocks":[
+           "autocomplete-result-list.v2"
+        ],
+
         "props":{
           "blockClass":"bar",
           "displayMode":"search-and-clear-buttons",
+          "openAutocompleteOnFocus":true,
           "blurOnSubmit":true
         }
+      },
+      "autocomplete-result-list.v2":{
+        "blocks": [
+          "product-summary"
+        ]
       },
       "overlay-trigger": {
           "children": [
@@ -141,6 +162,7 @@
 
           ]
       },
+
       "link#logo-desktop":{
         "children":[
           "flex-layout.row#logo"
@@ -186,12 +208,21 @@
             "displayMode":"button"
         }
       },
+      "link#cart":{
+        "children":[
+          "flex-layout.row#cart"
+        ],
+        "props":{
+          "displayMode":"button"
+          // "href":"checkout/#/cart"
+        }
+      },
       "logo": {
         "props": {
           "title": "Logo",
           "href": "/",
           "url": "assets/svg/amazon_logo.svg",
-          "width": "120"
+          "width": "100"
         }
       },
       "logo#iconPointer": {
@@ -223,7 +254,7 @@
       },
       "rich-text#Departamentos":{
         "props":{
-          "text":"Todos los departamentos",
+          "text":"Todos los departamentos▼",
           "blockClass":"Departamentos"
         }
 
@@ -242,7 +273,7 @@
       },
       "rich-text#castellano":{
         "props":{
-            "text":"castellano",
+            "text":"castellano▼",
             "blockClass":""
         }
       },

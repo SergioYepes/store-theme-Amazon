@@ -23,7 +23,8 @@
       "flex-layout.row#home__categorySlider--sixth",
       "flex-layout.row#home__categorySlider--seventh",
       "flex-layout.row#home__categorySlider--first",
-      "flex-layout.row#home__info--fourth"
+      "flex-layout.row#home__info--fourth",
+      "flex-layout.row#home__searchResult"
     ]
   }
 

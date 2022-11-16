@@ -4,6 +4,12 @@
     width:auto;
     color: #ffff;
 }
+.paragraph--rich-text--homeInfo{
+    margin: 0px;
+    font-size: 15px;
+    width:auto;
+    color: #000;
+}
 .paragraph--font{
     font-size: 11px;
 }

@@ -16,7 +16,7 @@
 .flexCol--Home-ideas--Block{
     display: flex;
     height: 130px;
-    border: 1px solid red;
+    overflow: hidden;
 }
 .flexCol--Home-ideas--Block :global(.vtex-store-link-0-x-link){
     text-decoration: none;

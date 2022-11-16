@@ -1,0 +1,15 @@
+.minicartQuantityBadgeDefault{
+    top: 0.1rem;
+    right: .6rem;
+    font-weight: 900;
+    font-size: 12px;
+    background-color: #000;
+    color:orange
+}
+.minicartContainer :global(.vtex-button):hover{
+    background-color:#0000;
+}
+.minicartContainer :global(.vtex-button__label){
+    padding: 0;
+    width: 45px;
+}

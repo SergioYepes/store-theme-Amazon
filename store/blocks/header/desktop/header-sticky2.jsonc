@@ -19,18 +19,18 @@
           },
           "children": [
             "drawer#header-sticky2",
-            "flex-layout.row#link1",
-            "flex-layout.row#link2",
-            "flex-layout.row#link3",
-            "flex-layout.row#link4",
-            "flex-layout.row#link5",
-            "flex-layout.row#link6",
-            "flex-layout.row#link7",
-            "flex-layout.row#link8",
-            "flex-layout.row#link9",
-            "flex-layout.row#link10",
-            "flex-layout.row#link11",
-            "flex-layout.row#link12"
+            "link#header-sticky2--one",
+            "link#header-sticky2--two",
+            "link#header-sticky2--three",
+            "link#header-sticky2--four",
+            "link#header-sticky2--five",
+            "link#header-sticky2--six",
+            "link#header-sticky2--seven",
+            "link#header-sticky2--eigth",
+            "link#header-sticky2--nine",
+            "link#header-sticky2--ten",
+            "link#header-sticky2--eleven",
+            "link#header-sticky2--twelve"
           ]
       },
       "flex-layout.row#drawerLink":{
@@ -44,66 +44,7 @@
             "colSizing":"auto" 
         }
       },
-      "flex-layout.row#link1":{
-        "children":[
-            "link#header-sticky2--one"
-        ]
-      },
-      "flex-layout.row#link2":{
-        "children":[
-            "link#header-sticky2--two"
-        ]
-      },
-      "flex-layout.row#link3":{
-        "children":[
-            "link#header-sticky2--three"
-        ]
-      },
-      "flex-layout.row#link4":{
-        "children":[
-            "link#header-sticky2--four"
-        ]
-      },
-      "flex-layout.row#link5":{
-        "children":[
-            "link#header-sticky2--five"
-        ]
-      },
-      "flex-layout.row#link6":{
-        "children":[
-            "link#header-sticky2--six"
-        ]
-      },
-      "flex-layout.row#link7":{
-        "children":[
-            "link#header-sticky2--seven"
-        ]
-      },
-      "flex-layout.row#link8":{
-        "children":[
-            "link#header-sticky2--eigth"
-        ]
-      },
-      "flex-layout.row#link9":{
-        "children":[
-            "link#header-sticky2--nine"
-        ]
-      },
-      "flex-layout.row#link10":{
-        "children":[
-            "link#header-sticky2--ten"
-        ]
-      },
-      "flex-layout.row#link11":{
-        "children":[
-            "link#header-sticky2--eleven"
-        ]
-      },
-      "flex-layout.row#link12":{
-        "children":[
-            "link#header-sticky2--twelve"
-        ]
-      },
+      
       "link#drawer":{
         "children":[
             "flex-layout.row#drawerLink"
@@ -178,7 +119,7 @@
       },
       "rich-text#Prime":{
         "props":{
-            "text":"Prime",
+            "text":"Prime▼",
             "blockClass":""
         }
       },

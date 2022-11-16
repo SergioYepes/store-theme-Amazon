@@ -9,7 +9,7 @@
 }
 .flexRowContent{
     display: flex;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     align-items: center;
 }
 .flexRowContent--desktop2{
@@ -32,6 +32,9 @@
 }
 .flexCol--locate{
     align-items: center;
+}
+.flexRow--cart{
+    width:93%
 }
 /* .stretchChildrenWidth.flex{
     width: auto;
