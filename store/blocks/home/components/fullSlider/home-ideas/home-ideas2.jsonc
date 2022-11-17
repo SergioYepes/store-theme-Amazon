@@ -5,17 +5,28 @@
             "flex-layout.row#home__priceless--third",
             "flex-layout.row#home__priceless--fourth",
             "flex-layout.col#home__ideas2--first"
-        ]
+        ],
+        "props":{
+            "blockClass":"InfoContainer"
+        }
     },
     "flex-layout.col#home__ideas2--first":{
         "children":[
             "rich-text#home__ideas2--first",
-            "image#home__ideas2--first",
+            "flex-layout.row#home__ideas2--first",
             "link#home__ideas2--first"
         ],
         "props":{
             "horizontalAlign":"left",
-            "marginLeft":7
+            "blockClass":"homeInfoFirst"
+        }
+    },
+    "flex-layout.row#home__ideas2--first":{
+        "children":[
+            "image#home__ideas2--first"
+        ],
+        "props":{
+            "blockClass":"ImageCont"
         }
     },
     "rich-text#home__ideas2--first":{
@@ -28,8 +39,8 @@
     "image#home__ideas2--first":{
         "props": {
             "src": "assets/img/ideas/home__ideas2--first.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "minHeight": "300px",
+            "maxWidth": "245px",
             "link":{
                 "url":"#"
             }

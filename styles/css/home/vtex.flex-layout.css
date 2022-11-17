@@ -13,6 +13,9 @@
     align-items: center;
     padding-right: 20px;
 }
+
+
+
 .flexCol--Home-ideas--Block{
     display: flex;
     height: 130px;
@@ -23,8 +26,102 @@
     color:rgb(72, 72, 72);
     font-size: 10px;
 }
+.flexCol--homeInfoFirst{
+    background-color:#ffff;
+    max-height:420px;
+    justify-content: space-between;
+    margin: 10px;
+    padding-top: 5px;
+}
+
+.flexColChild--homeInfoFirst{
+    display: flex;
+    /* justify-content: center; */
+    margin-bottom: 10px;
+}
+.flexColChild--homeInfoLogin :global(.vtex-button){
+    background-color: #FFD814;
+    margin: 7px 0;
+    min-height:20px
+}
+.flexCol--homeInfoLogin{
+    background-color:#ffff;
+    position: absolute;
+    top: 16px;
+    max-height: 118px;
+    max-width: 300px;
+}
+
+
+
+
+
+
+.flexRow--ImageCont{
+   padding-left: 28px;
+}
+.flexRow--ImageContPriss{
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+.flexRow--homeInfoFirst{
+    background-color:#ffff;
+    max-height:420px;
+    min-height: 413px;
+    justify-content: space-between;
+    margin: 10px;
+    padding-top: 5px;
+}
+.flexRow--homeInfoSecond{
+    background-color:#ffff;
+    max-height:420px;
+    min-height: 413px;
+    justify-content: space-between;
+    margin: 10px;
+    padding-top: 5px;
+}
+.flexRowContent--homeInfoSecond{
+    min-height: 400px;
+}
 .flexRow--home_ideas-BlockPrices{
     width: 30px;
     color:rgb(174, 170, 170)
+}
+.flexRowContent--InfoContainer{
+    background-color:#0000;
+    height: 420px;
+    align-items: center;
+    padding-left: 10px;
+    overflow: hidden;
+    padding-right: 10px;
+    min-width: 290px;
+    max-width: 100%;
+    margin-top: 10px;
+}
+.flexRow--InfoContainer{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    min-height: 420px;
+    flex: 1 0 290px;
+    padding-left: 10px;
+    overflow: hidden;
+    padding-right: 10px;
+    min-width: 290px;
+    max-width: 100%;
+
+}
+.flexRow--pricelessCont{
+    /* border: 1px solid blue; */
+    padding:10px 0;
+}
+.flexRow--sliderContent{
+    background-color:#ffff;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 98%;
+    position: relative;
+    padding: 20px 10px;
+    margin:13px
 }
 

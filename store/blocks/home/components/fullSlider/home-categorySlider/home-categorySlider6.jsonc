@@ -2,7 +2,11 @@
     "flex-layout.row#home__categorySlider--sixth":{
         "children":[
             "flex-layout.col#home__categorySlider6--first"
-            ]
+            ],
+        "props":{
+            "horizontalAlign":"center",
+            "blockClass":"sliderContent"
+        }
     },
     "flex-layout.col#home__categorySlider6--first":{
         "children":[
@@ -10,8 +14,7 @@
             "slider-layout#home__categorySlider6--first"
         ],
         "props":{
-            "horizontalAlign":"left",
-            "marginLeft":7
+            "horizontalAlign":"left"
         }
     },
     "flex-layout.row#home__categorySlider6--head":{
@@ -21,7 +24,6 @@
         ],
         "props":{
             "horizontalAlign":"left",
-            "marginLeft":7,
             "blockClass":"productSlider--head",
             "colSizing":"auto"
         }

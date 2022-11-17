@@ -6,27 +6,49 @@
             "flex-layout.row#home__priceless--first",
             // "flex-layout.col#home__info--third",
             "flex-layout.col#home__info--fourth"
-        ]
+        ],
+        "props":{
+            "blockClass":"InfoContainer"
+        }
     },
     "flex-layout.col#home__info--first":{
         "children":[
             "rich-text#home__info--first",
-            "image#home__info--first",
+            "flex-layout.row#home__info--firstImg",
+            
             "link#home__info--first"
         ],
         "props":{
             "horizontalAlign":"left",
-            "marginLeft":7
+            "blockClass":"homeInfoFirst",
+            "colSizing":"auto"
+        }
+    },
+    "flex-layout.row#home__info--firstImg":{
+        "children":[
+            "image#home__info--first"
+        ],
+        "props":{
+            "blockClass":"ImageCont"
         }
     },
     "flex-layout.col#home__info--second":{
         "children":[
             "rich-text#home__info--second",
-            "image#home__info--second",
+            "flex-layout.row#home__info--secondImg",
             "link#home__info--second"
         ],
         "props":{
-            "horizontalAlign":"left"
+            "horizontalAlign":"left",
+            "blockClass":"homeInfoFirst"
+        }
+    },
+    "flex-layout.row#home__info--secondImg":{
+        "children":[
+            "image#home__info--second"
+        ],
+        "props":{
+            "blockClass":"ImageCont"
         }
     },
     "flex-layout.col#home__info--third":{
@@ -36,7 +58,8 @@
             "link#home__info--third"
         ],
         "props":{
-            "horizontalAlign":"left"
+            "horizontalAlign":"left",
+            "blockClass":"homeInfoFirst"
         }
     },
     "flex-layout.col#home__info--fourth":{
@@ -45,13 +68,15 @@
             "login#home__info--fourth"
         ],
         "props":{
-            "horizontalAlign":"center"
+            "horizontalAlign":"center",
+            "blockClass":"homeInfoLogin"
         }
     },
     "rich-text#home__info--first":{
         "props":{
             "text":"Ofertas relámpago",
             "textColor": "c-on-emphasis",
+            // "textAlignment": "LEFT",
             "blockClass":"rich-text--homeInfo"
         }
     },
@@ -73,14 +98,14 @@
         "props":{
             "text":"Identifícate para una mejor experiencia",
             "textColor": "c-on-emphasis",
-            "blockClass":"rich-text--homeInfo"
+            "blockClass":"rich-text--homeLogin"
         }
     },
     "image#home__info--first":{
         "props": {
             "src": "assets/img/home__info--first.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "minHeight": "300px",
+            "maxWidth": "245px",
             "link":{
                 "url":"#"
             }
@@ -89,14 +114,15 @@
     "link#home__info--first":{
         "props":{
             "label":"Explora ahora",
-            "href":"#"
+            "href":"#",
+            "blockClass":"homeInfoFirst"
         }
     },
     "image#home__info--second":{
         "props": {
             "src": "assets/img/home__info--second.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "minHeight": "300px",
+            "maxWidth": "245px",
             "link":{
                 "url":"#"
             }
@@ -105,7 +131,8 @@
     "link#home__info--second":{
         "props":{
             "label":"Explora ahora",
-            "href":"#"
+            "href":"#",
+            "blockClass":"homeInfoFirst"
         }
     },
     "image#home__info--third":{
@@ -126,8 +153,9 @@
     },
     "login#home__info--fourth":{
         "props":{
-            "logInButtonBehavior":"link",
-            "iconLabel":"Inicia sesión de una manera segura"
+            "logInButtonBehavior":"button",
+            "iconLabel":"Inicia sesión de una manera segura",
+            "blockClass":"loginButon"
         }
     }
 

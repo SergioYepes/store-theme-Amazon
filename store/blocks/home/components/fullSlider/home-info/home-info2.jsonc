@@ -6,37 +6,66 @@
             "flex-layout.col#home__info2--third",
             // "flex-layout.col#home__info2--fourth"
             "flex-layout.row#home__priceless--second"
-        ]
+        ],
+        "props":{
+            "blockClass":"InfoContainer"
+        }
     },
     "flex-layout.col#home__info2--first":{
         "children":[
             "rich-text#home__info2--first",
-            "image#home__info2--first",
+            "flex-layout.row#home__info2--firstImg",
             "link#home__info2--first"
         ],
         "props":{
-            "horizontalAlign":"left",
-            "marginLeft":7
+            "blockClass":"homeInfoFirst",
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.row#home__info2--firstImg":{
+        "children":[
+            "image#home__info2--first"
+        ],
+        "props":{
+            "blockClass":"ImageCont"
         }
     },
     "flex-layout.col#home__info2--second":{
         "children":[
             "rich-text#home__info2--second",
-            "image#home__info2--second",
+            "flex-layout.row#home__info2--secondImg",
             "link#home__info2--second"
         ],
         "props":{
+            "blockClass":"homeInfoFirst",
             "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.row#home__info2--secondImg":{
+        "children":[
+            "image#home__info2--second"
+        ],
+        "props":{
+            "blockClass":"ImageCont"
         }
     },
     "flex-layout.col#home__info2--third":{
         "children":[
             "rich-text#home__info2--third",
-            "image#home__info2--third",
+            "flex-layout.row#home__info2--thirdImg",
             "link#home__info2--third"
         ],
         "props":{
+            "blockClass":"homeInfoFirst",
             "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.row#home__info2--thirdImg":{
+        "children":[
+            "image#home__info2--third"
+        ],
+        "props":{
+            "blockClass":"ImageCont"
         }
     },
     "flex-layout.col#home__info2--fourth":{
@@ -80,8 +109,8 @@
     "image#home__info2--first":{
         "props": {
             "src": "assets/img/home__info2--first.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "minHeight": "300px",
+            "maxWidth": "230px",
             "link":{
                 "url":"#"
             }
@@ -90,8 +119,8 @@
     "image#home__info2--second":{
         "props": {
             "src": "assets/img/home__info2--second.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "minHeight": "300px",
+            "maxWidth": "230px",
             "link":{
                 "url":"#"
             }
@@ -100,8 +129,8 @@
     "image#home__info2--third":{
         "props": {
             "src": "assets/img/home__info2--third.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "minHeight": "300px",
+            "maxWidth": "230px",
             "link":{
                 "url":"#"
             }
@@ -120,19 +149,22 @@
     "link#home__info2--first":{
         "props":{
             "label":"Saber más",
-            "href":"#"
+            "href":"#",
+            "blockClass":"homeInfoFirst"
         }
     },
     "link#home__info2--second":{
         "props":{
             "label":"Descubre más",
-            "href":"#"
+            "href":"#",
+            "blockClass":"homeInfoFirst"
         }
     },
     "link#home__info2--third":{
         "props":{
             "label":"Descúbrelos",
-            "href":"#"
+            "href":"#",
+            "blockClass":"homeInfoFirst"
         }
     },
     "link#home__info2--fourth":{

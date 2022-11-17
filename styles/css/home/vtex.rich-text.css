@@ -1,6 +1,18 @@
-.wrapper--rich-text--homeInfo{
+.paragraph--rich-text--homeInfo{
     font-weight: 700;
-    font-size: 23px;
     text-align: left;
-    color: black
+    color: black;
+    font-size: 24px!important;
+    line-height: 27.3px!important;
+    padding-left: 10px;
+    min-height: 54px;
+}
+.paragraph--rich-text--homeLogin{
+    font-weight: 700;
+    text-align: left;
+    color: black!important;
+    font-size: 23px!important;
+    line-height: 27.3px!important;
+    padding-left: 15px;
+    padding-top: 10px;
 }

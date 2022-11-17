@@ -5,28 +5,48 @@
             "flex-layout.col#home__info4--second",
             "flex-layout.col#home__info4--third",
             "flex-layout.row#home__priceless--sixth"
-            
-        ]
+        ],
+        "props":{
+            "blockClass":"InfoContainer"
+        }
     },
     
     "flex-layout.col#home__info4--second":{
         "children":[
             "rich-text#home__info4--second",
-            "image#home__info4--second",
+            "flex-layout.row#home__info4--secondImg",
             "link#home__info4--second"
         ],
         "props":{
+            "blockClass":"homeInfoFirst",
             "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.row#home__info4--secondImg":{
+        "children":[
+            "image#home__info4--second"
+        ],
+        "props":{
+            "blockClass":"ImageCont"
         }
     },
     "flex-layout.col#home__info4--third":{
         "children":[
             "rich-text#home__info4--third",
-            "image#home__info4--third",
+            "flex-layout.row#home__info4--thirdImg",
             "link#home__info4--third"
         ],
         "props":{
+            "blockClass":"homeInfoFirst",
             "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.row#home__info4--thirdImg":{
+        "children":[
+            "image#home__info4--third"
+        ],
+        "props":{
+            "blockClass":"ImageCont"
         }
     },
     "rich-text#home__info4--second":{
@@ -46,8 +66,8 @@
     "image#home__info4--second":{
         "props": {
             "src": "assets/img/home__info4--second.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "minHeight": "300px",
+            "maxWidth": "245px",
             "link":{
                 "url":"#"
             }
@@ -56,14 +76,15 @@
     "link#home__info4--second":{
         "props":{
             "label":"Ver más",
-            "href":"#"
+            "href":"#",
+            "blockClass":"homeInfoFirst"
         }
     },
     "image#home__info4--third":{
         "props": {
             "src": "assets/img/home__info4--third.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "minHeight": "300px",
+            "maxWidth": "245px",
             "link":{
                 "url":"#"
             }
@@ -72,7 +93,8 @@
     "link#home__info4--third":{
         "props":{
             "label":"Comprar ahora",
-            "href":"#"
+            "href":"#",
+            "blockClass":"homeInfoFirst"
         }
     }  
 }

@@ -1,0 +1,14 @@
+.sliderRightArrow{
+    background: #f7f9fa!important;
+    min-width: 68px;
+    min-height: 120px;
+    border-radius: 2px;
+    box-shadow: -2px 2px 6px darkgrey;
+}
+.sliderLeftArrow{
+    background: #f7f9fa!important;
+    min-width: 68px;
+    min-height: 120px;
+    border-radius: 2px;
+    box-shadow: 2px -2px 6px darkgrey;
+}
