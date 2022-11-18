@@ -34,7 +34,8 @@
           "accessCodeTitle": "Acess Code LOG-IN",
           "emailPlaceholder": "e-mail",
           "passwordPlaceholder": "password",
-          "logInButtonBehavior":"link"
+          "logInButtonBehavior":"link",
+          "blockClass":"header"
         }
       },
       "flex-layout.row#spacer": {

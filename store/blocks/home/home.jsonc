@@ -7,11 +7,13 @@
   "flex-layout.row#home":{
     "children":[
       "flex-layout.col#home"
-    ]
+    ],
+    "props":{
+      "blockClass":"Big"
+    }
   },
-  "flex-layout.col#home":{
+  "flex-layout.col#home-notSlider":{
     "children":[
-      "slider-layout#home__slider--children",
       "flex-layout.row#home__info--first",
       "flex-layout.row#home__info--second",
       "flex-layout.row#home__categorySlider--third",
@@ -24,7 +26,17 @@
       "flex-layout.row#home__categorySlider--seventh",
       "flex-layout.row#home__categorySlider--first",
       "flex-layout.row#home__info--fourth",
-      "flex-layout.row#home__searchResult"
+      "flex-layout.row#home__searchResult",
+      "flex-layout.row#home-loginFootCont"
+    ],
+    "props":{
+      "blockClass":"notSlider"
+    }
+  },
+  "flex-layout.col#home":{
+    "children":[
+      "slider-layout#home__slider--children",
+      "flex-layout.col#home-notSlider"
     ]
   }
 

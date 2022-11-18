@@ -5,7 +5,10 @@
             //"flex-layout.col#home__showcaseProductCard1--second"
             // "flex-layout.col#home__showcaseProductCard1--third",
             // "flex-layout.col#home__showcaseProductCard1--fourth"
-        ]
+        ],
+        "props":{
+            "blockClass":"homeInfoSecond"
+        }
 
     }
 

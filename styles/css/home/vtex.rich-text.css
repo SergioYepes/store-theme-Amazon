@@ -16,3 +16,19 @@
     padding-left: 15px;
     padding-top: 10px;
 }
+.paragraph--rich-text--showcaseProduct--cents{
+    color: black;
+    padding-left: 15px;
+}
+.paragraph--rich-text--showcaseProduct--price{
+    color: black;
+    padding-left: 15px;
+}
+.paragraph--recomendaciones{
+    color: black;
+    font-size:14px
+}
+.paragraph--nuevo{
+    color: black;
+    font-size:10px
+}

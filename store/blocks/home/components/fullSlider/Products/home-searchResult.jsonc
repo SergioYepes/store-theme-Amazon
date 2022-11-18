@@ -2,7 +2,10 @@
     "flex-layout.row#home__searchResult":{
         "children":[
             "search-result-layout.customQuery#home__searchResult"
-        ]
+        ],
+        "props":{
+            "blockClass": "InfoContainer"
+        }
     },
     "search-result-layout.customQuery#home__searchResult":{
         "blocks": [

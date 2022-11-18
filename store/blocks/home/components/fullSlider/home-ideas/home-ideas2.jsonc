@@ -1,7 +1,7 @@
 {
     "flex-layout.row#home__ideas--second":{
         "children":[
-            "flex-layout.col#home__ideas--third",
+            "flex-layout.row#home__ideas--third",
             "flex-layout.row#home__priceless--third",
             "flex-layout.row#home__priceless--fourth",
             "flex-layout.col#home__ideas2--first"

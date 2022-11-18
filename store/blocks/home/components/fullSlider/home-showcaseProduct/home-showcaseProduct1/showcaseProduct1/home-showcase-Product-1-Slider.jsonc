@@ -22,7 +22,7 @@
     "image#home__showcaseProduct1Slider--first":{
         "props": {
             "src": "assets/img/showcaseProduct1/firstCont/showcaseProduct1__firstCont--first.jpg",
-            "maxHeight": "220px",
+            "maxHeight": "200px",
             "maxWidth":"220px",
             "link":{
                 "url":"#"

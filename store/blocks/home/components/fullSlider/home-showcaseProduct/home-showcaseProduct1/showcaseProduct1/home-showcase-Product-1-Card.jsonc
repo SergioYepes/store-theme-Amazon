@@ -9,7 +9,7 @@
         ],
         "props":{
             "horizontalAlign":"left",
-            "marginLeft":7
+            "blockClass":"homeInfoFirst"
         }
     },
     "flex-layout.row#home__showcaseProductCard1--price":{

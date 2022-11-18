@@ -1,0 +1,56 @@
+{
+    "flex-layout.row#home-loginFootCont":{
+        "children":[
+            "flex-layout.col#home-loginFootCont"
+        ],
+        "props":{
+            "blockClass":"loginFootCont"
+        }
+    },
+    "flex-layout.col#home-loginFootCont":{
+        "children":[
+            "rich-text#recomendaciones",
+            "login#loginFootCont",
+            "flex-layout.row#home-loginFootCont-register"
+        ],
+        "props":{
+            "horizontalAlign":"center"
+            
+        }
+    },
+    "flex-layout.row#home-loginFootCont-register":{
+        "children":[
+            "rich-text#eresNuevo",
+            "link#home-loginFootCont"
+        ],
+        "props":{
+            "colSizing":"auto"
+        }
+    },
+    "rich-text#eresNuevo":{
+        "props":{
+            "text":"¿Eres un cliente nuevo?",
+            "blockClass":"nuevo"
+        }
+    },
+    "rich-text#recomendaciones":{
+        "props":{
+            "text":"Ver recomendaciones personalizadas",
+            "blockClass":"recomendaciones"
+        }
+    },
+    "login#loginFootCont":{
+        "props":{
+            "logInButtonBehavior":"button",
+            "iconLabel":"Identifícate",
+            "blockClass":"loginButon"
+        }
+    },
+    "link#home-loginFootCont":{
+        "props":{
+            "label": "Empieza aquí",
+            "blockClass":"loginFootCont"
+        }
+    }
+
+}

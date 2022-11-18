@@ -12,3 +12,21 @@
     border-radius: 2px;
     box-shadow: 2px -2px 6px darkgrey;
 }
+.sliderRightArrow--home__slider{
+    position: absolute;
+    background: #0000!important;
+    top:0;
+    min-width: 68px;
+    min-height: 285px;
+    border-radius: 2px;
+    box-shadow: -2px 2px 6px #0000 ;
+}
+.sliderLeftArrow--home__slider{
+    position: absolute;
+    background: #0000!important;
+    top: 0;
+    min-width: 68px;
+    min-height: 285px;
+    border-radius: 2px;
+    box-shadow: 2px -2px 6px #0000;
+}

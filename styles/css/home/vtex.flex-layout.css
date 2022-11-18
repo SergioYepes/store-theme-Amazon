@@ -44,6 +44,9 @@
     margin: 7px 0;
     min-height:20px
 }
+.flexColChild--homeInfoLogin :global(.vtex-login-2-x-label){
+    color: #000;
+}
 .flexCol--homeInfoLogin{
     background-color:#ffff;
     position: absolute;
@@ -51,6 +54,11 @@
     max-height: 118px;
     max-width: 300px;
 }
+.flexCol--notSlider{
+    position: absolute;
+    top: 290px;
+}
+
 
 
 
@@ -105,7 +113,7 @@
     min-height: 420px;
     flex: 1 0 290px;
     padding-left: 10px;
-    overflow: hidden;
+    overflow: auto;
     padding-right: 10px;
     min-width: 290px;
     max-width: 100%;
@@ -123,5 +131,23 @@
     position: relative;
     padding: 20px 10px;
     margin:13px
+}
+.flexRow--Big{
+    position: relative;
+}
+.flexRow--loginFootCont{
+    background-color:white;
+    min-height: 130px;
+    display: flex;
+    justify-content: center;
+}
+.flexRow--loginFootCont :global(.vtex-button){
+    background-color: #FFD814;
+    margin: 7px 0;
+    min-height:20px;
+    min-width: 233px;
+}
+.flexRow--productsCont{
+    margin-bottom: 10px;
 }
 
