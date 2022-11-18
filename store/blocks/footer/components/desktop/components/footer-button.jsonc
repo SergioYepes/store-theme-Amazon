@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#footer--button": { 
+        "children": [
+            "link#backHome"
+        ]
+    },
+    "link#backHome":{
+        "children":[
+            "rich-text#volver"
+        ],
+        "props":{
+            "displayMode":"button"
+        }
+    },
+    "rich-text#volver":{
+        "props":{
+            "text":"volver a arriba"
+        }
+    }
+}

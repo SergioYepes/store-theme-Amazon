@@ -1,0 +1,15 @@
+{
+    "footer-layout.desktop": { 
+        "children": [
+            "flex-layout.row#footerD"
+        ]
+    },
+    "flex-layout.row#footerD":{
+        "children":[
+            "flex-layout.row#footer--button"
+        ],
+        "props":{
+            "blockClass":"footerCont"
+        }
+    }
+}

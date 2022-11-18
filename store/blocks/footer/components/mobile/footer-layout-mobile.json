@@ -1,0 +1,17 @@
+{
+    "footer-layout.mobile": { 
+        "children": [
+            "flex-layout.row#footer"
+            ]
+    },
+  "flex-layout.row#footer": { 
+        "children": [
+            "rich-text#hola"
+            ]
+    },
+    "rich-text#hola":{
+        "props":{
+            "text":"Hola mundo"
+        }
+    }
+}

@@ -57,6 +57,7 @@
 .flexCol--notSlider{
     position: absolute;
     top: 290px;
+    height:auto
 }
 
 
@@ -134,6 +135,11 @@
 }
 .flexRow--Big{
     position: relative;
+}
+.flexRowContent--Big{
+    display: flex;
+    align-items: start!important;
+    min-height: 5280px;
 }
 .flexRow--loginFootCont{
     background-color:white;
