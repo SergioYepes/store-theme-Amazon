@@ -1,0 +1,265 @@
+{
+    "search-result-layout.mobile#department":{
+        "children": [
+            "flex-layout.row#department-mobile",
+            "flex-layout.row#department-results"
+        ]
+    },
+    "flex-layout.row#department-results":{
+        "children":[
+            // "gallery-layout-switcher",
+            "search-content#phone"
+        ]
+    },
+    "search-content#phone":{
+        "blocks": [
+            "gallery#gird-and-list",
+            "not-found"
+        ]
+    },
+    // "gallery-layout-switcher":{
+    //     "children":[
+    //         "gallery-layout-option#department-grid--oneCol",
+    //         "gallery-layout-option#department-grid--twoCol"
+    //     ]
+    // },
+    // "gallery-layout-option#department-grid--oneCol":{
+    //     "props":{
+    //         "blockClass":"grid__selector--one"
+    //     }
+    // },
+    // "gallery-layout-option#department-grid--twoCol":{
+    //     "props":{
+    //         "blockClass":"grid__selector--two"
+    //     }
+    // },
+    "flex-layout.row#department-mobile":{
+        "children":[
+          "flex-layout.col#department-mobile"
+        ]
+    },
+    "flex-layout.col#department-mobile":{
+      "children":[
+        "breadcrumb.search",
+        "gallery-layout-switcher"
+      ]
+    },
+    "product-summary.shelf#Departamentos-search": {
+        "children": [
+          "product-summary-image#product-search",
+          "product-summary-name#product-search",
+          "product-summary-price",
+          "product-rating-inline",
+          // "product-selling-price",
+          "product-summary-sku-selector#product-search",
+          "add-to-cart-button",
+          "modal-trigger#global__quick-view--trigger"
+          // "link.product"
+        ],
+        "props": {
+            "trackListName": true,
+            "priceBehavior": "async"
+        }
+
+    },
+    "product-summary.shelf#product-search-list": {
+        "children": [
+          "product-summary-image#product-search",
+          "product-summary-name#product-search",
+          "product-list-price",
+          "link.product",
+          "add-to-cart-button",
+          "modal-trigger#global__quick-view--trigger"
+        ],
+        "props": {
+          "trackListName": true
+        }
+    },
+    "product-summary-name#product-search": {
+        "props": {
+          "tag": "h3"
+        }
+      },
+        "product-summary-sku-selector#product-search":{
+            "props": {
+            "hideImpossibleCombinations": false,
+            "showVariationsLabels": false,
+            "visibility": "always"
+            }
+        },
+        "product-summary-image#product-search": {
+            "props": {
+            "width": 200,
+            "maxHeight": 120
+            }
+        },
+        "add-to-cart-button": {
+            "props":{
+                "text": "Agregar"
+            }
+            },
+      "modal-trigger#global__quick-view--trigger": {
+        "children":[
+           "rich-text#global__quick-view--trigger",
+           "modal-layout#global__quick-view--trigger"
+        ],
+        "props": {
+          "trigger": "click"
+        }
+      },
+      "rich-text#global__quick-view--trigger": {
+        "props": {
+          "text": "Vista rapida",
+          "blockClass": "quick-view__trigger"
+        }
+      },
+      "modal-layout#global__quick-view--trigger": {
+        "children":[
+          "flex-layout.row#product-main"
+        ]
+      },
+      //* product modal
+    
+      "flex-layout.row#product-main": {
+        "props": {
+          "colGap": 7,
+          "rowGap": 7,
+          "paddingTop": 7,
+          "paddingBottom": 7,
+          "blockClass": "product-modal"
+        },
+        "children": [
+            "flex-layout.col#product-image",
+             "flex-layout.col#right-col"]
+      },
+      "flex-layout.col#product-image": {
+        "props": {
+          "width": "60%",
+          "rowGap": 0
+        },
+        "children": ["product-images"]
+      },
+      "product-images": {
+        "props": {
+          "displayThumbnailsArrows": true
+        }
+      },
+      "flex-layout.col#right-col": {
+        "props": {
+          "width":"35%",
+          "rowGap":{
+            "desktop": 2
+        }
+        },
+        "children": [
+          "vtex.store-components:product-name",
+          "product-rating-summary",
+        //   "product-price#product-details",
+          "product-list-price",
+          "product-separator",
+          "product-quantity",
+          "product-identifier.product",
+          "sku-selector",
+          "flex-layout.row#buy-button",
+          "availability-subscriber",
+          "share#default"
+        ]
+      },
+      "product-price#product-details": {
+        "props": {
+          "showInstallments": true,
+          "showSavings": true
+        }
+      },
+      "flex-layout.row#buy-button": {
+        "props": {
+          "marginTop": 4,
+          "marginBottom": 7
+        },
+        "children": ["buy-button"]
+      },
+    
+      "share#default": {
+        "props": {
+          "social": {
+            "Facebook": true,
+            "WhatsApp": true,
+            "Twitter": false,
+            "Pinterest": true
+          }
+        }
+      },
+    
+      //! test
+      "gallery#gird-and-list": {
+        "props": {
+          "layouts":     [
+            {
+              "name": "grid",
+              "component": "GridSummary",
+              "itemsPerRow": {
+                "(min-width:1008px)":4,
+                "(min-width:623px) and (max-width:1007px)":3,
+                "(max-width:622px)":2
+              }
+            }
+          ],
+          "GridSummary": "product-summary.shelf#Departamentos-search",
+          "ListSummary":"product-summary.shelf#product-search-list"
+        }
+      },
+    
+    //Gallery layout
+    "gallery-layout-switcher": {
+        "children": [
+          /*
+            * For accessibility purposes, it is fundamental to define the layout options following the same ordering used to declare them in step 2.
+            */
+          "gallery-layout-option#grid",
+          "gallery-layout-option#list"
+        ]
+      },
+      "gallery-layout-option#grid": {
+        "props": {
+          "name": "grid"
+        },
+        "children": [
+          "icon-grid",
+          "responsive-layout.desktop#textOptionGrid"
+        ]
+      },
+      "gallery-layout-option#list": {
+        "props": {
+          "name": "list"
+        },
+        "children": [
+          "icon-inline-grid",
+          "responsive-layout.desktop#textOptionList"
+        ]
+      },
+      "responsive-layout.desktop#textOptionGrid": {
+        "children": [
+          "rich-text#option-grid"
+        ]
+      },
+      "responsive-layout.desktop#textOptionList": {
+        "children": [
+          "rich-text#option-list"
+        ]
+      },
+      "rich-text#option-grid": {
+        "props": {
+          "text": "Grid",
+          "textColor": "c-auto",
+          "blockClass": "layout-option"
+        }
+      },
+      "rich-text#option-list": {
+        "props": {
+          "text": "List",
+          "textColor": "c-auto",
+          "blockClass": "layout-option"
+        }
+      }
+
+}

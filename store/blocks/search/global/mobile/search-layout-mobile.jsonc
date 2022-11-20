@@ -1,0 +1,12 @@
+{
+    "search-result-layout.mobile":{
+        "children": [
+            "rich-text#mobile-response"
+        ]
+    },
+    "rich-text#mobile-response":{
+        "props":{
+            "text":"# austria"
+        }
+    }
+}

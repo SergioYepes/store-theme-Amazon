@@ -1,0 +1,136 @@
+{
+        "search-result-layout.desktop#department":{
+            "children": [
+                "flex-layout.row#department-desktop",
+                "flex-layout.row#department-desktop_result"
+            ],
+            "props":{
+                "pagination": "show-more",
+                "preventRouteChange": false,
+                "defaultGalleryLayout": "grid"
+            }
+          },
+          "flex-layout.row#department-desktop":{
+              "children":[
+                "flex-layout.col#department-desktop"
+              ],
+              "props":{
+                  
+              }
+          },
+          "flex-layout.row#department-desktop_result": {
+            "children": [
+              "flex-layout.col#filter-navigation_desktop",
+              "flex-layout.col#department-desktop_result"
+            ],
+            "props": {
+              "blockClass": "content-search-result",
+              "colSizing": "auto",
+              "marginTop": 4,
+              "marginBottom": 6
+            }
+          },
+          "flex-layout.col#filter-navigation_desktop": {
+            "children": [
+              "filter-navigator.v3"
+            ],
+            "props": {
+              "width": "25%"
+            }
+          },
+          "flex-layout.col#department-desktop_result": {
+            "children": [
+              "search-content#result-content-departmen-product"
+            ],
+            "props": {
+              "width": "70%"
+            }
+          },
+          "search-content#result-content-departmen-product": {
+            "blocks": [
+              "gallery#department-desktop",
+              "not-found"
+            ]
+          },
+          "gallery#department-desktop": {
+            "props": {
+              "layouts": [
+                {
+                  "name": "whole",
+                  "component": "OneOrTwoLineSummary",
+                  "itemsPerRow": {
+                    "desktop": 5,
+                    "mobile": 3,
+                    "phone": 1
+                  }
+                },
+                {
+                  "name": "two",
+                  "component": "OneOrTwoLineSummary",
+                  "itemsPerRow": {
+                    "desktop": 5,
+                    "mobile": 3,
+                    "phone": 1
+                  }
+                },
+                {
+                  "name": "many",
+                  "component": "ManyByLineSummary",
+                  "itemsPerRow": {
+                    "desktop": 5,
+                    "mobile": 3,
+                    "phone": 1
+                  }
+                }
+              ],
+              "OneOrTwoLineSummary": "product-summary.shelf#product-search",
+              "ManyByLineSummary": "product-summary.shelf#product-search"
+            }
+          },
+          "product-summary.shelf#product-search": {
+            "children": [
+              "product-summary-image#product-search",
+              "product-summary-name#product-search",
+              "product-price",
+              "link.product"
+            ],
+            "props": {
+              "trackListName": true,
+              "priceBehavior": "async"
+            }
+          },
+          "product-summary-name#product-search": {
+            "props": {
+              "tag": "h2"
+            }
+          },
+          "product-summary-image#product-search": {
+            "props": {
+              "width": 200,
+              "maxHeight": 120
+            }
+          },
+          "vtex.product-list:product-brand#product-search": {
+            "props": {
+              "displayMode": "logo"
+            }
+          },
+          "add-to-cart-button": {
+            "props": {
+              "display": "button",
+              "text": "Agregar"
+            }
+          },
+          "link.product": {
+            "props": {
+              "displayMode": "button",
+              "target": "a",
+              "label": "Ver productor"
+            }
+          },
+          "flex-layout.col#department-desktop":{
+            "children":[
+              "breadcrumb.search"
+            ]
+          }
+ }
