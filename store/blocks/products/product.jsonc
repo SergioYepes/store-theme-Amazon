@@ -1,0 +1,17 @@
+{
+  // "store.product": {
+  //   "children": [
+  //     "vtex.store-components:product-name",
+  //     "add-to-list-btn"
+  //   ]
+  // }
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "shelf.relatedProducts",
+      "product-reviews"
+    ]
+  }
+  
+}

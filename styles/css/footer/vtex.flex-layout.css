@@ -1,4 +1,26 @@
 .flexRow--footerCont{
     display: flex;
-    background-color:greenyellow
+    background-color:#37475A;
+    justify-content: center;
+    width: 100vw!important;
+    cursor: pointer;
+}
+.flexRow--footerContBig{
+    display: flex;
+    justify-content: center;
+    background-color: #232F3E;
+}
+.flexRowContent--footerCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.flexCol--footerContTerminosBig{
+    background-color:#131A22;
+    padding: 30px 0;
+    margin: 30px 0 0;
 }

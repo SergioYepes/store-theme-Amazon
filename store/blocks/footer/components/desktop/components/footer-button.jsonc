@@ -2,14 +2,21 @@
     "flex-layout.row#footer--button": { 
         "children": [
             "link#backHome"
-        ]
+        ],
+        "props":{
+            "fullWidth":true,
+            "blockClass":"footerCont",
+            "colSizing":"auto"
+        }
     },
     "link#backHome":{
         "children":[
             "rich-text#volver"
         ],
         "props":{
-            "displayMode":"button"
+            "href":"https://www.youtube.com",
+            "displayMode":"button",
+            "blockClass":"footerBtn"
         }
     },
     "rich-text#volver":{

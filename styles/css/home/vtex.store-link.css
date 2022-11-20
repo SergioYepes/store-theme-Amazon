@@ -7,3 +7,7 @@
 .link--loginFootCont{
     font-size: 10px;
 }
+.link:hover{
+    color:rgb(2, 18, 143);
+    text-decoration: underline;
+}

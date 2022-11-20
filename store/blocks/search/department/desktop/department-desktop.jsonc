@@ -89,6 +89,8 @@
           },
           "product-summary.shelf#product-search": {
             "children": [
+              "add-to-list-btn",
+              "product-rating-inline",   
               "product-summary-image#product-search",
               "product-summary-name#product-search",
               "product-price",

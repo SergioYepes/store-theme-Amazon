@@ -130,7 +130,8 @@
         },
         "children": [
             "flex-layout.col#product-image",
-             "flex-layout.col#right-col"]
+             "flex-layout.col#right-col"
+            ]
       },
       "flex-layout.col#product-image": {
         "props": {

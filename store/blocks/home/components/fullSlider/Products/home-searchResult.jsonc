@@ -10,8 +10,8 @@
     "search-result-layout.customQuery#home__searchResult":{
         "blocks": [
             "search-result-layout.desktop#home__searchResult",
-            "search-result-layout.mobile#home__searchResult"
-            // "search-not-found-layout"
+            "search-result-layout.mobile#home__searchResult",
+            "search-not-found-layout"
         ],
         "props":{
             "querySchema":{
@@ -44,8 +44,18 @@
     },
     "gallery":{
         "blocks":[
-            "product-summary.shelf"
+            "product-summary.shelf#home__searchResult"
         ]
+    },
+    "product-summary.shelf":{
+        "children": [
+            "add-to-list-btn",
+            "product-summary-image",
+            "product-summary-name",
+            "product-summary-space",
+            "product-summary-price",
+            "add-to-cart-button"
+          ]
     }
 
 }

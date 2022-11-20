@@ -2,5 +2,6 @@
     background-color:#4444
 }
 .element :global(.vtex-button):hover{
-    background-color:rgba(73, 219, 40);
+    background-color:#37475A;
 }
+/* #232F3E */

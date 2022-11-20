@@ -1,0 +1,85 @@
+{
+    "flex-layout.row#terminos":{
+        "children":[
+            "flex-layout.col#terminos"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "blockClass":"footerContTerminos"
+        }
+    },
+    "flex-layout.col#terminos":{
+        "children":[
+            "flex-layout.row#terminos-links",
+            "rich-text#terminos"
+        ]
+    },
+    "flex-layout.row#terminos-links":{
+        "children":[
+            "link#terminos-1",
+            "link#terminos-2",
+            "link#terminos-3",
+            "link#terminos-4",
+            "link#terminos-5"
+        ]
+    },
+// -------
+    "link#terminos-1":{
+        "children":[
+            "rich-text#terminos1"
+        ]
+    },
+    "link#terminos-2":{
+        "children":[
+            "rich-text#terminos2"
+        ]
+    },
+    "link#terminos-3":{
+        "children":[
+            "rich-text#terminos3"
+        ]
+    },
+    "link#terminos-4":{
+        "children":[
+            "rich-text#terminos4"
+        ]
+    },
+    "link#terminos-5":{
+        "children":[
+            "rich-text#terminos5"
+        ]
+    },
+// -------
+    "rich-text#terminos":{
+        "props":{
+            "text":"© 1996-2022, Amazon.com, Inc. o sus afiliados"
+        }
+    },
+    "rich-text#terminos1":{
+      "props":{
+        "text":"Condiciones de Uso y Venta"
+      }  
+    },
+    "rich-text#terminos2":{
+      "props":{
+        "text":"Aviso de privacidad"
+      }  
+    },
+    "rich-text#terminos3":{
+      "props":{
+        "text":"Área legal"
+      }  
+    },
+    "rich-text#terminos4":{
+      "props":{
+        "text":"Cookies"
+      }  
+    },
+    "rich-text#terminos5":{
+      "props":{
+        "text":"Publicidad basada en intereses"
+      }  
+    }
+
+
+}

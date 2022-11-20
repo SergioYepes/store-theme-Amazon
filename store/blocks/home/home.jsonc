@@ -12,6 +12,12 @@
       "blockClass":"Big"
     }
   },
+  "flex-layout.col#home":{
+    "children":[
+      "slider-layout#home__slider--children",
+      "flex-layout.col#home-notSlider"
+    ]
+  },
   "flex-layout.col#home-notSlider":{
     "children":[
       "flex-layout.row#home__info--first",
@@ -32,12 +38,6 @@
     "props":{
       "blockClass":"notSlider"
     }
-  },
-  "flex-layout.col#home":{
-    "children":[
-      "slider-layout#home__slider--children",
-      "flex-layout.col#home-notSlider"
-    ]
   }
-
+    
 }

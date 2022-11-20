@@ -1,0 +1,10 @@
+.link--footerBtn:hover{
+    border: 1px solid transparent;
+    text-decoration: none!important;
+}
+.link--footerBtn{
+    display: flex;
+    justify-content: center;
+    width: 100vw!important;
+    cursor: pointer;
+}

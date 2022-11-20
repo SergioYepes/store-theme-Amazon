@@ -6,10 +6,29 @@
     },
     "flex-layout.row#footerD":{
         "children":[
-            "flex-layout.row#footer--button"
+            "flex-layout.col#footerD"
         ],
         "props":{
-            "blockClass":"footerCont"
+            "blockClass":"footerContBig"
+        }
+    },
+    "flex-layout.col#footerD":{
+        "children":[
+            "flex-layout.row#footer--button",
+            "flex-layout.row#linksList",
+            "flex-layout.row#paises",
+            "flex-layout.col#footerDTerminos"
+        ]
+    },
+    "flex-layout.col#footerDTerminos":{
+        "children":[
+            "flex-layout.row#Mini-links",
+            "flex-layout.row#terminos"
+        ]
+        ,
+        "props":{
+            "colSizing":"auto",
+            "blockClass":"footerContTerminosBig"
         }
     }
 }

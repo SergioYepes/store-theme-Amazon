@@ -7,3 +7,6 @@
 .container :global(.vtex-button__label){
     padding: 0 5px
 }
+.profile{
+    max-width: 120px;
+}
