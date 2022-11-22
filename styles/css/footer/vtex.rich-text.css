@@ -1,0 +1,30 @@
+.paragraph--footerLinklist{
+    color: rgb(204, 204, 204) !important;;
+    font-weight: 0;
+    line-height:1;
+    font-size: 13px!important;
+}
+.paragraph--paisesCont{
+    color: rgb(204, 204, 204) !important;;
+    font-weight: 0!important;
+    font-size: 11px!important;
+}
+.paragraph--footerContTerminos{
+    color: rgb(204, 204, 204) !important;;
+    font-weight: 0!important;
+    font-size: 14px!important;
+}
+.paragraph--footerContMini{
+    color: rgb(204, 204, 204) !important;;
+    font-weight: 0!important;
+    font-size: 10px!important;
+}
+.container--footerContMini{
+    max-width: 60%;
+}
+.container--footerContTerminos{
+    justify-content:center
+}
+.container--paisesCont{
+    min-width: max-content;
+}

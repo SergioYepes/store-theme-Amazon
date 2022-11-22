@@ -12,7 +12,11 @@
         "children":[
             "flex-layout.row#terminos-links",
             "rich-text#terminos"
-        ]
+        ],
+        "props":{
+            "colSizing":"auto",
+            "blockClass":"footerContTerminos"
+        }
     },
     "flex-layout.row#terminos-links":{
         "children":[
@@ -21,63 +25,88 @@
             "link#terminos-3",
             "link#terminos-4",
             "link#terminos-5"
-        ]
+        ],
+        "props":{
+            "colSizing":"auto",
+            "blockClass":"footerContTerminos"
+        }
     },
 // -------
     "link#terminos-1":{
         "children":[
             "rich-text#terminos1"
-        ]
+        ],
+        "props":{
+            "blockClass":"footerContTerminos"
+        }
     },
     "link#terminos-2":{
         "children":[
             "rich-text#terminos2"
-        ]
+        ],
+        "props":{
+            "blockClass":"footerContTerminos"
+        }
     },
     "link#terminos-3":{
         "children":[
             "rich-text#terminos3"
-        ]
+        ],
+        "props":{
+            "blockClass":"footerContTerminos"
+        }
     },
     "link#terminos-4":{
         "children":[
             "rich-text#terminos4"
-        ]
+        ],
+        "props":{
+            "blockClass":"footerContTerminos"
+        }
     },
     "link#terminos-5":{
         "children":[
             "rich-text#terminos5"
-        ]
+        ],
+        "props":{
+            "blockClass":"footerContTerminos"
+        }
     },
 // -------
     "rich-text#terminos":{
         "props":{
-            "text":"© 1996-2022, Amazon.com, Inc. o sus afiliados"
+            "text":"© 1996-2022, Amazon.com, Inc. o sus afiliados",
+            "blockClass":"footerContTerminos"
         }
     },
     "rich-text#terminos1":{
       "props":{
-        "text":"Condiciones de Uso y Venta"
+        "text":"Condiciones de Uso y Venta",
+        "blockClass":"footerContTerminos"
       }  
     },
     "rich-text#terminos2":{
       "props":{
-        "text":"Aviso de privacidad"
+        "text":"Aviso de privacidad",
+        "blockClass":"footerContTerminos"
       }  
     },
     "rich-text#terminos3":{
       "props":{
-        "text":"Área legal"
+        "text":"Área legal",
+        "blockClass":"footerContTerminos"
       }  
     },
     "rich-text#terminos4":{
       "props":{
-        "text":"Cookies"
+        "text":"Cookies",
+        "blockClass":"footerContTerminos"
       }  
     },
     "rich-text#terminos5":{
       "props":{
-        "text":"Publicidad basada en intereses"
+        "text":"Publicidad basada en intereses",
+        "blockClass":"footerContTerminos"
       }  
     }
 

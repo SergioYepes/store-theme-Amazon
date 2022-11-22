@@ -1,0 +1,196 @@
+{
+    // ----------
+    "rich-text#menuLink1-one--first":{
+        "props":{
+            "text":"Trabajar en Amazon",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-one--second":{
+        "props":{
+            "text":"Sobre Amazon.es",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-one--third":{
+        "props":{
+            "text":"Sostenibilidad",
+            "blockClass":"footerLinklist"
+        }
+    },"rich-text#menuLink1-one--fourth":{
+        "props":{
+            "text":"Amazon Science",
+            "blockClass":"footerLinklist"
+        }
+    },
+    // ------------
+
+    "rich-text#menuLink1-two--first":{
+        "props":{
+            "text":"Vender en Amazon",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-two--second":{
+        "props":{
+            "text":"Vender en Amazon Business",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-two--third":{
+        "props":{
+            "text":"Vende en Amazon Handmade",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-two--fourth":{
+        "props":{
+            "text":"Vender en Amazon Launchpad",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-two--fifth":{
+        "props":{
+            "text":"Desarrolla y protege tu marca",
+            "blockClass":"footerLinklist"
+        }
+    },"rich-text#menuLink1-two--sixth":{
+        "props":{
+            "text":" Programa de afiliados",
+            "blockClass":"footerLinklist"
+        }
+    },"rich-text#menuLink1-two--seventh":{
+        "props":{
+            "text":"Logística de Amazon",
+            "blockClass":"footerLinklist"
+        }
+    },"rich-text#menuLink1-two--eighth":{
+        "props":{
+            "text":"Promociona tus productos",
+            "blockClass":"footerLinklist"
+        }
+    },"rich-text#menuLink1-two--nineth":{
+        "props":{
+            "text":"Publica tu libro en Kindle",
+            "blockClass":"footerLinklist"
+        }
+    },"rich-text#menuLink1-two--tenth":{
+        "props":{
+            "text":"Amazon Pay",
+            "blockClass":"footerLinklist"
+        }
+    },"rich-text#menuLink1-two--eleventh":{
+        "props":{
+            "text":"Alojar un Amazon Hub",
+            "blockClass":"footerLinklist"
+        }
+    } , 
+    // ------------ 
+    "rich-text#menuLink1-three--first":{
+        "props":{
+            "text":"Métodos de pago",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-three--second":{
+        "props":{
+            "text":"Conversor de divisas de Amazon",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-three--third":{
+        "props":{
+            "text":"Cheques Regalo",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-three--fourth":{
+        "props":{
+            "text":"Recarga online",
+            "blockClass":"footerLinklist"
+        }
+    } ,
+    "rich-text#menuLink1-three--fifth":{
+        "props":{
+            "text":"Recarga en tienda",
+            "blockClass":"footerLinklist"
+        }
+    },
+    
+
+    // ------------ 
+    "rich-text#menuLink1-four--first":{
+        "props":{
+            "text":"Amazon y COVID-19",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-four--second":{
+        "props":{
+            "text":"Localizar o gestionar compras",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-four--third":{
+        "props":{
+            "text":"Tarifas y políticas de envío",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-four--fourth":{
+        "props":{
+            "text":"Amazon Prime",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-four--fifth":{
+        "props":{
+            "text":"Devolver o reemplazar productos",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-four--sixth":{
+        "props":{
+            "text":"Reciclaje",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-four--seventh":{
+        "props":{
+            "text":"Gestionar contenido y dispositivos",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-four--eighth":{
+        "props":{
+            "text":"App Amazon",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-four--nineth":{
+        "props":{
+            "text":"Amazon Assistant",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-four--tenth":{
+        "props":{
+            "text":"Atención al Cliente",
+            "blockClass":"footerLinklist"
+        }
+    },
+    "rich-text#menuLink1-four--eleventh":{
+        "props":{
+            "text":"IVA sobre los bienes",
+            "blockClass":"footerLinklist"
+        }
+    } 
+
+
+
+
+
+
+
+
+}

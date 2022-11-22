@@ -19,37 +19,133 @@
     },
     "flex-layout.col#Mini2":{
         "children":[
-            "link#Mini1--one",
-            "link#Mini1--two"
+            "link#Mini2--one",
+            "link#Mini2--two"
         ]
     },
     "flex-layout.col#Mini3":{
         "children":[
-            "link#Mini1--one",
-            "link#Mini1--two"
+            "link#Mini3--one",
+            "link#Mini3--two"
         ]
     },
     "flex-layout.col#Mini4":{
         "children":[
-            "link#Mini1--one",
-            "link#Mini1--two"
+            "link#Mini4--one",
+            "link#Mini4--two"
         ]
     },
 // -------
     "link#Mini1--one":{
         "children":[
             "rich-text#Mini1--one"
-        ]
+        ],
+        "props":{
+            "blockClass":"footerContMini"
+        }
     },
     "link#Mini1--two":{
         "children":[
-            "rich-text#Mini1--one"
-        ]
+            "rich-text#Mini1--two"
+        ],
+        "props":{
+            "blockClass":"footerContMini"
+        }
+    },
+    "link#Mini2--one":{
+        "children":[
+            "rich-text#Mini2--one"
+        ],
+        "props":{
+            "blockClass":"footerContMini"
+        }
+    },
+    "link#Mini2--two":{
+        "children":[
+            "rich-text#Mini2--two"
+        ],
+        "props":{
+            "blockClass":"footerContMini"
+        }
+    },
+    "link#Mini3--one":{
+        "children":[
+            "rich-text#Mini3--one"
+        ],
+        "props":{
+            "blockClass":"footerContMini"
+        }
+    },
+    "link#Mini3--two":{
+        "children":[
+            "rich-text#Mini3--two"
+        ],
+        "props":{
+            "blockClass":"footerContMini"
+        }
+    },
+    "link#Mini4--one":{
+        "children":[
+            "rich-text#Mini4--one"
+        ],
+        "props":{
+            "blockClass":"footerContMini"
+        }
+    },
+    "link#Mini4--two":{
+        "children":[
+            "rich-text#Mini4--two"
+        ],
+        "props":{
+            "blockClass":"footerContMini"
+        }
     },
 // -------
     "rich-text#Mini1--one":{
         "props":{
-            "text":"Productos Reacondicionados \nPrecios bajos en productos revisados por Amazon"
+            "text":"Amazon Music\nTransmite millones de canciones",
+            "blockClass":"footerContMini"
+        }
+    },
+    "rich-text#Mini1--two":{
+        "props":{
+            "text":"Productos Reacondicionados \nPrecios bajos en productos revisados por Amazon",
+            "blockClass":"footerContMini"
+        }
+    },
+    "rich-text#Mini2--one":{
+        "props":{
+            "text":"IberLibro\nLibros, arte & artículos de colección",
+            "blockClass":"footerContMini"
+        }
+    },
+    "rich-text#Mini2--two":{
+        "props":{
+            "text":"Shopbop\nMarcas de moda de diseño",
+            "blockClass":"footerContMini"
+        }
+    },
+    "rich-text#Mini3--one":{
+        "props":{
+            "text":"Amazon Web Services\n Servicios Cloud Computing de Amazon",
+            "blockClass":"footerContMini"
+        }
+    },
+    "rich-text#Mini3--two":{
+        "props":{
+            "text":"Amazon Business \nServicio para clientes de empresa",
+            "blockClass":"footerContMini"
+        }
+    },"rich-text#Mini4--one":{
+        "props":{
+            "text":"Book Depository\n Libros con entrega gratis en todo el mundo",
+            "blockClass":"footerContMini"
+        }
+    },
+    "rich-text#Mini4--two":{
+        "props":{
+            "text":"Audible\n Disfruta de miles de audiolibros y podcasts originales",
+            "blockClass":"footerContMini"
         }
     }
 }

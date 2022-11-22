@@ -8,9 +8,9 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "flex-layout.row#product-main",
-      "shelf.relatedProducts",
-      "product-reviews"
+      "flex-layout.row#product-main--productD",
+      "flex-layout.row#product-tabs",
+      "flex-layout.row#product-comments"
     ]
   }
   

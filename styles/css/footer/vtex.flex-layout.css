@@ -10,10 +10,29 @@
     justify-content: center;
     background-color: #232F3E;
 }
+.flexRow--paisesCont{
+    border-top: .5px solid #ddd;
+}
+.flexRowContent--paisesCont{
+    justify-content: space-evenly;
+    align-items: center;
+}
 .flexRowContent--footerCont{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.flexRowContent--footerLinklist{
+    align-items: flex-start!important;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+.flexRowContent--footerContMini{
+    justify-content:space-evenly;
+}
+.flexRowContent--footerContTerminos{
+    padding-top: 20px;
+    justify-content:center;
 }
 
 
@@ -23,4 +42,16 @@
     background-color:#131A22;
     padding: 30px 0;
     margin: 30px 0 0;
+}
+.flexCol--paisesContAfter{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    justify-content:center;
+    align-items:center
+}
+.flexCol--Linklist1Cont{
+    max-width: 163px;
+}
+.flexCol--Linklist1ContBig{
+    max-width: 170px;
 }

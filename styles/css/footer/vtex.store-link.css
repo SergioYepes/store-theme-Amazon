@@ -8,3 +8,19 @@
     width: 100vw!important;
     cursor: pointer;
 }
+.link--paisesCont:hover{
+    text-decoration:white underline!important;
+    text-decoration-thickness: 3px;
+}
+.link--footerLinklist:hover{
+    text-decoration:white underline!important;
+    text-decoration-thickness: 3px;
+}   
+.link--footerContTerminos:hover{
+    text-decoration:white underline!important;
+    text-decoration-thickness: 3px;
+} 
+.link--footerContMini:hover{
+    text-decoration:white underline!important;
+    text-decoration-thickness: 3px;
+} 

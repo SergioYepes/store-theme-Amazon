@@ -4,6 +4,7 @@
             "flex-layout.col#paises"
         ],
         "props":{
+            "blockClass":"paisesCont",
             "colSizing":"auto"
         }
     },
@@ -11,7 +12,10 @@
         "children":[
             "logo",
             "flex-layout.row#paisesBtns"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesContAfter"
+        }
     },
     "flex-layout.row#paisesBtns":{
         "children":[
@@ -32,178 +36,249 @@
             "link#paisesBtns--ReinoUnido",
             "link#paisesBtns--Singapur",
             "link#paisesBtns--Turquia"
-        ]
+        ],
+        "props":{
+            "colSizing":"auto"
+        }
     },
 //-------
     "link#paisesBtns--Australia":{
         "children":[
             "rich-text#Australia"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--Alemania":{
         "children":[
             "rich-text#Alemania"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--Brasil":{
         "children":[
             "rich-text#Brasil"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--Canada":{
         "children":[
             "rich-text#Canada"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--China":{
         "children":[
             "rich-text#China"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--EstadosUnidos":{
         "children":[
             "rich-text#EstadosUnidos"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--Francia":{
         "children":[
             "rich-text#Francia"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--India":{
         "children":[
             "rich-text#India"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--Italia":{
         "children":[
             "rich-text#Italia"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--Japon":{
         "children":[
             "rich-text#Japon"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--Mexico":{
         "children":[
             "rich-text#Mexico"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--PaisesBajos":{
         "children":[
             "rich-text#PaisesBajos"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--Polonia":{
         "children":[
             "rich-text#Polonia"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--EmiratosArabes":{
         "children":[
             "rich-text#EmiratosArabes"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--ReinoUnido":{
         "children":[
             "rich-text#ReinoUnido"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--Singapur":{
         "children":[
             "rich-text#Singapur"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
     "link#paisesBtns--Turquia":{
         "children":[
             "rich-text#Turquia"
-        ]
+        ],
+        "props":{
+            "blockClass":"paisesCont"
+        }
     },
 // -------
     "rich-text#Australia":{
         "props":{
-            "text":"Australia"
+            "text":"Australia",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#Alemania":{
         "props":{
-            "text":"Alemania"
+            "text":"Alemania",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#Brasil":{
         "props":{
-            "text":"Brasil"
+            "text":"Brasil",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#Canada":{
         "props":{
-            "text":"Canadá"
+            "text":"Canadá",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#China":{
         "props":{
-            "text":"China"
+            "text":"China",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#EstadosUnidos":{
         "props":{
-            "text":"Estados Unidos"
+            "text":"Estados Unidos",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#Francia":{
         "props":{
-            "text":"Francia"
+            "text":"Francia",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#India":{
         "props":{
-            "text":"India"
+            "text":"India",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#Italia":{
         "props":{
-            "text":"Italia"
+            "text":"Italia",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#Japon":{
         "props":{
-            "text":"Japón"
+            "text":"Japón",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#Mexico":{
         "props":{
-            "text":"México"
+            "text":"México",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#PaisesBajos":{
         "props":{
-            "text":"PaísesBajos"
+            "text":"PaísesBajos",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#Polonia":{
         "props":{
-            "text":"Polonia"
+            "text":"Polonia",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#EmiratosArabes":{
         "props":{
-            "text":"Emiratos Árabes Unidos"
+            "text":"Emiratos Árabes Unidos",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#ReinoUnido":{
         "props":{
-            "text":"ReinoUnido"
+            "text":"ReinoUnido",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#Singapur":{
         "props":{
-            "text":"Singapur"
+            "text":"Singapur",
+            "blockClass":"paisesCont"
         }
     },
     "rich-text#Turquia":{
         "props":{
-            "text":"Turquía"
+            "text":"Turquía",
+            "blockClass":"paisesCont"
         }
     }
 
