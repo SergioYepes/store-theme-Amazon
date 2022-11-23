@@ -3,7 +3,8 @@
     "flex-layout.row#about-us": {
       "children": [
         "image#about-us",
-        "flex-layout.col#text-about-us"
+        "flex-layout.col#text-about-us",
+        "info-card"
       ]
     },
     "flex-layout.col#text-about-us": {
@@ -31,6 +32,20 @@
       "props": {
         "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
         "maxHeight": "600px"
+      }
+    },
+    "info-card": {
+      "props": {
+        "id": "info-card-example",
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+        "headline": "Clearance Sale",
+        "subhead":"Beneficent sales",
+        "callToActionText": "DISCOVER",
+        "callToActionUrl": "/",
+        "blockClass": "info-card-example",
+        "textAlignment": "center"
       }
     }
    }

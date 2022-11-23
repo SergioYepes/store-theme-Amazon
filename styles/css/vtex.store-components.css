@@ -7,8 +7,14 @@
 .searchBarInnerContainer--bar :global(.vtex-input-prefix__group){
     height:50px
 }
+.searchBarInnerContainer--barMobile{
+    min-width: 100%;
+}
 
 .searchBarIcon--bar--external-search{
+    background-color: #febd69 
+}
+.searchBarIcon--barMobile--external-search{
     background-color: #febd69 
 }
 

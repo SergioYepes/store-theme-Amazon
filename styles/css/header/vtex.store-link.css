@@ -5,3 +5,42 @@
     margin-left: 2px;
     margin-right: 2px;
 }
+.buttonLink--logo__mobile:hover{
+    border-color: #0000;
+    text-decoration: none !important;
+}
+
+.label--login__mobile{
+    padding: 0;
+    color: aliceblue !important;;
+    text-transform: capitalize;
+    text-decoration: none !important;
+}
+.label--mobile__Cell2{
+    padding: 0;
+    color: aliceblue !important;;
+    text-transform: capitalize;
+    text-decoration: none !important;
+}
+.link--mobile__Cell3{
+    background-color:#37475A;
+    margin: -2px;;
+    border-radius: 0;
+    min-width: 100%;
+    color: aliceblue !important;;
+    text-transform: capitalize;
+    text-decoration: none !important;
+}
+.link--mobile__Cell3:hover{
+    background-color:#37475A;
+    border-color: #0000;
+    text-decoration: none !important;
+}
+.link--login__mobile:hover{
+    border-color: #0000;
+    text-decoration: none !important;
+}
+.link--mobile__Cell2:hover{
+    border-color: #0000;
+    text-decoration: none !important;
+}

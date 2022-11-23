@@ -1,0 +1,98 @@
+{
+    "flex-layout.row#mobile__Cell1": {
+        "children": [
+          "responsive-layout.mobile#logo__mobile--cont",
+          "flex-layout.row#login__mobile--cont"
+        ],
+        "props": {
+          "colSizing": "auto",
+          "blockClass": "main-header-mobile",
+          "preventHorizontalStretch": true,
+          "preserveLayoutOnMobile": true,
+          "fullWidth": true
+        }
+      },
+      "drawer#header__mobile--menu": {
+        "children": [
+          "flex-layout.row#login__mobile--cont",
+          "menu#header__mobile"
+        ],
+        "blocks":[
+            "drawer-trigger"
+        ]
+      },
+      "drawer-trigger":{
+        "children": [
+            "logo#hamburgerMenu"
+        ]
+      },
+      "rich-text#prueba":{
+        "props":{
+            "text":"fokiuuuun"
+        }
+      },
+      // ------- logo
+      "responsive-layout.mobile#logo__mobile--cont": {
+        "props": {
+          "blockClass":"logo-row"
+        },
+        "children": [
+          "drawer#header__mobile--menu",
+          "link#logo__mobile"
+        ]
+      },
+      "link#logo__mobile":{
+        "children":[
+          "flex-layout.row#logo__mobile"
+        ],
+        "props":{
+          "href":"/",
+          "displayMode":"button",
+          "blockClass":"logo__mobile"
+        }
+      },
+
+      "flex-layout.row#logo__mobile":{
+        "children":[
+          "logo#header__mobile",
+          "rich-text#.es"
+        ],
+        "props":{
+          "blockClass":"ez",
+          "colSizing":"auto"
+        }
+      },
+      "logo#header__mobile":{
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "assets/svg/amazon_logo.svg",
+          "width": "80"
+        }
+      },
+      // ------- login
+      "flex-layout.row#login__mobile--cont":{
+        "children":[
+          "link#login__mobile",
+          "login#login__mobile",
+          "minicart.v2"
+        ],
+        "props":{
+          "blockClass":"login__mobile",
+          "colSizing": "auto"
+        }
+      },
+      "link#login__mobile":{
+        "props":{
+          "href":"/login",
+          "label":"Identifícate >",
+          "displayMode":"button",
+          "blockClass":"login__mobile"
+        }
+      },
+      "login#login__mobile":{
+        "props":{
+            "showIconProfile":true
+        }
+      }
+}

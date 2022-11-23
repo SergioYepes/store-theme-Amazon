@@ -25,10 +25,10 @@
     padding-left: 15px;
 }
 .paragraph--recomendaciones{
-    color: black;
-    font-size:14px
+    color: black!important;
+    font-size:14px!important
 }
 .paragraph--nuevo{
-    color: black;
-    font-size:10px
+    color: black!important;
+    font-size:10px!important
 }

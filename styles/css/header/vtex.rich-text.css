@@ -40,6 +40,9 @@
 .paragraph--Departamentos:hover{
     color: #000;
 }
+.paragraph--mobile__Cell2{
+    min-width:max-content
+}
 .container--ez{
     justify-content: center;
 }

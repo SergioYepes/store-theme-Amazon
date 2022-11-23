@@ -1,8 +1,15 @@
 .flexRow--main-header-mobile{
-    background-color:black
+    background-color:#232f3e;
+    font-size: 12px;
+    line-height: 1em;
 }
 .flexRow--barContainer{
     width: 500px 
+}
+.flexRow--barContainerMobile{
+    background-color:#232f3e;
+    padding: 0 5px;
+    padding-bottom: 3px;
 }
 .flexRow--icon{
     width:20px !important
@@ -24,18 +31,38 @@
 .flexRow--desktop2{
     min-width: 100%;
 }
+.flexRow--mobile__Cell2{
+    background-color:#232f3e;
+}
 .flexRow--spacer{
     width: auto;
 }
+.flexRow--cart{
+    width:93%
+}
+.flexRow--login__mobile{
+    justify-content:flex-end
+}
+.flexRow--login__mobile :global(.vtex-button):hover{
+    border-color: #0000!important;
+    text-decoration: none !important;
+}
+.flexRow--mobile__Cell3{
+    justify-content: space-evenly;
+    min-width: 150px;
+}
+
+
+
+
+
 .flexCol--envios{
     width: min-content;
 }
 .flexCol--locate{
     align-items: center;
 }
-.flexRow--cart{
-    width:93%
-}
+
 /* .stretchChildrenWidth.flex{
     width: auto;
 } */

@@ -1,0 +1,35 @@
+{
+    "link#mobile__Cell3" :{
+        "children":[
+            "flex-layout.row#mobile__Cell3"   
+        ],
+        "props":{
+            "displayMode":"button",
+            "blockClass":"mobile__Cell3"
+        }
+    },
+    "flex-layout.row#mobile__Cell3":{
+        "children":[
+            "logo#mobile__Cell3",
+            "rich-text#EnviarAColombia"
+        ],
+        "props":{
+            "colSizing": "auto",
+            "blockClass":"mobile__Cell3"
+        }
+    },
+    "logo#mobile__Cell3":{
+        "props": {
+            "title": "Logo",
+            "href": "/",
+            "url": "assets/svg/puntero2.svg",
+            "width": "20"
+          }
+    },
+    "rich-text#EnviarAColombia":{
+        "props":{
+            "text":"Enviar A Colombia",
+            "blockClass":"mobile__Cell3"
+        }
+    }
+}

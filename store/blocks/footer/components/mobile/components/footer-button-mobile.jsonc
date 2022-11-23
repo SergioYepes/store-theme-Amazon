@@ -1,7 +1,7 @@
 {
-    "flex-layout.row#footer--button": { 
+    "flex-layout.row#footer--mobile__button": { 
         "children": [
-            "link#backHome"
+            "link#backHome__mobile"
         ],
         "props":{
             "fullWidth":true,
@@ -9,8 +9,9 @@
             "colSizing":"auto"
         }
     },
-    "link#backHome":{
+    "link#backHome__mobile":{
         "children":[
+            "rich-text#flechaArriba",
             "rich-text#volver"
         ],
         "props":{
@@ -19,9 +20,11 @@
             "scrollTo":"#header"
         }
     },
-    "rich-text#volver":{
+    "rich-text#flechaArriba":{
         "props":{
-            "text":"volver a arriba"
+            "text":"▲",
+            "textPosition": "CENTER"
+
         }
     }
 }
