@@ -159,7 +159,8 @@
             ],
             "props":{
                 "href":"#",
-                "displayMode":"button"
+                "displayMode":"button",
+                "blockClass":"drawerButton"
             }
         },
         "link#header-sticky2--two":{
@@ -168,7 +169,8 @@
             ],
             "props":{
                 "href":"#",
-                "displayMode":"button"
+                "displayMode":"button",
+                "blockClass":"drawerButton"
             }
         },
         "link#header-sticky2--three":{
@@ -177,7 +179,8 @@
             ],
             "props":{
                 "href":"#",
-                "displayMode":"button"
+                "displayMode":"button",
+                "blockClass":"drawerButton"
             }
         },
         "link#header-sticky2--four":{
@@ -186,7 +189,8 @@
             ],
             "props":{
                 "href":"#",
-                "displayMode":"button"
+                "displayMode":"button",
+                "blockClass":"drawerButton"
             }
         },
         "link#header-sticky2--five":{
@@ -195,7 +199,8 @@
             ],
             "props":{
                 "href":"#",
-                "displayMode":"button"
+                "displayMode":"button",
+                "blockClass":"drawerButton"
             }
         },
         "link#header-sticky2--six":{
@@ -204,7 +209,8 @@
             ],
             "props":{
                 "href":"#",
-                "displayMode":"button"
+                "displayMode":"button",
+                "blockClass":"drawerButton"
             }
         },
         "link#header-sticky2--seven":{
@@ -213,7 +219,8 @@
             ],
             "props":{
                 "href":"#",
-                "displayMode":"button"
+                "displayMode":"button",
+                "blockClass":"drawerButton"
             }
         },
         "link#header-sticky2--eigth":{
@@ -222,7 +229,8 @@
             ],
             "props":{
                 "href":"#",
-                "displayMode":"button"
+                "displayMode":"button",
+                "blockClass":"drawerButton"
             }
         },
         "link#header-sticky2--nine":{
@@ -231,7 +239,8 @@
             ],
             "props":{
                 "href":"#",
-                "displayMode":"button"
+                "displayMode":"button",
+                "blockClass":"drawerButton"
             }
         },
         "link#header-sticky2--ten":{
@@ -240,7 +249,8 @@
             ],
             "props":{
                 "href":"#",
-                "displayMode":"button"
+                "displayMode":"button",
+                "blockClass":"drawerButton"
             }
         },
         "link#header-sticky2--eleven":{
@@ -249,7 +259,8 @@
         ],
             "props":{
                 "href":"#",
-                "displayMode":"button"
+                "displayMode":"button",
+                "blockClass":"drawerButton"
             }
         },
         "link#header-sticky2--twelve":{
@@ -258,7 +269,8 @@
         ],
             "props":{
                 "href":"#",
-                "displayMode":"button"
+                "displayMode":"button",
+                "blockClass":"drawerButton"
             }
         }
 }

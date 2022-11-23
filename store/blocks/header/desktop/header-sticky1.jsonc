@@ -170,7 +170,8 @@
         ],
         "props":{
           "href":"/",
-          "displayMode":"button"
+          "displayMode":"button",
+          "blockClass":"drawerButton"
         }
       },
       "link#cundina": {
@@ -187,7 +188,8 @@
         ],
         "props":{
           "href":"#",
-          "displayMode":"button"
+          "displayMode":"button",
+          "blockClass":"drawerButton"
         }
       },
       "link#spacer":{
@@ -196,7 +198,8 @@
         ],
         "props":{
           "href":"/Enviar",
-          "displayMode":"button"
+          "displayMode":"button",
+          "blockClass":"drawerButton"
         }
       },
       "link#locateMenu":{
@@ -206,7 +209,8 @@
         ],
         "props":{
             "href":"/locate",
-            "displayMode":"button"
+            "displayMode":"button",
+            "blockClass":"drawerButton"
         }
       },
       "link#cart":{
@@ -214,7 +218,8 @@
           "flex-layout.row#cart"
         ],
         "props":{
-          "displayMode":"button"
+          "displayMode":"button",
+          "blockClass":"drawerButton"
           // "href":"checkout/#/cart"
         }
       },
