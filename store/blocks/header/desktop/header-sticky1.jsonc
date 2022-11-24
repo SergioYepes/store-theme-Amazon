@@ -121,12 +121,11 @@
       },
       
       "search-bar":{
-        "blocks":[
-           "autocomplete-result-list.v2"
-        ],
+        "blocks":["autocomplete-result-list.v2"],
 
         "props":{
           "blockClass":"bar",
+          "placeholder": "¿Qué estás buscando?",
           "displayMode":"search-and-clear-buttons",
           "openAutocompleteOnFocus":true,
           "blurOnSubmit":true
