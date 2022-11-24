@@ -23,4 +23,12 @@
 .link--footerContMini:hover{
     text-decoration:white underline!important;
     text-decoration-thickness: 3px;
+}
+.link--login__mobile:hover{
+    border-color: #0000;
+    text-decoration: none !important;
+}
+.link--linksListMobile:hover{
+    border-color: #0000;
+    text-decoration: none !important;
 } 

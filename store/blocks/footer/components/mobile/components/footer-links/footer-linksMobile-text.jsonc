@@ -1,0 +1,75 @@
+{
+    //------first row
+    
+    "rich-text#miAmazon":{
+        "props":{
+            "text":"Mi Amazon.es"
+        }
+    },
+    "rich-text#pedidos":{
+        "props":{
+            "text":"Tus pedidos"
+        }
+    },
+    "rich-text#deseos":{
+        "props":{
+            "text":"Buscar una lista de deseos"
+        }
+    },
+    "rich-text#reciente":{
+        "props":{
+            "text":"Productos vistos recientemente"
+        }
+    },
+    "rich-text#vender":{
+        "props":{
+            "text":"Vender en Amazon Business"
+        }
+    },
+    "rich-text#configuracion":{
+        "props":{
+            "text":"Configuración 1-Clic"
+        }
+    },
+    "rich-text#atencionAlCliente":{
+        "props":{
+            "text":"Atención al cliente"
+        }
+    },
+    //------second row
+    "rich-text#descárgate":{
+        "props":{
+            "text":"Descárgate la aplicación de Amazon"
+        }
+    },
+    "rich-text#listaDeseos":{
+        "props":{
+            "text":"Lista de deseos"
+        }
+    },
+    "rich-text#miCuenta":{
+        "props":{
+            "text":"Mi cuenta"
+        }
+    },
+    "rich-text#venderAmazon":{
+        "props":{
+            "text":"Vender en Amazon"
+        }
+    },
+    "rich-text#refunds":{
+        "props":{
+            "text":"Devoluciones"
+        }
+    },
+    "rich-text#reciclaje":{
+        "props":{
+            "text":"Reciclaje"
+        }
+    },
+    "rich-text#escritorio":{
+        "props":{
+            "text":"Ir a la versión de escritorio"
+        }
+    }
+}

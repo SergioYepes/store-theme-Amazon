@@ -1,0 +1,34 @@
+{
+    "flex-layout.row#linksListMobile":{
+        "children":[
+            "flex-layout.col#linksListMobile__one",
+            "flex-layout.col#linksListMobile__two"
+        ],
+        "props":{
+            "blockClass":"linksListMobile"
+        }
+    },
+    "flex-layout.col#linksListMobile__one":{
+        "children":[
+            "link#linksListMobile__one--first",
+            "link#linksListMobile__one--second",
+            "link#linksListMobile__one--third",
+            "link#linksListMobile__one--fourth",
+            "link#linksListMobile__one--fifth",
+            "link#linksListMobile__one--sixth",
+            "link#linksListMobile__one--eighth"
+        ]
+    },
+    "flex-layout.col#linksListMobile__two":{
+        "children":[
+            "link#linksListMobile__two--first",
+            "link#linksListMobile__two--second",
+            "link#linksListMobile__two--third",
+            "link#linksListMobile__two--fourth",
+            "link#linksListMobile__two--fifth",
+            "link#linksListMobile__two--sixth",
+            "link#linksListMobile__two--eighth"
+        ]
+    }
+    
+}
