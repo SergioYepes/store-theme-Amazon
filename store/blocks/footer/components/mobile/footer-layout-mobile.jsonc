@@ -6,11 +6,17 @@
     },
   "flex-layout.row#footer": { 
         "children": [
-            "flex-layout.row#footer--mobile__button"
-            ],
+            "flex-layout.col#footer"
+        ],
             "props":{
                 "blockClass":"footerMobileCont"
             }
-        
+            
+        },
+    "flex-layout.col#footer":{
+        "children":[
+            "flex-layout.row#footer--mobile__button",
+            "flex-layout.row#linksListMobile"
+        ]
     }
 }

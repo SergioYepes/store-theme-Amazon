@@ -32,6 +32,9 @@
     text-transform: capitalize;
     text-decoration: none !important;
 }
+.link--login__mobile{
+    padding: 0
+}
 .link--mobile__Cell3:hover{
     background-color:#37475A;
     border-color: #0000;
