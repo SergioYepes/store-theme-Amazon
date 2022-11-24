@@ -1,11 +1,11 @@
 {
     "flex-layout.row#footerTerminosMobile":{
         "children":[
-            "flex-layout.col#terminos"
+            "flex-layout.col#footerTerminosMobile"
         ],
         "props":{
-            "paddingBottom":3,
-            "horizontalAlign":"center",
+            "paddingBottom":5,
+            
             "blockClass":"footerTerminosMobile"
         }
     },
@@ -15,7 +15,10 @@
             "rich-text#terminosMobile"
         ],
         "props":{
-            "preserveLayoutOnMobile":true,
+            "horizontalAlign":"center",
+            "colJustify":"around",
+            "preventHorizontalStretch":false,
+            "preventVerticalStretch":false,
             "blockClass":"footerTerminosMobile"
         }
     },
@@ -28,8 +31,7 @@
             "link#terminos-5"
         ],
         "props":{
-            "preserveLayoutOnMobile":true,
-            "blockClass":"footerTerminosMobile"
+            "blockClass":"footerTerminosMobileLinks"
         }
     },
 // -------

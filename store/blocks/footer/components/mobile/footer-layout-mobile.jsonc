@@ -1,13 +1,8 @@
 {
     "footer-layout.mobile": { 
         "children": [
-            "responsive-layout.mobile#footer"
-            ]
-    },
-    "responsive-layout.mobile#footer":{
-        "children":[
             "flex-layout.row#footerMobile"
-        ]
+            ]
     },
   "flex-layout.row#footerMobile": { 
         "children": [
