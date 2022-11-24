@@ -32,6 +32,7 @@
     min-width: 100%;
 }
 .flexRow--mobile__Cell2{
+    overflow-x:scroll;
     background-color:#232f3e;
 }
 .flexRow--spacer{

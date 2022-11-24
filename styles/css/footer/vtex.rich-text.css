@@ -19,6 +19,16 @@
     font-weight: 0!important;
     font-size: 10px!important;
 }
+.paragraph--linkLoginMobile{
+    color: #ffff !important;;
+    font-weight: 0!important;
+    font-size: 16px!important;
+}
+.paragraph--footerTerminosMobile{
+    color: #cccccc !important;
+    font-size: 11px!important;
+}
+
 .container--footerContMini{
     max-width: 60%;
 }

@@ -58,6 +58,7 @@
 
 
 
+
 /* mobile */
 .flexRow--footerMobileCont{
     display: flex;
@@ -65,3 +66,19 @@
     justify-content: center;
     width: 100vw!important
 }
+.flexRow--language{
+    background-color:#0D141E
+}
+.flexRow--linkLoginMobile{
+    background-color:#0D141E
+}
+.flexRow--footerTerminosMobile{
+    padding-left: 10px;
+    background-color:#0D141E
+}
+
+
+.flexCol--linksListMobile{
+    padding-left: 20px;
+}   
+

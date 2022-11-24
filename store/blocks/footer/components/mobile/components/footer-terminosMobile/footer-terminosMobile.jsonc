@@ -1,0 +1,117 @@
+{
+    "flex-layout.row#footerTerminosMobile":{
+        "children":[
+            "flex-layout.col#footerTerminosMobile"
+        ],
+        "props":{
+            "paddingBottom":5,
+            
+            "blockClass":"footerTerminosMobile"
+        }
+    },
+    "flex-layout.col#footerTerminosMobile":{
+        "children":[
+            "flex-layout.row#footerTerminosMobile-links",
+            "rich-text#terminosMobile"
+        ],
+        "props":{
+            "horizontalAlign":"center",
+            "colJustify":"around",
+            "preventHorizontalStretch":false,
+            "preventVerticalStretch":false,
+            "blockClass":"footerTerminosMobile"
+        }
+    },
+    "flex-layout.row#footerTerminosMobile-links":{
+        "children":[
+            "link#terminos-1",
+            "link#terminos-2",
+            "link#terminos-3",
+            "link#terminos-4",
+            "link#terminos-5"
+        ],
+        "props":{
+            "blockClass":"footerTerminosMobileLinks"
+        }
+    },
+// -------
+    "link#terminos-1":{
+        "children":[
+            "rich-text#terminos1mobile"
+        ],
+        "props":{
+            "blockClass":"footerTerminosMobile"
+        }
+    },
+    "link#terminos-2":{
+        "children":[
+            "rich-text#terminos2mobile"
+        ],
+        "props":{
+            "blockClass":"footerTerminosMobile"
+        }
+    },
+    "link#terminos-3":{
+        "children":[
+            "rich-text#terminos3mobile"
+        ],
+        "props":{
+            "blockClass":"footerTerminosMobile"
+        }
+    },
+    "link#terminos-4":{
+        "children":[
+            "rich-text#terminos4mobile"
+        ],
+        "props":{
+            "blockClass":"footerTerminosMobile"
+        }
+    },
+    "link#terminos-5":{
+        "children":[
+            "rich-text#terminos5mobile"
+        ],
+        "props":{
+            "blockClass":"footerTerminosMobile"
+        }
+    },
+// -------
+    "rich-text#terminosMobile":{
+        "props":{
+            "text":"© 1996-2022, Amazon.com, Inc. o sus afiliados",
+            "blockClass":"footerTerminosMobile"
+        }
+    },
+    "rich-text#terminos1mobile":{
+      "props":{
+        "text":"Condiciones de Uso y Venta",
+        "textPosition": "center",
+        "blockClass":"footerTerminosMobile"
+      }  
+    },
+    "rich-text#terminos2mobile":{
+      "props":{
+        "text":"Aviso de privacidad",
+        "blockClass":"footerTerminosMobile"
+      }  
+    },
+    "rich-text#terminos3mobile":{
+      "props":{
+        "text":"Área legal",
+        "blockClass":"footerTerminosMobile"
+      }  
+    },
+    "rich-text#terminos4mobile":{
+      "props":{
+        "text":"Cookies",
+        "blockClass":"footerTerminosMobile"
+      }  
+    },
+    "rich-text#terminos5mobile":{
+      "props":{
+        "text":"Publicidad basada en intereses",
+        "blockClass":"footerTerminosMobile"
+      }  
+    }
+
+}
