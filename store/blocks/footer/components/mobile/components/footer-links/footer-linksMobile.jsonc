@@ -17,7 +17,9 @@
             "link#linksListMobile__one--fifth",
             "link#linksListMobile__one--sixth",
             "link#linksListMobile__one--eighth"
-        ]
+        ], "props":{
+            "blockClass":"linksListMobile"
+        }
     },
     "flex-layout.col#linksListMobile__two":{
         "children":[

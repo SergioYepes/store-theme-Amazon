@@ -1,23 +1,30 @@
 {
     "footer-layout.mobile": { 
         "children": [
-            "flex-layout.row#footer"
+            "responsive-layout.mobile#footer"
             ]
     },
-  "flex-layout.row#footer": { 
+    "responsive-layout.mobile#footer":{
+        "children":[
+            "flex-layout.row#footerMobile"
+        ]
+    },
+  "flex-layout.row#footerMobile": { 
         "children": [
-            "flex-layout.col#footer"
+            "flex-layout.col#footerMobile"
         ],
             "props":{
                 "blockClass":"footerMobileCont"
             }
             
         },
-    "flex-layout.col#footer":{
+    "flex-layout.col#footerMobile":{
         "children":[
             "flex-layout.row#footer--mobile__button",
             "flex-layout.row#linksListMobile",
-            "flex-layout.row#language"
+            "flex-layout.row#language",
+            "flex-layout.row#linkLoginMobile",
+            "flex-layout.row#footerTerminosMobile"
         ]
     }
 }
