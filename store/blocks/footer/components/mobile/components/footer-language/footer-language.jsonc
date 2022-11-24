@@ -1,0 +1,99 @@
+{
+    "flex-layout.row#language":{
+        "children":[
+            "flex-layout.row#dialectCont",
+            "flex-layout.row#countryCont"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "paddingTop":"7",
+            "paddingBottom":"7",
+            "horizontalAlign":"center",
+            "preserveLayoutOnMobile":true,
+            "colGap":"4",
+            "blockClass":"language"
+        }
+    },
+    
+    "flex-layout.row#dialectCont":{
+        "children":[
+            "link#dialect"
+        ]
+    },
+    "flex-layout.row#countryCont":{
+        "children":[
+            "link#country"
+        ]
+    },
+    "flex-layout.row#dialect":{
+        "children":[
+            "logo#dialect",
+            "rich-text#dialect"
+        ],
+         "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"center",
+            "preserveLayoutOnMobile":true,
+            "colGap":"1"
+        }
+    },
+    "flex-layout.row#country":{
+        "children":[
+            "logo#españaMobile",
+            "rich-text#country"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"center",
+            "preserveLayoutOnMobile":true,
+            "colGap":"1"
+        }
+    },
+
+    //----link
+    "link#dialect":{
+        "children":[
+            "flex-layout.row#dialect"
+        ],
+        "props":{
+            "blockClass":"dialect"
+        }
+    },
+    "link#country":{
+        "children":[
+            "flex-layout.row#country"  
+        ],
+        "props":{
+            "blockClass":"dialect"
+        }
+    },
+
+    //----logos
+    "logo#dialect":{
+        "props":{
+            "url": "assets/svg/globo.svg",
+            "width":"20"
+        }
+    },
+    "logo#españaMobile":{
+        "props":{
+            "href": "#",
+            "url": "assets/svg/bandera-de-espana.png",
+            "width": "20"  
+        }
+      },
+
+    //---- text
+
+    "rich-text#dialect":{
+        "props":{
+             "text":"Castellano"        
+        }
+    },
+    "rich-text#country":{
+        "props":{
+             "text":"España"        
+        }
+    }
+    
+}

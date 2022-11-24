@@ -16,7 +16,8 @@
     "flex-layout.col#footer":{
         "children":[
             "flex-layout.row#footer--mobile__button",
-            "flex-layout.row#linksListMobile"
+            "flex-layout.row#linksListMobile",
+            "flex-layout.row#language"
         ]
     }
 }
