@@ -1,7 +1,8 @@
 {
   "store.home": { 
     "blocks": [
-      "flex-layout.row#home"
+      "flex-layout.row#home",
+      "responsive-layout.mobile"
     ]
   },
   "flex-layout.row#home":{

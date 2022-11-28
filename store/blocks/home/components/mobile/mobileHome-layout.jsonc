@@ -1,0 +1,13 @@
+{
+    "responsive-layout.mobile":{
+        "children":[
+            "whatsapp-button"
+        ]
+    },
+  "whatsapp-button":{
+    "props":{
+      "message":"gracias por contactarte con Amazón",
+      "phone":"9903334444"
+    }
+  }
+}
