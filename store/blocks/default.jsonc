@@ -34,7 +34,7 @@
       "modal-trigger#global__quick-view"
     ]
   },
-  "modal-trigger#global__quick-view": {
+   "modal-trigger#global__quick-view": {
     "children": [
       "rich-text#global__quick-view--trigger",
       "modal-layout#global__quick-view--modal"
@@ -42,8 +42,7 @@
   },
   "rich-text#global__quick-view--trigger": {
     "props": {
-      "text": "Vista rapida",
-      "blockClass": "quick-view__trigger"
+      "text": "Vista rapida"
     }
   },
   "modal-layout#global__quick-view--modal": {
