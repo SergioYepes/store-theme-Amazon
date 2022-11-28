@@ -1,0 +1,15 @@
+{
+    "responsive-layout.mobile":{
+        "children":[
+            "whatsapp-button"
+            // ,
+            // "bullets-diagramation"
+        ]
+    },
+  "whatsapp-button":{
+    "props":{
+      "message":"gracias por contactarte con Amazón",
+      "phone":"9903334444"
+    }
+  }
+}
