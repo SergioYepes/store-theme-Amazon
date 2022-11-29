@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__info--first":{
+        "title":"home info first",
         "children":[
             "flex-layout.col#home__info--first",
             "flex-layout.col#home__info--second",
@@ -12,6 +13,7 @@
         }
     },
     "flex-layout.col#home__info--first":{
+        "title":"home info first column 1",
         "children":[
             "rich-text#home__info--first",
             "flex-layout.row#home__info--firstImg",
@@ -25,6 +27,7 @@
         }
     },
     "flex-layout.row#home__info--firstImg":{
+        "title":"home info first image cont 1",
         "children":[
             "image#home__info--first"
         ],
@@ -33,6 +36,7 @@
         }
     },
     "flex-layout.col#home__info--second":{
+        "title":"home info first column 2",
         "children":[
             "rich-text#home__info--second",
             "flex-layout.row#home__info--secondImg",
@@ -44,6 +48,7 @@
         }
     },
     "flex-layout.row#home__info--secondImg":{
+        "title":"home info first image cont 2",
         "children":[
             "image#home__info--second"
         ],
@@ -52,6 +57,7 @@
         }
     },
     "flex-layout.col#home__info--third":{
+        "title":"home info first column 3",
         "children":[
             "rich-text#home__info--third",
             "image#home__info--third",
@@ -63,6 +69,7 @@
         }
     },
     "flex-layout.col#home__info--fourth":{
+        "title":"home info first column 4",
         "children":[
             "rich-text#home__info--fourth",
             "login#home__info--fourth"
@@ -72,7 +79,9 @@
             "blockClass":"homeInfoLogin"
         }
     },
+    // ------ rich text
     "rich-text#home__info--first":{
+        "title":"Ofertas relámpago",
         "props":{
             "text":"Ofertas relámpago",
             "textColor": "c-on-emphasis",
@@ -81,6 +90,7 @@
         }
     },
     "rich-text#home__info--second":{
+        "title":"Ofertas en Outlet",
         "props":{
             "text":"Ofertas en Outlet",
             "textColor": "c-on-emphasis",
@@ -88,6 +98,7 @@
         }
     },
     "rich-text#home__info--third":{
+        "title":"¿Buscas un regalo?",
         "props":{
             "text":"¿Buscas un regalo?",
             "textColor": "c-on-emphasis",
@@ -95,13 +106,18 @@
         }
     },
     "rich-text#home__info--fourth":{
+        "title":"Identifícate para una mejor experiencia",
         "props":{
             "text":"Identifícate para una mejor experiencia",
             "textColor": "c-on-emphasis",
             "blockClass":"rich-text--homeLogin"
         }
     },
+
+
+    // -------first child
     "image#home__info--first":{
+        "title":"home info first 1 image",
         "props": {
             "src": "assets/img/home__info--first.jpg",
             "minHeight": "300px",
@@ -112,13 +128,17 @@
           }
     },
     "link#home__info--first":{
+        "title":"home info first 1 link",
         "props":{
             "label":"Explora ahora",
             "href":"#",
             "blockClass":"homeInfoFirst"
         }
     },
+
+    // -------second child
     "image#home__info--second":{
+        "title":"home info first 2 image",
         "props": {
             "src": "assets/img/home__info--second.jpg",
             "minHeight": "300px",
@@ -129,13 +149,17 @@
           }
     },
     "link#home__info--second":{
+        "title":"home info first 2 link",
         "props":{
             "label":"Explora ahora",
             "href":"#",
             "blockClass":"homeInfoFirst"
         }
     },
+
+    // ------- third child
     "image#home__info--third":{
+        "title":"home info first 3 image",
         "props": {
             "src": "assets/img/home__info--third.jpg",
             "maxHeight": "220px",
@@ -146,12 +170,16 @@
           }
     },
     "link#home__info--third":{
+        "title":"home info first 3 link",
         "props":{
             "label":"Descubre algunas ideas",
             "href":"#"
         }
     },
+
+    // ------- fourth child
     "login#home__info--fourth":{
+        "title":"Login home desktop",
         "props":{
             "logInButtonBehavior":"button",
             "iconLabel":"Inicia sesión de una manera segura",

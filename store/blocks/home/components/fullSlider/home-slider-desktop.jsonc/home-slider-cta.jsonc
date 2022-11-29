@@ -1,5 +1,6 @@
 {
     "slider-layout#home__slider--children": {
+        "title":"home desktop slider",
         "props": {
           "itemsPerPage": {
             "desktop": 1,
@@ -27,6 +28,7 @@
       },
     
       "video#home__slider1": {
+        "title":"slider desktop video",
         "props": {
           "width": "100%",
           "height": "100%",
@@ -38,37 +40,34 @@
         }
       },
       "image#home__slider2": {
+        "title":"slider desktop first image",
         "props": {
           "src": "assets/img/home-slider1.jpg"
         }
       },
       "image#home__slider4": {
+        "title":"slider desktop second image",
         "props": {
           "src": "assets/img/home-slider4.jpg"
         }
       },
       "image#home__slider5": {
+        "title":"slider desktop third image",
         "props": {
           "src": "assets/img/home-slider5.jpg"
         }
       },
       "image#home__slider7": {
+        "title":"slider desktop fourth image",
         "props": {
           "src": "assets/img/home-slider7.jpg"
         }
       },
       "image#home__slider8": {
+        "title":"slider desktop fifth image",
         "props": {
           "src": "assets/img/home-slider8.jpg"
         }
-      },
-      "rich-text#home__slider":{
-            "props": { 
-            "text": "VAMOOOS",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER",
-            "font": "t-heading-1"
-            }
       }
       
 }

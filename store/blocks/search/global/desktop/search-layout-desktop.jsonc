@@ -1,5 +1,6 @@
 {
     "search-result-layout.desktop":{
+        "title":"result-desktop",
         "children": [
             "rich-text#desktop-response"
         ],
