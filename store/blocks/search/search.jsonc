@@ -36,6 +36,7 @@
      }
   },
   "search-result-layout":{
+    "title":"result",
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile",
@@ -48,6 +49,7 @@
     ]
   },
   "rich-text#notFound":{
+    "title":"error 404",
     "props":{
       "text":"# error 404 Crack"
     }

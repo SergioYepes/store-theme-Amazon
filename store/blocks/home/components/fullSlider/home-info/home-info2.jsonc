@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__info--second":{
+        "title":"home info second",
         "children":[
             "flex-layout.col#home__info2--first",
             "flex-layout.col#home__info2--second",
@@ -12,6 +13,7 @@
         }
     },
     "flex-layout.col#home__info2--first":{
+        "title":"home info second column 1",
         "children":[
             "rich-text#home__info2--first",
             "flex-layout.row#home__info2--firstImg",
@@ -23,6 +25,7 @@
         }
     },
     "flex-layout.row#home__info2--firstImg":{
+        "title":"home info second image 1" ,
         "children":[
             "image#home__info2--first"
         ],
@@ -31,6 +34,7 @@
         }
     },
     "flex-layout.col#home__info2--second":{
+        "title":"home info second column 2",
         "children":[
             "rich-text#home__info2--second",
             "flex-layout.row#home__info2--secondImg",
@@ -42,6 +46,7 @@
         }
     },
     "flex-layout.row#home__info2--secondImg":{
+        "title":"home info second image 2" ,
         "children":[
             "image#home__info2--second"
         ],
@@ -50,6 +55,7 @@
         }
     },
     "flex-layout.col#home__info2--third":{
+        "title":"home info second column 3",
         "children":[
             "rich-text#home__info2--third",
             "flex-layout.row#home__info2--thirdImg",
@@ -61,6 +67,7 @@
         }
     },
     "flex-layout.row#home__info2--thirdImg":{
+        "title":"home info second image 3" ,
         "children":[
             "image#home__info2--third"
         ],
@@ -69,6 +76,7 @@
         }
     },
     "flex-layout.col#home__info2--fourth":{
+        "title":"home info second column 4",
         "children":[
             "rich-text#home__info2--fourth",
             "image#home__info2--fourth",
@@ -78,7 +86,10 @@
             "horizontalAlign":"center"
         }
     },
+
+    // ------- rich text
     "rich-text#home__info2--first":{
+        "title":"home info second image 2" ,
         "props":{
             "text":"Ideas para Casa y cocina",
             "textColor": "c-on-emphasis",
@@ -86,6 +97,7 @@
         }
     },
     "rich-text#home__info2--second":{
+        "title":"home info second image 2" ,
         "props":{
             "text":"Nuestra selección de belleza",
             "textColor": "c-on-emphasis",
@@ -93,6 +105,7 @@
         }
     },
     "rich-text#home__info2--third":{
+        "title":"home info second image 2" ,
         "props":{
             "text":"Descubre los productos más vendidos",
             "textColor": "c-on-emphasis",
@@ -100,13 +113,18 @@
         }
     },
     "rich-text#home__info2--fourth":{
+        "title":"home info second image 2" ,
         "props":{
             "text":"Informática y accesorios",
             "textColor": "c-on-emphasis",
             "blockClass":"rich-text--homeInfo"
         }
     },
+
+    // ------- images
+
     "image#home__info2--first":{
+        "title":"home info second 1 image",
         "props": {
             "src": "assets/img/home__info2--first.jpg",
             "minHeight": "300px",
@@ -117,6 +135,7 @@
           }
     },
     "image#home__info2--second":{
+        "title":"home info second 2 image",
         "props": {
             "src": "assets/img/home__info2--second.jpg",
             "minHeight": "300px",
@@ -127,6 +146,7 @@
         }
     },
     "image#home__info2--third":{
+        "title":"home info second 3 image",
         "props": {
             "src": "assets/img/home__info2--third.jpg",
             "minHeight": "300px",
@@ -137,6 +157,7 @@
         }
     },
     "image#home__info2--fourth":{
+        "title":"home info second 4 image",
         "props": {
             "src": "assets/img/home__info2--fourth.jpg",
             "maxHeight": "220px",
@@ -146,7 +167,11 @@
             }
         }
     },
+
+    // ------- link
+
     "link#home__info2--first":{
+        "title":"home info second 1 link",
         "props":{
             "label":"Saber más",
             "href":"#",
@@ -154,6 +179,7 @@
         }
     },
     "link#home__info2--second":{
+        "title":"home info second 2 link",
         "props":{
             "label":"Descubre más",
             "href":"#",
@@ -161,6 +187,7 @@
         }
     },
     "link#home__info2--third":{
+        "title":"home info second 3 link",
         "props":{
             "label":"Descúbrelos",
             "href":"#",
@@ -168,6 +195,7 @@
         }
     },
     "link#home__info2--fourth":{
+        "title":"home info second 4 link",
         "props":{
             "label":"Descubre más",
             "href":"#"
