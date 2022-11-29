@@ -1,5 +1,6 @@
 {
     "flex-layout.row#linkLoginMobile":{
+        "title":"footer mobile login",
         "children":[
             "link#linkLoginMobile"
         ],
@@ -13,6 +14,7 @@
         }
     },
     "link#linkLoginMobile":{
+        "title":"link mobile login",
         "children":[
             "rich-text#cliente"
         ],
@@ -23,6 +25,7 @@
         }
     },
     "rich-text#cliente":{
+        "title":"¿Ya eres cliente? Identificarse",
         "props":{
             "text":"¿Ya eres cliente? Identificarse",
             "blockClass":"linkLoginMobile"

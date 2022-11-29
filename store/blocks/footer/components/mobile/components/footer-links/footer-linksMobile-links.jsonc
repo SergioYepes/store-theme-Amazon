@@ -2,6 +2,7 @@
     //------ first row
     
     "link#linksListMobile__one--first":{
+        "title":"link list mobile footer 1",
         "children":[
             "rich-text#miAmazon"
         ],
@@ -11,6 +12,7 @@
         }
     },
     "link#linksListMobile__one--second":{
+        "title":"link list mobile footer 2",
         "children":[
             "rich-text#pedidos"
         ],
@@ -20,6 +22,7 @@
         }
     },
     "link#linksListMobile__one--third":{
+        "title":"link list mobile footer 3",
         "children":[
             "rich-text#deseos"
         ],
@@ -29,6 +32,7 @@
         }
     },
     "link#linksListMobile__one--fourth":{
+        "title":"link list mobile footer 4",
         "children":[
             "rich-text#reciente"
         ],
@@ -38,6 +42,7 @@
         }
     },
     "link#linksListMobile__one--fifth":{
+        "title":"link list mobile footer 5",
         "children":[
             "rich-text#vender"
         ],
@@ -47,6 +52,7 @@
         }
     },
     "link#linksListMobile__one--sixth":{
+        "title":"link list mobile footer 6",
         "children":[
             "rich-text#configuracion"
         ],
@@ -56,6 +62,7 @@
         }
     },
     "link#linksListMobile__one--eighth":{
+        "title":"link list mobile footer 7",
         "children":[
             "rich-text#atencionAlCliente"
         ],
@@ -69,6 +76,7 @@
     
     
     "link#linksListMobile__two--first":{
+        "title":"link list 2 mobile footer 1",
         "children":[
             "rich-text#descárgate"
         ],
@@ -78,6 +86,7 @@
         }
     },
     "link#linksListMobile__two--second":{
+        "title":"link list 2 mobile footer 2",
         "children":[
             "rich-text#listaDeseos"
         ],
@@ -87,6 +96,7 @@
         }
     },
     "link#linksListMobile__two--third":{
+        "title":"link list 2 mobile footer 3",
         "children":[
             "rich-text#miCuenta"
         ],
@@ -96,6 +106,7 @@
         }
     },
     "link#linksListMobile__two--fourth":{
+        "title":"link list 2 mobile footer 4",
         "children":[
             "rich-text#venderAmazon"
         ],
@@ -105,6 +116,7 @@
         }
     },
     "link#linksListMobile__two--fifth":{
+        "title":"link list 2 mobile footer 5",
         "children":[
             "rich-text#refunds"
         ],
@@ -114,6 +126,7 @@
         }
     },
     "link#linksListMobile__two--sixth":{
+        "title":"link list 2 mobile footer 6",
         "children":[
             "rich-text#reciclaje"
         ],
@@ -123,6 +136,7 @@
         }
     },
     "link#linksListMobile__two--eighth":{
+        "title":"link list 2 mobile footer 7",
         "children":[
             "rich-text#escritorio"
         ],

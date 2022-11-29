@@ -1,9 +1,10 @@
 {
     "responsive-layout.mobile":{
+      "title":"responsive home mobile",
         "children":[
             "whatsapp-button"
-            // ,
-            // "bullets-diagramation"
+            ,
+            "list-context.bullets-diagramation"
         ]
     },
   "whatsapp-button":{

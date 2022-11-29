@@ -5,6 +5,7 @@
         ]
     },
     "rich-text#mobile-response":{
+        "title":"result response",
         "props":{
             "text":"# austria"
         }

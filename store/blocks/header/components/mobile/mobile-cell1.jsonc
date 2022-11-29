@@ -1,5 +1,6 @@
 {
     "flex-layout.row#mobile__Cell1": {
+        "title":"header cell1 mobile cont",
         "children": [
           "responsive-layout.mobile#logo__mobile--cont",
           "flex-layout.row#login__mobile--cont"
@@ -13,6 +14,7 @@
         }
       },
       "drawer#header__mobile--menu": {
+        "title":"drawer header mobile",
         "children": [
           "flex-layout.row#login__mobile--cont",
           "menu#header__mobile"
@@ -22,17 +24,20 @@
         ]
       },
       "drawer-trigger":{
+        "title":"drawer trigger header mobile",
         "children": [
             "logo#hamburgerMenu"
         ]
       },
       "rich-text#prueba":{
+        "title":"texto de prueba",
         "props":{
-            "text":"fokiuuuun"
+            "text":"vamoo"
         }
       },
       // ------- logo
       "responsive-layout.mobile#logo__mobile--cont": {
+        "title":"logo header mobile cont",
         "props": {
           "blockClass":"logo-row"
         },
@@ -42,6 +47,7 @@
         ]
       },
       "link#logo__mobile":{
+        "title":"link logo mobile",
         "children":[
           "flex-layout.row#logo__mobile"
         ],
@@ -53,6 +59,7 @@
       },
 
       "flex-layout.row#logo__mobile":{
+        "title":"link logo mobile cont",
         "children":[
           "logo#header__mobile",
           "rich-text#.es"
@@ -63,6 +70,7 @@
         }
       },
       "logo#header__mobile":{
+        "title":"logo header mobile amazon",
         "props": {
           "title": "Logo",
           "href": "/",
@@ -72,6 +80,7 @@
       },
       // ------- login
       "flex-layout.row#login__mobile--cont":{
+        "title":"login header cont",
         "children":[
           "link#login__mobile",
           "login#login__mobile",
@@ -83,6 +92,7 @@
         }
       },
       "link#login__mobile":{
+        "title":"link login header",
         "props":{
           "href":"/login",
           "label":"Identifícate >",
@@ -91,6 +101,7 @@
         }
       },
       "login#login__mobile":{
+        "title":"login header",
         "props":{
             "showIconProfile":true
         }

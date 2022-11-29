@@ -1,5 +1,6 @@
 {
     "flex-layout.row#language":{
+        "title":"footer mobile language",
         "children":[
             "flex-layout.row#dialectCont",
             "flex-layout.row#countryCont"
@@ -16,16 +17,19 @@
     },
     
     "flex-layout.row#dialectCont":{
+        "title":"dialect cont link",
         "children":[
             "link#dialect"
         ]
     },
     "flex-layout.row#countryCont":{
+        "title":"country cont link",
         "children":[
             "link#country"
         ]
     },
     "flex-layout.row#dialect":{
+        "title":"dialect cont",
         "children":[
             "logo#dialect",
             "rich-text#dialect"
@@ -38,6 +42,7 @@
         }
     },
     "flex-layout.row#country":{
+        "title":"country cont",
         "children":[
             "logo#españaMobile",
             "rich-text#country"
@@ -52,6 +57,7 @@
 
     //----link
     "link#dialect":{
+        "title":"link dialect",
         "children":[
             "flex-layout.row#dialect"
         ],
@@ -60,6 +66,7 @@
         }
     },
     "link#country":{
+        "title":"link country",
         "children":[
             "flex-layout.row#country"  
         ],
@@ -70,12 +77,14 @@
 
     //----logos
     "logo#dialect":{
+        "title":"logo dialect",
         "props":{
             "url": "assets/svg/globo.svg",
             "width":"20"
         }
     },
     "logo#españaMobile":{
+        "title":"link españaMobile",
         "props":{
             "href": "#",
             "url": "assets/svg/bandera-de-espana.png",
@@ -86,11 +95,13 @@
     //---- text
 
     "rich-text#dialect":{
+        "title":"Dialect",
         "props":{
              "text":"Castellano"        
         }
     },
     "rich-text#country":{
+        "title":"Country",
         "props":{
              "text":"España"        
         }

@@ -1,10 +1,12 @@
 {
       "header-layout.mobile": {
+        "title":"header mobile",
         "children": [
           "responsive-layout.mobile#mobile"
         ]
       },
       "responsive-layout.mobile#mobile": {
+        "title":"Mobile Container",
         "children": [
           "flex-layout.row#mobile__Cell1",
           "flex-layout.row#searchBarMobile",
@@ -13,6 +15,7 @@
         ]
       },
       "flex-layout.row#searchBarMobile":{
+        "title":"search Bar Mobile cont",
         "children":[
           "search-bar#mobile"
         ],
@@ -22,6 +25,7 @@
         }
       },
       "search-bar#mobile":{
+        "title":"search Bar Mobile",
         "blocks":[
            "autocomplete-result-list.v2"
         ],
