@@ -1,18 +1,19 @@
 {
   "store.home": { 
+    "title":"Home",
     "blocks": [
-
-      "responsive.layout.desktop"
+      // "flex-layout.row#home",
+      "responsive-layout.desktop",
       "responsive-layout.mobile"
-
     ]
   },
 
-  "responsive.layout.desktop":{
+  "responsive-layout.desktop":{
     "children":[
-      "flex-layout.col#home"
+      "flex-layout.row#home"
     ]
-  },  "flex-layout.row#home":{
+  }, 
+  "flex-layout.row#home":{
     "children":[
       "flex-layout.col#home"
     ],

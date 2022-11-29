@@ -1,5 +1,6 @@
 {
     "flex-layout.row#footer--mobile__button": { 
+        "title":"footer mobile button cont",
         "children": [
             "link#backHome__mobile"
         ],
@@ -10,6 +11,7 @@
         }
     },
     "link#backHome__mobile":{
+        "title":"link scrollTo button",
         "children":[
             "rich-text#flechaArriba",
             "rich-text#volver"
@@ -21,6 +23,7 @@
         }
     },
     "rich-text#flechaArriba":{
+        "title":"▲",
         "props":{
             "text":"▲",
             "textPosition": "CENTER"

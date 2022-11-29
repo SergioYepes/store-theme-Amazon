@@ -2,72 +2,86 @@
     //------first row
     
     "rich-text#miAmazon":{
+        "title":"Mi Amazon.es",
         "props":{
             "text":"Mi Amazon.es"
         }
     },
     "rich-text#pedidos":{
+        "title":"Tus pedidos",
         "props":{
             "text":"Tus pedidos"
         }
     },
     "rich-text#deseos":{
+        "title":"Buscar una lista de deseos",
         "props":{
             "text":"Buscar una lista de deseos"
         }
     },
     "rich-text#reciente":{
+        "title":"Productos vistos recientemente",
         "props":{
             "text":"Productos vistos recientemente"
         }
     },
     "rich-text#vender":{
+        "title":"Vender en Amazon Business",
         "props":{
             "text":"Vender en Amazon Business"
         }
     },
     "rich-text#configuracion":{
+        "title":"Configuración 1-Clic",
         "props":{
             "text":"Configuración 1-Clic"
         }
     },
     "rich-text#atencionAlCliente":{
+        "title":"Atención al cliente",
         "props":{
             "text":"Atención al cliente"
         }
     },
     //------second row
     "rich-text#descárgate":{
+        "title":"Descárgate la aplicación de Amazon",
         "props":{
             "text":"Descárgate la aplicación de Amazon"
         }
     },
     "rich-text#listaDeseos":{
+        "title":"Lista de deseos",
         "props":{
             "text":"Lista de deseos"
         }
     },
     "rich-text#miCuenta":{
+        "title":"Mi cuenta",
         "props":{
             "text":"Mi cuenta"
         }
     },
     "rich-text#venderAmazon":{
+        "title":"Vender en Amazon",
         "props":{
             "text":"Vender en Amazon"
         }
     },
     "rich-text#refunds":{
+        "title":"Devoluciones",
         "props":{
             "text":"Devoluciones"
         }
     },
     "rich-text#reciclaje":{
+        "title":"Reciclaje",
         "props":{
             "text":"Reciclaje"
         }
     },
     "rich-text#escritorio":{
+        "title":"Ir a la versión de escritorio",
         "props":{
             "text":"Ir a la versión de escritorio"
         }

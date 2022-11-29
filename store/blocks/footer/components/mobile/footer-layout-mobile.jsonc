@@ -1,10 +1,12 @@
 {
     "footer-layout.mobile": { 
+        "title":"footer mobile",
         "children": [
             "flex-layout.row#footerMobile"
             ]
     },
   "flex-layout.row#footerMobile": { 
+        "title":"footer mobile cont",
         "children": [
             "flex-layout.col#footerMobile"
         ],
@@ -14,6 +16,7 @@
             
         },
     "flex-layout.col#footerMobile":{
+        "title":"footer mobile cont column",
         "children":[
             "flex-layout.row#footer--mobile__button",
             "flex-layout.row#linksListMobile",

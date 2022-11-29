@@ -1,5 +1,6 @@
 {
     "flex-layout.row#mobile__Cell2":{
+        "title":"header cell2 mobile cont",
         "children":[
             "link#mobile__Cell2--one",
             "link#mobile__Cell2--two",
@@ -23,6 +24,7 @@
     },
     // -------Links
     "link#mobile__Cell2--one":{
+        "title":"link cell2 one",
         "children": [
             "rich-text#Semana"
         ],
@@ -33,6 +35,7 @@
         }
     },
     "link#mobile__Cell2--two":{
+        "title":"link cell2 two",
         "children": [
             "rich-text#losMasMobile"
         ],
@@ -43,6 +46,7 @@
         }
     },
     "link#mobile__Cell2--three":{
+        "title":"link cell2 three",
         "children": [
             "rich-text#PrimeMobile"
         ],
@@ -53,6 +57,7 @@
         }
     },
     "link#mobile__Cell2--four":{
+        "title":"link cell2 four",
         "children": [
             "rich-text#últimasMobile"
         ],
@@ -63,6 +68,7 @@
         }
     },
     "link#mobile__Cell2--five":{
+        "title":"link cell2 five",
         "children": [
             "rich-text#hogarMobile"
         ],
@@ -73,6 +79,7 @@
         }
     },
     "link#mobile__Cell2--six":{
+        "title":"link cell2 six",
         "children": [
             "rich-text#TiendaDeElectronica"
         ],
@@ -83,6 +90,7 @@
         }
     },
     "link#mobile__Cell2--seven":{
+        "title":"link cell2 seven",
         "children": [
             "rich-text#Cheques"
         ],
@@ -93,6 +101,7 @@
         }
     },
     "link#mobile__Cell2--eigth":{
+        "title":"link cell2 eigth",
         "children": [
             "rich-text#informática"
         ],
@@ -103,6 +112,7 @@
         }
     },
     "link#mobile__Cell2--nine":{
+        "title":"link cell2 nine",
         "children": [
             "rich-text#Bricolage"
         ],
@@ -113,6 +123,7 @@
         }
     },
     "link#mobile__Cell2--ten":{
+        "title":"link cell2 ten",
         "children": [
             "rich-text#música"
         ],
@@ -126,24 +137,28 @@
 
     // -------text
     "rich-text#Semana":{
+        "title":"Semana de Black Friday",
         "props":{
             "blockClass":"mobile__Cell2",
             "text":"Semana de Black Friday"
         }
       },
       "rich-text#losMasMobile":{
+        "title":"Los más vendidos",
         "props":{
             "text":"Los más vendidos",
             "blockClass":"mobile__Cell2"
         }
       },
       "rich-text#últimasMobile":{
+        "title":"Últimas Novedades",
         "props":{
             "text":"Últimas Novedades",
             "blockClass":"mobile__Cell2"
         }
       },
       "rich-text#hogarMobile":{
+        "title":"Hogar y Cocina",
         "props":{
             "text":"Hogar y Cocina",
             "blockClass":"mobile__Cell2"
@@ -151,12 +166,14 @@
       },
       
       "rich-text#PrimeMobile":{
+        "title":"Prime",
         "props":{
             "text":"Prime",
             "blockClass":"mobile__Cell2"
         }
       },
       "rich-text#TiendaDeElectronica":{
+        "title":"Tienda de Electrónica",
         "props":{
             "text":"Tienda de Electrónica",
             "blockClass":"mobile__Cell2"
@@ -164,6 +181,7 @@
         }
       },
       "rich-text#Cheques":{
+        "title":"Cheques Regalo",
         "props":{
             "text":"Cheques Regalo",
             "blockClass":"mobile__Cell2"
@@ -171,6 +189,7 @@
       },
       
       "rich-text#Bricolage":{
+        "title":"Bricolage y herramientas",
         "props":{
             "text":"Bricolage y herramientas",
             "blockClass":"mobile__Cell2"

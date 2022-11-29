@@ -1,5 +1,6 @@
 {
     "flex-layout.row#linksListMobile":{
+        "title":"footer mobile link list cont",
         "children":[
             "flex-layout.col#linksListMobile__one",
             "flex-layout.col#linksListMobile__two"
@@ -9,6 +10,7 @@
         }
     },
     "flex-layout.col#linksListMobile__one":{
+        "title":"footer mobile link list column 1",
         "children":[
             "link#linksListMobile__one--first",
             "link#linksListMobile__one--second",
@@ -22,6 +24,7 @@
         }
     },
     "flex-layout.col#linksListMobile__two":{
+        "title":"footer mobile link list column 2",
         "children":[
             "link#linksListMobile__two--first",
             "link#linksListMobile__two--second",
