@@ -12,5 +12,19 @@
       "message":"gracias por contactarte con Amazón",
       "phone":"9903334444"
     }
+  },
+  "list-context.bullets-diagramation":{
+    "title":"list-context mobile",
+    "props":{
+      "bullet":[
+        {
+        "image":"miimagen.png",
+        "titleBullet":"bala 1",
+        "link":{
+        "url":"/login"
+        } 
+        }
+      ]    
+    }
   }
 }
