@@ -1,0 +1,240 @@
+{
+    "rich-text#home__ideas--first":{
+        "title":"Ideas de regalo de pequeños negocios",
+        "props":{
+            "text":"Ideas de regalo de pequeños negocios",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+    "rich-text#home__ideas--second":{
+        "title":"Historias de pequeños negocios",
+        "props":{
+            "text":"Historias de pequeños negocios",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+    "rich-text#home__ideas--third":{
+        "title":"Ideas de regalos juguetes",
+        "props":{
+            "text":"Ideas de regalos juguetes",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+    "rich-text#home__ideas--fourth":{
+        "title":"Ropa formal",
+        "props":{
+            "text":"Ropa formal",
+            "textColor": "c-on-emphasis",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+
+
+
+    "image#home__ideas--first":{
+        "title":"ideas first image",
+        "props": {
+            "src": "assets/img/ideas/home__ideas--first.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"250px",
+            "link":{
+                "url":"#"
+            }
+          }
+    }, 
+    "image#home__ideas--second":{
+        "title":"ideas second image",
+        "props": {
+            "src": "assets/img/ideas/home__ideas--second.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"250px",
+            "link":{
+                "url":"#"
+            }
+          }
+    },
+    "image#home__ideas--Block-one":{
+        "title":"ideas first-block image",
+        "props":{
+            "src": "assets/img/ideas/home__ideas--Block-one.jpg",
+            "minHeight": "55px",
+            "minWidth":"125px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__ideas--Block-two":{
+        "title":"ideas second-block image",
+        "props":{
+            "src": "assets/img/ideas/home__ideas--Block-two.jpg",
+            "minHeight": "95px",
+            "minWidth":"125px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__ideas--Block-three":{
+        "title":"ideas third-block image",
+        "props":{
+            "src": "assets/img/ideas/home__ideas--Block-three.jpg",
+            "minHeight": "55px",
+            "minWidth":"100px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__ideas--Block-four":{
+        "title":"ideas fourth-block image",
+        "props":{
+            "src": "assets/img/ideas/home__ideas--Block-four.jpg",
+            "minHeight": "55px",
+            "minWidth":"100px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#home__ideas--fourth":{
+        "title":"ideas fourth image",
+        "props": {
+            "src": "assets/img/ideas/home__ideas--fourth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"250px",
+            "link":{
+                "url":"#"
+            }
+          }
+    },
+
+
+
+
+
+    "link#home__ideas--first":{
+        "title":"ideas link first",
+        "props":{
+            "label":"Comprar ahora",
+            "href":"#"
+        }
+    },
+    "link#home__ideas--second":{
+        "title":"ideas link first",
+        "props":{
+            "label":"Descubre más",
+            "href":"#"
+        }
+    },
+   
+    "link#home__ideas--third":{
+        "title":"ideas link first",
+        "props":{
+            "label":"Ver más",
+            "href":"#"
+        }
+    },
+    "link#home__ideas--fourth":{
+        "title":"ideas link first",
+        "props":{
+            "label":"Ver más",
+            "href":"#"
+        }
+    },
+    "link#home__ideas--Block-one-name":{
+        "title":"ideas link first",
+        "props":{
+            "label":"EXTSUD Alfombra Piano de Suelo Alfombrilla Musical Estera de Baile Tapete para Niños 100 * 36cm",
+            "href":"#",
+            "blockClass":"Home-ideas--link"
+        }
+    },
+    "link#home__home__ideas--Block-one-price--big":{
+        "title":"ideas link first",
+        "props":{
+            "label":"20",
+            "href":"#"
+        }
+    },
+
+    "link#home__home__ideas--Block-one-price--cents":{
+        "title":"ideas link first",
+        "props":{
+            "label":"99€",
+            "href":"#"
+        }
+    },
+    "link#home__ideas--Block-two-name":{
+        "title":"ideas link first",
+        "props":{
+            "label":"Waggles, mi perrito salchicha. Peluche interactivo que camina, ladra y mueve la cola como un perro salchicha real.",
+            "href":"#",
+            "blockClass":"Home-ideas--link"
+        }
+    },
+    "link#home__home__ideas--Block-two-price--big":{
+        "title":"ideas link first",
+        "props":{
+            "label":"36",
+            "href":"#"
+        }
+    },
+
+    "link#home__home__ideas--Block-two-price--cents":{
+        "title":"ideas link first",
+        "props":{
+            "label":"95€",
+            "href":"#"
+        }
+    },
+    "link#home__ideas--Block-three-name":{
+        "title":"ideas link first",
+        "props":{
+            "label":"Ludilo - Batalla De Genios Original, Juegos De Mesa Para Niños, Rompecabezas Madera, Juegos Educativos 6 Años O Más",
+            "href":"#",
+            "blockClass":"Home-ideas--link"
+        }
+    },
+    "link#home__home__ideas--Block-three-price--big":{
+        "title":"ideas link first",
+        "props":{
+            "label":"24",
+            "href":"#"
+        }
+    },
+
+    "link#home__home__ideas--Block-three-price--cents":{
+        "title":"ideas link first",
+        "props":{
+            "label":"94€",
+            "href":"#"
+        }
+    },
+    "link#home__ideas--Block-four-name":{
+        "title":"ideas link first",
+        "props":{
+            "label":"Ludilo - Batalla De Genios Original, Juegos De Mesa Para Niños, Rompecabezas Madera, Juegos Educativos 6 Años O Más",
+            "href":"#",
+            "blockClass":"Home-ideas--link"
+        }
+    },
+    "link#home__home__ideas--Block-four-price--big":{
+        "title":"ideas link first",
+        "props":{
+            "label":"25",
+            "href":"#"
+        }
+    },
+
+    "link#home__home__ideas--Block-four-price--cents":{
+        "title":"ideas link first",
+        "props":{
+            "label":"77€",
+            "href":"#"
+        }
+    }
+}

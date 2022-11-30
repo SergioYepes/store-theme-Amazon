@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__info--fourth":{
+        "title":"home info fourth",
         "children":[
             "flex-layout.row#home__priceless--fifth",
             "flex-layout.col#home__info4--second",
@@ -12,6 +13,7 @@
     },
     
     "flex-layout.col#home__info4--second":{
+        "title":"home info fourth column 2",
         "children":[
             "rich-text#home__info4--second",
             "flex-layout.row#home__info4--secondImg",
@@ -23,6 +25,7 @@
         }
     },
     "flex-layout.row#home__info4--secondImg":{
+        "title":"home info fourth image 2" ,
         "children":[
             "image#home__info4--second"
         ],
@@ -31,6 +34,7 @@
         }
     },
     "flex-layout.col#home__info4--third":{
+        "title":"home info fourth column 3",
         "children":[
             "rich-text#home__info4--third",
             "flex-layout.row#home__info4--thirdImg",
@@ -42,6 +46,7 @@
         }
     },
     "flex-layout.row#home__info4--thirdImg":{
+        "title":"home info fourth image 3" ,
         "children":[
             "image#home__info4--third"
         ],
@@ -49,7 +54,10 @@
             "blockClass":"ImageCont"
         }
     },
+
+
     "rich-text#home__info4--second":{
+        "title":"New World de Amazon",
         "props":{
             "text":"New World de Amazon",
             "textColor": "c-on-emphasis",
@@ -57,13 +65,17 @@
         }
     },
     "rich-text#home__info4--third":{
+        "title":"Ideas de regalo de pequeños negocios",
         "props":{
             "text":"Ideas de regalo de pequeños negocios",
             "textColor": "c-on-emphasis",
             "blockClass":"rich-text--homeInfo"
         }
     },
+
+
     "image#home__info4--second":{
+        "title":"home info fourth 2 image",
         "props": {
             "src": "assets/img/home__info4--second.jpg",
             "minHeight": "300px",
@@ -73,14 +85,8 @@
             }
           }
     },
-    "link#home__info4--second":{
-        "props":{
-            "label":"Ver más",
-            "href":"#",
-            "blockClass":"homeInfoFirst"
-        }
-    },
     "image#home__info4--third":{
+        "title":"home info fourth 3 image",
         "props": {
             "src": "assets/img/home__info4--third.jpg",
             "minHeight": "300px",
@@ -90,7 +96,19 @@
             }
           }
     },
+
+
+
+    "link#home__info4--second":{
+        "title":"home info fourth 2 link",
+        "props":{
+            "label":"Ver más",
+            "href":"#",
+            "blockClass":"homeInfoFirst"
+        }
+    },
     "link#home__info4--third":{
+        "title":"home info fourth 3 link",
         "props":{
             "label":"Comprar ahora",
             "href":"#",
