@@ -4,4 +4,14 @@
 .element :global(.vtex-button):hover{
     background-color:#37475A;
 }
+.container{
+    height:365px;
+    background-color:antiquewhite
+}
+.image{
+    height: 130px;
+}
+.nameContainer{
+    padding: 0;
+}
 /* #232F3E */

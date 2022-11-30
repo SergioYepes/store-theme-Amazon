@@ -17,13 +17,23 @@
     padding-top: 10px;
 }
 .paragraph--rich-text--showcaseProduct--cents{
-    color: black;
-    padding-left: 15px;
+    color: black!important;
+    font-size:10px !important;
+    align-items: baseline;
 }
 .paragraph--rich-text--showcaseProduct--price{
-    color: black;
+    color: black!important;
     padding-left: 15px;
 }
+.paragraph--rich-text--showcaseProduct--prev{
+    color: black!important;
+    padding-left: 15px;
+}
+.paragraph--rich-text--showcaseProduct--PVPR{
+    color: black!important;
+    padding-left: 15px;
+}
+
 .paragraph--recomendaciones{
     color: black!important;
     font-size:14px!important

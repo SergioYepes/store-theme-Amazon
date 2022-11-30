@@ -1,7 +1,8 @@
 {
     "flex-layout.row#home__categorySlider--first":{
-    "children":[
-        "flex-layout.col#home__categorySlider--first"
+        "title":"home categorySlider 1 desktop",
+        "children":[
+            "flex-layout.col#home__categorySlider--first"
         ],
         "props":{
             "horizontalAlign":"center",
@@ -9,6 +10,7 @@
         }
     },
     "flex-layout.col#home__categorySlider--first":{
+        "title":"categorySlider column",
         "children":[
             "flex-layout.row#home__categorySlider--head",
             "slider-layout#home__categorySlider--first"
@@ -18,6 +20,7 @@
         }
     },
     "flex-layout.row#home__categorySlider--head":{
+        "title":"categorySlider title cont",
         "children":[
             "rich-text#home__categorySlider--head",
             "link#home__categorySlider--head"
@@ -29,12 +32,14 @@
         }
     },
     "link#home__categorySlider--head":{
+        "title":"link categorySlider",
         "props":{
             "label":"Ver más",
             "href":"#"
         }
     },
     "rich-text#home__categorySlider--head":{
+        "title":"Tienda de Navidad: compra por categorías",
         "props":{
             "text":"Tienda de Navidad: compra por categorías",
             "textColor": "c-on-base",
@@ -43,6 +48,7 @@
     },
 
     "slider-layout#home__categorySlider--first":{
+        "title":"categorySlider slider cont",
         "props": {
             "itemsPerPage": {
               "desktop": 6,
@@ -67,6 +73,7 @@
         ]
     },
     "image#home__categorySlider--first":{
+        "title":"categorySlider first image",
         "props": {
             "src": "assets/img/categorySlider1--first.jpg",
             "maxHeight": "220px",
@@ -77,6 +84,7 @@
         }
     },
     "image#home__categorySlider--second":{
+        "title":"categorySlider second image",
         "props": {
             "src": "assets/img/categorySlider1--second.jpg",
             "maxHeight": "220px",
@@ -87,6 +95,8 @@
         }
     },
     "image#home__categorySlider--third":{
+        "title":"categorySlider third image",
+
         "props": {
             "src": "assets/img/categorySlider1--third.jpg",
             "maxHeight": "220px",
@@ -97,6 +107,8 @@
         }
     },
     "image#home__categorySlider--fourth":{
+        "title":"categorySlider fourth image",
+
         "props": {
             "src": "assets/img/categorySlider1--fourth.jpg",
             "maxHeight": "220px",
@@ -107,6 +119,8 @@
         }
     },
     "image#home__categorySlider--fifth":{
+        "title":"categorySlider fifth image",
+
         "props": {
             "src": "assets/img/categorySlider1--fifth.jpg",
             "maxHeight": "220px",
@@ -117,6 +131,8 @@
         }
     },
     "image#home__categorySlider--sixth":{
+        "title":"categorySlider sixth image",
+
         "props": {
             "src": "assets/img/categorySlider1--sixth.jpg",
             "maxHeight": "220px",
@@ -127,6 +143,8 @@
         }
     },
     "image#home__categorySlider--seventh":{
+        "title":"categorySlider seventh image",
+
         "props": {
             "src": "assets/img/categorySlider1--seventh.jpg",
             "maxHeight": "220px",
@@ -137,6 +155,8 @@
         }
     },
     "image#home__categorySlider--eighth":{
+        "title":"categorySlider eighth image",
+
         "props": {
             "src": "assets/img/categorySlider1--eighth.jpg",
             "maxHeight": "220px",
@@ -147,6 +167,8 @@
         }
     },
     "image#home__categorySlider--nineth":{
+        "title":"categorySlider nineth image",
+
         "props": {
             "src": "assets/img/categorySlider1--nineth.jpg",
             "maxHeight": "220px",
@@ -157,6 +179,8 @@
         }
     },
     "image#home__categorySlider--tenth":{
+        "title":"categorySlider tenth image",
+
         "props": {
             "src": "assets/img/categorySlider1--tenth.jpg",
             "maxHeight": "220px",

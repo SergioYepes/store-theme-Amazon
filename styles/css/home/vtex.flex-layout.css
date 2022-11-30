@@ -99,6 +99,7 @@
 .flexRowContent--InfoContainer{
     background-color:#0000;
     height: 420px;
+    justify-content: center;
     align-items: center;
     padding-left: 10px;
     overflow: hidden;

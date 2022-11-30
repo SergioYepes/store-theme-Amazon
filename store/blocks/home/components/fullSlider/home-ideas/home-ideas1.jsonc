@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__ideas--first":{
+        "title":"home ideas 1 desktop",
         "children":[
             "flex-layout.col#home__ideas--first",
             "flex-layout.col#home__ideas--second",
@@ -7,7 +8,10 @@
             "flex-layout.col#home__ideas--fourth"
         ]
     },
+
+
     "flex-layout.col#home__ideas--first":{
+        "title":"ideas first column",
         "children":[
             "rich-text#home__ideas--first",
             "image#home__ideas--first",
@@ -19,6 +23,7 @@
         }
     },
     "flex-layout.col#home__ideas--second":{
+        "title":"ideas second column",
         "children":[
             "rich-text#home__ideas--second",
             "image#home__ideas--second",
@@ -29,6 +34,7 @@
         }
     },
     "flex-layout.row#home__ideas--third":{
+        "title":"ideas2 first column",
         "children":[
             "flex-layout.col#home__ideas--third"
         ],
@@ -37,6 +43,7 @@
         }
     },
     "flex-layout.col#home__ideas--third":{
+        "title":"ideas third column",
         "children":[
             "rich-text#home__ideas--third",
             "flex-layout.row#home__ideas-Block1",
@@ -50,6 +57,7 @@
         }
     },
     "flex-layout.col#home__ideas--fourth":{
+        "title":"ideas fourth column",
         "children":[
             "rich-text#home__ideas--fourth",
             "image#home__ideas--fourth",
@@ -59,7 +67,10 @@
             "horizontalAlign":"center"
         }
     },
+
+
     "flex-layout.row#home__ideas-Block1":{
+        "title":"ideas block cont 1",
         "children":[
             "flex-layout.col#home__ideas--Block-first",
             "flex-layout.col#home__ideas--Block-second"
@@ -69,6 +80,7 @@
         }
     },
     "flex-layout.row#home__ideas-Block2":{
+        "title":"ideas block cont 2",
         "children":[
             "flex-layout.col#home__ideas--Block-third",
             "flex-layout.col#home__ideas--Block-fourth"
@@ -77,9 +89,13 @@
             "blockClass":"pricelessCont"
         }
     },
+
+
+
     "flex-layout.col#home__ideas--Block-first":{
+        "title":"ideas block--first cont",
         "children":[
-            "image#home__ideas--Block-one",
+            // "image#home__ideas--Block-one",
             "flex-layout.row#home__ideas--Block-one-name",
             "flex-layout.row#home__ideas--Block-one-price"
         ],
@@ -87,15 +103,8 @@
             "blockClass":"Home-ideas--Block"
         }
     },
-    "flex-layout.row#home__ideas--Block-one-name":{
-        "props":{
-            "blockClass":"ImageContPriss"
-        },
-        "children":[
-            "image#home__ideas--Block-one"
-        ]
-    },
     "flex-layout.col#home__ideas--Block-second":{
+        "title":"ideas block--second cont",
         "children":[
             "flex-layout.row#home__ideas--Block-two-name",
             "link#home__ideas--Block-two-name",
@@ -105,17 +114,10 @@
             "blockClass":"Home-ideas--Block"
         }
     },
-    "flex-layout.row#home__ideas--Block-two-name":{
-        "props":{
-            "blockClass":"ImageContPriss"
-        },
-        "children":[
-            "image#home__ideas--Block-two"
-        ]
-    },
     "flex-layout.col#home__ideas--Block-third":{
+        "title":"ideas block--third cont",
         "children":[
-            "image#home__ideas--Block-three",
+            // "image#home__ideas--Block-three",
             "flex-layout.row#home__ideas--Block-three-name",
             "flex-layout.row#home__ideas--Block-three-price"
         ],
@@ -123,17 +125,10 @@
             "blockClass":"Home-ideas--Block"
         }
     },
-    "flex-layout.row#home__ideas--Block-three-name":{
-        "props":{
-            "blockClass":"ImageContPriss"
-        },
-        "children":[
-            "image#home__ideas--Block-three"
-        ]
-    },
     "flex-layout.col#home__ideas--Block-fourth":{
+        "title":"ideas block--fourth cont",
         "children":[
-            "image#home__ideas--Block-four",
+            // "image#home__ideas--Block-four",
             "flex-layout.row#home__ideas--Block-four-name",
             "flex-layout.row#home__ideas--Block-four-price"
         ],
@@ -141,7 +136,38 @@
             "blockClass":"Home-ideas--Block"
         }
     },
+
+
+
+    "flex-layout.row#home__ideas--Block-one-name":{
+        "title":"ideas block--first name one",
+        "props":{
+            "blockClass":"ImageContPriss"
+        },
+        "children":[
+            "image#home__ideas--Block-one"
+        ]
+    },
+    "flex-layout.row#home__ideas--Block-two-name":{
+        "title":"ideas block--second name two",
+        "props":{
+            "blockClass":"ImageContPriss"
+        },
+        "children":[
+            "image#home__ideas--Block-two"
+        ]
+    },
+    "flex-layout.row#home__ideas--Block-three-name":{
+        "title":"ideas block--third name three",
+        "props":{
+            "blockClass":"ImageContPriss"
+        },
+        "children":[
+            "image#home__ideas--Block-three"
+        ]
+    },
     "flex-layout.row#home__ideas--Block-four-name":{
+        "title":"ideas block--fourth name four",
         "props":{
             "blockClass":"ImageContPriss"
         },
@@ -149,7 +175,11 @@
             "image#home__ideas--Block-four"
         ]
     },
+
+
+
     "flex-layout.row#home__ideas--Block-one-price":{
+        "title":"ideas block--second price one",
         "children":[
             "link#home__home__ideas--Block-one-price--big",
             "link#home__home__ideas--Block-one-price--cents"
@@ -160,6 +190,7 @@
         }
     },
     "flex-layout.row#home__ideas--Block-two-price":{
+        "title":"ideas block--second price two",
         "children":[
             "link#home__home__ideas--Block-two-price--big",
             "link#home__home__ideas--Block-two-price--cents"
@@ -170,6 +201,7 @@
         }
     },
     "flex-layout.row#home__ideas--Block-three-price":{
+        "title":"ideas block--second price three",
         "children":[
             "link#home__home__ideas--Block-three-price--big",
             "link#home__home__ideas--Block-three-price--cents"
@@ -180,6 +212,7 @@
         }
     },
     "flex-layout.row#home__ideas--Block-four-price":{
+        "title":"ideas block--second price four",
         "children":[
             "link#home__home__ideas--Block-four-price--big",
             "link#home__home__ideas--Block-four-price--cents"
@@ -188,211 +221,5 @@
             "colSizing":"auto",
             "blockClass":"home_ideas-BlockPrices"
         }
-    },
-    "rich-text#home__ideas--first":{
-        "props":{
-            "text":"Ideas de regalo de pequeños negocios",
-            "textColor": "c-on-emphasis",
-            "blockClass":"rich-text--homeInfo"
-        }
-    },
-    "rich-text#home__ideas--second":{
-        "props":{
-            "text":"Historias de pequeños negocios",
-            "textColor": "c-on-emphasis",
-            "blockClass":"rich-text--homeInfo"
-        }
-    },
-    "rich-text#home__ideas--third":{
-        "props":{
-            "text":"Ideas de regalos juguetes",
-            "textColor": "c-on-emphasis",
-            "blockClass":"rich-text--homeInfo"
-        }
-    },
-    "rich-text#home__ideas--fourth":{
-        "props":{
-            "text":"Ropa formal",
-            "textColor": "c-on-emphasis",
-            "blockClass":"rich-text--homeInfo"
-        }
-    },
-    "image#home__ideas--first":{
-        "props": {
-            "src": "assets/img/ideas/home__ideas--first.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
-            "link":{
-                "url":"#"
-            }
-          }
-    },
-    
-    "image#home__ideas--second":{
-        "props": {
-            "src": "assets/img/ideas/home__ideas--second.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
-            "link":{
-                "url":"#"
-            }
-          }
-    },
-    "image#home__ideas--Block-one":{
-        "props":{
-            "src": "assets/img/ideas/home__ideas--Block-one.jpg",
-            "minHeight": "95px",
-            "minWidth":"125px",
-            "link":{
-                "url":"#"
-            }
-        }
-    },
-    "image#home__ideas--Block-two":{
-        "props":{
-            "src": "assets/img/ideas/home__ideas--Block-two.jpg",
-            "minHeight": "95px",
-            "minWidth":"125px",
-            "link":{
-                "url":"#"
-            }
-        }
-    },
-    "image#home__ideas--Block-three":{
-        "props":{
-            "src": "assets/img/ideas/home__ideas--Block-three.jpg",
-            "minHeight": "95px",
-            "minWidth":"125px",
-            "link":{
-                "url":"#"
-            }
-        }
-    },
-    "image#home__ideas--Block-four":{
-        "props":{
-            "src": "assets/img/ideas/home__ideas--Block-four.jpg",
-            "minHeight": "95px",
-            "minWidth":"125px",
-            "link":{
-                "url":"#"
-            }
-        }
-    },
-    "image#home__ideas--fourth":{
-        "props": {
-            "src": "assets/img/ideas/home__ideas--fourth.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
-            "link":{
-                "url":"#"
-            }
-          }
-    },
-    "link#home__ideas--first":{
-        "props":{
-            "label":"Comprar ahora",
-            "href":"#"
-        }
-    },
-    "link#home__ideas--second":{
-        "props":{
-            "label":"Descubre más",
-            "href":"#"
-        }
-    },
-   
-    "link#home__ideas--third":{
-        "props":{
-            "label":"Ver más",
-            "href":"#"
-        }
-    },
-    "link#home__ideas--fourth":{
-        "props":{
-            "label":"Ver más",
-            "href":"#"
-        }
-    },
-    "link#home__ideas--Block-one-name":{
-        "props":{
-            "label":"EXTSUD Alfombra Piano de Suelo Alfombrilla Musical Estera de Baile Tapete para Niños 100 * 36cm",
-            "href":"#",
-            "blockClass":"Home-ideas--link"
-        }
-    },
-    "link#home__home__ideas--Block-one-price--big":{
-        "props":{
-            "label":"20",
-            "href":"#"
-        }
-    },
-
-    "link#home__home__ideas--Block-one-price--cents":{
-        "props":{
-            "label":"99€",
-            "href":"#"
-        }
-    },
-    "link#home__ideas--Block-two-name":{
-        "props":{
-            "label":"Waggles, mi perrito salchicha. Peluche interactivo que camina, ladra y mueve la cola como un perro salchicha real.",
-            "href":"#",
-            "blockClass":"Home-ideas--link"
-        }
-    },
-    "link#home__home__ideas--Block-two-price--big":{
-        "props":{
-            "label":"36",
-            "href":"#"
-        }
-    },
-
-    "link#home__home__ideas--Block-two-price--cents":{
-        "props":{
-            "label":"95€",
-            "href":"#"
-        }
-    },
-    "link#home__ideas--Block-three-name":{
-        "props":{
-            "label":"Ludilo - Batalla De Genios Original, Juegos De Mesa Para Niños, Rompecabezas Madera, Juegos Educativos 6 Años O Más",
-            "href":"#",
-            "blockClass":"Home-ideas--link"
-        }
-    },
-    "link#home__home__ideas--Block-three-price--big":{
-        "props":{
-            "label":"24",
-            "href":"#"
-        }
-    },
-
-    "link#home__home__ideas--Block-three-price--cents":{
-        "props":{
-            "label":"94€",
-            "href":"#"
-        }
-    },
-    "link#home__ideas--Block-four-name":{
-        "props":{
-            "label":"Ludilo - Batalla De Genios Original, Juegos De Mesa Para Niños, Rompecabezas Madera, Juegos Educativos 6 Años O Más",
-            "href":"#",
-            "blockClass":"Home-ideas--link"
-        }
-    },
-    "link#home__home__ideas--Block-four-price--big":{
-        "props":{
-            "label":"25",
-            "href":"#"
-        }
-    },
-
-    "link#home__home__ideas--Block-four-price--cents":{
-        "props":{
-            "label":"77€",
-            "href":"#"
-        }
-    }
-    
-   
+    }  
 }

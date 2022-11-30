@@ -1,5 +1,6 @@
 {
     "flex-layout.col#home__showcaseProductCard1--first":{
+        "title":"showcaseProductCard cont",
         "children":[
             "rich-text#home__showcaseProductCard1--head1",
             "slider-layout#home__showcaseProductCard1--first",
@@ -13,6 +14,7 @@
         }
     },
     "flex-layout.row#home__showcaseProductCard1--price":{
+        "title":"showcaseProductCard prices cont",
         "children":[
             "rich-text#home__showcaseProduct1Card--price",
             "rich-text#home__showcaseProduct1Card--cents",
@@ -23,47 +25,59 @@
             "colSizing":"auto"
         }
     },
+
+// -------rich text
     "rich-text#home__showcaseProductCard1--head1":{
+        "title":"Ideas de regalos para ella",
         "props":{
             "text":"Ideas de regalos para ella",
             "blockClass":"rich-text--homeInfo"
             // "textColor": "c-on-emphasis"
         }
     },
-    "link#home__showcaseProduct1Card--title":{
-        "props":{
-            "label":"Olay Regenerist Crema Facial De Día y Olay Retinol 24 Crema Hidratante De Noche Con Retinol, Pack x 2 Uds, 24H De...",
-            "href":"#"
-        }
-    },
+    
     "rich-text#home__showcaseProduct1Card--price":{
+        "title":"Desde 45",
         "props":{
             "text":"Desde 45",
             "blockClass":"rich-text--showcaseProduct--price"     
         }
     },
     "rich-text#home__showcaseProduct1Card--cents":{
+        "title":"02",
         "props":{
-            "text":"02€",
+            "text":".02€",
             "blockClass":"rich-text--showcaseProduct--cents"     
         }
     },
     "rich-text#home__showcaseProduct1Card--PVPR":{
+        "title":"PVPR",
         "props":{
             "text":"PVPR",
             "blockClass":"rich-text--showcaseProduct--PVPR"     
         }
     },
     "rich-text#home__showcaseProduct1Card--prev":{
+        "title":"54,99€",
         "props":{
             "text":"54,99€",
             "blockClass":"rich-text--showcaseProduct--prev"     
         }
     },
     
+
+
     "link#home__showcaseProduct1Card--first":{
+        "title":"showcaseProductCard link",
         "props":{
             "label":"Ver más",
+            "href":"#"
+        }
+    },
+    "link#home__showcaseProduct1Card--title":{
+        "title":"showcaseProductCard title",
+        "props":{
+            "label":"Olay Regenerist Crema Facial De Día y Olay Retinol 24 Crema Hidratante De Noche Con Retinol, Pack x 2 Uds, 24H De...",
             "href":"#"
         }
     }

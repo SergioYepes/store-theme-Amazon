@@ -1,5 +1,6 @@
 { 
     "flex-layout.row#home__priceless--sixth":{
+        "title":"home priceless sixth",
         "children":[
             "flex-layout.col#home__priceless6--first"
         ],
@@ -8,6 +9,7 @@
         }
     },
     "flex-layout.col#home__priceless6--first":{
+        "title":"priceless6 cont",
         "children":[
             "rich-text#home__priceless6--first",
             "flex-layout.row#home__priceless6-Block1",
@@ -18,7 +20,10 @@
             "horizontalAlign":"left"
         }
     },
+
+
     "flex-layout.row#home__priceless6-Block1":{
+        "title":"priceless6 block 1",
         "children":[
             "flex-layout.col#home__priceless6--Block-first",
             "flex-layout.col#home__priceless6--Block-second"
@@ -28,6 +33,7 @@
         }
     },
     "flex-layout.row#home__priceless6-Block2":{
+        "title":"priceless6 block 2",
         "children":[
             "flex-layout.col#home__priceless6--Block-third",
             "flex-layout.col#home__priceless6--Block-fourth"
@@ -36,7 +42,11 @@
             "blockClass":"pricelessCont"
         }
     },
+
+
+
     "flex-layout.col#home__priceless6--Block-first":{
+        "title":"priceless6 block--first",
         "children":[
             "flex-layout.row#home__priceless6--Block-one",
             "link#home__priceless6--Block-one-name"
@@ -45,15 +55,8 @@
             "blockClass":"Home-ideas--Block"
         }
     },
-    "flex-layout.row#home__priceless6--Block-one":{
-        "props":{
-            "blockClass":"ImageContPriss"
-        },
-        "children":[
-            "image#home__priceless6--Block-one"
-        ]
-    },
     "flex-layout.col#home__priceless6--Block-second":{
+        "title":"priceless6 block--second",
         "children":[
             "flex-layout.row#home__priceless6--Block-two",
             "link#home__priceless6--Block-two-name"
@@ -62,15 +65,8 @@
             "blockClass":"Home-ideas--Block"
         }
     },
-    "flex-layout.row#home__priceless6--Block-two":{
-        "props":{
-            "blockClass":"ImageContPriss"
-        },
-        "children":[
-            "image#home__priceless6--Block-two"
-        ]
-    },
     "flex-layout.col#home__priceless6--Block-third":{
+        "title":"priceless6 block--third",
         "children":[
             "flex-layout.row#home__priceless6--Block-three",
             "link#home__priceless6--Block-three-name"
@@ -79,15 +75,8 @@
             "blockClass":"Home-ideas--Block"
         }
     },
-    "flex-layout.row#home__priceless6--Block-three":{
-        "props":{
-            "blockClass":"ImageContPriss"
-        },
-        "children":[
-            "image#home__priceless6--Block-three"
-        ]
-    },
     "flex-layout.col#home__priceless6--Block-fourth":{
+        "title":"priceless6 block--fourth",
         "children":[
             "flex-layout.row#home__priceless6--Block-four",
             "link#home__priceless6--Block-four-name"
@@ -96,7 +85,37 @@
             "blockClass":"Home-ideas--Block"
         }
     },
+
+
+    "flex-layout.row#home__priceless6--Block-one":{
+        "title":"priceless6 imagenCont 1",
+        "props":{
+            "blockClass":"ImageContPriss"
+        },
+        "children":[
+            "image#home__priceless6--Block-one"
+        ]
+    },  
+    "flex-layout.row#home__priceless6--Block-two":{
+        "title":"priceless6 imagenCont 2",
+        "props":{
+            "blockClass":"ImageContPriss"
+        },
+        "children":[
+            "image#home__priceless6--Block-two"
+        ]
+    },
+    "flex-layout.row#home__priceless6--Block-three":{
+        "title":"priceless6 imagenCont 3",
+        "props":{
+            "blockClass":"ImageContPriss"
+        },
+        "children":[
+            "image#home__priceless6--Block-three"
+        ]
+    },
     "flex-layout.row#home__priceless6--Block-four":{
+        "title":"priceless6 imagenCont 4",
         "props":{
             "blockClass":"ImageContPriss"
         },
@@ -104,20 +123,21 @@
             "image#home__priceless6--Block-four"
         ]
     },
+
+
     "rich-text#home__priceless6--first":{
+        "title":"Moda Made in Italy",
         "props":{
             "text":"Novedades para mujer",
             "textColor": "c-on-emphasis",
             "blockClass":"rich-text--homeInfo"
         }
     },
-    "link#home__priceless6--first":{
-        "props":{
-            "label":"Descubre más",
-            "href":"#"
-        }
-    },
+
+        // ------- image
+
     "image#home__priceless6--Block-one":{
+        "title":"priceless6 image 1",
         "props":{
             "src": "assets/img/priceless/priceless6/home__priceless6--Block-one.jpg",
             "minHeight": "95px",
@@ -128,6 +148,7 @@
         }
     },
     "image#home__priceless6--Block-two":{
+        "title":"priceless6 image 2",
         "props":{
             "src": "assets/img/priceless/priceless6/home__priceless6--Block-two.jpg",
             "minHeight": "95px",
@@ -138,6 +159,7 @@
         }
     },
     "image#home__priceless6--Block-three":{
+        "title":"priceless6 image 3",
         "props":{
             "src": "assets/img/priceless/priceless6/home__priceless6--Block-three.jpg",
             "minHeight": "95px",
@@ -148,6 +170,7 @@
         }
     },
     "image#home__priceless6--Block-four":{
+        "title":"priceless6 image 4",
         "props":{
             "src": "assets/img/priceless/priceless6/home__priceless6--Block-four.jpg",
             "minHeight": "95px",
@@ -157,7 +180,17 @@
             }
         }
     },
+
+    // ------- link
+    "link#home__priceless6--first":{
+        "title":"priceless6 link 1",
+        "props":{
+            "label":"Descubre más",
+            "href":"#"
+        }
+    },
     "link#home__priceless6--Block-one-name":{
+        "title":"priceless6 link block 1",
         "props":{
             "label":"Mujer",
             "href":"#",
@@ -165,6 +198,7 @@
         }
     },
     "link#home__priceless6--Block-two-name":{
+        "title":"priceless6 link block 2",
         "props":{
             "label":"Hombre",
             "href":"#",
@@ -172,6 +206,7 @@
         }
     },
     "link#home__priceless6--Block-three-name":{
+        "title":"priceless6 link block 3",
         "props":{
             "label":"Niños",
             "href":"#",
@@ -179,6 +214,7 @@
         }
     },
     "link#home__priceless6--Block-four-name":{
+        "title":"priceless6 link block 4",
         "props":{
             "label":"Bebé",
             "href":"#",

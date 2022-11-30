@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__ideas--second":{
+        "title":"home ideas 2 desktop",
         "children":[
             "flex-layout.row#home__ideas--third",
             "flex-layout.row#home__priceless--third",
@@ -11,6 +12,7 @@
         }
     },
     "flex-layout.col#home__ideas2--first":{
+        "title":"ideas2 first cont",
         "children":[
             "rich-text#home__ideas2--first",
             "flex-layout.row#home__ideas2--first",
@@ -22,6 +24,7 @@
         }
     },
     "flex-layout.row#home__ideas2--first":{
+        "title":"ideas2 first image cont",
         "children":[
             "image#home__ideas2--first"
         ],
@@ -30,6 +33,7 @@
         }
     },
     "rich-text#home__ideas2--first":{
+        "title":"Alquila películas por solo 1,99€ cada una",
         "props":{
             "text":"Alquila películas por solo 1,99€ cada una",
             "textColor": "c-on-emphasis",
@@ -37,6 +41,7 @@
         }
     },
     "image#home__ideas2--first":{
+        "title":"ideas2 image",
         "props": {
             "src": "assets/img/ideas/home__ideas2--first.jpg",
             "minHeight": "300px",
@@ -47,6 +52,7 @@
           }
     },
     "link#home__ideas2--first":{
+        "title":"ideas2 link",
         "props":{
             "label":"Descubre ahora",
             "href":"#"

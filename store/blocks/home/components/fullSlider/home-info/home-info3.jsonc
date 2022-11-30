@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__info--third":{
+        "title":"home info third",
         "children":[
             "flex-layout.col#home__info3--first",
             "flex-layout.col#home__info3--second",
@@ -11,6 +12,7 @@
         }
     },
     "flex-layout.col#home__info3--first":{
+        "title":"home info third column 1",
         "children":[
             "rich-text#home__info3--first",
             "flex-layout.row#home__info3--firstImg",
@@ -22,6 +24,7 @@
         }
     },
     "flex-layout.row#home__info3--firstImg":{
+        "title":"home info third image 1" ,
         "children":[
             "image#home__info3--first"
         ],
@@ -30,6 +33,7 @@
         }
     },
     "flex-layout.col#home__info3--second":{
+        "title":"home info third column 2",
         "children":[
             "rich-text#home__info3--second",
             "flex-layout.row#home__info3--secondImg",
@@ -41,6 +45,7 @@
         }
     },
     "flex-layout.row#home__info3--secondImg":{
+        "title":"home info third image 2" ,
         "children":[
             "image#home__info3--second"
         ],
@@ -49,6 +54,7 @@
         }
     },
     "flex-layout.col#home__info3--third":{
+        "title":"home info third column 3",
         "children":[
             "rich-text#home__info3--third",
             "flex-layout.row#home__info3--thirdImg",
@@ -60,6 +66,7 @@
         }
     },
     "flex-layout.row#home__info3--thirdImg":{
+        "title":"home info third image 3" ,
         "children":[
             "image#home__info3--third"
         ],
@@ -67,7 +74,10 @@
             "blockClass":"ImageCont"
         }
     },
+
+    // ------- rich text
     "rich-text#home__info3--first":{
+        "title":"Ropa formal",
         "props":{
             "text":"Ropa formal",
             "textColor": "c-on-emphasis",
@@ -75,6 +85,7 @@
         }
     },
     "rich-text#home__info3--second":{
+        "title":"Historias de pequeños negocios",
         "props":{
             "text":"Historias de pequeños negocios",
             "textColor": "c-on-emphasis",
@@ -82,13 +93,18 @@
         }
     },
     "rich-text#home__info3--third":{
+        "title":"Financia al 0% TAE con Cofidis hasta el 31/12",
         "props":{
             "text":"Financia al 0% TAE con Cofidis hasta el 31/12",
             "textColor": "c-on-emphasis",
             "blockClass":"rich-text--homeInfo"
         }
     },
+
+
+    // ------- images
     "image#home__info3--first":{
+        "title":"home info third 1 image",
         "props": {
             "src": "assets/img/home__info3--first.jpg",
             "minHeight": "300px",
@@ -98,14 +114,8 @@
             }
           }
     },
-    "link#home__info3--first":{
-        "props":{
-            "label":"Ver más",
-            "href":"#",
-            "blockClass":"homeInfoFirst"
-        }
-    },
     "image#home__info3--second":{
+        "title":"home info third 2 image",
         "props": {
             "src": "assets/img/home__info3--second.jpg",
             "minHeight": "300px",
@@ -115,14 +125,8 @@
             }
           }
     },
-    "link#home__info3--second":{
-        "props":{
-            "label":"Descubre más",
-            "href":"#",
-            "blockClass":"homeInfoFirst"
-        }
-    },
     "image#home__info3--third":{
+        "title":"home info third 3 image",
         "props": {
             "src": "assets/img/home__info3--third.jpg",
             "minHeight": "300px",
@@ -132,7 +136,26 @@
             }
           }
     },
+
+    // -------links
+    "link#home__info3--first":{
+        "title":"home info third 1 link",
+        "props":{
+            "label":"Ver más",
+            "href":"#",
+            "blockClass":"homeInfoFirst"
+        }
+    },
+    "link#home__info3--second":{
+        "title":"home info third 2 link",
+        "props":{
+            "label":"Descubre más",
+            "href":"#",
+            "blockClass":"homeInfoFirst"
+        }
+    },
     "link#home__info3--third":{
+        "title":"home info third 3 link",
         "props":{
             "label":"Ver más",
             "href":"#",

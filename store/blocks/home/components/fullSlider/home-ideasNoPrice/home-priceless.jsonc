@@ -9,7 +9,7 @@
         }
     },
     "flex-layout.col#home__priceless--first":{
-        "title":"home priceless first column",
+        "title":"priceless first column",
         "children":[
             "rich-text#home__priceless--first",
             "flex-layout.row#home__priceless-Block1",
@@ -21,7 +21,7 @@
         }
     },
     "flex-layout.row#home__priceless-Block1":{
-        "title":"home priceless first Block1",
+        "title":"priceless first Block1",
         "children":[
             "flex-layout.col#home__priceless--Block-first",
             "flex-layout.col#home__priceless--Block-second"
@@ -31,7 +31,7 @@
         }
     },
     "flex-layout.row#home__priceless-Block2":{
-        "title":"home priceless first Block2",
+        "title":"priceless first Block2",
         "children":[
             "flex-layout.col#home__priceless--Block-third",
             "flex-layout.col#home__priceless--Block-fourth"
@@ -41,7 +41,7 @@
         }
     },
     "flex-layout.col#home__priceless--Block-first":{
-        "title":"home priceless first Block-one",
+        "title":"priceless first Block-one",
         "children":[
             "flex-layout.row#home__priceless--Block-one",
             "link#home__priceless--Block-one-name"
@@ -51,7 +51,7 @@
         }
     },
     "flex-layout.row#home__priceless--Block-one":{
-        "title":"home priceless first Block-one image cont",
+        "title":"priceless first Block-one image cont",
         "props":{
             "blockClass":"ImageContPriss"
         },
@@ -60,7 +60,7 @@
         ]
     },
     "flex-layout.col#home__priceless--Block-second":{
-        "title":"home priceless first Block-two",
+        "title":"priceless first Block-two",
         "children":[
             "flex-layout.row#home__priceless--Block-second",
             "link#home__priceless--Block-two-name"
@@ -70,7 +70,7 @@
         }
     },
     "flex-layout.row#home__priceless--Block-second":{
-        "title":"home priceless first Block-two image cont",
+        "title":"priceless first Block-two image cont",
         "props":{
             "blockClass":"ImageContPriss"
         },
@@ -79,7 +79,7 @@
         ]
     },
     "flex-layout.col#home__priceless--Block-third":{
-        "title":"home priceless first Block-three",
+        "title":"priceless first Block-three",
         "children":[
             "flex-layout.row#home__priceless--Block-three",
             "link#home__priceless--Block-three-name"
@@ -89,7 +89,7 @@
         }
     },
     "flex-layout.row#home__priceless--Block-three":{
-        "title":"home priceless first Block-three image cont",
+        "title":"priceless first Block-three image cont",
         "props":{
             "blockClass":"ImageContPriss"
         },
@@ -98,7 +98,7 @@
         ]
     },
     "flex-layout.col#home__priceless--Block-fourth":{
-        "title":"home priceless first Block-four",
+        "title":"priceless first Block-four",
         "children":[
             "flex-layout.row#home__priceless--Block-four",
             "link#home__priceless--Block-four-name"
@@ -108,7 +108,7 @@
         }
     },
     "flex-layout.row#home__priceless--Block-four":{
-        "title":"home priceless first Block-four image cont",
+        "title":"priceless first Block-four image cont",
         "props":{
             "blockClass":"ImageContPriss"
         },
@@ -127,14 +127,14 @@
         }
     },
     "link#home__priceless--first":{
-        "title":"home priceless first link",
+        "title":"priceless first link",
         "props":{
             "label":"Ver más",
             "href":"#"
         }
     },
     "image#home__priceless--Block-one":{
-        "title":"home priceless first image 1",
+        "title":"priceless first image 1",
         "props":{
             "src": "assets/img/priceless/home__priceless1--Block-one.jpg",
             "minHeight": "95px",
@@ -145,7 +145,7 @@
         }
     },
     "image#home__priceless--Block-two":{
-        "title":"home priceless first image 2",
+        "title":"priceless first image 2",
         "props":{
             "src": "assets/img/priceless/home__priceless1--Block-two.jpg",
             "minHeight": "95px",
@@ -156,7 +156,7 @@
         }
     },
     "image#home__priceless--Block-three":{
-        "title":"home priceless first image 3",
+        "title":"priceless first image 3",
         "props":{
             "src": "assets/img/priceless/home__priceless1--Block-three.jpg",
             "minHeight": "95px",
@@ -167,7 +167,7 @@
         }
     },
     "image#home__priceless--Block-four":{
-        "title":"home priceless first image 4",
+        "title":"priceless first image 4",
         "props":{
             "src": "assets/img/priceless/home__priceless1--Block-four.jpg",
             "minHeight": "95px",

@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__searchResult":{
+        "title":"home search result desktop",
         "children":[
             "search-result-layout.customQuery#home__searchResult"
         ],
@@ -8,6 +9,7 @@
         }
     },
     "search-result-layout.customQuery#home__searchResult":{
+        "title":"searchResult cont",
         "blocks": [
             "search-result-layout.desktop#home__searchResult",
             "search-result-layout.mobile#home__searchResult",
@@ -15,39 +17,38 @@
         ],
         "props":{
             "querySchema":{
-                "skusFilter":"ALL",
-                "simulationBehavior":"skip"
+                "skusFilter":"ALL_AVAILABLE",
+                "simulationBehavior":"default"
             }
         }
     },
     "search-result-layout.desktop#home__searchResult":{
+        "title":"searchResult desktop",
         "children":[
             "flex-layout.row#home__searchResult--desktop"
         ]
     },
     "flex-layout.row#home__searchResult--desktop":{
-        "children":[
-            "flex-layout.col#home__searchResult--search"
-        ]
-      
-    },
-    "flex-layout.col#home__searchResult--search":{
+        "title":"searchResult column cont",
         "children":[
             "search-content#home__searchResult"
         ]
     },
     "search-content#home__searchResult":{
+        "title":"searchResult content",
         "blocks":[
             "gallery",
             "not-found"
         ]
     },
     "gallery":{
+        "title":"searchResult gallery",
         "blocks":[
             "product-summary.shelf#home__searchResult"
         ]
     },
     "product-summary.shelf":{
+        "title":"searchResult children",
         "children": [
             "add-to-list-btn",
             "product-summary-image",

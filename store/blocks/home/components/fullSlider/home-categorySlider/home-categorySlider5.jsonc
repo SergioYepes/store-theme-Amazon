@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__categorySlider--fifth":{
+        "title":"home categorySlider 5 desktop",
         "children":[
             "flex-layout.col#home__categorySlider5--first"
             ],
@@ -9,6 +10,7 @@
         }
     },
     "flex-layout.col#home__categorySlider5--first":{
+        "title":"categorySlider5 column",
         "children":[
             "flex-layout.row#home__categorySlider5--head",
             "slider-layout#home__categorySlider5--first"
@@ -18,6 +20,7 @@
         }
     },
     "flex-layout.row#home__categorySlider5--head":{
+        "title":"categorySlider5 title cont",
         "children":[
             "rich-text#home__categorySlider5--head",
             "link#home__categorySlider5--head"
@@ -29,12 +32,14 @@
         }
     },
     "link#home__categorySlider5--head":{
+        "title":"link categorySlider5",
         "props":{
             "label":"Comprar ahora",
             "href":"#"
         }
     },
     "rich-text#home__categorySlider5--head":{
+        "title":"Descubre Amazon Launchpad",
         "props":{
             "text":"Descubre Amazon Launchpad",
             "textColor": "c-on-emphasis",
@@ -43,6 +48,7 @@
     },
 
     "slider-layout#home__categorySlider5--first":{
+        "title":"categorySlider5 slider cont",
         "props": {
             "itemsPerPage": {
               "desktop": 6,
@@ -65,6 +71,7 @@
         ]
     },
     "image#home__categorySlider5--first":{
+        "title":"categorySlider5 first image",
         "props": {
             "src": "assets/img/categorySlider5/categorySlider5--first.jpg",
             "maxHeight": "220px",
@@ -75,6 +82,7 @@
         }
     },
     "image#home__categorySlider5--second":{
+        "title":"categorySlider5 second image",
         "props": {
             "src": "assets/img/categorySlider5/categorySlider5--second.jpg",
             "maxHeight": "220px",
@@ -85,6 +93,7 @@
         }
     },
     "image#home__categorySlider5--third":{
+        "title":"categorySlider5 third image",
         "props": {
             "src": "assets/img/categorySlider5/categorySlider5--third.jpg",
             "maxHeight": "220px",
@@ -95,6 +104,7 @@
         }
     },
     "image#home__categorySlider5--fourth":{
+        "title":"categorySlider5 fourth image",
         "props": {
             "src": "assets/img/categorySlider5/categorySlider5--fourth.jpg",
             "maxHeight": "220px",
@@ -105,6 +115,7 @@
         }
     },
     "image#home__categorySlider5--fifth":{
+        "title":"categorySlider5 fifth image",
         "props": {
             "src": "assets/img/categorySlider5/categorySlider5--fifth.jpg",
             "maxHeight": "220px",
@@ -115,6 +126,7 @@
         }
     },
     "image#home__categorySlider5--sixth":{
+        "title":"categorySlider5 sixth image",
         "props": {
             "src": "assets/img/categorySlider5/categorySlider5--sixth.jpg",
             "maxHeight": "220px",
@@ -125,6 +137,7 @@
         }
     },
     "image#home__categorySlider5--eighth":{
+        "title":"categorySlider5 eighth image",
         "props": {
             "src": "assets/img/categorySlider5/categorySlider5--eighth.jpg",
             "maxHeight": "220px",
@@ -135,6 +148,7 @@
         }
     },
     "image#home__categorySlider5--nineth":{
+        "title":"categorySlider5 nineth image",
         "props": {
             "src": "assets/img/categorySlider5/categorySlider5--nineth.jpg",
             "maxHeight": "220px",
@@ -145,6 +159,7 @@
         }
     },
     "image#home__categorySlider5--tenth":{
+        "title":"categorySlider5 tenth image",
         "props": {
             "src": "assets/img/categorySlider5/categorySlider5--tenth.jpg",
             "maxHeight": "220px",

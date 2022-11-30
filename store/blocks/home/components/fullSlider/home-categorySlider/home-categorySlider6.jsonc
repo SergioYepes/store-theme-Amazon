@@ -1,5 +1,6 @@
 {
     "flex-layout.row#home__categorySlider--sixth":{
+        "title":"home categorySlider 6 desktop",
         "children":[
             "flex-layout.col#home__categorySlider6--first"
             ],
@@ -9,6 +10,7 @@
         }
     },
     "flex-layout.col#home__categorySlider6--first":{
+        "title":"categorySlider6 column",
         "children":[
             "flex-layout.row#home__categorySlider6--head",
             "slider-layout#home__categorySlider6--first"
@@ -18,6 +20,7 @@
         }
     },
     "flex-layout.row#home__categorySlider6--head":{
+        "title":"categorySlider6 title cont",
         "children":[
             "rich-text#home__categorySlider6--head",
             "link#home__categorySlider6--head"
@@ -29,12 +32,14 @@
         }
     },
     "link#home__categorySlider6--head":{
+        "title":"link categorySlider6",
         "props":{
             "label":"Ver más",
             "href":"#"
         }
     },
     "rich-text#home__categorySlider6--head":{
+        "title":"Ofertas Inesperadas",
         "props":{
             "text":"Ofertas Inesperadas",
             "textColor": "c-on-emphasis",
@@ -43,6 +48,7 @@
     },
 
     "slider-layout#home__categorySlider6--first":{
+        "title":"categorySlider6 slider cont",
         "props": {
             "itemsPerPage": {
               "desktop": 6,
@@ -77,6 +83,7 @@
         ]
     },
     "image#home__categorySlider6--first":{
+        "title":"categorySlider6 first image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--first.jpg",
             "maxHeight": "220px",
@@ -87,6 +94,7 @@
         }
     },
     "image#home__categorySlider6--second":{
+        "title":"categorySlider6 second image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--second.jpg",
             "maxHeight": "220px",
@@ -97,6 +105,7 @@
         }
     },
     "image#home__categorySlider6--third":{
+        "title":"categorySlider6 third image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--third.jpg",
             "maxHeight": "220px",
@@ -107,6 +116,7 @@
         }
     },
     "image#home__categorySlider6--fourth":{
+        "title":"categorySlider6 fourth image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--fourth.jpg",
             "maxHeight": "220px",
@@ -117,6 +127,7 @@
         }
     },
     "image#home__categorySlider6--fifth":{
+        "title":"categorySlider6 fifth image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--fifth.jpg",
             "maxHeight": "220px",
@@ -127,6 +138,7 @@
         }
     },
     "image#home__categorySlider6--sixth":{
+        "title":"categorySlider6 sixth image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--sixth.jpg",
             "maxHeight": "220px",
@@ -137,6 +149,7 @@
         }
     },
     "image#home__categorySlider6--seventh":{
+        "title":"categorySlider6 seventh image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--seventh.jpg",
             "maxHeight": "220px",
@@ -147,6 +160,7 @@
         }
     },
     "image#home__categorySlider6--eighth":{
+        "title":"categorySlider6 eighth image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--eighth.jpg",
             "maxHeight": "220px",
@@ -157,6 +171,7 @@
         }
     },
     "image#home__categorySlider6--nineth":{
+        "title":"categorySlider6 nineth image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--nineth.jpg",
             "maxHeight": "220px",
@@ -167,6 +182,7 @@
         }
     },
     "image#home__categorySlider6--tenth":{
+        "title":"categorySlider6 tenth image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--tenth.jpg",
             "maxHeight": "220px",
@@ -177,6 +193,7 @@
         }
     },
     "image#home__categorySlider6--eleventh":{
+        "title":"categorySlider6 eleventh image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--eleventh.jpg",
             "maxHeight": "220px",
@@ -187,6 +204,7 @@
         }
     },
     "image#home__categorySlider6--twelfth":{
+        "title":"categorySlider6 twelfth image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--twelfth.jpg",
             "maxHeight": "220px",
@@ -197,6 +215,7 @@
         }
     },
     "image#home__categorySlider6--thirteenth":{
+        "title":"categorySlider6 thirteenth image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--thirteenth.jpg",
             "maxHeight": "220px",
@@ -207,6 +226,7 @@
         }
     },
     "image#home__categorySlider6--fourteenth":{
+        "title":"categorySlider6 fourteenth image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--fourteenth.jpg",
             "maxHeight": "220px",
@@ -217,6 +237,7 @@
         }
     },
     "image#home__categorySlider6--fifteenth":{
+        "title":"categorySlider6 fifteenth image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--fifteenth.jpg",
             "maxHeight": "220px",
@@ -227,6 +248,7 @@
         }
     },
     "image#home__categorySlider6--sixteenth":{
+        "title":"categorySlider6 sixteenth image",
         "props": {
             "src": "assets/img/categorySlider6/categorySlider6--sixteenth.jpg",
             "maxHeight": "220px",
