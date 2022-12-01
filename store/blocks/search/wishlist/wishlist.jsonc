@@ -1,22 +1,27 @@
 {
     "store.wishlist": {
+      "title":"search wishlist",
       "blocks": ["flex-layout.row#top", "list-context.wishlist"]
     },
     "my-account-link.wishlist-link": {
+      "title":"wishlist",
       "props": {
         "label": "My Wishlist"
       }
     },
     "my-account-page.wishlist-page": {
+      "title":"wishlist page",
       "props": {
         "title": "Wishlist"
       },
       "children": ["list-context.wishlist"]
     },
     "flex-layout.row#top": {
+      "title":"wishlist title cont",
       "children": ["flex-layout.col#title"]
     },
     "flex-layout.col#title": {
+      "title":"wishlist title cont",
       "children": ["rich-text#title"],
       "props": {
         "blockClass": "titleWishlist",
@@ -24,15 +29,18 @@
       }
     },
     "rich-text#title": {
+      "title":"wishlist",
       "props": {
         "text": "### Wishlist"
       }
     },
     "list-context.wishlist": {
+      "title":"wishlist context list",
       "blocks": ["product-summary.shelf#wishlist"],
       "children": ["slider-layout#wishlist"]
     },
     "product-summary.shelf#wishlist": {
+      "title":"wishlist summary shelf",
       "children": [
         "add-to-list-btn",
         "product-summary-image",
@@ -43,6 +51,7 @@
       ]
     },
     "slider-layout#wishlist": {
+      "title":"wishlist slider",
       "props": {
         "itemsPerPage": {
           "desktop": 5,

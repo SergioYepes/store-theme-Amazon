@@ -1,36 +1,40 @@
 {
   "store.search": {
+    "title":"search",
     "blocks": ["search-result-layout"],
     "props": {
         "context": {
-            "skusFilter": "ALL",
+            "skuFilter": "ALL",
             "simulationBehavior": "default"
         }
      }
   },
  "store.search#category": {
-    "blocks": ["search-result-layout"],
+  "title":"search category",
+  "blocks": ["search-result-layout#category"],
     "props": {
         "context": {
-            "skusFilter": "ALL",
+            "skuFilter": "FIRST_AVAILABLE",
             "simulationBehavior": "default"
         }
      }
   },
   "store.search#brand": {
-    "blocks": ["search-result-layout"],
+  "title":"search brand",
+  "blocks": ["search-result-layout"],
     "props": {
         "context": {
-            "skusFilter": "ALL",
+            "skuFilter": "FIRST_AVAILABLE",
             "simulationBehavior": "default"
         }
      }
   },
   "store.search#subcategory": {
-    "blocks": ["search-result-layout"],
+  "title":"search subcategory",
+  "blocks": ["search-result-layout"],
     "props": {
         "context": {
-            "skusFilter": "ALL",
+            "skuFilter": "FIRST_AVAILABLE",
             "simulationBehavior": "default"
         }
      }
@@ -44,6 +48,7 @@
     ]
   },
   "search-not-found-layout":{
+    "title":"global 404",
     "children":[
       "rich-text#notFound"
     ]

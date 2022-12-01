@@ -1,0 +1,27 @@
+{
+    "logo": {
+        "title":"logo amazon",
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "assets/svg/amazon_logo.svg",
+          "width": "100"
+        }
+      },
+      "logo#iconPointer": {
+        "title":"row1 logo iconPointer",
+        "props": {
+          "href": "#",
+          "url": "assets/svg/puntero.svg",
+          "width": "20"
+        }
+      },
+      "logo#españa":{
+        "title":"row1 logo españa",
+        "props":{
+            "href": "#",
+            "url": "assets/svg/bandera-de-espana.png",
+            "width": "20"  
+        }
+      }
+}

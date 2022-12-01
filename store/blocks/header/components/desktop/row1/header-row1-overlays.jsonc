@@ -1,0 +1,33 @@
+{
+    "overlay-trigger": {
+        "title":"row1 overlay Departamentos block",
+        "children": [
+          "rich-text#Departamentos",
+          "overlay-layout"    
+        ],
+        "props":{
+          "blockClass":"Departamentos"
+        }
+      },
+    "overlay-layout": {
+        "title":"row1 overlay Departamentos layout",
+        "props": {
+          "placement": "bottom",
+          "backdrop":"visible"
+        },
+        "children": [
+          "link#cundina"
+        ]
+      },
+
+    "overlay-trigger#hoverLocate":{
+        "title":"row1 overlay Locate block",
+        "props":{
+          "placement": "bottom"
+        },
+        "children":[
+
+        ]
+    }
+
+}

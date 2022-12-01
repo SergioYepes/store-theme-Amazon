@@ -1,5 +1,6 @@
 {
     "flex-layout.row#Mini-links":{
+        "title":"terminos mini-links cont",
         "children":[
             "flex-layout.col#Mini1",
             "flex-layout.col#Mini2",
@@ -12,24 +13,28 @@
         }
     },
     "flex-layout.col#Mini1":{
+        "title":"mini-links column 1",
         "children":[
             "link#Mini1--one",
             "link#Mini1--two"
         ]
     },
     "flex-layout.col#Mini2":{
+        "title":"mini-links column 2",
         "children":[
             "link#Mini2--one",
             "link#Mini2--two"
         ]
     },
     "flex-layout.col#Mini3":{
+        "title":"mini-links column 3",
         "children":[
             "link#Mini3--one",
             "link#Mini3--two"
         ]
     },
     "flex-layout.col#Mini4":{
+        "title":"mini-links column 4",
         "children":[
             "link#Mini4--one",
             "link#Mini4--two"
@@ -37,6 +42,7 @@
     },
 // -------
     "link#Mini1--one":{
+        "title":"mini-links column1 link 1",
         "children":[
             "rich-text#Mini1--one"
         ],
@@ -45,6 +51,7 @@
         }
     },
     "link#Mini1--two":{
+        "title":"mini-links column1 link 2",
         "children":[
             "rich-text#Mini1--two"
         ],
@@ -53,6 +60,7 @@
         }
     },
     "link#Mini2--one":{
+        "title":"mini-links column2 link 1",
         "children":[
             "rich-text#Mini2--one"
         ],
@@ -61,6 +69,7 @@
         }
     },
     "link#Mini2--two":{
+        "title":"mini-links column2 link 2",
         "children":[
             "rich-text#Mini2--two"
         ],
@@ -69,6 +78,7 @@
         }
     },
     "link#Mini3--one":{
+        "title":"mini-links column3 link 1",
         "children":[
             "rich-text#Mini3--one"
         ],
@@ -77,6 +87,7 @@
         }
     },
     "link#Mini3--two":{
+        "title":"mini-links column3 link 2",
         "children":[
             "rich-text#Mini3--two"
         ],
@@ -85,6 +96,7 @@
         }
     },
     "link#Mini4--one":{
+        "title":"mini-links column4 link 1",
         "children":[
             "rich-text#Mini4--one"
         ],
@@ -93,6 +105,7 @@
         }
     },
     "link#Mini4--two":{
+        "title":"mini-links column4 link 2",
         "children":[
             "rich-text#Mini4--two"
         ],
@@ -102,47 +115,55 @@
     },
 // -------
     "rich-text#Mini1--one":{
+        "title":"Amazon Music\nTransmite millones de canciones",
         "props":{
             "text":"Amazon Music\nTransmite millones de canciones",
             "blockClass":"footerContMini"
         }
     },
     "rich-text#Mini1--two":{
+        "title":"Productos Reacondicionados \nPrecios bajos en productos revisados por Amazon",
         "props":{
             "text":"Productos Reacondicionados \nPrecios bajos en productos revisados por Amazon",
             "blockClass":"footerContMini"
         }
     },
     "rich-text#Mini2--one":{
+        "title":"IberLibro\nLibros, arte & artículos de colección",
         "props":{
             "text":"IberLibro\nLibros, arte & artículos de colección",
             "blockClass":"footerContMini"
         }
     },
     "rich-text#Mini2--two":{
+        "title":"Shopbop\nMarcas de moda de diseño",
         "props":{
             "text":"Shopbop\nMarcas de moda de diseño",
             "blockClass":"footerContMini"
         }
     },
     "rich-text#Mini3--one":{
+        "title":"Amazon Web Services\n Servicios Cloud Computing de Amazon",
         "props":{
             "text":"Amazon Web Services\n Servicios Cloud Computing de Amazon",
             "blockClass":"footerContMini"
         }
     },
     "rich-text#Mini3--two":{
+        "title":"Amazon Business \nServicio para clientes de empresa",
         "props":{
             "text":"Amazon Business \nServicio para clientes de empresa",
             "blockClass":"footerContMini"
         }
     },"rich-text#Mini4--one":{
+        "title":"Book Depository\n Libros con entrega gratis en todo el mundo",
         "props":{
             "text":"Book Depository\n Libros con entrega gratis en todo el mundo",
             "blockClass":"footerContMini"
         }
     },
     "rich-text#Mini4--two":{
+        "title":"Audible\n Disfruta de miles de audiolibros y podcasts originales",
         "props":{
             "text":"Audible\n Disfruta de miles de audiolibros y podcasts originales",
             "blockClass":"footerContMini"

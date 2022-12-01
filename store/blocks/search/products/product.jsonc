@@ -6,6 +6,7 @@
   //   ]
   // }
   "store.product": {
+    "title":"search product",
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main--productD",

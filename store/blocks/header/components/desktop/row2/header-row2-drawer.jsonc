@@ -1,0 +1,49 @@
+{
+    "drawer#header-sticky2": {
+        "title":"row2 drawer block",
+        "children": [
+            "menu#header-sticky2"
+        ],
+        "blocks":[
+            "drawer-trigger#header-sticky2"
+        ]
+      },
+      "drawer-trigger#header-sticky2":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "link#drawer"
+        ]
+      },
+      "link#drawer":{
+        "title":"row2 link drawer",
+        "children":[
+            "flex-layout.row#drawerLink"
+        ],
+        "props":{
+            "href":"#",
+            "displayMode":"button",
+            "blockClass":"drawerButton"
+        }
+      },
+    
+    "flex-layout.row#drawerLink":{
+        "title":"row2 logo hamburgerMenu cont",
+        "children":[
+            "logo#hamburgerMenu",
+            "rich-text#Todo"
+        ],
+        "props":{
+            "horizontalAlign": "left",
+            "marginLeft":7,
+            "colSizing":"auto" 
+        }
+      },
+      "logo#hamburgerMenu":{
+        "title":"row2 logo hamburgerMenu",
+        "props": {
+              "url": "assets/svg/burgerMenu.svg",
+              "blockClass":"hamburgerMenu",
+              "width": "25"
+            }
+      }   
+}

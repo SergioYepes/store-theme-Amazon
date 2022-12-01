@@ -1,14 +1,16 @@
 {
     "store.search#department": {
+        "title":"search department",
         "blocks": ["search-result-layout#department"],
         "props": {
             "context": {
-                "skusFilter": "FIRST_AVAILABLE",
+                "skuFilter": "FIRST_AVAILABLE",
                 "simulationBehavior": "default"
             }
          }
       },
       "search-result-layout#department":{
+        "title":"department result",
         "blocks": [
           "search-result-layout.desktop#department",
           "search-result-layout.mobile#department",

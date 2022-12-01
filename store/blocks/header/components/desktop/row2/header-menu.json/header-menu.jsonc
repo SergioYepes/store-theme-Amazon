@@ -1,10 +1,12 @@
 {
     "menu#header-sticky2":{
+        "title":"row2 drawer menu full",
         "children":[
             "flex-layout.col#header-sticky2"
         ]
     },
     "flex-layout.col#header-sticky2":{
+        "title":"drawer menu block",
         "children":[
             // "link#header-sticky2--header",
             "flex-layout.row#header-sticky2--tendencias",
