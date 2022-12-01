@@ -2,29 +2,8 @@
   "store.home": { 
     "title":"Home",
     "blocks": [
-      // "flex-layout.row#home",
       "responsive-layout.desktop",
       "responsive-layout.mobile"
-    ]
-  },
-
-  "responsive-layout.desktop":{
-    "children":[
-      "flex-layout.row#home"
-    ]
-  }, 
-  "flex-layout.row#home":{
-    "children":[
-      "flex-layout.col#home"
-    ],
-    "props":{
-      "blockClass":"Big"
-    }
-  },
-  "flex-layout.col#home":{
-    "children":[
-      "slider-layout#home__slider--children",
-      "flex-layout.col#home-notSlider"
     ]
   }
     

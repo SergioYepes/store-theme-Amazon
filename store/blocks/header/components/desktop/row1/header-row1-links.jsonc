@@ -1,0 +1,67 @@
+{
+    "link#logo-desktop":{
+        "title":"row1 link logo",
+        "children":[
+          "flex-layout.row#logo"
+        ],
+        "props":{
+          "href":"/",
+          "displayMode":"button",
+          "blockClass":"drawerButton"
+        }
+      },
+      "link#cundina": {
+        "title":"row1 link cundina",
+        "props": {
+            "label": "\nCundinamarca",
+            "href": "#",
+            "blockClass": "link"
+          }
+        },
+      "link#devoluciones":{
+        "title":"row1 link devoluciones",
+        "children":[
+          "rich-text#devoluciones",
+          "rich-text#ypedidos"
+        ],
+        "props":{
+          "href":"#",
+          "displayMode":"button",
+          "blockClass":"drawerButton"
+        }
+      },
+      "link#spacer":{
+        "title":"row1 link envios",
+        "children":[
+          "flex-layout.row#spacer"
+        ],
+        "props":{
+          "href":"/Enviar",
+          "displayMode":"button",
+          "blockClass":"drawerButton"
+        }
+      },
+      "link#locateMenu":{
+        "title":"row1 link locate",
+        "children":[
+            "flex-layout.row#locate"
+            // "overlay-trigger#hoverLocate"
+        ],
+        "props":{
+            "href":"/locate",
+            "displayMode":"button",
+            "blockClass":"drawerButton"
+        }
+      },
+      "link#cart":{
+        "title":"row1 link cart",
+        "children":[
+          "flex-layout.row#cart"
+        ],
+        "props":{
+          "displayMode":"button",
+          "blockClass":"drawerButton"
+          // "href":"checkout/#/cart"
+        }
+      }
+}

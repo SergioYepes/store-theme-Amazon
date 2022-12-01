@@ -1,10 +1,12 @@
 {
     "flex-layout.row#header-sticky2--tendencias":{
+        "title":"drawer menu tendencias cont",
         "children":[
             "flex-layout.col#header-sticky2--tendencias"
         ]
     },
     "flex-layout.col#header-sticky2--tendencias":{
+        "title":"drawer menu tendencias content",
         "children":[
             "rich-text#header-sticky2--tendencias",
             "menu-item#header-sticky2--vendidos",
@@ -13,12 +15,14 @@
         ]
     },
     "rich-text#header-sticky2--tendencias":{
+        "title":"Tendencias",
         "props":{
             "text":"Tendencias",
             "blockClass":"deptosMenu"
         }
     },
     "menu-item#header-sticky2--vendidos":{
+        "title":"drawer menu department1",
         "props":{
             "id":"department1",
             "type":"custom",
@@ -32,6 +36,7 @@
         }
     },
     "menu-item#header-sticky2--Novedades":{
+        "title":"drawer menu department2",
         "props":{
             "id":"department2",
             "type":"custom",
@@ -45,6 +50,7 @@
         }
     },
     "menu-item#header-sticky2--momento":{
+        "title":"drawer menu department3",
         "props":{
             "id":"department3",
             "type":"custom",

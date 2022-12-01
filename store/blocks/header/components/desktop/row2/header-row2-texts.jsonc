@@ -1,0 +1,94 @@
+{
+    "rich-text#Todo":{
+        "title":"Todo",
+        "props":{
+            "text":"Todo",
+            "blockClass":"todo"
+        }
+      },
+      "rich-text#losMas":{
+        "title":"Los más vendidos",
+        "props":{
+            "text":"Los más vendidos",
+            "blockClass":""
+        }
+      },
+      "rich-text#AmazonBasics":{
+        "title":"Amazon Basics",
+        "props":{
+            "text":"Amazon Basics",
+            "blockClass":""
+        }
+      },
+      "rich-text#atencion":{
+        "title":"Atencion al Cliente",
+        "props":{
+            "text":"Atencion al Cliente",
+            "blockClass":""
+        }
+      },
+      "rich-text#ofertas":{
+        "title":"Ofertas",
+        "props":{
+            "text":"Ofertas",
+            "blockClass":""
+        }
+      },
+      "rich-text#música":{
+        "title":"Música",
+        "props":{
+            "text":"Música",
+            "blockClass":""
+        }
+      },
+      "rich-text#últimas":{
+        "title":"Últimas Novedades",
+        "props":{
+            "text":"Últimas Novedades",
+            "blockClass":""
+        }
+      },
+      "rich-text#Prime":{
+        "title":"Prime▼",
+        "props":{
+            "text":"Prime▼",
+            "blockClass":""
+        }
+      },
+      "rich-text#ebooks":{
+        "title":"eBooks Kindle",
+        "props":{
+            "text":"eBooks Kindle",
+            "blockClass":""
+        }
+      },
+      "rich-text#informática":{
+        "title":"Informática",
+        "props":{
+            "text":"Informática",
+            "blockClass":""
+        }
+      },
+      "rich-text#libros":{
+        "title":"Libros",
+        "props":{
+            "text":"Libros",
+            "blockClass":""
+        }
+      },
+      "rich-text#hogar":{
+        "title":"Hogar y Cocina",
+        "props":{
+            "text":"Hogar y Cocina",
+            "blockClass":""
+        }
+      },
+      "rich-text#audible":{
+        "title":"Audible",
+        "props":{
+            "text":"Audible",
+            "blockClass":""
+        }
+      }
+        
+}

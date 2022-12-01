@@ -1,0 +1,125 @@
+{
+    "header-row#desktop": {
+        "title":"header desktop row 1",
+        "props": {
+          "blockClass": "sticky-header" 
+        },
+        "children": [
+          "flex-layout.row#desktop"
+        ]
+      },
+      "flex-layout.row#desktop": {
+        "title":"row1 cont",
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "flex-layout.row#logo-desktop",
+          "link#spacer",
+          "overlay-trigger",
+          "flex-layout.row#searchBar",
+          "link#locateMenu",
+          "login",
+          "link#devoluciones",
+          "link#cart"
+        ]
+      },
+
+
+      "flex-layout.row#logo-desktop": {
+        "title":"row1 logo block",
+        "props": {
+          "blockClass":"logo-row"
+        },
+        "children": [
+          "link#logo-desktop"
+        ]
+      },
+      "flex-layout.row#spacer": {
+        "title":"row1 envios block",
+        "props": {
+          "blockClass":"spacer",
+          "horizontalAlign":"center",
+          "colSizing":"auto"
+        },
+        "children":[
+          "flex-layout.row#iconPointer",
+          "flex-layout.col#Envios"
+        ]
+      },
+      "flex-layout.row#iconPointer":{
+        "title":"row1 iconPointer",
+        "children":[
+          "logo#iconPointer"
+        ],
+        "props":{
+          "blockClass":"icon"
+        }
+      },
+      "flex-layout.col#Envios":{
+        "title":"row1 envios cont",
+        "children":[
+          "rich-text#envios",
+          "rich-text#aColombia"
+        ],
+        "props":{
+          "blockClass":"envios"
+        }
+      },
+      
+      "flex-layout.row#locate":{
+        "title":"row1 locate block",
+        "children":[
+            "flex-layout.col#locate"
+        ]
+      },
+      "flex-layout.col#locate":{
+        "title":"row1 locate column",
+        "children":[
+            "rich-text#castellano",
+            "logo#españa"
+        ],
+        "props":{
+          "blockClass":"locate"
+        }
+      },
+      "flex-layout.row#logo":{
+        "title":"row1 logo cont",
+        "children":[
+          "logo",
+          "rich-text#.es"
+        ],
+        "props":{
+          "blockClass":"ez",
+          "colSizing":"auto"
+        }
+      },
+      "flex-layout.row#cart":{
+        "title":"row1 cart block",
+        "children":[
+          "minicart.v2",
+          "rich-text#cesta"
+        ],
+        "props":{
+          "colSizing":"auto",
+          "blockClass":"cart"
+        } 
+      },
+      
+  
+      "login": {
+        "title":"login header desktop",
+        "props": {
+          "emailAndPasswordTitle": "LOG-IN",
+          "accessCodeTitle": "Acess Code LOG-IN",
+          "emailPlaceholder": "e-mail",
+          "passwordPlaceholder": "password",
+          "logInButtonBehavior":"link",
+          "blockClass":"header"
+        }
+      }     
+}

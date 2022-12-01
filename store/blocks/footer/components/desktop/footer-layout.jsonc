@@ -1,10 +1,12 @@
 {
     "footer-layout.desktop": { 
+        "title":"footer desktop",
         "children": [
             "flex-layout.row#footerD"
         ]
     },
     "flex-layout.row#footerD":{
+        "title":"footer desktop column",
         "children":[
             "flex-layout.col#footerD"
         ],
@@ -13,6 +15,7 @@
         }
     },
     "flex-layout.col#footerD":{
+        "title":"footer desktop cont",
         "children":[
             "flex-layout.row#footer--button",
             "flex-layout.row#linksList",
@@ -21,6 +24,7 @@
         ]
     },
     "flex-layout.col#footerDTerminos":{
+        "title":"footer desktop terminos cont",
         "children":[
             "flex-layout.row#Mini-links",
             "flex-layout.row#terminos"

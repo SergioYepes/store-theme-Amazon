@@ -1,6 +1,7 @@
 {
         "search-result-layout.desktop#department":{
-            "children": [
+              "title":"department layout",
+              "children": [
                 "flex-layout.row#department-desktop",
                 "flex-layout.row#department-desktop_result"
             ],
@@ -11,7 +12,8 @@
             }
           },
           "flex-layout.row#department-desktop":{
-              "children":[
+            "title":"department cont",
+            "children":[
                 "flex-layout.col#department-desktop"
               ],
               "props":{
@@ -19,6 +21,7 @@
               }
           },
           "flex-layout.row#department-desktop_result": {
+            "title":"department columns",
             "children": [
               "flex-layout.col#filter-navigation_desktop",
               "flex-layout.col#department-desktop_result"
@@ -31,6 +34,7 @@
             }
           },
           "flex-layout.col#filter-navigation_desktop": {
+            "title":"department filter navigation",
             "children": [
               "filter-navigator.v3"
             ],
@@ -39,6 +43,7 @@
             }
           },
           "flex-layout.col#department-desktop_result": {
+            "title":"department result",
             "children": [
               "search-content#result-content-departmen-product"
             ],
@@ -47,12 +52,14 @@
             }
           },
           "search-content#result-content-departmen-product": {
+            "title":"department result content",
             "blocks": [
               "gallery#department-desktop",
               "not-found"
             ]
           },
           "gallery#department-desktop": {
+            "title":"department gallery",
             "props": {
               "layouts": [
                 {
@@ -88,6 +95,7 @@
             }
           },
           "product-summary.shelf#product-search": {
+            "title":"department product shelf",
             "children": [
               "add-to-list-btn",
               "product-rating-inline",   
@@ -102,28 +110,33 @@
             }
           },
           "product-summary-name#product-search": {
+            "title":"department product shelf name",
             "props": {
               "tag": "h2"
             }
           },
           "product-summary-image#product-search": {
+            "title":"department product shelf image",
             "props": {
               "width": 200,
               "maxHeight": 120
             }
           },
           "vtex.product-list:product-brand#product-search": {
+            "title":"department product shelf brand",
             "props": {
               "displayMode": "logo"
             }
           },
           "add-to-cart-button": {
+            "title":"department product shelf add buton",
             "props": {
               "display": "button",
               "text": "Agregar"
             }
           },
           "link.product": {
+            "title":"department product shelf link",
             "props": {
               "displayMode": "button",
               "target": "a",
@@ -131,6 +144,7 @@
             }
           },
           "flex-layout.col#department-desktop":{
+            "title":"department product shelf breadcrumb",
             "children":[
               "breadcrumb.search"
             ]

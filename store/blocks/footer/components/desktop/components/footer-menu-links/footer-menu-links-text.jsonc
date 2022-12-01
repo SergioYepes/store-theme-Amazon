@@ -1,23 +1,28 @@
 {
     // ----------
     "rich-text#menuLink1-one--first":{
+        "title":"Trabajar en Amazon",
         "props":{
             "text":"Trabajar en Amazon",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-one--second":{
+        "title":"Sobre Amazon.es",
         "props":{
             "text":"Sobre Amazon.es",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-one--third":{
+        "title":"Sostenibilidad",
         "props":{
             "text":"Sostenibilidad",
             "blockClass":"footerLinklist"
         }
-    },"rich-text#menuLink1-one--fourth":{
+    },
+    "rich-text#menuLink1-one--fourth":{
+        "title":"Amazon Science",
         "props":{
             "text":"Amazon Science",
             "blockClass":"footerLinklist"
@@ -26,60 +31,71 @@
     // ------------
 
     "rich-text#menuLink1-two--first":{
+        "title":"Vender en Amazon",
         "props":{
             "text":"Vender en Amazon",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-two--second":{
+        "title":"Vender en Amazon Business",
         "props":{
             "text":"Vender en Amazon Business",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-two--third":{
+        "title":"Vende en Amazon Handmade",
         "props":{
             "text":"Vende en Amazon Handmade",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-two--fourth":{
+        "title":"Vender en Amazon Launchpad",
         "props":{
             "text":"Vender en Amazon Launchpad",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-two--fifth":{
+        "title":"Desarrolla y protege tu marca",
         "props":{
             "text":"Desarrolla y protege tu marca",
             "blockClass":"footerLinklist"
         }
     },"rich-text#menuLink1-two--sixth":{
+        "title":" Programa de afiliados",
         "props":{
-            "text":" Programa de afiliados",
+            "text":"Programa de afiliados",
             "blockClass":"footerLinklist"
         }
     },"rich-text#menuLink1-two--seventh":{
+        "title":"Logística de Amazon",
         "props":{
             "text":"Logística de Amazon",
             "blockClass":"footerLinklist"
         }
     },"rich-text#menuLink1-two--eighth":{
+        "title":"Promociona tus productos",
         "props":{
             "text":"Promociona tus productos",
             "blockClass":"footerLinklist"
         }
     },"rich-text#menuLink1-two--nineth":{
+        "title":"Publica tu libro en Kindle",
         "props":{
             "text":"Publica tu libro en Kindle",
             "blockClass":"footerLinklist"
         }
     },"rich-text#menuLink1-two--tenth":{
+        "title":"Amazon Pay",
         "props":{
             "text":"Amazon Pay",
             "blockClass":"footerLinklist"
         }
     },"rich-text#menuLink1-two--eleventh":{
+        "title":"Alojar un Amazon Hub",
         "props":{
             "text":"Alojar un Amazon Hub",
             "blockClass":"footerLinklist"
@@ -87,30 +103,35 @@
     } , 
     // ------------ 
     "rich-text#menuLink1-three--first":{
+        "title":"Métodos de pago",
         "props":{
             "text":"Métodos de pago",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-three--second":{
+        "title":"Conversor de divisas de Amazon",
         "props":{
             "text":"Conversor de divisas de Amazon",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-three--third":{
+        "title":"Cheques Regalo",
         "props":{
             "text":"Cheques Regalo",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-three--fourth":{
+        "title":"Recarga online",
         "props":{
             "text":"Recarga online",
             "blockClass":"footerLinklist"
         }
     } ,
     "rich-text#menuLink1-three--fifth":{
+        "title":"Recarga en tienda",
         "props":{
             "text":"Recarga en tienda",
             "blockClass":"footerLinklist"
@@ -120,66 +141,77 @@
 
     // ------------ 
     "rich-text#menuLink1-four--first":{
+        "title":"Amazon y COVID-19",
         "props":{
             "text":"Amazon y COVID-19",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-four--second":{
+        "title":"Localizar o gestionar compras",
         "props":{
             "text":"Localizar o gestionar compras",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-four--third":{
+        "title":"Tarifas y políticas de envío",
         "props":{
             "text":"Tarifas y políticas de envío",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-four--fourth":{
+        "title":"Amazon Prime",
         "props":{
             "text":"Amazon Prime",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-four--fifth":{
+        "title":"Devolver o reemplazar productos",
         "props":{
             "text":"Devolver o reemplazar productos",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-four--sixth":{
+        "title":"Reciclaje",
         "props":{
             "text":"Reciclaje",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-four--seventh":{
+        "title":"Gestionar contenido y dispositivos",
         "props":{
             "text":"Gestionar contenido y dispositivos",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-four--eighth":{
+        "title":"App Amazon",
         "props":{
             "text":"App Amazon",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-four--nineth":{
+        "title":"Amazon Assistant",
         "props":{
             "text":"Amazon Assistant",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-four--tenth":{
+        "title":"Atención al Cliente",
         "props":{
             "text":"Atención al Cliente",
             "blockClass":"footerLinklist"
         }
     },
     "rich-text#menuLink1-four--eleventh":{
+        "title":"IVA sobre los bienes",
         "props":{
             "text":"IVA sobre los bienes",
             "blockClass":"footerLinklist"

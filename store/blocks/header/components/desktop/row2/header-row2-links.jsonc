@@ -1,0 +1,134 @@
+{
+    "link#header-sticky2--one":{
+        "title":"row2 link losMas",
+        "children": [
+            "rich-text#losMas"
+        ],
+        "props":{
+            "href":"#",
+            "displayMode":"button",
+            "blockClass":"drawerButton"
+        }
+    },
+    "link#header-sticky2--two":{
+        "title":"row2 link AmazonBasics",
+        "children": [
+            "rich-text#AmazonBasics"
+        ],
+        "props":{
+            "href":"#",
+            "displayMode":"button",
+            "blockClass":"drawerButton"
+        }
+    },
+    "link#header-sticky2--three":{
+        "title":"row2 link atencion",
+        "children": [
+            "rich-text#atencion"
+        ],
+        "props":{
+            "href":"#",
+            "displayMode":"button",
+            "blockClass":"drawerButton"
+        }
+    },
+    "link#header-sticky2--four":{
+        "title":"row2 link ofertas",
+        "children": [
+            "rich-text#ofertas"
+        ],
+        "props":{
+            "href":"#",
+            "displayMode":"button",
+            "blockClass":"drawerButton"
+        }
+    },
+    "link#header-sticky2--five":{
+        "title":"row2 link música",
+        "children": [
+            "rich-text#música"
+        ],
+        "props":{
+            "href":"#",
+            "displayMode":"button",
+            "blockClass":"drawerButton"
+        }
+    },
+    "link#header-sticky2--six":{
+        "title":"row2 link últimas",
+        "children": [
+            "rich-text#últimas"
+        ],
+        "props":{
+            "href":"#",
+            "displayMode":"button",
+            "blockClass":"drawerButton"
+        }
+    },
+    "link#header-sticky2--seven":{
+        "title":"row2 link Prime",
+        "children": [
+            "rich-text#Prime"
+        ],
+        "props":{
+            "href":"#",
+            "displayMode":"button",
+            "blockClass":"drawerButton"
+        }
+    },
+    "link#header-sticky2--eigth":{
+        "title":"row2 link ebooks",
+        "children": [
+            "rich-text#ebooks"
+        ],
+        "props":{
+            "href":"#",
+            "displayMode":"button",
+            "blockClass":"drawerButton"
+        }
+    },
+    "link#header-sticky2--nine":{
+        "title":"row2 link informática",
+        "children": [
+            "rich-text#informática"
+        ],
+        "props":{
+            "href":"#",
+            "displayMode":"button",
+            "blockClass":"drawerButton"
+        }
+    },
+    "link#header-sticky2--ten":{
+        "title":"row2 link libros",
+        "children": [
+            "rich-text#libros"
+        ],
+        "props":{
+            "href":"#",
+            "displayMode":"button",
+            "blockClass":"drawerButton"
+        }
+    },
+    "link#header-sticky2--eleven":{
+        "title":"row2 link hogar",
+        "children": [
+            "rich-text#hogar"
+        ],
+        "props":{
+            "href":"#",
+            "displayMode":"button",
+            "blockClass":"drawerButton"
+        }
+    },
+    "link#header-sticky2--twelve":{
+        "title":"row2 link audible",
+        "children": [
+            "rich-text#audible"
+        ],
+        "props":{
+            "href":"#",
+            "displayMode":"button",
+            "blockClass":"drawerButton"
+        }
+    }
+}

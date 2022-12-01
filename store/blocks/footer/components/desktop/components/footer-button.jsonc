@@ -1,5 +1,6 @@
 {
     "flex-layout.row#footer--button": { 
+        "title":"footer desktop scrollTo cont",
         "children": [
             "link#backHome"
         ],
@@ -10,6 +11,7 @@
         }
     },
     "link#backHome":{
+        "title":"scrollTo link",
         "children":[
             "rich-text#volver"
         ],
@@ -20,6 +22,7 @@
         }
     },
     "rich-text#volver":{
+        "title":"volver a arriba",
         "props":{
             "text":"volver a arriba"
         }

@@ -1,5 +1,6 @@
 {
     "flex-layout.row#linksList":{
+        "title":"footer desktop linksList cont",
         "children":[
             "flex-layout.col#Linklist1-one",
             "flex-layout.col#Linklist1-two",
@@ -13,6 +14,7 @@
         }
     },
     "flex-layout.col#Linklist1-one":{
+        "title":"linksList one cont",
         "children":[
             "rich-text#menuLink1-one",
             "link#menuLink1-one--first",
@@ -25,6 +27,7 @@
         }
     },
     "flex-layout.col#Linklist1-two":{
+        "title":"linksList two cont",
         "children":[
             "rich-text#menuLink1-two",
             "link#menuLink1-two--first",
@@ -44,6 +47,7 @@
         }
     },
     "flex-layout.col#Linklist1-three":{
+        "title":"linksList three cont",
         "children":[
             "rich-text#menuLink1-three",
             "link#menuLink1-three--first",
@@ -57,6 +61,7 @@
         }
     },
     "flex-layout.col#Linklist1-four":{
+        "title":"linksList four cont",
         "children":[
             "rich-text#menuLink1-four",
             "link#menuLink1-four--first",
@@ -78,6 +83,7 @@
 
 // ------------
     "rich-text#menuLink1-one":{
+        "title":"Conócenos",
         "props":{
             "text":"Conócenos",
             "textColor": "c-on-emphasis"
@@ -85,6 +91,7 @@
         
     },
     "rich-text#menuLink1-two":{
+        "title":"Gana dinero con nosotros",
         "props":{
             "text":"Gana dinero con nosotros",
             "textColor": "c-on-emphasis"
@@ -92,6 +99,7 @@
         
     },
     "rich-text#menuLink1-three":{
+        "title":"Métodos de pago Amazon",
         "props":{
             "text":"Métodos de pago Amazon",
             "textColor": "c-on-emphasis"
@@ -99,6 +107,7 @@
         
     },
     "rich-text#menuLink1-four":{
+        "title":"¿Necesitas ayuda?",
         "props":{
             "text":"¿Necesitas ayuda?",
             "textColor": "c-on-emphasis"
@@ -108,6 +117,7 @@
     
 //----------------
     "link#menuLink1-one--first":{
+        "title":"linksList one link-first",
         "children":[
             "rich-text#menuLink1-one--first"                
         ],
@@ -116,6 +126,7 @@
         }
     },
     "link#menuLink1-one--second":{
+        "title":"linksList one link-second",
         "children":[
             "rich-text#menuLink1-one--second"            
         ],
@@ -124,6 +135,7 @@
         }
     },
     "link#menuLink1-one--third":{
+        "title":"linksList one link-third",
         "children":[
             "rich-text#menuLink1-one--third"        
         ],
@@ -132,6 +144,7 @@
         }
     },
     "link#menuLink1-one--fourth":{
+        "title":"linksList one link-fourth",
         "children":[
             "rich-text#menuLink1-one--fourth"        
         ],
@@ -141,6 +154,7 @@
     },
     //----------------
     "link#menuLink1-two--first":{
+        "title":"linksList two link-first",
         "children":[
             "rich-text#menuLink1-two--first"                
         ],
@@ -149,6 +163,7 @@
         }
     },
     "link#menuLink1-two--second":{
+        "title":"linksList two link-second",
         "children":[
             "rich-text#menuLink1-two--second"            
         ],
@@ -157,6 +172,7 @@
         }
     },
     "link#menuLink1-two--third":{
+        "title":"linksList two link-third",
         "children":[
             "rich-text#menuLink1-two--third"        
         ],
@@ -165,6 +181,7 @@
         }
     },
     "link#menuLink1-two--fourth":{
+        "title":"linksList two link-fourth",
         "children":[
             "rich-text#menuLink1-two--fourth"        
         ],
@@ -173,6 +190,7 @@
         }
     },
     "link#menuLink1-two--fifth":{
+        "title":"linksList two link-fifth",
         "children":[
             "rich-text#menuLink1-two--fifth"        
         ],
@@ -181,6 +199,7 @@
         }
     },
     "link#menuLink1-two--sixth":{
+        "title":"linksList two link-sixth",
         "children":[
             "rich-text#menuLink1-two--sixth"        
         ],
@@ -189,6 +208,7 @@
         }
     },
     "link#menuLink1-two--seventh":{
+        "title":"linksList two link-seventh",
         "children":[
             "rich-text#menuLink1-two--seventh"        
         ],
@@ -197,6 +217,7 @@
         }
     },
     "link#menuLink1-two--eighth":{
+        "title":"linksList two link-eighth",
         "children":[
             "rich-text#menuLink1-two--eighth"        
         ],
@@ -205,6 +226,7 @@
         }
     },
     "link#menuLink1-two--nineth":{
+        "title":"linksList two link-nineth",
         "children":[
             "rich-text#menuLink1-two--nineth"        
         ],
@@ -213,6 +235,7 @@
         }
     },
     "link#menuLink1-two--tenth":{
+        "title":"linksList two link-tenth",
         "children":[
             "rich-text#menuLink1-two--tenth"        
         ],
@@ -221,6 +244,7 @@
         }
     },
     "link#menuLink1-two--eleventh":{
+        "title":"linksList two link-eleventh",
         "children":[
             "rich-text#menuLink1-two--eleventh"        
         ],
@@ -231,6 +255,7 @@
     
     //----------------
     "link#menuLink1-three--first":{
+        "title":"linksList three link-first",
         "children":[
             "rich-text#menuLink1-three--first"                
         ],
@@ -239,6 +264,7 @@
         }
     },
     "link#menuLink1-three--second":{
+        "title":"linksList three link-second",
         "children":[
             "rich-text#menuLink1-three--second"            
         ],
@@ -247,6 +273,7 @@
         }
     },
     "link#menuLink1-three--third":{
+        "title":"linksList three link-third",
         "children":[
             "rich-text#menuLink1-three--third"        
         ],
@@ -255,6 +282,7 @@
         }
     },
     "link#menuLink1-three--fourth":{
+        "title":"linksList three link-fourth",
         "children":[
             "rich-text#menuLink1-three--fourth"        
         ],
@@ -263,6 +291,7 @@
         }
     },
     "link#menuLink1-three--fifth":{
+        "title":"linksList three link-fifth",
         "children":[
             "rich-text#menuLink1-three--fifth"        
         ],
@@ -272,6 +301,7 @@
     },
     //----------------
     "link#menuLink1-four--first":{
+        "title":"linksList four link-first",
         "children":[
             "rich-text#menuLink1-four--first"                
         ],
@@ -280,6 +310,7 @@
         }
     },
     "link#menuLink1-four--second":{
+        "title":"linksList four link-second",
         "children":[
             "rich-text#menuLink1-four--second"            
         ],
@@ -288,6 +319,7 @@
         }
     },
     "link#menuLink1-four--third":{
+        "title":"linksList four link-third",
         "children":[
             "rich-text#menuLink1-four--third"        
         ],
@@ -296,6 +328,7 @@
         }
     },
     "link#menuLink1-four--fourth":{
+        "title":"linksList four link-fourth",
         "children":[
             "rich-text#menuLink1-four--fourth"        
         ],
@@ -304,6 +337,7 @@
         }
     },
     "link#menuLink1-four--fifth":{
+        "title":"linksList four link-fifth",
         "children":[
             "rich-text#menuLink1-two--fifth"        
         ],
@@ -312,6 +346,7 @@
         }
     },
     "link#menuLink1-four--sixth":{
+        "title":"linksList four link-sixth",
         "children":[
             "rich-text#menuLink1-four--sixth"        
         ],
@@ -320,6 +355,7 @@
         }
     },
     "link#menuLink1-four--seventh":{
+        "title":"linksList four link-seventh",
         "children":[
             "rich-text#menuLink1-four--seventh"        
         ],
@@ -328,6 +364,7 @@
         }
     },
     "link#menuLink1-four--eighth":{
+        "title":"linksList four link-eighth",
         "children":[
             "rich-text#menuLink1-four--eighth"        
         ],
@@ -336,6 +373,7 @@
         }
     },
     "link#menuLink1-four--nineth":{
+        "title":"linksList four link-nineth",
         "children":[
             "rich-text#menuLink1-four--nineth"        
         ],
@@ -344,6 +382,7 @@
         }
     },
     "link#menuLink1-four--tenth":{
+        "title":"linksList four link-tenth",
         "children":[
             "rich-text#menuLink1-four--tenth"        
         ],
@@ -352,6 +391,7 @@
         }
     },
     "link#menuLink1-four--eleventh":{
+        "title":"linksList four link-eleventh",
         "children":[
             "rich-text#menuLink1-four--eleventh"        
         ],

@@ -1,5 +1,6 @@
 {
     "search-result-layout.mobile":{
+        "title":"result response",
         "children": [
             "rich-text#mobile-response"
         ]

@@ -1,0 +1,52 @@
+{
+    "rich-text#envios":{
+        "title":"Enviar a",
+        "props":{
+          "text":"Enviar a",
+          "blockClass":"font"
+        }
+      },
+      "rich-text#aColombia":{
+        "title":"Colombia",
+        "props":{
+          "text":"Colombia",
+          "blockClass":"Font"
+        }
+      },
+      "rich-text#Departamentos":{
+        "title":"Todos los departamentos▼",
+        "props":{
+          "text":"Todos los departamentos▼",
+          "blockClass":"Departamentos"
+        }
+
+      },
+      "rich-text#devoluciones":{
+        "title":"Devoluciones",
+        "props":{
+          "text":"Devoluciones",
+          "blockClass":"font"
+        }
+      },
+      "rich-text#ypedidos":{
+        "title":"y Pedidos",
+        "props":{
+          "text":"y Pedidos",
+          "blockClass": "Font"
+        }
+      },
+      "rich-text#castellano":{
+        "title":"castellano▼",
+        "props":{
+            "text":"castellano▼",
+            "blockClass":""
+        }
+      },
+      "rich-text#.es":{
+        "title":".ez",
+        "props":{
+          "text":".es",
+          "blockClass":"ez"
+        }
+      }
+}
