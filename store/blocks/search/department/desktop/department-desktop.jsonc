@@ -17,7 +17,7 @@
                 "flex-layout.col#department-desktop"
               ],
               "props":{
-                  
+                  "verticalAlign":"center"
               }
           },
           "flex-layout.row#department-desktop_result": {
@@ -97,12 +97,16 @@
           "product-summary.shelf#product-search": {
             "title":"department product shelf",
             "children": [
-              "add-to-list-btn",
-              "product-rating-inline",   
+              "product-rating-inline",  
+              "product-summary-space", 
               "product-summary-image#product-search",
               "product-summary-name#product-search",
-              "product-price",
-              "link.product"
+              "product-list-price",
+              "product-selling-price",
+              "product-price-savings",
+              "product-installments",
+              "product-summary-space",
+              "add-to-list-btn"
             ],
             "props": {
               "trackListName": true,
@@ -139,8 +143,7 @@
             "title":"department product shelf link",
             "props": {
               "displayMode": "button",
-              "target": "a",
-              "label": "Ver productor"
+              "label": "Ver producto"
             }
           },
           "flex-layout.col#department-desktop":{

@@ -11,7 +11,7 @@
   },
  "store.search#category": {
   "title":"search category",
-  "blocks": ["search-result-layout"],
+  "blocks": ["search-result-layout#category"],
     "props": {
         "context": {
             "skuFilter": "FIRST_AVAILABLE",

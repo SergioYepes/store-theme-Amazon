@@ -4,7 +4,7 @@
         "props": {
           "marginTop": 4
         },
-        "children": ["breadcrumb"]
+        "children": ["breadcrumb.search"]
       },
       "flex-layout.row#product-main--productD": {
         "title":"product cont",
