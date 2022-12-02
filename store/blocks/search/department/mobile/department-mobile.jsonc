@@ -40,8 +40,8 @@
     },
     "flex-layout.col#department-mobile":{
       "children":[
-        "breadcrumb.search",
-        "gallery-layout-switcher"
+        "breadcrumb.search"
+        // "gallery-layout-switcher"
       ]
     },
     "product-summary.shelf#Departamentos-search": {
@@ -135,7 +135,7 @@
       },
       "flex-layout.col#product-image": {
         "props": {
-          "width": "60%",
+          "width": "40%",
           "rowGap": 0
         },
         "children": ["product-images"]

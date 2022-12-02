@@ -2,7 +2,8 @@
     "search-result-layout.mobile":{
         "title":"result response",
         "children": [
-            "rich-text#mobile-response"
+            "flex-layout.row#department-mobile",
+            "flex-layout.row#department-results"
         ]
     },
     "rich-text#mobile-response":{

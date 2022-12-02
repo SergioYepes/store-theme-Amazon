@@ -75,14 +75,15 @@
           "title": "Logo",
           "href": "/",
           "url": "assets/svg/amazon_logo.svg",
-          "width": "80"
+          "width": "80",
+          "blockClass":"ez"
         }
       },
       // ------- login
       "flex-layout.row#login__mobile--cont":{
         "title":"login header cont",
         "children":[
-          "link#login__mobile",
+          // "link#login__mobile",
           "login#login__mobile",
           "minicart.v2"
         ],
@@ -102,8 +103,12 @@
       },
       "login#login__mobile":{
         "title":"login header",
+        // "children":[
+        //   "link#login__mobile"
+        // ],
         "props":{
-            "showIconProfile":true
+            "showIconProfile":true,
+            "optionsTitle":"Identifícate >"
         }
       }
 }
