@@ -2,11 +2,13 @@
     "search-result-layout.mobile":{
         "title":"result response",
         "children": [
-            "flex-layout.row#department-mobile",
-            "flex-layout.row#department-results"
+            // "flex-layout.row#department-mobile"
+            // "flex-layout.row#department-results"
+            "flex-layout.row#home__searchResult--mobile"
+
         ]
     },
-    "rich-text#mobile-response":{
+    "rich-text#Title":{
         "title":"result response",
         "props":{
             "text":"# austria"

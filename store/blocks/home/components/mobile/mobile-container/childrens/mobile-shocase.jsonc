@@ -1,0 +1,56 @@
+{
+    "flex-layout.col#mobile__container--showcase1":{
+        "title":"mobile showcase1",
+        "children":[
+            "rich-text#OfertaTop",
+            "image#showcase1",
+            "flex-layout.row#showcase1__discount",
+            "rich-text#Cecotec",
+            "link#showcase1"
+        ],
+        "props":{
+            "padding":10
+        }
+    },
+    "rich-text#OfertaTop":{
+        "title":"Oferta top",
+        "props":{
+            "text":"#Oferta top"
+        }
+    },
+    "image#showcase1":{
+        "title":"mobile showcase1 image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShowcase1/arrocera.jpg"
+        }
+    },
+    "flex-layout.row#showcase1__discount":{
+        "title":"showcase1 discount block",
+        "children":[
+            "rich-text#RedDiscount",
+            "rich-text#oferta"
+        ]
+    },
+    "rich-text#RedDiscount":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -60%",
+            "blockClass":"RedDiscount"
+        }
+    },
+    "rich-text#oferta":{
+        "title":"Oferta",
+        "props":{
+            "blockClass":"oferta",
+            "text":"Oferta"
+        }
+    },
+    "rich-text#Cecotec":{
+
+    },
+    "link#showcase1":{
+
+    }
+
+
+}

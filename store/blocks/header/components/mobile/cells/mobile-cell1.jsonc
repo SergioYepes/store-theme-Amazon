@@ -103,9 +103,6 @@
       },
       "login#login__mobile":{
         "title":"login header",
-        // "children":[
-        //   "link#login__mobile"
-        // ],
         "props":{
             "showIconProfile":true,
             "optionsTitle":"Identifícate >"

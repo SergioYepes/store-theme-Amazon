@@ -1,0 +1,105 @@
+{
+    "flex-layout.row#mobile__Slider":{
+        "title":"home mobile Slider",
+        "children":[
+            "slider-layout#mobile__Slider--first"
+            // ,
+            // "slider-layout#mobile__Slider--second"
+        ],
+        "props":{
+            "blockClass":"mobile__Slider"
+        }
+    },
+    "slider-layout#mobile__Slider--first":{
+        "title":"home mobile background Slider",
+        "props": {
+            "itemsPerPage": {
+              "desktop": 1,
+              "tablet": 1,
+              "phone": 1
+            },
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "blockClass": "home__slider",
+            "showPaginationDots":"never",
+            "autoplay":{
+              "timeout":6000,
+              "stopOnHover": true
+            },
+            "arrowSize":25
+          },
+        "children":[
+            "image#mobile__slider--first",
+            "image#mobile__slider--second", 
+            "image#mobile__slider--third", 
+            "image#mobile__slider--fourth", 
+            "image#mobile__slider--fifth", 
+            "image#mobile__slider--sixth", 
+            "image#mobile__slider--seventh", 
+            "image#mobile__slider--eighth", 
+            "image#mobile__slider--nineth", 
+            "image#mobile__slider--tenth"
+        ]
+    },
+    "image#mobile__slider--first":{
+        "title":"background slider image 1",
+        "props":{
+            "src":"assets/img/MOBILE/mobileSliderBackground/Slider1.jpg"
+        }
+    },
+    "image#mobile__slider--second":{
+        "title":"background slider image 2",
+        "props":{
+            "src":"assets/img/MOBILE/mobileSliderBackground/Slider2.jpg"
+        }
+    }, 
+    "image#mobile__slider--third":{
+        "title":"background slider image 3",
+        "props":{
+            "src":"assets/img/MOBILE/mobileSliderBackground/Slider3.jpg"
+        }
+    }, 
+    "image#mobile__slider--fourth":{
+        "title":"background slider image 4",
+        "props":{
+            "src":"assets/img/MOBILE/mobileSliderBackground/Slider4.jpg"
+        }
+    }, 
+    "image#mobile__slider--fifth":{
+        "title":"background slider image 5",
+        "props":{
+            "src":"assets/img/MOBILE/mobileSliderBackground/Slider6.jpg"
+        }
+    }, 
+    "image#mobile__slider--sixth":{
+        "title":"background slider image 6",
+        "props":{
+            "src":"assets/img/MOBILE/mobileSliderBackground/Slider7.jpg"
+        }
+    }, 
+    "image#mobile__slider--seventh":{
+        "title":"background slider image 7",
+        "props":{
+            "src":"assets/img/MOBILE/mobileSliderBackground/Slider8.jpg"
+        }
+    }, 
+    "image#mobile__slider--eighth":{
+        "title":"background slider image 8",
+        "props":{
+            "src":"assets/img/MOBILE/mobileSliderBackground/Slider9.jpg"
+        }
+    }, 
+    "image#mobile__slider--nineth":{
+        "title":"background slider image 9",
+        "props":{
+            "src":"assets/img/MOBILE/mobileSliderBackground/Slider10.jpg"
+        }
+    }, 
+    "image#mobile__slider--tenth":{
+        "title":"background slider image 10",
+        "props":{
+            "src":"assets/img/MOBILE/mobileSliderBackground/Slider1.jpg"
+        }
+    }
+    
+}

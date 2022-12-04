@@ -1,0 +1,9 @@
+{
+    "flex-layout.row#mobile__container":{
+        "title":"home mobile container",
+        "children":[
+            "flex-layout.col#mobile__container--showcase1"
+        ]
+    }
+
+}
