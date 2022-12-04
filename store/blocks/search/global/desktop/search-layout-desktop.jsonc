@@ -2,7 +2,7 @@
     "search-result-layout.desktop":{
         "title":"result-desktop",
         "children": [
-            "flex-layout.row#product-breadcrumb",
+            "flex-layout.row#department-desktop",
             "flex-layout.row#department-desktop_result"
         ],
         "props":{

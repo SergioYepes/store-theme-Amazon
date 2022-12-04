@@ -35,6 +35,9 @@
     overflow-x:scroll;
     background-color:#232f3e;
 }
+.flexRow--mobile__Cell2::-webkit-scrollbar{
+    background-color:transparent;
+}
 .flexRow--spacer{
     width: auto;
 }

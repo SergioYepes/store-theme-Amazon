@@ -157,4 +157,22 @@
 .flexRow--productsCont{
     margin-bottom: 10px;
 }
+/* MOBILE */
 
+.flexRow--mobile__slider{
+    position: relative;
+    width:max-content;
+    z-index:1
+}
+.flexRow--bullet-group{
+    position: absolute;
+    top:350px;
+    display: flex;
+    text-align: center;
+    overflow-x:scroll;
+    height:300px;
+    width:100vw;
+}
+.flexRow--bullet-group::-webkit-scrollbar{
+    background-color:transparent;
+}

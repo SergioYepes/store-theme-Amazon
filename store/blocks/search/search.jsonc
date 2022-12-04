@@ -9,16 +9,6 @@
         }
      }
   },
- "store.search#category": {
-  "title":"search category",
-  "blocks": ["search-result-layout#category"],
-    "props": {
-        "context": {
-            "skuFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "default"
-        }
-     }
-  },
   "store.search#brand": {
   "title":"search brand",
   "blocks": ["search-result-layout"],

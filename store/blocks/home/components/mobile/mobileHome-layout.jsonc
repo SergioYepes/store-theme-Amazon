@@ -1,81 +1,11 @@
 {
     "responsive-layout.mobile":{
       "title":"responsive home mobile",
-        "children":[
-            "whatsapp-button"
-            ,
-            "list-context.bullets-diagramation"
+      "children":[
+          "flex-layout.row#mobile__Slider",
+          "flex-layout.row#bullet-group",
+          "flex-layout.row#mobile__container",
+          "whatsapp-button"
         ]
-    },
-  "whatsapp-button":{
-    "props":{
-      "message":"gracias por contactarte con Amazón",
-      "phone":"9903334444"
     }
-  },
-  "list-context.bullets-diagramation":{
-    "title":"list-context mobilé",
-    "children":[
-      "slider-layout#bullet-group"
-      ] , 
-    "props":{
-      "bullet":[
-        {
-          "image":"assets/img/home-slider1.jpg",
-          "titleBullet":"bala 1",
-          "link":{
-            "url":"/login"
-            } 
-        },
-        
-        {
-          "image":"assets/img/home-slider1.jpg",
-          "titleBullet":"bala 2",
-          "link":{
-            "url":"/login"
-            } 
-        },
-        {
-          "image":"assets/img/home-slider4.jpg",
-          "titleBullet":"bala 3",
-          "link":{
-            "url":"/login"
-            } 
-        },
-        {
-          "image":"assets/img/home-slider5.jpg",
-          "titleBullet":"bala 4",
-          "link":{
-            "url":"/login"
-            } 
-        },
-        {
-          "image":"assets/img/home-slider8.jpg",
-          "titleBullet":"bala 5",
-          "link":{
-            "url":"/login"
-            } 
-        },
-        {
-          "image":"assets/img/home-slider7.jpg",
-          "titleBullet":"bala 6",
-          "link":{
-            "url":"/login"
-            } 
-        }
-      ]
-      
-    }
-  }
-  ,
-  "slider-layout#bullet-group":{
-    "props":{
-      "itemsPerPage":{
-        "desktop":5,
-        "tablet":3,
-        "mobile":3
-      },
-      "infinite":true
-    }
-  }
 }

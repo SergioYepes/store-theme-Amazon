@@ -47,7 +47,9 @@
           "sku-selector",
           "flex-layout.row#buy-button--productD",
           "availability-subscriber",
-          "shipping-simulator"
+          "shipping-simulator",
+          "add-to-cart-button",
+          "modal-trigger#add-to-cart-info"
         ]
       },
       
