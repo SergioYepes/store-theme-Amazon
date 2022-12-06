@@ -1,0 +1,255 @@
+{
+    "flex-layout.col#mobile__container--shelfCase2":{
+        "title":"mobile shelfCase2",
+        "children":[
+            "rich-text#shelfCase2--title",
+            "flex-layout.row#mobile__shelfCase2--one",
+            "flex-layout.row#mobile__shelfCase2--two",
+            "flex-layout.row#mobile__shelfCase2--three",
+            "flex-layout.row#mobile__shelfCase2--four",
+            "link#mobile__shelfCase2"
+        ],
+        "props":{
+            "paddingBottom":10,
+            "blockClass":"mobileShowcase1"
+        }
+    },
+    "rich-text#shelfCase2--title":{
+        "title":"regreso",
+        "props":{
+            "text":"Descubre Amazon Launchpad",
+            "blockClass":"component"
+        }
+    },
+
+
+    //--- cont
+    "flex-layout.row#mobile__shelfCase2--one":{
+        "title":"mobile shelfCase2 container first",
+        "children":[
+            "flex-layout.col#mobile__shelfCase2--one",
+            "flex-layout.col#mobile__shelfCase2--two"
+
+        ]
+    },
+    "flex-layout.row#mobile__shelfCase2--two":{
+        "title":"mobile shelfCase2 container second",
+        "children":[
+            "flex-layout.col#mobile__shelfCase2--three",
+            "flex-layout.col#mobile__shelfCase2--four"
+        ],
+        "props":{
+            "paddingBottom":5
+        }
+    },
+    "flex-layout.row#mobile__shelfCase2--three":{
+        "title":"mobile shelfCase2 container second",
+        "children":[
+            "flex-layout.col#mobile__shelfCase2--five",
+            "flex-layout.col#mobile__shelfCase2--six"
+        ],
+        "props":{
+            "paddingBottom":5
+        }
+    },
+    "flex-layout.row#mobile__shelfCase2--four":{
+        "title":"mobile shelfCase2 container second",
+        "children":[
+            "flex-layout.col#mobile__shelfCase2--seven",
+            "flex-layout.col#mobile__shelfCase2--eight"
+        ],
+        "props":{
+            "paddingBottom":5
+        }
+    },
+
+
+    "flex-layout.col#mobile__shelfCase2--one":{
+        "title":"shelfCase2 column first",
+        "children":[
+            "image#mobileShelfCase2--first",
+            "rich-text#guia" 
+        ]
+    },
+    "flex-layout.col#mobile__shelfCase2--two":{
+        "title":"shelfCase2 column second",
+        "children":[
+            "image#mobileShelfCase2--second",
+            "rich-text#salud"
+        ]
+    }, "flex-layout.col#mobile__shelfCase2--three":{
+        "title":"shelfCase2 column third",
+        "children":[
+            "image#mobileShelfCase2--third",
+            "rich-text#deportes"
+        ]
+    }, "flex-layout.col#mobile__shelfCase2--four":{
+        "title":"shelfCase2 column fourth",
+        "children":[
+            "image#mobileShelfCase2--fourth",
+            "rich-text#electrónica"
+        ]
+    },
+    "flex-layout.col#mobile__shelfCase2--five":{
+        "title":"shelfCase2 column fifth",
+        "children":[
+            "image#mobileShelfCase2--fifth",
+            "rich-text#juguetes" 
+        ]
+    },
+    "flex-layout.col#mobile__shelfCase2--six":{
+        "title":"shelfCase2 column sixth",
+        "children":[
+            "image#mobileShelfCase2--sixth",
+            "rich-text#cocina"
+        ]
+    }, "flex-layout.col#mobile__shelfCase2--seven":{
+        "title":"shelfCase2 column seventh",
+        "children":[
+            "image#mobileShelfCase2--seventh",
+            "rich-text#mejores"
+        ]
+    }, "flex-layout.col#mobile__shelfCase2--eight":{
+        "title":"shelfCase2 column eighth",
+        "children":[
+            "image#mobileShelfCase2--eighth",
+            "rich-text#casa"
+        ]
+    },
+    
+    //--- images
+    "image#mobileShelfCase2--first":{
+        "title":"ShelfCase first image",
+        "props":{
+            
+            "src": "assets/img/MOBILE/mobileShelfCase2/shelfCase2--first.jpg",
+            "maxHeight": "125px",
+            "minHeight": "125px"
+        }
+    },
+    "image#mobileShelfCase2--second":{
+        "title":"ShelfCase second image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShelfCase2/shelfCase2--second.jpg",
+            "maxHeight": "125px",
+            "minHeight": "125px"
+        }
+    },
+    "image#mobileShelfCase2--third":{
+        "title":"ShelfCase third image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShelfCase2/shelfCase2--third.jpg",
+            "maxHeight": "125px",
+            "minHeight": "125px"
+        }
+    },
+    "image#mobileShelfCase2--fourth":{
+        "title":"ShelfCase fourth image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShelfCase2/shelfCase2--fourth.jpg",
+            "maxHeight": "125px",
+            "minHeight": "125px"
+        }
+    },
+    "image#mobileShelfCase2--fifth":{
+        "title":"ShelfCase fifth image",
+        "props":{
+            
+            "src": "assets/img/MOBILE/mobileShelfCase2/shelfCase2--fifth.jpg",
+            "maxHeight": "125px",
+            "minHeight": "125px"
+        }
+    },
+    "image#mobileShelfCase2--sixth":{
+        "title":"ShelfCase sixth image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShelfCase2/shelfCase2--sixth.jpg",
+            "maxHeight": "125px",
+            "minHeight": "125px"
+        }
+    },
+    "image#mobileShelfCase2--seventh":{
+        "title":"ShelfCase seventh image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShelfCase2/shelfCase2--seventh.jpg",
+            "maxHeight": "125px",
+            "minHeight": "125px"
+        }
+    },
+    "image#mobileShelfCase2--eighth":{
+        "title":"ShelfCase eighth image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShelfCase2/shelfCase2--eighth.jpg",
+            "maxHeight": "125px",
+            "minHeight": "125px"
+        }
+    },
+
+
+
+    // --- text
+    "rich-text#guia":{
+        "title":"guia",
+        "props":{
+            "text":"Guia de regalos",
+            "blockClass":"component1"
+        }
+    } ,
+    "rich-text#salud":{
+        "title":"salud",
+        "props":{
+            "text":"Salud y belleza",
+            "blockClass":"component1"
+        }
+    },
+    "rich-text#deportes":{
+        "title":"deportes",
+        "props":{
+            "text":"Deportes",
+            "blockClass":"component1"
+        }
+    },
+    "rich-text#electrónica":{
+        "title":"electrónica",
+        "props":{
+            "text":"Electrónica",
+            "blockClass":"component1"
+        }
+    },
+    "rich-text#juguetes":{
+        "title":"juguetes",
+        "props":{
+            "text":"Juguetes y niños",
+            "blockClass":"component1"
+        }
+    } ,
+    "rich-text#cocina":{
+        "title":"cocina",
+        "props":{
+            "text":"cocina",
+            "blockClass":"component1"
+        }
+    },
+    "rich-text#mejores":{
+        "title":"mejores",
+        "props":{
+            "text":"Mejores ofertas",
+            "blockClass":"component1"
+        }
+    },
+    "rich-text#casa":{
+        "title":"casa",
+        "props":{
+            "text":"casa",
+            "blockClass":"component1"
+        }
+    },
+
+    //--- link
+    "link#mobile__shelfCase2":{
+        "title":"shelfCase link",
+        "props":{
+            "label":"Descubre más"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "flex-layout.col#mobile__container--showcase4":{
+        "title":"mobile showcase4",
+        "children":[
+            "rich-text#ideasRegalo",
+            "flex-layout.row#showcase4__image"
+        ],
+        "props":{
+            "blockClass":"mobileShowcase3",
+            "padding":10
+        }
+    },
+    "rich-text#ideasRegalo":{
+        "title":"showcase4 title",
+        "props":{
+            "text":"Ideas de regalo pequeños negocios",
+            "blockClass":"component"
+        }
+    },
+    "flex-layout.row#showcase4__image":{
+        "title":"showcase4 image cont",
+        "children":[
+            "image#showcase4__image"
+        ],
+        "props":{
+            "blockClass":"showcase3"
+        }
+    },
+    "image#showcase4__image":{
+        "title":"showcase4 image",
+        "props": {
+            "src": "assets/img/MOBILE/mobileShowcase4/mobileShowcase4--first.jpg",
+            "maxHeight": "100%",
+            "link":{
+                "url":"#"
+            }
+        }
+    }
+}

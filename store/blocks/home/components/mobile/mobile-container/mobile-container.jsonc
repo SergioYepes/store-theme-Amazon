@@ -15,7 +15,10 @@
             "flex-layout.col#mobile__container--showcaseBlock1",
             "flex-layout.col#mobile__container--categorySlider1",
             "flex-layout.col#mobile__container--discounts",
-            "flex-layout.col#mobile__container--shelfCase1"
+            "flex-layout.col#mobile__container--shelfCase1",
+            "flex-layout.col#mobile__container--showcase4",
+            "flex-layout.col#mobile__container--shelfCase2"
+
         ]
     }
 
