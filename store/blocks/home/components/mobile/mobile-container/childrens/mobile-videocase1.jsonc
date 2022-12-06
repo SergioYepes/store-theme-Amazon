@@ -1,0 +1,45 @@
+{
+    "flex-layout.col#mobile__container--videocase1":{
+        "title":"mobile videocase1",
+        "children":[
+            "rich-text#mañanaEs",
+            "flex-layout.row#videocase__cont",
+            "link#videocase1"
+        ],
+        "props":{
+            "blockClass":"mobileVideoCase1",
+            "padding":10
+        }
+    },
+    "rich-text#mañanaEs":{
+        "title":"videocase1 title",
+        "props":{
+            "text":"Mañana es hoy",
+            "blockClass":"component"
+        }
+    },
+
+    // --- video
+    "flex-layout.row#videocase__cont":{
+        "title":"videocase1 video Cont",
+        "children":[
+            "video#mobile__videocase1"
+        ]
+    },
+    "video#mobile__videocase1":{
+            "title":"videocase1 video",
+            "props": {
+              "width": "90%",
+              "autoPlay": true,
+              "muted": false,
+              "src": "assets/videos/mobileVideoCase1/video1.mp4"            
+          }
+    },
+    //---link
+    "link#videocase1":{
+        "title":"link ver ahora",
+        "props":{
+            "label":"Ver ahora"
+        }
+    }
+}

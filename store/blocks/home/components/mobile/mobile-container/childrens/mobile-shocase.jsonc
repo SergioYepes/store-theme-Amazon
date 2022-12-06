@@ -3,25 +3,34 @@
         "title":"mobile showcase1",
         "children":[
             "rich-text#OfertaTop",
-            "image#showcase1",
+            "flex-layout.row#showcase1__image",
             "flex-layout.row#showcase1__discount",
             "rich-text#Cecotec",
             "link#showcase1"
         ],
         "props":{
-            "padding":10
+            "padding":10,
+            "blockClass":"mobileShowcase1"
         }
     },
     "rich-text#OfertaTop":{
         "title":"Oferta top",
         "props":{
-            "text":"#Oferta top"
+            "text":"Oferta top",
+            "blockClass":"component"
         }
+    },
+    "flex-layout.row#showcase1__image":{
+        "title":"showcase1 image block",
+        "children":[
+            "image#showcase1"
+        ]
     },
     "image#showcase1":{
         "title":"mobile showcase1 image",
         "props":{
-            "src": "assets/img/MOBILE/mobileShowcase1/arrocera.jpg"
+            "src": "assets/img/MOBILE/mobileShowcase1/arrocera.jpg",
+            "maxHeight": "100%"
         }
     },
     "flex-layout.row#showcase1__discount":{
@@ -29,7 +38,11 @@
         "children":[
             "rich-text#RedDiscount",
             "rich-text#oferta"
-        ]
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
     },
     "rich-text#RedDiscount":{
         "title":"RedDiscount",
@@ -46,10 +59,18 @@
         }
     },
     "rich-text#Cecotec":{
-
+        "title":"Cecotec",
+        "props":{
+            "blockClass":"Cecotec",
+            "text":"Descubre la seccion de Cecotec"
+        }
     },
     "link#showcase1":{
-
+        "title":"Todas las ofertas",
+        "props":{
+            "blockClass":"ver-mas",
+            "label":"Descubre todas las ofertas"
+        }
     }
 
 

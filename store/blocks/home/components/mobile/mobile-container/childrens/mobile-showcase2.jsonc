@@ -1,0 +1,124 @@
+{
+    "flex-layout.col#mobile__container--showcase2":{
+        "title":"mobile showcase2",
+        "children":[
+            "rich-text#Componentes",
+            "flex-layout.row#showcase2__grid",
+            "flex-layout.row#showcase2__grid--second",
+            "flex-layout.row#showcase2__grid--third",
+            "link#showcase2"
+        ],
+        "props":{
+            "blockClass":"mobileShowcase2",
+            "padding":10
+        }
+    },
+    "rich-text#Componentes":{
+        "title":"showcase2 title",
+        "props":{
+            "text":"Componentes de PC",
+            "blockClass":"component"
+        }
+    },
+
+    // --- imagenes
+    "flex-layout.row#showcase2__grid":{
+        "title":"showcase2 grid",
+        "children":[
+            "image#showcase2--first",
+            "image#showcase2--second",
+            "image#showcase2--third"  
+        ]
+    },
+    "flex-layout.row#showcase2__grid--second":{
+        "title":"showcase2 grid--2",
+        "children":[
+            "image#showcase2--fourth",
+            "image#showcase2--fifth",
+            "image#showcase2--sixth"
+        ]
+    },
+    
+    "flex-layout.row#showcase2__grid--third":{
+        "title":"showcase2 grid--3",
+        "children":[
+            "image#showcase2--seventh",
+            "image#showcase2--eighth",
+            "image#showcase2--nineth"
+        ]
+    },
+
+    "image#showcase2--first":{
+        "title":"mobile showcase1 image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShowcase2/mobileShowcase2--first.jpg",
+            "height":100,
+            "width":200
+        }
+    },"image#showcase2--second":{
+        "title":"mobile showcase1 image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShowcase2/mobileShowcase2--second.jpg",
+            "height":100,
+            "width":100
+        }
+    },"image#showcase2--third":{
+        "title":"mobile showcase1 image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShowcase2/mobileShowcase2--third.jpg",
+            "height":100,
+            "width":100
+        }
+    },"image#showcase2--fourth":{
+        "title":"mobile showcase1 image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShowcase2/mobileShowcase2--fourth.jpg",
+            "height":100,
+            "width":100
+        }
+    },"image#showcase2--fifth":{
+        "title":"mobile showcase1 image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShowcase2/mobileShowcase2--fifth.jpg",
+            "height":100,
+            "width":100
+        }
+    },"image#showcase2--sixth":{
+        "title":"mobile showcase1 image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShowcase2/mobileShowcase2--sixth.jpg",
+            "height":100,
+            "width":100
+        }
+    },"image#showcase2--seventh":{
+        "title":"mobile showcase1 image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShowcase2/mobileShowcase2--seventh.jpg",
+            "height":100,
+            "width":100
+        }
+    },"image#showcase2--eighth":{
+        "title":"mobile showcase1 image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShowcase2/mobileShowcase2--eighth.jpg",
+            "height":100,
+            "width":100
+        }
+    },"image#showcase2--nineth":{
+        "title":"mobile showcase1 image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShowcase2/mobileShowcase2--nineth.jpg",
+            "height":100,
+            "width":100
+        }
+    },
+
+    //---link
+    "link#showcase2":{
+        "title":"link ver mas",
+        "props":{
+            "blockClass":"ver-mas",
+            "label":"Ver más"
+        }
+    }
+}

@@ -1,0 +1,222 @@
+{
+    "flex-layout.col#mobile__container--showcaseBlock1":{
+        "title":"mobile showcaseBlock1",
+        "children":[
+            "rich-text#showcaseBlock1--title",
+            "flex-layout.row#showcaseBlock1--first",
+            "flex-layout.row#showcaseBlock1--second",
+            "link#showcaseBlock1"
+        ],
+        "props":{
+            "blockClass":"mobileShowcase1"
+        }
+    },
+    "rich-text#showcaseBlock1--title":{
+        "title":"showcaseBlock1 title",
+        "props":{
+            "text":"Ofertas recomendadas para ti",
+            "blockClass":"component"
+        }
+    },
+
+
+    // --- content
+    "flex-layout.row#showcaseBlock1--first":{
+        "title":"showcaseBlock1 first block",
+        "children":[
+            "flex-layout.col#showcaseBlock1__cont--one",
+            "flex-layout.col#showcaseBlock1__cont--two"
+        ],
+        "props":{
+            "paddingBottom":5
+        }
+    },
+    "flex-layout.row#showcaseBlock1--second":{
+        "title":"showcaseBlock1 second block",
+        "children":[
+            "flex-layout.col#showcaseBlock1__cont--three",
+            "flex-layout.col#showcaseBlock1__cont--four"
+        ],
+        "props":{
+            "paddingBottom":5
+        }
+    },
+
+    
+
+    "flex-layout.col#showcaseBlock1__cont--one":{
+        "title":"showcaseBlock1 first cont",
+        "children":[
+            "flex-layout.row#showcaseBlock1__image--one",
+            "flex-layout.row#showcaseBlock1__discount--one"
+        ]
+    },
+    "flex-layout.col#showcaseBlock1__cont--two":{
+        "title":"showcaseBlock1 second cont",
+        "children":[
+            "flex-layout.row#showcaseBlock1__image--two",
+            "flex-layout.row#showcaseBlock1__discount--two"
+        ]
+    },
+    "flex-layout.col#showcaseBlock1__cont--three":{
+        "title":"showcaseBlock1 third cont",
+        "children":[
+            "flex-layout.row#showcaseBlock1__image--three",
+            "flex-layout.row#showcaseBlock1__discount--three"
+        ]
+    },
+    "flex-layout.col#showcaseBlock1__cont--four":{
+        "title":"showcaseBlock1 fourth cont",
+        "children":[
+            "flex-layout.row#showcaseBlock1__image--four",
+            "flex-layout.row#showcaseBlock1__discount--four"
+        ]
+    },
+
+
+    //discounts
+    "flex-layout.row#showcaseBlock1__discount--one":{
+        "title":"showcaseBlock1 discount block",
+        "children":[
+            "rich-text#RedDiscount--one"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.row#showcaseBlock1__discount--two":{
+        "title":"showcaseBlock1 discount block",
+        "children":[
+            "rich-text#RedDiscount--two",
+            "rich-text#oferta"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.row#showcaseBlock1__discount--three":{
+        "title":"showcaseBlock1 discount block",
+        "children":[
+            "rich-text#RedDiscount--three",
+            "rich-text#oferta"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.row#showcaseBlock1__discount--four":{
+        "title":"showcaseBlock1 discount block",
+        "children":[
+            "rich-text#RedDiscount--four"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+    "rich-text#RedDiscount--one":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -37%",
+            "blockClass":"RedDiscount"
+        }
+    },
+    "rich-text#RedDiscount--two":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -18%",
+            "blockClass":"RedDiscount"
+        }
+    },
+    "rich-text#RedDiscount--three":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -60%",
+            "blockClass":"RedDiscount"
+        }
+    },
+    "rich-text#RedDiscount--four":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -58%",
+            "blockClass":"RedDiscount"
+        }
+    },
+    
+
+
+
+
+    "flex-layout.row#showcaseBlock1__image--one":{
+        "title":"showcaseBlock1 first image",
+        "children":[
+            "image#showcaseBlock1__image--one"
+        ]
+    },
+    "flex-layout.row#showcaseBlock1__image--two":{
+        "title":"showcaseBlock1 second image",
+        "children":[
+            "image#showcaseBlock1__image--two"
+        ]
+    },
+    "flex-layout.row#showcaseBlock1__image--three":{
+        "title":"showcaseBlock1 third image",
+        "children":[
+            "image#showcaseBlock1__image--three"
+        ]
+    },
+    "flex-layout.row#showcaseBlock1__image--four":{
+        "title":"showcaseBlock1 fourth image",
+        "children":[
+            "image#showcaseBlock1__image--four"
+        ]
+    },
+    
+
+    // --- imagenes
+    "image#showcaseBlock1__image--one":{
+        "title":"showcaseBlock1 first image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShowcaseBlock1/showcaseBlock1--first.jpg",
+            "maxHeight": "225px",
+            "minHeight": "225px"
+        }
+    },
+    "image#showcaseBlock1__image--two":{
+        "title":"showcaseBlock1 second image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShowcaseBlock1/showcaseBlock1--second.jpg",
+            "maxHeight": "225px",
+            "minHeight": "225px"
+        }
+    },
+    "image#showcaseBlock1__image--three":{
+        "title":"showcaseBlock1 third image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShowcaseBlock1/showcaseBlock1--third.jpg",
+            "maxHeight": "225px",
+            "minHeight": "225px"
+        }
+    },
+    "image#showcaseBlock1__image--four":{
+        "title":"showcaseBlock1 fourth image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShowcaseBlock1/showcaseBlock1--fourth.jpg",
+            "maxHeight": "225px",
+            "minHeight": "225px"
+        }
+    },
+
+
+
+    "link#showcaseBlock1":{
+        "title":"showcaseBlock1 link",
+        "props":{
+            "label":"Ver todas las ofertas"
+        }
+    }
+
+}

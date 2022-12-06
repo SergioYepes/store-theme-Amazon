@@ -1,0 +1,465 @@
+{
+    "flex-layout.col#mobile__container--sliderShowcase1":{
+        "title":"mobile sliderShowcase1",
+        "children":[
+            "rich-text#ofertasTopNavidad",
+            "slider-layout#sliderShowcase1__cont",
+            "link#sliderShowcase1"
+        ],
+        "props":{
+            "blockClass":"mobileVideoCase1",
+            "padding":10
+        }
+    },
+
+    "rich-text#ofertasTopNavidad":{
+        "title":"sliderShowcase1 title",
+        "props":{
+            "text":"Ofertas Top de navidad",
+            "blockClass":"component"
+        }
+    },
+    "slider-layout#sliderShowcase1__cont":{
+        "title":"sliderShowcase1 slider cont",
+        "props": {
+            "itemsPerPage": {
+              "desktop": 6,
+              "tablet": 4,
+              "phone": 8
+            },
+            "showNavigationArrows":"never",
+            "showPaginationDots":"never",
+            "navigationStep":"itemsPerPage",
+            "infinite":false
+        },
+        "children":[
+            "flex-layout.col#sliderShowcase1--first",
+            "flex-layout.col#sliderShowcase1--second",
+            "flex-layout.col#sliderShowcase1--third",
+            "flex-layout.col#sliderShowcase1--fourth",
+            "flex-layout.col#sliderShowcase1--fifth",
+            "flex-layout.col#sliderShowcase1--sixth",
+            "flex-layout.col#sliderShowcase1--seventh",
+            "flex-layout.col#sliderShowcase1--eighth"
+        ]
+    },
+    //---columns
+    "flex-layout.col#sliderShowcase1--first":{
+        "title":"mobile sliderShowcase1 col 1",
+        "children":[
+            "image#sliderShowcase1--first",
+            "flex-layout.row#sliderShowcase1__Discount--first",
+            "rich-text#sliderShowcase1--first"
+        ],
+        "props":{
+            "blockClass":"sliderShowcase1--columns"
+        }
+    },
+    "flex-layout.row#sliderShowcase1__Discount--first":{
+        "title":"showcase1 discount block",
+        "children":[
+            "rich-text#RedDiscount_sliderShowcase--first",
+            "rich-text#oferta"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+
+    "flex-layout.col#sliderShowcase1--second":{
+        "title":"mobile sliderShowcase1 col 2",
+        "children":[
+            "image#sliderShowcase1--second",
+            "flex-layout.row#sliderShowcase1__Discount--second",
+            "rich-text#sliderShowcase1--second"
+        ],
+        "props":{
+            "blockClass":"sliderShowcase1--columns"
+        }
+    },
+    "flex-layout.row#sliderShowcase1__Discount--second":{
+        "title":"showcase1 discount block",
+        "children":[
+            "rich-text#RedDiscount_sliderShowcase--second",
+            "rich-text#oferta"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+
+    "flex-layout.col#sliderShowcase1--third":{
+        "title":"mobile sliderShowcase1 col 3",
+        "children":[
+            "image#sliderShowcase1--third",
+            "flex-layout.row#sliderShowcase1__Discount--third",
+            "rich-text#sliderShowcase1--third"
+        ],
+        "props":{
+            "blockClass":"sliderShowcase1--columns"
+        }
+    },
+    "flex-layout.row#sliderShowcase1__Discount--third":{
+        "title":"showcase1 discount block",
+        "children":[
+            "rich-text#RedDiscount_sliderShowcase--third",
+            "rich-text#oferta"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+
+    "flex-layout.col#sliderShowcase1--fourth":{
+        "title":"mobile sliderShowcase1 col 4",
+        "children":[
+            "image#sliderShowcase1--fourth",
+            "flex-layout.row#sliderShowcase1__Discount--fourth",
+            "rich-text#sliderShowcase1--fourth"
+        ],
+        "props":{
+            "blockClass":"sliderShowcase1--columns"
+        }
+    },
+    "flex-layout.row#sliderShowcase1__Discount--fourth":{
+        "title":"showcase1 discount block",
+        "children":[
+            "rich-text#RedDiscount_sliderShowcase--fourth",
+            "rich-text#oferta"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+
+    "flex-layout.col#sliderShowcase1--fifth":{
+        "title":"mobile sliderShowcase1 col 5",
+        "children":[
+            "image#sliderShowcase1--fifth",
+            "flex-layout.row#sliderShowcase1__Discount--fifth",
+            "rich-text#sliderShowcase1--fifth"
+        ],
+        "props":{
+            "blockClass":"sliderShowcase1--columns"
+        }
+    },
+    "flex-layout.row#sliderShowcase1__Discount--fifth":{
+        "title":"showcase1 discount block",
+        "children":[
+            "rich-text#RedDiscount_sliderShowcase--fifth",
+            "rich-text#oferta"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+
+    "flex-layout.col#sliderShowcase1--sixth":{
+        "title":"mobile sliderShowcase1 col 6",
+        "children":[
+            "image#sliderShowcase1--sixth",
+            "flex-layout.row#sliderShowcase1__Discount--sixth",
+            "rich-text#sliderShowcase1--sixth"
+        ],
+        "props":{
+            "blockClass":"sliderShowcase1--columns"
+        }
+    },
+    "flex-layout.row#sliderShowcase1__Discount--sixth":{
+        "title":"showcase1 discount block",
+        "children":[
+            "rich-text#RedDiscount_sliderShowcase--sixth",
+            "rich-text#oferta"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+
+    "flex-layout.col#sliderShowcase1--seventh":{
+        "title":"mobile sliderShowcase1 col 7",
+        "children":[
+            "image#sliderShowcase1--seventh",
+            "flex-layout.row#sliderShowcase1__Discount--seventh",
+            "rich-text#sliderShowcase1--seventh"
+        ],
+        "props":{
+            "blockClass":"sliderShowcase1--columns"
+        }
+    },
+    "flex-layout.row#sliderShowcase1__Discount--seventh":{
+        "title":"showcase1 discount block",
+        "children":[
+            "rich-text#RedDiscount_sliderShowcase--seventh",
+            "rich-text#oferta"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+
+    "flex-layout.col#sliderShowcase1--eighth":{
+        "title":"mobile sliderShowcase1 col 8",
+        "children":[
+            "image#sliderShowcase1--eighth",
+            "flex-layout.row#sliderShowcase1__Discount--eighth",
+            "rich-text#sliderShowcase1--eighth"
+        ],
+        "props":{
+            "blockClass":"sliderShowcase1--columns"
+        }
+    },
+    "flex-layout.row#sliderShowcase1__Discount--eighth":{
+        "title":"showcase1 discount block",
+        "children":[
+            "rich-text#RedDiscount_sliderShowcase--eighth",
+            "rich-text#oferta"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+
+    // --- textos
+    "rich-text#sliderShowcase1--first":{
+        "title":"titulo 1",
+        "props":{
+            "blockClass":"Cecotec",
+            "text":"Nancy, Pinypon, SuperCute y mas"
+        }
+    },
+    "rich-text#sliderShowcase1--second":{
+        "title":"titulo 2",
+        "props":{
+            "blockClass":"Cecotec",
+            "text":"Afeitado, depilación y cuidado bucal de philips"
+        }
+    },
+    "rich-text#sliderShowcase1--third":{
+        "title":"titulo 3",
+        "props":{
+            "blockClass":"Cecotec",
+            "text":"Climatización y calefacción VAZZIDEA, XAXAZON"
+        }
+    },
+    "rich-text#sliderShowcase1--fourth":{
+        "title":"titulo 4",
+        "props":{
+            "blockClass":"Cecotec",
+            "text":"Rainbow High LoL surprise, Na Na Na y más"
+        }
+    },
+    "rich-text#sliderShowcase1--fifth":{
+        "title":"titulo 5",
+        "props":{
+            "blockClass":"Cecotec",
+            "text":"Regala Mr.Wonderfull"
+        }
+    },
+    "rich-text#sliderShowcase1--sixth":{
+        "title":"titulo 6",
+        "props":{
+            "blockClass":"Cecotec",
+            "text":"Descuentos en Seagate"
+        }
+    },
+    "rich-text#sliderShowcase1--seventh":{
+        "title":"titulo 7",
+        "props":{
+            "blockClass":"Cecotec",
+            "text":"Descubre Dodot"
+        }
+    },
+    "rich-text#sliderShowcase1--eighth":{
+        "title":"titulo 8",
+        "props":{
+            "blockClass":"Cecotec",
+            "text":"Duracell OPTIMUM pack de 12 pilas alcalinas"
+        }
+    },
+
+    "rich-text#RedDiscount_sliderShowcase--first":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -41%",
+            "blockClass":"RedDiscount"
+        }
+    },
+    "rich-text#RedDiscount_sliderShowcase--second":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -47%",
+            "blockClass":"RedDiscount"
+        }
+    },"rich-text#RedDiscount_sliderShowcase--third":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -34%",
+            "blockClass":"RedDiscount"
+        }
+    },"rich-text#RedDiscount_sliderShowcase--fourth":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -28%",
+            "blockClass":"RedDiscount"
+        }
+    },"rich-text#RedDiscount_sliderShowcase--fifth":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -37%",
+            "blockClass":"RedDiscount"
+        }
+    },
+    "rich-text#RedDiscount_sliderShowcase--sixth":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -41%",
+            "blockClass":"RedDiscount"
+        }
+    },
+    "rich-text#RedDiscount_sliderShowcase--seventh":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -24%",
+            "blockClass":"RedDiscount"
+        }
+    },
+    "rich-text#RedDiscount_sliderShowcase--eighth":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -24%",
+            "blockClass":"RedDiscount"
+        }
+    },
+    "rich-text#oferta":{
+        "title":"Oferta",
+        "props":{
+            "blockClass":"oferta",
+            "text":"Oferta"
+        }
+    },
+
+
+
+    //--- images
+    "image#sliderShowcase1--first":{
+        "title":"sliderShowcase1 first image",
+        "props": {
+            "src": "assets/img/MOBILE/mobileShowcase4/showcase4--first.jpg",
+            "maxHeight": "220px",
+            "minHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#sliderShowcase1--second":{
+        "title":"sliderShowcase1 second image",
+        "props": {
+            "src": "assets/img/MOBILE/mobileShowcase4/showcase4--second.jpg",
+
+            "minHeight": "220px",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#sliderShowcase1--third":{
+        "title":"sliderShowcase1 third image",
+        "props": {
+            "src": "assets/img/MOBILE/mobileShowcase4/showcase4--third.jpg",
+
+            "minHeight": "220px",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#sliderShowcase1--fourth":{
+        "title":"sliderShowcase1 fourth image",
+        "props": {
+            "src": "assets/img/MOBILE/mobileShowcase4/showcase4--fourth.jpg",
+
+            "minHeight": "220px",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#sliderShowcase1--fifth":{
+        "title":"sliderShowcase1 fifth image",
+        "props": {
+            "src": "assets/img/MOBILE/mobileShowcase4/showcase4--fifth.jpg",
+
+            "minHeight": "220px",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#sliderShowcase1--sixth":{
+        "title":"sliderShowcase1 sixth image",
+        "props": {            
+            "src": "assets/img/MOBILE/mobileShowcase4/showcase4--sixth.jpg",
+            "minHeight": "220px",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#sliderShowcase1--seventh":{
+        "title":"sliderShowcase1 seventh image",
+        "props": {
+            "src": "assets/img/MOBILE/mobileShowcase4/showcase4--seventh.jpg",
+            "minHeight": "220px",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#sliderShowcase1--eighth":{
+        "title":"sliderShowcase1 eighth image",
+        "props": {
+            "src": "assets/img/MOBILE/mobileShowcase4/showcase4--eighth.jpg",
+            "minHeight": "220px",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+
+
+    //---link
+    "link#sliderShowcase1":{
+        "title":"link ver mas",
+        "props":{
+            "label":"Ver mas"
+        }
+    }
+
+
+
+}

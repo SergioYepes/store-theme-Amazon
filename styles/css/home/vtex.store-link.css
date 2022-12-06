@@ -11,3 +11,6 @@
     color:rgb(2, 18, 143);
     text-decoration: underline;
 }
+.label--mobileWelcome{
+    display: flex;
+}

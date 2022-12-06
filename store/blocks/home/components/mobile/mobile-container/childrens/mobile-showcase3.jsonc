@@ -1,0 +1,41 @@
+{
+    "flex-layout.col#mobile__container--showcase3":{
+            "title":"mobile showcase3",
+            "children":[
+                "rich-text#productosTendencia",
+                "flex-layout.row#showcase3__image"
+            ],
+            "props":{
+                "blockClass":"mobileShowcase3",
+                "padding":10
+            }
+    },
+    "rich-text#productosTendencia":{
+        "title":"showcase3 title",
+        "props":{
+            "text":"Descubre productos en tendencia",
+            "blockClass":"component"
+        }
+    },
+    "flex-layout.row#showcase3__image":{
+        "title":"showcase3 image cont",
+        "children":[
+            "image#showcase3__image"
+        ],
+        "props":{
+            "blockClass":"showcase3"
+        }
+    },
+    "image#showcase3__image":{
+        "title":"sliderShowcase1 second image",
+        "props": {
+            "src": "assets/img/MOBILE/mobileShowcase3/mobileShowcase3--first.jpg",
+            "maxHeight": "100%",
+            "link":{
+                "url":"#"
+            }
+        }
+    }
+
+
+}

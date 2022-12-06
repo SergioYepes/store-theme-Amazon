@@ -1,0 +1,230 @@
+{
+    "flex-layout.col#mobile__container--discounts":{
+        "title":"mobile discounts",
+        "children":[
+            "rich-text#OfertaDestacada",
+            "flex-layout.row#mobile__discount1--one",
+            "flex-layout.row#mobile__discount1--two",
+            "flex-layout.row#mobile__discount1--three",
+            "link#discounts"
+        ],
+        "props":{
+            "paddingBottom":10,
+            "blockClass":"mobileShowcase1"
+        }
+    },
+    "rich-text#OfertaDestacada":{
+        "title":"Oferta top",
+        "props":{
+            "text":"Ofertas Destacadas",
+            "blockClass":"component"
+        }
+    },
+    //--- discount cont
+    "flex-layout.row#mobile__discount1--one":{
+        "title":"mobile discount1 container first",
+        "children":[
+            "image#mobileDiscount--first",
+            "flex-layout.col#mobile__discount1--one"
+        ]
+    },
+    "flex-layout.row#mobile__discount1--two":{
+        "title":"mobile discount1 container second",
+        "children":[
+            "image#mobileDiscount--second",
+            "flex-layout.col#mobile__discount1--two"
+        ]
+    },
+    "flex-layout.row#mobile__discount1--three":{
+        "title":"mobile discount1 container third",
+        "children":[
+            "image#mobileDiscount--third",
+            "flex-layout.col#mobile__discount1--three"
+        ]
+    },
+
+
+
+    "flex-layout.col#mobile__discount1--one":{
+        "title":"mobil discount block 1",
+        "children":[
+            "flex-layout.col#mobile__discount1--first",
+            "rich-text#barbie?"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left",
+            "blockClass":"discountLeft"
+        }
+    },
+    "flex-layout.col#mobile__discount1--two":{
+        "title":"mobil discount block 2",
+        "children":[
+            "flex-layout.col#mobile__discount1--second",
+            "rich-text#seccionHP"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left",
+            "blockClass":"discountLeft"
+        }
+    },
+    "flex-layout.col#mobile__discount1--three":{
+        "title":"mobil discount block 3",
+        "children":[
+            "flex-layout.col#mobile__discount1--third",
+            "rich-text#Afeitado"
+
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left",
+            "blockClass":"discountLeft"
+        }
+    },
+
+    "flex-layout.col#mobile__discount1--first":{
+        "title":"mobil discount col 1",
+        "children":[
+            "flex-layout.row#discount1--first"
+                ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.col#mobile__discount1--second":{
+        "title":"showcase1 discount col 2",
+        "children":[
+            "flex-layout.row#discount1--second"
+                ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.col#mobile__discount1--third":{
+        "title":"showcase1 discount col 3",
+        "children":[
+            "flex-layout.row#discount1--third"
+                ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.row#discount1--first":{
+        "title":"discount block 1",
+        "children":[
+            "rich-text#RedDiscount__mobileDiscount--first",
+            "rich-text#oferta"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.row#discount1--second":{
+        "title":"discount block 2",
+        "children":[
+            "rich-text#RedDiscount__mobileDiscount--second",
+            "rich-text#oferta"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.row#discount1--third":{
+        "title":"discount block 3",
+        "children":[
+            "rich-text#RedDiscount__mobileDiscount--third",
+            "rich-text#oferta"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "horizontalAlign":"left"
+        }
+    },
+
+
+    // --- images
+    "image#mobileDiscount--first":{
+        "title":"mobile discounts image 1",
+        "props":{
+            "src": "assets/img/MOBILE/mobileDiscounts/discounts--first.jpg",
+            "maxHeight": "125px",
+            "minHeight": "125px"
+        }
+    },
+    "image#mobileDiscount--second":{
+        "title":"mobile discounts image 2",
+        "props":{
+            "src": "assets/img/MOBILE/mobileDiscounts/discounts--second.jpg",
+            "maxHeight": "125px",
+            "minHeight": "125px"
+        }
+    },
+    "image#mobileDiscount--third":{
+        "title":"mobile discounts image 3",
+        "props":{
+            "src": "assets/img/MOBILE/mobileDiscounts/discounts--third.jpg",
+            "maxHeight": "125px",
+            "minHeight": "125px"
+        }
+    },
+
+    //--- text
+    "rich-text#RedDiscount__mobileDiscount--first":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -41%",
+            "blockClass":"RedDiscount"
+        }
+    },
+    "rich-text#RedDiscount__mobileDiscount--second":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -35%",
+            "blockClass":"RedDiscount"
+        }
+    },
+    "rich-text#RedDiscount__mobileDiscount--third":{
+        "title":"RedDiscount",
+        "props":{
+            "text":"Hasta un -47%",
+            "blockClass":"RedDiscount"
+        }
+    },
+    "rich-text#barbie?":{
+        "title":"Nancy",
+        "props":{
+            "blockClass":"component1",
+            "text":"Nancy, Pinypon, SuperCute y mas"
+        }
+    },
+    "rich-text#seccionHP":{
+        "title":"seccionHP",
+        "props":{
+            "blockClass":"component1",
+            "text":"Descubre nuesta seccion HP de Portatiles"
+        }
+    },
+    "rich-text#Afeitado":{
+        "title":"Afeitado",
+        "props":{
+            "blockClass":"component1",
+            "text":"Afeitado, depilación y cuidado bucal philips"
+        }
+    },
+
+    //--- link
+
+    "link#discounts":{
+        "title":"discount link",
+        "props":{
+            "label":"Ver más"
+        }
+    }
+
+}
