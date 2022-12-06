@@ -14,7 +14,8 @@
           "marginTop": 4,
           "marginBottom": 7,
           "paddingTop": 7,
-          "paddingBottom": 7
+          "paddingBottom": 7,
+          "blockClass":"productCont"
         },
         "children": [
           "flex-layout.col#product-image--productD",
@@ -93,7 +94,10 @@
         "title":"product tabs",
         "children": [
           "tab-layout#product-tabs"
-        ]
+        ],
+        "props":{
+          "blockClass":"productCont"
+        }
       },
       "tab-layout#product-tabs":{
         "title":"product tab layout",

@@ -119,7 +119,22 @@
     padding-right: 10px;
     min-width: 290px;
     max-width: 100%;
-
+}
+.flexRowContent--ProductSearch{
+    background-color:#fff;
+    height: 431px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    overflow: hidden;
+    padding-right: 10px;
+    min-width: 290px;
+    max-width: 100%;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+}
+.flexRow--ProductSearch :global(.vtex-reviews-and-ratings-3-x-stars){
+    color:#b55c03;
 }
 .flexRow--pricelessCont{
     /* border: 1px solid blue; */

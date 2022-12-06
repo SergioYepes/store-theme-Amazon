@@ -131,7 +131,8 @@
             "rich-text#menuLink1-one--second"            
         ],
         "props":{
-            "blockClass":"footerLinklist"
+            "blockClass":"footerLinklist",
+            "href":"/aboutus"
         }
     },
     "link#menuLink1-one--third":{

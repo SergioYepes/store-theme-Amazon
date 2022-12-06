@@ -1,0 +1,82 @@
+{
+    "search-content#result-content-departmen-valorados-product":{
+        "title":"department valorados result content",
+        "blocks": [
+          "gallery#department__valorados-desktop",
+          "not-found"
+        ]
+      },
+      "gallery#department__valorados-desktop": {
+        "title":"department valorados gallery",
+        "props": {
+          "layouts": [
+            {
+              "name": "whole",
+              "component": "OneOrTwoLineSummary",
+              "itemsPerRow": {
+                "desktop": 5,
+                "mobile": 3,
+                "phone": 1
+              }
+            },
+            {
+              "name": "two",
+              "component": "OneOrTwoLineSummary",
+              "itemsPerRow": {
+                "desktop": 5,
+                "mobile": 3,
+                "phone": 1
+              }
+            },
+            {
+              "name": "many",
+              "component": "ManyByLineSummary",
+              "itemsPerRow": {
+                "desktop": 5,
+                "mobile": 3,
+                "phone": 1
+              }
+            }
+          ],
+          "OneOrTwoLineSummary": "product-summary.shelf#department-gallery3",
+          "ManyByLineSummary": "product-summary.shelf#department-gallery3"
+        }
+      },
+      "product-summary.shelf#department-gallery3": {
+        "title":"department product shelf",
+        "children": [
+            "product-summary-image#department-gallery3",
+            "product-list-price",
+            "product-selling-price",
+            "product-price-savings",
+            "product-installments#department-gallery3",
+            "product-summary-name#department-gallery3",
+            "product-rating-inline"  
+        ],
+        "props": {
+          "trackListName": true,
+          "priceBehavior": "async"
+        }
+      },
+      "product-summary-name#department-gallery3": {
+        "title":"department product shelf name",
+        "props": {
+          "tag": "h2",
+          "blockClass":"title"
+        }
+      },
+      "product-summary-image#department-gallery3": {
+        "title":"department product shelf image",
+        "props": {
+          "width": 200,
+          "maxHeight": 120
+        }
+      },
+      "product-installments#department-gallery3":{
+        "title":"department product installs",
+        "props":{
+            "blockClass":"product-installments"
+        }
+      }
+    
+}

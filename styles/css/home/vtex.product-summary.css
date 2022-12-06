@@ -1,17 +1,24 @@
 .element{
-    background-color:#4444
+    background-color:rgb(255, 255, 255)
 }
 .element :global(.vtex-button):hover{
     background-color:#37475A;
 }
 .container{
     height:365px;
-    background-color:antiquewhite
+    /* display: flex; */
+    background-color:#ffff !important
 }
 .image{
     height: 130px;
 }
 .nameContainer{
     padding: 0;
+}
+.productBrand{
+    color:#007185
+}
+.productBrand:hover{
+    color:#C7511F
 }
 /* #232F3E */

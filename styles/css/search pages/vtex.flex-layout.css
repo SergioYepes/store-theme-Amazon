@@ -1,0 +1,17 @@
+.flexCol--filterDepartment{
+    width: 300px !important;
+}
+.flexCol--valoradosCol :global(.vtex-store-components-3-x-productDescriptionTitle){
+    display:none
+}
+
+.flexRowContent--content-search-result{
+    align-items: stretch
+}
+.flexRowContent--content-search-result :global(.vtex-product-summary-2-x-container){
+    height:fit-content;
+    /* overflow:visible */
+}
+.flexRow--productCont :global(.vtex-button){
+    background-color:#007777
+}
