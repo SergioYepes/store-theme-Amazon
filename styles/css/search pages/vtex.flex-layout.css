@@ -12,3 +12,6 @@
     height:fit-content;
     /* overflow:visible */
 }
+.flexRow--productCont :global(.vtex-button){
+    background-color:#007777
+}
