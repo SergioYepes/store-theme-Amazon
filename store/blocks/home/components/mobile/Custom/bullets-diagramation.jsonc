@@ -10,18 +10,37 @@
       "flex-layout.row#bullet-group":{
         "title":"mobile login slider",
         "children":[
-          "flex-layout.col#bullet--login-group",
+          "slider-layout#bullet-group__cont"
+        ],
+        "props":{
+          "blockClass":"bullet-group",
+          "horizontalAlign":"left"
+        }
+      },
+      "slider-layout#bullet-group__cont":{
+        "title":"mobile login slider",
+        "children":[
+          "flex-layout.row#bullet--login-group",
           "list-context.bullets-diagramation"
         ],
         "props":{
-          "blockClass":"bullet-group"
+          // "blockClass":"bullet-group",
+          "itemsPerPage":{
+            "desktop":1,
+            "tablet":2,
+            "mobile":2
+          },
+          "fullWidth": true,
+          "showNavigationArrows":"never",
+          "usePagination":false,
+          "infinite":false
         }
 
       },
       "list-context.bullets-diagramation":{
         "title":"list-context mobilé",
         "children":[
-            "slider-layout#bullet-group"
+            "flex-layout.row#bullet--group"
           ] , 
         "props":{
           "bullet":[
@@ -88,19 +107,25 @@
         }
       }
       ,
-      "slider-layout#bullet-group":{
+      "flex-layout.row#bullet--group":{
         "title":"slider bullet-group",
         "props":{
-          "itemsPerPage":{
-            "desktop":1,
-            "tablet":3,
-            "mobile":5
-          },
-          "infinite":true,
-          "fullWidth": true,
-          "showNavigationArrows":"never",
-          "usePagination":false
+          // "itemsPerPage":{
+          //   "desktop":1,
+          //   "tablet":3,
+          //   "mobile":5
+          // },
+          // "infinite":true,
+          "fullWidth": true
+          // "showNavigationArrows":"never",
+          // "usePagination":false
         }
+      },
+      "flex-layout.row#bullet--login-group":{
+        "title":"login slider mobile",
+        "children":[
+          "flex-layout.col#bullet--login-group"
+        ]
       },
       "flex-layout.col#bullet--login-group":{
         "title":"login slider mobile",
@@ -109,15 +134,20 @@
             "rich-text#identificateMobile",
             "login#bullet-group",
             "link#newAcc"
-        ]
+        ],
+        "props":{
+          "blockClass":"bullet__group--loginCont",
+          "colSizing":"auto",
+          "fullWidth":true
+        }
       },
       "login#bullet-group":{
         "title":"login mobile",
             "props":{
-              "showIconProfile":true,
+              // "showIconProfile":true,
               "logInButtonBehavior":"button",
-            // "iconLabel":"Inicia sesión de una manera segura",
-               "blockClass":"loginButon"
+              "iconLabel":"Inicia sesión de una manera segura",
+              "blockClass":"loginButon"
         }
       },
 
@@ -133,14 +163,15 @@
       "title":"Identifícate",
       "props":{
         "text":"Identifícate para una mejor experiencia",
-        "blockClass":"mobileWelcome"
+        "blockClass":"mobileWelcome2"
       }
     },
     // ------ link
     "link#newAcc":{
       "title":"new account",
       "props":{
-        "label":"Crear una cuenta"
+        "label":"Crear una cuenta",
+        "blockClass":"mobileWelcome"
       }
     }
 

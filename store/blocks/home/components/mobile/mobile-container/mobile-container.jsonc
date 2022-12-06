@@ -2,7 +2,20 @@
     "flex-layout.row#mobile__container":{
         "title":"home mobile container",
         "children":[
-            "flex-layout.col#mobile__container--showcase1"
+            "flex-layout.col#mobile__container"
+        ]
+    },
+    "flex-layout.col#mobile__container":{
+        "children":[
+            "flex-layout.col#mobile__container--showcase1",
+            "flex-layout.col#mobile__container--showcase2",
+            "flex-layout.col#mobile__container--videocase1",
+            "flex-layout.col#mobile__container--sliderShowcase1",
+            "flex-layout.col#mobile__container--showcase3",
+            "flex-layout.col#mobile__container--showcaseBlock1",
+            "flex-layout.col#mobile__container--categorySlider1",
+            "flex-layout.col#mobile__container--discounts",
+            "flex-layout.col#mobile__container--shelfCase1"
         ]
     }
 

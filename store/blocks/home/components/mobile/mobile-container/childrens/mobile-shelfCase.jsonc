@@ -1,0 +1,145 @@
+{
+    "flex-layout.col#mobile__container--shelfCase1":{
+        "title":"mobile shelfCase1",
+        "children":[
+            "rich-text#shelfCase1--title",
+            "flex-layout.row#mobile__shelfCase1--one",
+            "flex-layout.row#mobile__shelfCase1--two",
+            "link#mobile__shelfCase1"
+        ],
+        "props":{
+            "paddingBottom":10,
+            "blockClass":"mobileShowcase1"
+        }
+    },
+    "rich-text#shelfCase1--title":{
+        "title":"regreso",
+        "props":{
+            "text":"De vuelta en stock de marcas de Amazon",
+            "blockClass":"component"
+        }
+    },
+
+
+    //--- cont
+    "flex-layout.row#mobile__shelfCase1--one":{
+        "title":"mobile shelfCase1 container first",
+        "children":[
+            "flex-layout.col#mobile__shelfCase1--one",
+            "flex-layout.col#mobile__shelfCase1--two"
+
+        ]
+    },
+    "flex-layout.row#mobile__shelfCase1--two":{
+        "title":"mobile shelfCase1 container second",
+        "children":[
+            "flex-layout.col#mobile__shelfCase1--three",
+            "flex-layout.col#mobile__shelfCase1--four"
+        ],
+        "props":{
+            "paddingBottom":5
+        }
+    },
+
+
+    "flex-layout.col#mobile__shelfCase1--one":{
+        "title":"shelfCase1 column first",
+        "children":[
+            "image#mobileShelfCase1--first",
+            "rich-text#mujer" 
+        ]
+    },
+    "flex-layout.col#mobile__shelfCase1--two":{
+        "title":"shelfCase1 column second",
+        "children":[
+            "image#mobileShelfCase1--second",
+            "rich-text#hombre"
+        ]
+    }, "flex-layout.col#mobile__shelfCase1--three":{
+        "title":"shelfCase1 column third",
+        "children":[
+            "image#mobileShelfCase1--third",
+            "rich-text#niños"
+        ]
+    }, "flex-layout.col#mobile__shelfCase1--four":{
+        "title":"shelfCase1 column fourth",
+        "children":[
+            "image#mobileShelfCase1--fourth",
+            "rich-text#bebe"
+        ]
+    },
+    //--- images
+    "image#mobileShelfCase1--first":{
+        "title":"ShelfCase first image",
+        "props":{
+            
+            "src": "assets/img/MOBILE/mobileShelfCase/shelfCase1--first.jpg",
+            "maxHeight": "225px",
+            "minHeight": "225px"
+        }
+    },
+    "image#mobileShelfCase1--second":{
+        "title":"ShelfCase second image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShelfCase/shelfCase1--second.jpg",
+            "maxHeight": "225px",
+            "minHeight": "225px"
+        }
+    },
+    "image#mobileShelfCase1--third":{
+        "title":"ShelfCase third image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShelfCase/shelfCase1--third.jpg",
+            "maxHeight": "225px",
+            "minHeight": "225px"
+        }
+    },
+    "image#mobileShelfCase1--fourth":{
+        "title":"ShelfCase fourth image",
+        "props":{
+            "src": "assets/img/MOBILE/mobileShelfCase/shelfCase1--fourth.jpg",
+            "maxHeight": "225px",
+            "minHeight": "225px"
+        }
+    },
+
+    // --- text
+    "rich-text#mujer":{
+        "title":"mujer",
+        "props":{
+            "text":"Mujer",
+            "blockClass":"component1"
+        }
+    } ,
+    "rich-text#hombre":{
+        "title":"hombre",
+        "props":{
+            "text":"Hombre",
+            "blockClass":"component1"
+        }
+    },
+    "rich-text#niños":{
+        "title":"niños",
+        "props":{
+            "text":"Niños",
+            "blockClass":"component1"
+        }
+    },
+    "rich-text#bebe":{
+        "title":"bebe",
+        "props":{
+            "text":"Bebé",
+            "blockClass":"component1"
+        }
+    },
+    //--- link
+    "link#mobile__shelfCase1":{
+        "title":"shelfCase link",
+        "props":{
+            "label":"Ver más"
+        }
+    }
+
+
+
+}

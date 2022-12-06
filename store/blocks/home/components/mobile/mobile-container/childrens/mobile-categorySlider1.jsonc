@@ -1,0 +1,135 @@
+{
+    "flex-layout.col#mobile__container--categorySlider1":{
+        "title":"mobile categorySlider1",
+        "children":[
+            "flex-layout.col#mobile__categorySlider--first"
+        ],
+        "props":{
+            "horizontalAlign":"center",
+            "blockClass":"categorySlider1"
+        }
+    },
+    "flex-layout.col#mobile__categorySlider--first":{
+        "title":"categorySlider1 column",
+        "children":[
+            "flex-layout.row#mobile__categorySlider--head",
+            "slider-layout#mobile__categorySlider--first"
+        ],
+        "props":{
+            "horizontalAlign":"left"
+        }
+    },
+    "flex-layout.row#mobile__categorySlider--head":{
+        "title":"categorySlider title cont",
+        "children":[
+            "rich-text#mobile__categorySlider--head"
+        ],
+        "props":{
+            "horizontalAlign":"left",
+            "blockClass":"productSlider--head",
+            "colSizing":"auto"
+        }
+    },
+    "rich-text#mobile__categorySlider--head":{
+        "title":"Tienda de Navidad: compra por categorías",
+        "props":{
+            "text":"Tienda de Navidad: compra por categorías",
+            "textColor": "c-on-base",
+            "blockClass":"rich-text--homeInfo"
+        }
+    },
+
+    "slider-layout#mobile__categorySlider--first":{
+        "title":"categorySlider mobile slider cont",
+        "props": {
+            "itemsPerPage": {
+              "desktop": 6,
+              "tablet": 4,
+              "phone": 6
+            },
+            "showNavigationArrows":"desktopOnly",
+            "showPaginationDots":"disable",
+            "infinite":false
+        },
+        "children":[
+            "image#mobile__categorySlider--first",
+            "image#mobile__categorySlider--second",
+            "image#mobile__categorySlider--third",
+            "image#mobile__categorySlider--fourth",
+            "image#mobile__categorySlider--fifth",
+            "image#mobile__categorySlider--sixth"
+        ]
+    },
+    "image#mobile__categorySlider--first":{
+        "title":"categorySlider first image",
+        "props": {
+            "src": "assets/img/MOBILE/mobileCategorySlider1/categorySlider1.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#mobile__categorySlider--second":{
+        "title":"categorySlider second image",
+        "props": {
+            "src": "assets/img/MOBILE/mobileCategorySlider1/categorySlider1--second.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#mobile__categorySlider--third":{
+        "title":"categorySlider third image",
+
+        "props": {
+            "src": "assets/img/MOBILE/mobileCategorySlider1/categorySlider1--third.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#mobile__categorySlider--fourth":{
+        "title":"categorySlider fourth image",
+
+        "props": {
+            "src": "assets/img/MOBILE/mobileCategorySlider1/categorySlider1--fourth.jpg",
+
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#mobile__categorySlider--fifth":{
+        "title":"categorySlider fifth image",
+
+        "props": {
+            "src": "assets/img/MOBILE/mobileCategorySlider1/categorySlider1--fifth.jpg",
+
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    },
+    "image#mobile__categorySlider--sixth":{
+        "title":"categorySlider sixth image",
+        "props": {
+            "src": "assets/img/MOBILE/mobileCategorySlider1/categorySlider1--sixth.jpg",
+            "maxHeight": "220px",
+            "maxWidth":"220px",
+            "link":{
+                "url":"#"
+            }
+        }
+    }
+
+}

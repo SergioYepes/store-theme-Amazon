@@ -157,6 +157,11 @@
 .flexRow--productsCont{
     margin-bottom: 10px;
 }
+
+
+
+
+
 /* MOBILE */
 
 .flexRow--mobile__slider{
@@ -166,7 +171,8 @@
 }
 .flexRow--bullet-group{
     position: absolute;
-    top:350px;
+    justify-content:flex-start;
+    top:365px;
     display: flex;
     text-align: center;
     overflow-x:scroll;
@@ -176,3 +182,96 @@
 .flexRow--bullet-group::-webkit-scrollbar{
     background-color:transparent;
 }
+.flexRow--bullet-group :global(.vtex-slider-layout-0-x-slide){
+    max-width: fit-content;
+}
+.flexRow--bullet-group :global(.vtex-slider-layout-0-x-sliderTrack){
+    padding: 0px 5px;
+    justify-content:flex-start
+}
+.flexRow--bullet-group :global(.vtex-slider-layout-0-x-slideChildrenContainer){
+    justify-content:flex-start;
+    margin: 0 5px;
+}
+
+
+.flexCol--mobileShowcase1{
+    display: flex;
+    background-color:#fff;
+    margin: 0.5rem 0;
+    padding:1rem;
+    overflow:auto;
+    flex-flow: column wrap;
+}
+.flexCol--mobileShowcase2{
+    display: flex;
+    background-color:#fff;
+    margin: 0.5rem 0;
+    padding:1rem;
+    overflow:auto;
+    flex-flow: column wrap;
+}
+.flexCol--mobileShowcase3{
+    display: flex;
+    background-color:#fff;
+    margin: 0.5rem 0;
+    padding:1rem;
+    overflow:auto;
+    flex-flow: column wrap;
+}
+.flexCol--mobileVideoCase1{
+    display: flex;
+    background-color:#fff;
+    margin: 0.5rem 0;
+    padding:1rem;
+    overflow:auto;
+    flex-flow: column wrap;
+    
+}
+.flexCol--mobileVideoCase1::-webkit-scrollbar{
+    background-color:transparent;
+}
+.flexCol--categorySlider1{
+    display: flex;
+    background-color:#fff;
+    margin: 0.5rem 0;
+    padding:1rem;
+    overflow:auto;
+    flex-flow: column wrap;
+}
+
+
+.flexCol--bullet__group--loginCont{
+    display: flex;
+    background-color:#fff;
+    margin: 0.5rem 0;
+    padding:1rem;
+    overflow-x:hidden;
+    width:100%;
+    flex-flow: column wrap;
+}
+.flexCol--bullet__group--loginCont :global(.vtex-login-2-x-buttonLink) {
+    display: flex;
+    width:100%
+}
+.flexCol--bullet__group--loginCont :global(.vtex-button) {
+    display: flex;
+    width:100%;
+    background-color:rgb(204, 253, 68);
+}.flexCol--bullet__group--loginCont :global(.vtex-button):hover{
+    display: flex;
+    width:100%;
+    background-color:rgb(204, 253, 68);
+}
+.flexCol--bullet__group--loginCont :global(.vtex-login-2-x-label) {
+    display: flex;
+    width:100%;
+    color: #000;
+}
+.flexCol--sliderShowcase1--columns{
+    margin-right: 15px;
+}
+.flexCol--discountLeft{
+    width: 170px!important
+}
+
