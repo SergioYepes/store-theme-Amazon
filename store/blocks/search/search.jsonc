@@ -9,26 +9,7 @@
         }
      }
   },
-  "store.search#brand": {
-  "title":"search brand",
-  "blocks": ["search-result-layout"],
-    "props": {
-        "context": {
-            "skuFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "default"
-        }
-     }
-  },
-  "store.search#subcategory": {
-  "title":"search subcategory",
-  "blocks": ["search-result-layout"],
-    "props": {
-        "context": {
-            "skuFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "default"
-        }
-     }
-  },
+ 
   "search-result-layout":{
     "title":"result",
     "blocks": [

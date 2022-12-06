@@ -1,0 +1,7 @@
+.productBrand--title{
+    color: #0F1111!important;
+    text-align: left;
+    font-size: 14px!important;
+    line-height: 20px!important;
+    text-overflow: ellipsis;
+}

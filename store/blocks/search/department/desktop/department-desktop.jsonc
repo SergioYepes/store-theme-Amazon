@@ -17,7 +17,8 @@
                 "flex-layout.col#department-desktop"
               ],
               "props":{
-                  "verticalAlign":"center"
+                  "verticalAlign":"center",
+                  "blockClass":"departmentCont"
               }
           },
           "flex-layout.row#department-desktop_result": {
@@ -39,106 +40,81 @@
               "filter-navigator.v3"
             ],
             "props": {
-              "width": "25%"
+              "width": "25%",
+              "blockClass":"filterDepartment"
             }
           },
           "flex-layout.col#department-desktop_result": {
             "title":"department result",
             "children": [
-              "search-content#result-content-departmen-product"
+              "rich-text#department-search",   
+              "search-content#result-content-departmen-product",
+              "flex-layout.row#department-desktop--category",
+              "flex-layout.row#department-desktop--valorados"
             ],
             "props": {
               "width": "70%"
             }
           },
-          "search-content#result-content-departmen-product": {
-            "title":"department result content",
-            "blocks": [
-              "gallery#department-desktop",
-              "not-found"
+          "flex-layout.row#department-desktop--category":{
+            "title":"department category",
+            "children":[
+              "flex-layout.col#department-desktop--category"
             ]
           },
-          "gallery#department-desktop": {
-            "title":"department gallery",
-            "props": {
-              "layouts": [
-                {
-                  "name": "whole",
-                  "component": "OneOrTwoLineSummary",
-                  "itemsPerRow": {
-                    "desktop": 5,
-                    "mobile": 3,
-                    "phone": 1
-                  }
-                },
-                {
-                  "name": "two",
-                  "component": "OneOrTwoLineSummary",
-                  "itemsPerRow": {
-                    "desktop": 5,
-                    "mobile": 3,
-                    "phone": 1
-                  }
-                },
-                {
-                  "name": "many",
-                  "component": "ManyByLineSummary",
-                  "itemsPerRow": {
-                    "desktop": 5,
-                    "mobile": 3,
-                    "phone": 1
-                  }
-                }
-              ],
-              "OneOrTwoLineSummary": "product-summary.shelf#product-search",
-              "ManyByLineSummary": "product-summary.shelf#product-search"
-            }
-          },
-          "product-summary.shelf#product-search": {
-            "title":"department product shelf",
-            "children": [
-              "product-rating-inline",  
-              "product-summary-space", 
-              "product-summary-image#product-search",
-              "product-summary-name#product-search",
-              "product-list-price",
-              "product-selling-price",
-              "product-price-savings",
-              "product-installments",
-              "product-summary-space",
-              "add-to-list-btn"
+          "flex-layout.col#department-desktop--category":{
+            "title":"department category",
+            "children":[
+              "rich-text#category-search",
+              "search-content#result-content-departmen-category-product" 
             ],
-            "props": {
-              "trackListName": true,
-              "priceBehavior": "async"
+            "props":{
+              "blockClass":"valoradosCol",
+              "horizontalAlign":"left"
             }
           },
-          "product-summary-name#product-search": {
-            "title":"department product shelf name",
-            "props": {
-              "tag": "h2"
+          "flex-layout.row#department-desktop--valorados":{
+            "title":"department valorados",
+            "children":[
+              "flex-layout.col#department-desktop--valorados"
+            ],
+            "props":{
+              "horizontalAlign":"left"
             }
           },
-          "product-summary-image#product-search": {
-            "title":"department product shelf image",
-            "props": {
-              "width": 200,
-              "maxHeight": 120
+          "flex-layout.col#department-desktop--valorados":{
+            "title":"department valorados",
+            "children":[
+              "rich-text#valorados-search",
+              "search-content#result-content-departmen-valorados-product" 
+            ]
+          },
+
+
+          "rich-text#department-search":{
+            "title":"department result title",
+            "props":{
+              "text":"DEPARTAMENTO",
+              "blockClass":"rich-text--homeLogin"
             }
           },
-          "vtex.product-list:product-brand#product-search": {
-            "title":"department product shelf brand",
-            "props": {
-              "displayMode": "logo"
-            }
-          },
-          "add-to-cart-button": {
-            "title":"department product shelf add buton",
-            "props": {
-              "display": "button",
-              "text": "Agregar"
-            }
-          },
+          "rich-text#category-search":{
+            "title":"department-category result title",
+            "props":{
+              "text":"Categorias mas destacadas",
+              "blockClass":"rich-text--homeLogin"
+          }
+        },
+          "rich-text#valorados-search":{
+            "title":"department-valorados result title",
+            "props":{
+              "text":"Los mejor valorados",
+              "blockClass":"rich-text--homeLogin"
+          }
+        },
+
+
+          
           "link.product": {
             "title":"department product shelf link",
             "props": {

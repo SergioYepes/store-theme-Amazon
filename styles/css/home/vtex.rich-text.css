@@ -42,6 +42,18 @@
     color: black!important;
     font-size:10px!important
 }
+.paragraph--home__searchResult{
+    display: inline-block;
+    width: 100%;
+    white-space: normal;
+    color: black!important;
+    font-size:16px!important;
+    font-weight: 700;
+    text-transform: none;
+    /* letter-spacing: 0;
+    line-height: 1.3em !important;
+    max-height: 2.6em; */
+}
 .paragraph--component{
     display: inline-block;
     width: 100%;

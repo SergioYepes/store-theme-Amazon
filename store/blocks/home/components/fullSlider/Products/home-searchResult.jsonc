@@ -5,7 +5,7 @@
             "search-result-layout.customQuery#home__searchResult"
         ],
         "props":{
-            "blockClass": "InfoContainer"
+            "blockClass": "ProductSearch"
         }
     },
     "search-result-layout.customQuery#home__searchResult":{
@@ -31,9 +31,17 @@
     "flex-layout.row#home__searchResult--desktop":{
         "title":"searchResult column cont",
         "children":[
+            "flex-layout.col#home__searchResult--desktop"
+        ]
+    },
+    "flex-layout.col#home__searchResult--desktop":{
+        "title":"searchResult column cont",
+        "children":[
+            "rich-text#home__searchResult--title",
             "search-content#home__searchResult"
         ]
     },
+    
     "search-content#home__searchResult":{
         "title":"searchResult content",
         "blocks":[
@@ -50,13 +58,20 @@
     "product-summary.shelf":{
         "title":"searchResult children",
         "children": [
-            "add-to-list-btn",
+            // "add-to-list-btn",
             "product-summary-image",
             "product-summary-name",
-            "product-summary-space",
+            "product-rating-inline",
             "product-summary-price",
             "add-to-cart-button"
           ]
+    },
+    "rich-text#home__searchResult--title":{
+        "title":"lo mas visto",
+        "props":{
+            "text":"Los clientes que han visto productos que aparecen en tu historial de navegación también han visto",
+            "blockClass":"home__searchResult"
+        }
     }
 
 }
