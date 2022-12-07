@@ -5,7 +5,7 @@
     max-width: 100%;
 }
 .searchBarInnerContainer--bar :global(.vtex-input-prefix__group){
-    height:50px
+    height:39px
 }
 .searchBarInnerContainer--barMobile{
     min-width: 100%;

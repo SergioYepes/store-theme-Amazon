@@ -1,11 +1,22 @@
 .trigger--Departamentos{
     background-color:#f3f3f3;
-    height:50px;
+    border-left: 1px solid #f3f3f3;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    height:38px;
     display: flex;
     align-items: center;
+    white-space:nowrap;
     border-radius: 10px 0px 0px 10px;
     z-index: 0 !important;
 }
 .trigger--Departamentos:hover{
+    background-color: #dadada;
+    border-left-color: #dadada;
+    border-top-color: #dadada;
+    border-bottom-color: #dadada;
+}
+.trigger--Departamentos:focus{
     background-color:#8f8d8d;
+    box-shadow: 0 0 0 2px #f90, 0 0 0 3px rgb(255 ,157 ,0 ,.5);
 }

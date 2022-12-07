@@ -1,0 +1,15 @@
+{
+    "flex-layout.row#categoryDesktop":{
+        "title":"categoryDesktop cont",
+        "children":[
+            "rich-text#hola"
+        ]
+    },
+    "rich-text#hola":{
+        "title":"hola",
+        "props":{
+            "text":"hola",
+            "blockClass":"deptosMenu"
+        }
+    }
+}

@@ -12,6 +12,9 @@
     text-decoration:white underline!important;
     text-decoration-thickness: 3px;
 }
+.link--footerLinklist{
+    padding: 0 !important;
+}
 .link--footerLinklist:hover{
     text-decoration:white underline!important;
     text-decoration-thickness: 3px;

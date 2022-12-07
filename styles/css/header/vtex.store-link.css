@@ -36,13 +36,17 @@
     padding: 0
 }
 .link--mobile__Cell3:hover{
-    background-color:#37475A;
-    border-color: #0000;
+    background-color:#00000000;
+    border-color: #fff 1px solid;
     text-decoration: none !important;
 }
+.link--drawerButton{
+    white-space:nowrap;
+}
+
 .link--drawerButton:hover{
-    background-color:#37475A;
-    border-color: #0000;
+    background-color:#0000;
+    border-color: #fff 1px solid;
     text-decoration: none !important;
 }
 .link--login__mobile:hover{
