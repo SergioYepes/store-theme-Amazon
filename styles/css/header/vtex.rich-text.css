@@ -43,6 +43,12 @@
 .paragraph--mobile__Cell2{
     min-width:max-content
 }
+.wrapper--minicartTitle{
+    color: #000;
+}
 .container--ez{
     justify-content: center;
+}
+.container--minicartTitle{
+    justify-content: center;  
 }

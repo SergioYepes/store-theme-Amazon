@@ -1,18 +1,63 @@
 .minicartQuantityBadgeDefault{
     top: 0.1rem;
-    right: .6rem;
+    right: .5rem;
     font-weight: 900;
     font-size: 12px;
     background-color: #000;
     color:orange
 }
-.minicartContainer :global(.vtex-button):hover{
+
+
+
+
+.minicartCheckoutButton :global(.vtex-button){
     background-color:#0000;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    border-radius: 8px;
+    border-color: #D5D9D9;
+    text-transform: capitalize;
+    color: #0F1111;
 }
+.minicartCheckoutButton :global(.vtex-button):active{
+    background-color:#ffff;
+    box-shadow: none;
+}
+.minicartCheckoutButton :global(.vtex-button):hover{
+    background-color: #F7FAFA;
+    border-color: #D5D9D9;
+    color: #0F1111;
+}
+.minicartCheckoutButton :global(.vtex-button):focus{
+    outline: 0;
+    border-color: #008296;
+}
+
+
+.minicartContainer :global(.vtex-button):active{
+    background-color:#ffff;
+    box-shadow: none;
+}
+.minicartContainer :global(.vtex-button):hover{
+    background-color: #0000;
+}
+.minicartContainer :global(.vtex-button):focus{
+    background-color: #0000;
+}
+
 .minicartContainer :global(.vtex-button__label){
     padding: 0;
     width: 45px;
 }
 .openIconContainer{
     padding: 0;
+}
+.minicartTitle{
+    display:none
+}
+.closeIcon{
+    display:none
+}
+.opened{
+    max-width: 200px !important;
+    min-width: 200px !important;
 }

@@ -8,7 +8,9 @@
           "quantityDisplay":"always"
         },
         "children":[
-            "minicart-base-content"
+          "flex-layout.row#minicart-header",
+            "minicart-base-content",
+            "flex-layout.row#minicart-footer"
             // "rich-text#cesta"
         ]
       },
@@ -18,8 +20,7 @@
             "minicart-empty-state"
         ],
         "children":[
-            "minicart-product-list",
-            "flex-layout.row#minicart-footer"
+            "minicart-product-list"
         ]
       },
       "minicart-empty-state":{
@@ -48,6 +49,34 @@
         }
       },
         
+
+      // -- header
+      "flex-layout.row#minicart-header":{
+        "title":"minicart header block",
+        "children":[
+            "flex-layout.col#minicart-header"
+          ],
+          "props":{
+            "horizontalAlign": "center",
+            "colSizing":"auto"
+          }
+        },
+        "flex-layout.col#minicart-header":{
+          "title":"minicart header cont",
+          "children":[
+            "rich-text#minicart-title",
+            // "minicart-summary",
+            "minicart-checkout-button"
+          ]
+        },
+      "rich-text#minicart-title":{
+        "title":"subtotal",
+        "props":{
+          "text":"### Subtotal",
+          "blockClass":"minicartTitle"
+        }
+      },
+
       //---footer
       
         "flex-layout.row#minicart-footer":{
@@ -59,10 +88,15 @@
         "flex-layout.col#minicart-footer":{
           "title":"minicart footer cont",
           "children":[
-            "minicart-summary",
-            "minicart-checkout-button"
+            
           ]
       },
+        "minicart-checkout-button": {
+          "props": {
+            "finishShoppingButtonLink": "/checkout/#/orderform"
+        }
+      },
+    
       // "minicart-summary": {
       //   "title":"minicart footer summary",
       //   "blocks": ["checkout-summary.compact#minicart"]
@@ -103,8 +137,7 @@
       "rich-text#cesta":{
         "title":"Cesta",
         "props":{
-            "text":"Cesta",
-            "blockClass":"font"
+            "text":"Cesta"
         }
       },
 
@@ -134,13 +167,14 @@
         "children":[
           "flex-layout.col#minicartP--Imagen",
           "flex-layout.col#minicartP--Info",
-          "flex-layout.col#minicartP--remove"
+          "flex-layout.row#minicartP--remove"
         ],
         "props":{
           "fullWidth": true,
           "paddingBottom": "7",
           "paddingTop": "6",
-          "colSizing": "auto"
+          "colSizing": "auto",
+          "blockClass":"minicartProducts-desktop"
         }
       },
       "flex-layout.col#minicartP--Imagen":{
@@ -156,23 +190,27 @@
         "title":"minicart product list info block",
         "children":[
           "vtex.product-list:product-name",
-          "quantity-selector#minicart",
           "price"
-      ],
+        ],
         "props": {
-          "width": "grow"
+          "width": "grow",
+          "blockClass":"minicartProducts-content"
         }
       },
-      "flex-layout.col#minicartP--remove":{
+      "flex-layout.row#minicartP--remove":{
         "title":"minicart product list remove",
         "children":[
+          "quantity-selector#minicart",
           "remove-button"
-        ]
+        ],
+        "props": {
+          "colSizing":"auto"
+        }
       },
       "quantity-selector#minicart":{
         "title":"minicart product list quantity",
         "props":{
-          "mode":"stepper"
+          "mode":"default"
       }
       }
 }
