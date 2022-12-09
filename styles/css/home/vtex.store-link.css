@@ -2,7 +2,7 @@
     align-items: left;
     text-decoration: none;
     color:rgb(2, 143, 143);
-    padding-left: 10px  ;
+    padding: 0 5px  ;
 }
 .link--loginFootCont{
     font-size: 10px;

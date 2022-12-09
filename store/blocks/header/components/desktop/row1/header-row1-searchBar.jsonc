@@ -20,6 +20,7 @@
           "placeholder": "¿Qué estás buscando?",
           "displayMode":"search-and-clear-buttons",
           "openAutocompleteOnFocus":true,
+          // "attemptPageTypeSearch": true,
           "blurOnSubmit":true
         }
       },

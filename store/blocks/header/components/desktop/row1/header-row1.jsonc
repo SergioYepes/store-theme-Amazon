@@ -15,6 +15,7 @@
           "verticalAlign": "center",
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
+          "blockClass":"desktop1",
           "fullWidth": true
         },
         "children": [

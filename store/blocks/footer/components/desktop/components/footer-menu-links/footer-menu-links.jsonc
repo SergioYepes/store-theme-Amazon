@@ -10,7 +10,7 @@
         "props":{
             "blockClass":"footerLinklist",
             "colSizing":"auto",
-            "rowGap":-5
+            "rowGap":3
         }
     },
     "flex-layout.col#Linklist1-one":{
@@ -86,7 +86,8 @@
         "title":"Conócenos",
         "props":{
             "text":"Conócenos",
-            "textColor": "c-on-emphasis"
+            "textColor": "c-on-emphasis",
+            "blockClass":"footerLinklist-text"
         }
         
     },
@@ -94,7 +95,8 @@
         "title":"Gana dinero con nosotros",
         "props":{
             "text":"Gana dinero con nosotros",
-            "textColor": "c-on-emphasis"
+            "textColor": "c-on-emphasis",
+            "blockClass":"footerLinklist-text"
         }
         
     },
@@ -102,7 +104,8 @@
         "title":"Métodos de pago Amazon",
         "props":{
             "text":"Métodos de pago Amazon",
-            "textColor": "c-on-emphasis"
+            "textColor": "c-on-emphasis",
+            "blockClass":"footerLinklist-text"
         }
         
     },
@@ -110,7 +113,8 @@
         "title":"¿Necesitas ayuda?",
         "props":{
             "text":"¿Necesitas ayuda?",
-            "textColor": "c-on-emphasis"
+            "textColor": "c-on-emphasis",
+            "blockClass":"footerLinklist-text"
         }
         
     },

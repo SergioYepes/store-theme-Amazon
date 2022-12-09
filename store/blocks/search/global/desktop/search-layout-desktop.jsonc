@@ -2,6 +2,8 @@
     "search-result-layout.desktop":{
         "title":"result-desktop",
         "children": [
+            "flex-layout.row#did-you-mean",
+            "flex-layout.row#suggestion",
             "flex-layout.row#department-desktop",
             "flex-layout.row#department-desktop_result"
         ],
@@ -10,5 +12,11 @@
             "preventRouteChange": false,
             "defaultGalleryLayout": "grid"
         }
+      },
+      "flex-layout.row#did-you-mean": {
+        "children": ["did-you-mean"]
+      },
+      "flex-layout.row#suggestion": {
+        "children": ["search-suggestions"]
       }
 }

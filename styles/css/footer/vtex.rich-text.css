@@ -4,6 +4,13 @@
     line-height:1;
     font-size: 13px!important;
 }
+.paragraph--footerLinklist-text{
+    color: rgb(204, 204, 204) !important;;
+    font-weight: 0;
+    line-height:1;
+    font-size: 17px!important;
+    padding-bottom: 10px;
+}
 .paragraph--paisesCont{
     color: rgb(204, 204, 204) !important;;
     font-weight: 0!important;

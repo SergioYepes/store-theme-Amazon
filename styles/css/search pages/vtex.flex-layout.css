@@ -1,6 +1,17 @@
 .flexCol--filterDepartment{
     width: 300px !important;
 }
+.flexCol--filterDepartment :global(.vtex-checkbox__container){
+    color: #000;
+    box-shadow: 0 0 0 2px #f90, 0 0 0 3px rgb(255 ,157 ,0 ,.5);
+}
+.flexCol--filterDepartment :global(.vtex-checkbox__input){
+    color: #000;
+    border:2px solid #f90 !important
+}
+.flexCol--filterDepartment :global(.vtex-checkbox__container):focus{
+    background-color:#8f8d8d;
+}
 .flexCol--valoradosCol :global(.vtex-store-components-3-x-productDescriptionTitle){
     display:none
 }
