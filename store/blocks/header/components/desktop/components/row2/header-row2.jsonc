@@ -16,8 +16,8 @@
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
             "fullWidth": true,
-            "blockClass":"desktop2",
-            "colSizing":"auto"
+            "blockClass":"desktop2"
+            // "colSizing":"auto"
           },
           "children": [
             "drawer#header-sticky2",

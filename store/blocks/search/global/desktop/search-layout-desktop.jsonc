@@ -4,8 +4,8 @@
         "children": [
             "flex-layout.row#did-you-mean",
             "flex-layout.row#suggestion",
-            "flex-layout.row#department-desktop",
-            "flex-layout.row#department-desktop_result"
+            "flex-layout.row#search-desktop",
+            "flex-layout.row#search-desktop_result"
         ],
         "props":{
             "pagination": "show-more",

@@ -5,7 +5,7 @@
             "rich-text#losMas"
         ],
         "props":{
-            "href":"#",
+            "href":"electrodomesticos",
             "displayMode":"button",
             "blockClass":"drawerButton"
         }
@@ -16,7 +16,7 @@
             "rich-text#AmazonBasics"
         ],
         "props":{
-            "href":"#",
+            "href":"electrodomesticos",
             "displayMode":"button",
             "blockClass":"drawerButton"
         }
@@ -27,7 +27,7 @@
             "rich-text#atencion"
         ],
         "props":{
-            "href":"#",
+            "href":"electrodomesticos",
             "displayMode":"button",
             "blockClass":"drawerButton"
         }
@@ -38,7 +38,7 @@
             "rich-text#ofertas"
         ],
         "props":{
-            "href":"#",
+            "href":"electrodomesticos/varillas?initialMap=c&initialQuery=electrodomesticos&map=category-1,category-2",
             "displayMode":"button",
             "blockClass":"drawerButton"
         }
@@ -49,7 +49,7 @@
             "rich-text#música"
         ],
         "props":{
-            "href":"#",
+            "href":"Queso",
             "displayMode":"button",
             "blockClass":"drawerButton"
         }
@@ -60,7 +60,7 @@
             "rich-text#últimas"
         ],
         "props":{
-            "href":"#",
+            "href":"madera",
             "displayMode":"button",
             "blockClass":"drawerButton"
         }
@@ -71,7 +71,7 @@
             "rich-text#Prime"
         ],
         "props":{
-            "href":"#",
+            "href":"mujer",
             "displayMode":"button",
             "blockClass":"drawerButton"
         }
@@ -82,7 +82,7 @@
             "rich-text#ebooks"
         ],
         "props":{
-            "href":"#",
+            "href":"queso",
             "displayMode":"button",
             "blockClass":"drawerButton"
         }
@@ -93,7 +93,7 @@
             "rich-text#informática"
         ],
         "props":{
-            "href":"#",
+            "href":"electrodomesticos?initialMap=category-1&initialQuery=electrodomesticos&map=category-1",
             "displayMode":"button",
             "blockClass":"drawerButton"
         }
@@ -104,7 +104,7 @@
             "rich-text#libros"
         ],
         "props":{
-            "href":"#",
+            "href":"mujer",
             "displayMode":"button",
             "blockClass":"drawerButton"
         }
@@ -115,7 +115,7 @@
             "rich-text#hogar"
         ],
         "props":{
-            "href":"#",
+            "href":"madera",
             "displayMode":"button",
             "blockClass":"drawerButton"
         }
@@ -126,7 +126,7 @@
             "rich-text#audible"
         ],
         "props":{
-            "href":"#",
+            "href":"queso",
             "displayMode":"button",
             "blockClass":"drawerButton"
         }

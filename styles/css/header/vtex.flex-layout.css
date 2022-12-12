@@ -21,7 +21,9 @@
 }
 .flexRowContent--desktop2{
     max-height: 40px;
-    justify-content: center;
+    width:auto;
+    white-space:nowrap;
+    justify-content: flex-start;
 }
 .flexRowContent--desktop1{
     min-height: 60px;

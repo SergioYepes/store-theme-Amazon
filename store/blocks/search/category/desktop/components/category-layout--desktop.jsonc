@@ -1,15 +1,19 @@
 {
-    "flex-layout.row#categoryDesktop":{
-        "title":"categoryDesktop cont",
+    "flex-layout.row#category-desktop":{
+        "title":"category header",
         "children":[
-            "rich-text#hola"
+            "flex-layout.col#category-desktop"
+          ],
+          "props":{
+              "verticalAlign":"center",
+              "blockClass":"departmentCont"
+          }
+      },
+
+      "flex-layout.col#category-desktop":{
+        "title":"category product shelf breadcrumb",
+        "children":[
+          "breadcrumb.search"
         ]
-    },
-    "rich-text#hola":{
-        "title":"hola",
-        "props":{
-            "text":"hola",
-            "blockClass":"deptosMenu"
-        }
-    }
+      }
 }

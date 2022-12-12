@@ -2,8 +2,10 @@
     "search-result-layout.desktop#category":{
         "title":"category layout",
         "children": [
-            "flex-layout.row#categoryDesktop",
-            "flex-layout.row#department-desktop_result"
+            "flex-layout.row#category-desktop",
+            "flex-layout.row#category-desktop_result",
+            "flex-layout.row#home__searchResult",
+            "flex-layout.row#home-loginFootCont"
         ],
         "props":{
             "pagination": "show-more",
