@@ -5,3 +5,6 @@
 .filters--layout{
     /* display: flex; */
 }
+.filterTemplateOverflow{
+    padding-bottom: 4rem;
+}

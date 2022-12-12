@@ -4,13 +4,13 @@
         "blocks": ["search-result-layout#brand"],
         "props": {
             "context": {
-                "skuFilter": "FIRST_AVAILABLE",
+                "skuFilter": "ALL",
                 "simulationBehavior": "default"
             }
          }
       },
       "search-result-layout#brand":{
-        "title":"category result",
+        "title":"brand result",
         "blocks": [
           "search-result-layout.desktop#brand",
         //   "search-result-layout.mobile#brand"

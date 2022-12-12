@@ -1,0 +1,95 @@
+{
+    "flex-layout.row#category-desktop_result": {
+        "title":"category columns",
+        "children": [
+          "flex-layout.col#filter-navigation_desktop",
+          "flex-layout.col#category-desktop_result"
+        ],
+        "props": {
+          "blockClass": "content-search-result",
+          "colSizing": "auto",
+          "marginTop": 4,
+          "marginBottom": 6
+        }
+      },
+      "flex-layout.col#filter-navigation_desktop": {
+        "title":"category filter navigation",
+        "children": [
+          "filter-navigator.v3"
+        ],
+        "props": {
+          "verticalAlign":"top",
+          "width": "25%",
+          "blockClass":"filterDepartment"
+        }
+      },
+      "flex-layout.col#category-desktop_result": {
+        "title":"category result",
+        "children": [
+          "rich-text#categoryName-search",   
+          "search-content#result-content-departmen-product",
+          "flex-layout.row#category-desktop--list",
+          "flex-layout.row#category-desktop--valorados"
+        ],
+        "props": {
+          "width": "70%"
+        }
+      },
+      "flex-layout.row#category-desktop--list":{
+        "title":"category list",
+        "children":[
+          "flex-layout.col#category-desktop--list"
+        ]
+      },
+      "flex-layout.col#category-desktop--list":{
+        "title":"category list",
+        "children":[
+          "rich-text#category-search",
+          "search-content#result-content-departmen-category-product" 
+        ],
+        "props":{
+          "blockClass":"valoradosCol",
+          "horizontalAlign":"left"
+        }
+      },
+      "flex-layout.row#category-desktop--valorados":{
+        "title":"category valorados",
+        "children":[
+          "flex-layout.col#department-desktop--valorados"
+        ],
+        "props":{
+          "horizontalAlign":"left"
+        }
+      },
+      "flex-layout.col#department-desktop--valorados":{
+        "title":"department valorados",
+        "children":[
+          "rich-text#valorados-search",
+          "search-content#result-content-departmen-valorados-product" 
+        ]
+      },
+
+
+      "rich-text#categoryName-search":{
+        "title":"category result title",
+        "props":{
+          "text":"CATEGORIAS",
+          "blockClass":"rich-text--homeLogin"
+        }
+      },
+      "rich-text#vendidos-search":{
+        "title":"category-valorados result title",
+        "props":{
+          "text":"Los mejor vendidos",
+          "blockClass":"rich-text--homeLogin"
+      }
+    },
+
+      "link.product": {
+        "title":"category product shelf link",
+        "props": {
+          "displayMode": "button",
+          "label": "Ver producto"
+        }
+      }
+}

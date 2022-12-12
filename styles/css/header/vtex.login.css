@@ -6,3 +6,25 @@
     background-color:#0000;
     border: 1px solid white
 }
+.optionsList{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.optionsListItem{
+    background-color: #FFD814;
+    color: #000;
+    border-radius: 20px;
+    width:max-content
+}
+.optionsListItem:focus{
+    outline: 0;
+    border-color: #008296;
+}
+.sendButton{
+    background-color: #FFD814
+}
+.sendButton :global(.vtex-button):hover{
+    border-color: #0000;
+    color: #000
+}

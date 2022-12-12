@@ -1,0 +1,55 @@
+{
+      "flex-layout.row#subDepartment-desktop_result": {
+        "title":"subDepartamento columns",
+        "children": [
+          "flex-layout.col#filter-navigation_desktop",
+          "flex-layout.col#subDepartamento-desktop_result"
+        ],
+        "props": {
+          "blockClass": "content-search-result",
+          "colSizing": "auto",
+          "marginTop": 4,
+          "marginBottom": 6
+        }
+      },
+      "flex-layout.col#filter-navigation_desktop": {
+        "title":"subDepartamento filter navigation",
+        "children": [
+          "filter-navigator.v3"
+        ],
+        "props": {
+          "verticalAlign":"top",
+          "width": "25%",
+          "blockClass":"filterDepartment"
+        }
+      },
+      "flex-layout.col#subDepartamento-desktop_result": {
+        "title":"subDepartamento result",
+        "children": [
+          "rich-text#subDepartamento-search",  
+          "flex-layout.row#subDepartamento-desktop_resultRow"
+          
+        ],
+        "props": {
+          "width": "70%"
+        }
+      },
+      "flex-layout.row#subDepartamento-desktop_resultRow":{
+        "title":"subDepartamento result row",
+        "children":[
+          "search-content#result-content-subDepartmen-product",
+          "search-content#result-content-subDepartmen-productRow"
+        ],
+        "props":{
+          "blockClass":"subDepartamento__cont"
+        }
+      }, 
+      "rich-text#subDepartamento-search":{
+        "title":"subDepartamento result title",
+        "props":{
+          "text":"Sub Departamentos",
+          "blockClass":"rich-text--homeLogin"
+        }
+      }
+      
+}

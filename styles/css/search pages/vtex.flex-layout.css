@@ -1,5 +1,6 @@
 .flexCol--filterDepartment{
     width: 300px !important;
+    border-right: 1px  solid #8f8d8d;
 }
 .flexCol--filterDepartment :global(.vtex-checkbox__container){
     color: #000;
@@ -17,7 +18,7 @@
 }
 
 .flexRowContent--content-search-result{
-    align-items: stretch
+    align-items: flex-start !important
 }
 .flexRowContent--content-search-result :global(.vtex-product-summary-2-x-container){
     height:fit-content;
@@ -25,4 +26,26 @@
 }
 .flexRow--productCont :global(.vtex-button){
     background-color:#007777
+}
+
+
+
+
+/* subDepartment */
+
+.flexRowContent--subDepartamento__cont{
+    justify-content: center;
+    width: 450px;
+}
+.flexRowContent--subDepartamento__cont :global(.vtex-search-result-3-x-galleryItem--whole){
+    padding:0 !important;
+    display: flex;
+    flex-basis: fit-content!important;
+    max-width: fit-content !important;
+    min-height: 281px;
+    align-items: center;
+}
+.flexRowContent--subDepartamento__cont :global(.vtex-search-result-3-x-gallery){
+    flex-wrap: nowrap;
+    flex-direction: column;
 }

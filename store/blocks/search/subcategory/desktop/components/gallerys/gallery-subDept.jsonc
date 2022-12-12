@@ -1,0 +1,129 @@
+{
+    "search-content#result-content-subDepartmen-product": {
+        "title":"subDepartment result content",
+        "blocks": [
+          "gallery#subDepartment-desktop",
+          "not-found"
+        ]
+      },
+      "gallery#subDepartment-desktop": {
+          "title":"subDepartment gallery",
+        "props": {
+            "layouts": [
+                {
+              "name": "whole",
+              "component": "OneOrTwoLineSummary",
+              "itemsPerRow": {
+                  "desktop": 5,
+                  "mobile": 3,
+                  "phone": 1
+                }
+            },
+            {
+                "name": "two",
+              "component": "OneOrTwoLineSummary",
+              "itemsPerRow": {
+                  "desktop": 5,
+                  "mobile": 3,
+                  "phone": 1
+              }
+            },
+            {
+                "name": "many",
+                "component": "ManyByLineSummary",
+                "itemsPerRow": {
+                    "desktop": 5,
+                    "mobile": 3,
+                    "phone": 1
+                }
+            }
+          ],
+          "OneOrTwoLineSummary": "product-summary.shelf#product-search",
+          "ManyByLineSummary": "product-summary.shelf#product-search"
+        }
+    },
+
+
+
+    "search-content#result-content-subDepartmen-productRow":{
+      "title":"subDepartment result text",
+      "blocks": [
+        "gallery#subDepartment-desktopRow",
+        "not-found"
+      ]
+    },
+    
+    "gallery#subDepartment-desktopRow": {
+          "title":"subDepartment gallery",
+        "props": {
+            "layouts": [
+                {
+              "name": "whole",
+              "component": "OneOrTwoLineSummary",
+              "itemsPerRow": {
+                  "desktop": 5,
+                  "mobile": 3,
+                  "phone": 1
+                }
+            },
+            {
+                "name": "two",
+              "component": "OneOrTwoLineSummary",
+              "itemsPerRow": {
+                  "desktop": 5,
+                  "mobile": 3,
+                  "phone": 1
+              }
+            },
+            {
+                "name": "many",
+                "component": "ManyByLineSummary",
+                "itemsPerRow": {
+                    "desktop": 5,
+                    "mobile": 3,
+                    "phone": 1
+                }
+            }
+          ],
+          "OneOrTwoLineSummary": "product-summary.shelf#subDepartment-gallery2",
+          "ManyByLineSummary": "product-summary.shelf#subDepartment-gallery2"
+        }
+    },
+    "product-summary.shelf#subDepartment-gallery2": {
+        "title":"subDepartment product shelf",
+        "children": [
+            // "product-list-price",
+            "product-selling-price#subDepartment-gallery2",
+            "product-price-savings",
+            "product-installments#subDepartment-gallery2",
+            "product-description",
+            "product-rating-inline"  
+        ],
+        "props": {
+          "trackListName": true,
+          "priceBehavior": "async"
+        }
+      },
+      
+      "product-selling-price#subDepartment-gallery2":{
+        "title":"subDepartment product price",
+        "props":{
+            "blockClass":"product-selling"
+        }
+      },
+      "product-installments#subDepartment-gallery2":{
+        "title":"subDepartment product installs",
+        "props":{
+            "blockClass":"product-installments"
+        }
+      },
+
+      "add-to-cart-button": {
+        "title":"subDepartment product shelf add buton",
+        "props": {
+          "display": "button",
+          "text": "Agregar"
+        }
+      }
+
+}

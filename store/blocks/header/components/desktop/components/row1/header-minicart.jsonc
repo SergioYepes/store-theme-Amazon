@@ -65,7 +65,7 @@
           "title":"minicart header cont",
           "children":[
             "rich-text#minicart-title",
-            // "minicart-summary",
+            "minicart-summary",
             "minicart-checkout-button"
           ]
         },
@@ -90,11 +90,11 @@
           "children":[
             
           ]
-      },
-        "minicart-checkout-button": {
-          "props": {
-            "finishShoppingButtonLink": "/checkout/#/orderform"
-        }
+      // },
+      //   "minicart-checkout-button": {
+      //     "props": {
+      //       "finishShoppingButtonLink": "/checkout/#/orderform"
+      //   }
       },
     
       // "minicart-summary": {

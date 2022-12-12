@@ -1,0 +1,124 @@
+{
+    "flex-layout.row#search-desktop":{
+        "title":"search cont",
+        "children":[
+            "flex-layout.col#search-desktop"
+          ],
+          "props":{
+              "verticalAlign":"center",
+              "blockClass":"departmentCont"
+          }
+      },
+      "flex-layout.row#search-desktop_result": {
+        "title":"search columns",
+        "children": [
+          "flex-layout.col#filterSearch-navigation_desktop",
+          "flex-layout.col#search-desktop_result"
+        ],
+        "props": {
+          "blockClass": "content-search-result",
+          "colSizing": "auto",
+          "marginTop": 4,
+          "marginBottom": 6
+        }
+      },
+      "flex-layout.col#filterSearch-navigation_desktop": {
+        "title":"search filter navigation",
+        "children": [
+          "filter-navigator.v3"
+        ],
+        "props": {
+          "verticalAlign":"top",
+          "width": "25%",
+          "blockClass":"filterDepartment"
+        }
+      },
+      "flex-layout.col#search-desktop_result": {
+        "title":"search result",
+        "children": [
+          "rich-text#search",   
+          "search-content#result-content-departmen-product",
+          "flex-layout.row#search-desktop--category",
+          "flex-layout.row#search-desktop--valorados"
+        ],
+        "props": {
+          "width": "70%"
+        }
+      },
+      "flex-layout.row#search-desktop--category":{
+        "title":"search category",
+        "children":[
+          "flex-layout.col#search-desktop--category"
+        ]
+      },
+      "flex-layout.col#search-desktop--category":{
+        "title":"search category",
+        "children":[
+          "rich-text#category-search",
+          "search-content#result-content-departmen-category-product" 
+        ],
+        "props":{
+          "blockClass":"valoradosCol",
+          "horizontalAlign":"left"
+        }
+      },
+      "flex-layout.row#search-desktop--valorados":{
+        "title":"search valorados",
+        "children":[
+          "flex-layout.col#search-desktop--valorados"
+        ],
+        "props":{
+          "horizontalAlign":"left"
+        }
+      },
+      "flex-layout.col#search-desktop--valorados":{
+        "title":"search valorados",
+        "children":[
+          "rich-text#valorados-search",
+          "search-content#result-content-departmen-valorados-product" 
+        ]
+      },
+
+
+      "rich-text#search":{
+        "title":"search result title",
+        "props":{
+          "text":"Search",
+          "blockClass":"rich-text--homeLogin"
+        }
+      },
+      "rich-text#category-search":{
+        "title":"search-category result title",
+        "props":{
+          "text":"Categorias mas destacadas",
+          "blockClass":"rich-text--homeLogin"
+      }
+    },
+      "rich-text#valorados-search":{
+        "title":"search-valorados result title",
+        "props":{
+          "text":"Los mejor valorados",
+          "blockClass":"rich-text--homeLogin"
+      }
+    },
+
+
+      
+      "link.product": {
+        "title":"search product shelf link",
+        "props": {
+          "displayMode": "button",
+          "label": "Ver producto"
+        }
+      },
+
+
+
+
+      "flex-layout.col#search-desktop":{
+        "title":"search product shelf breadcrumb",
+        "children":[
+          "breadcrumb.search"
+        ]
+      }
+}
