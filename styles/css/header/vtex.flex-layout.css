@@ -104,6 +104,12 @@
 .flexColChild--minicartProducts-content{
     text-align: center;
 }
+.flexCol--loginDrawer{
+    background-color: #232f3e;
+    height: 50px;
+    align-items: center;
+}
+
 
 
 /* .stretchChildrenWidth.flex{
