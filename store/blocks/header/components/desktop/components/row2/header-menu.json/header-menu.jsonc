@@ -8,12 +8,30 @@
     "flex-layout.col#header-sticky2":{
         "title":"drawer menu block",
         "children":[
-            // "link#header-sticky2--header",
+            "flex-layout.col#header-sticky2--login",
             "flex-layout.row#header-sticky2--tendencias",
             "flex-layout.row#header-sticky2--Contenido"
             // "flex-layout.row#header-sticky2--Departamentos",
             // "flex-layout.row#header-sticky2--Programas",
             // "flex-layout.row#header-sticky2--Ayuda"   
         ]
+    },
+    "flex-layout.col#header-sticky2--login":{
+        "title":"login button",
+        "children":[
+            "login#header-sticky2--headerLogin"
+        ],
+        "props":{
+            "blockClass":"loginDrawer"
+        }
+    },
+
+    "login#header-sticky2--headerLogin":{
+        "title":"login header drawer",
+            "props":{
+                "showIconProfile":true,
+                "optionsTitle":"Identifícate >"
+            }
     }
+
 }

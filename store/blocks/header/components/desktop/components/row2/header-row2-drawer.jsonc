@@ -6,7 +6,11 @@
         ],
         "blocks":[
             "drawer-trigger#header-sticky2"
-        ]
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none"
+        }
       },
       "drawer-trigger#header-sticky2":{
         "title":"row2 drawer trigger",
