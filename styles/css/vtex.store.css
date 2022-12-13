@@ -5,7 +5,7 @@
     --dynamic-texts: #843a8d;
     --card-descriptions: #c47373;
     --promotion-flags: #525252;
-    -webkit-text-stroke-width: thin;
+    /* -webkit-text-stroke-width: thin; */
     overflow-x: hidden;
   }
 

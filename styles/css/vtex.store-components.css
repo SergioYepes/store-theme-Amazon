@@ -5,7 +5,12 @@
     max-width: 100%;
 }
 .searchBarInnerContainer--bar :global(.vtex-input-prefix__group){
-    height:39px
+    border-radius: 0px 5px 5px 0px;
+    height:38px
+}
+.searchBarInnerContainer--bar--opened :global(.vtex-input-prefix__group){
+    box-shadow: 0 0 0 2px #f90, 0 0 0 3px rgb(255 ,157 ,0 ,.5);
+    z-index: 2000;
 }
 .searchBarInnerContainer--barMobile{
     min-width: 100%;

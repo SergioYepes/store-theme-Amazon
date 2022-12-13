@@ -19,7 +19,8 @@
           "blockClass":"bar",
           "placeholder": "¿Qué estás buscando?",
           "displayMode":"search-and-clear-buttons",
-          "openAutocompleteOnFocus":true,
+          "customSearchPageUrl": "",
+          "openAutocompleteOnFocus": true,
           // "attemptPageTypeSearch": true,
           "blurOnSubmit":true
         }

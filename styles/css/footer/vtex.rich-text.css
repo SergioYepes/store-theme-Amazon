@@ -14,7 +14,8 @@
 .paragraph--paisesCont{
     color: rgb(204, 204, 204) !important;;
     font-weight: 0!important;
-    font-size: 11px!important;
+    font-size: 13px!important;
+    white-space:normal
 }
 .paragraph--footerContTerminos{
     color: rgb(204, 204, 204) !important;;
@@ -24,7 +25,7 @@
 .paragraph--footerContMini{
     color: rgb(204, 204, 204) !important;;
     font-weight: 0!important;
-    font-size: 10px!important;
+    font-size: 11px!important;
 }
 .paragraph--linkLoginMobile{
     color: #ffff !important;;
