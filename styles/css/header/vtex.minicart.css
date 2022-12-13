@@ -58,6 +58,21 @@
     display:none
 }
 .opened{
-    max-width: 200px !important;
-    min-width: 200px !important;
+    max-width: 150px !important;
+    min-width: 150px !important;
+    background-color: #ffff
+
+}
+
+.drawerContent::-webkit-scrollbar{
+    background-color:transparent;
+    width: 1px;
+}
+.minicartProductListContainer::-webkit-scrollbar{
+    background-color:transparent;
+    width: 1px;
+}
+
+.minicartSummary{
+    padding: 0;
 }

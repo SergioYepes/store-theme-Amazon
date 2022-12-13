@@ -4,7 +4,7 @@
         "blocks": ["search-result-layout#department"],
         "props": {
             "context": {
-                "skuFilter": "ALL",
+                "skuFilter": "ALL_AVAILABLE",
                 "simulationBehavior": "default"
             }
          }

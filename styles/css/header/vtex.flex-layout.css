@@ -4,7 +4,7 @@
     line-height: 1em;
 }
 .flexRow--barContainer{
-    width: 500px 
+    width: 480px
 }
 .flexRow--barContainerMobile{
     background-color:#232f3e;
@@ -36,6 +36,10 @@
 .flexRowContent--ez{
     width: fit-content;
 }
+.flexRowContent--ez :global(.vtex-store-components-3-x-sizeDesktop){
+    min-width: 100px;
+}
+
 .flexRow--desktop2{
     width: 100%;
     
@@ -70,9 +74,16 @@
 .flexRowContent--minicartProducts-desktop{
     display:flex;
     align-items: center;
+    justify-content:center;
+    margin:0;
     flex-direction: column;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd
 }
-
+.flexRowContent--minicartProducts-desktop :global(.vtex-product-list-0-x-productPriceCurrency){
+    display: flex;
+    justify-content: center
+}
 
 
 

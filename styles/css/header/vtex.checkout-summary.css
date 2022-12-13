@@ -1,3 +1,31 @@
-.summarySmallDisclaimer{
+/* .summarySmallDisclaimer{
     display:none
 }
+.summaryItemLabel{
+    display:none
+} */
+.summaryTitle{
+    display:none
+}
+.summaryContent :nth-child(-n+2) {
+    display: none;
+  }
+  
+  .summaryContent :last-child {
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: #B12704!important;
+    font-weight: bold;
+  }
+  
+  .summaryContent :last-child :nth-child(n) {
+    display: none;
+  }
+  
+  .summaryContent :last-child :last-child {
+    display: contents;
+  }

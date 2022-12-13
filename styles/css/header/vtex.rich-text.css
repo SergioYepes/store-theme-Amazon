@@ -3,6 +3,7 @@
     font-size: 14px;
     width:auto;
     color: #ffff;
+    line-height: normal !important;
 }
 .paragraph--rich-text--homeInfo{
     margin: 0px;
@@ -30,7 +31,7 @@
 }
 .paragraph--Departamentos{
     margin: 0px;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 300;
     color: rgb(65, 64, 64);
 }
@@ -51,4 +52,9 @@
 }
 .container--minicartTitle{
     justify-content: center;  
+}
+.heading-level-3{
+    margin: 0px;
+    font-size:15px;
+    padding: 0;
 }

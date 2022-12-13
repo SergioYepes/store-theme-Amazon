@@ -1,5 +1,21 @@
 .container{
-    background-color:#d3d3d3;
-    height:fit-content;
-    border-color: #cacbcc !important;
+    border-color: #D5D9D9;
+    border-radius: 8px;
+    height: fit-content;
+    color: #0F1111;
+    background: #F0F2F2;
 }
+.container:hover{
+    box-shadow:0 2px 5px 0 rgb(213 217 217 / 50%);
+    background-color:#E3E6E6;
+}
+.container:active{
+    background-color: #EDFDFF;
+    box-shadow: none;
+    border-color: #007185;
+}
+.container:focus{
+    background: #EDFDFF;
+    box-shadow: 0 0 0 3px #c8f3fa;
+}
+
