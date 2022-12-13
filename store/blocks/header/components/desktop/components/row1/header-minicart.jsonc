@@ -97,24 +97,24 @@
       //   }
       },
     
-      // "minicart-summary": {
-      //   "title":"minicart footer summary",
-      //   "blocks": ["checkout-summary.compact#minicart"]
-      // },
-      // "checkout-summary.compact#minicart": {
-      //   "title":"minicart footer  checkout",
-      //   "children": ["summary-totalizers#minicart"],
-      //   "props": {
-      //     "totalizersToShow": ["Items", "Discounts"]
-      //   }
-      // },
-      // "summary-totalizers#minicart": {
-      //   "title":"minicart totalizers",
-      //   "props": {
-      //     "showTotal": true,
-      //     "showDeliveryTotal": false
-      //   }
-      // },
+      "minicart-summary": {
+        "title":"minicart footer summary",
+        "blocks": ["checkout-summary#minicart"]
+      },
+      "checkout-summary#minicart": {
+        "title":"minicart footer  checkout",
+        "children": ["summary-totalizers#minicart"],
+        "props": {
+          "totalizersToShow": ["Items", "Discounts"]
+        }
+      },
+      "summary-totalizers#minicart": {
+        "title":"minicart totalizers",
+        "props": {
+          "showTotal": true,
+          "showDeliveryTotal": false
+        }
+      },
       //-- Logo y texto
 
       "logo#header-sticky2--cart":{
@@ -181,10 +181,7 @@
         "title":"minicart product list image",
         "children":[
           "product-list-image"
-        ],
-        "props": {
-          "marginRight": "6"
-        }
+        ]
       },
       "flex-layout.col#minicartP--Info":{
         "title":"minicart product list info block",

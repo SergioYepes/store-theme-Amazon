@@ -53,3 +53,8 @@
 .container--minicartTitle{
     justify-content: center;  
 }
+.heading-level-3{
+    margin: 0px;
+    font-size:15px;
+    padding: 0;
+}
