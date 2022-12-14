@@ -1,0 +1,59 @@
+{
+        "flex-layout.row#about__tabs":{
+            "title":"about__tabs--cont",
+            "children":[
+                "tab-layout#about__tabs"
+            ]
+        },
+
+        "tab-layout#about__tabs":{
+            "children": [
+                "tab-list#about__tabs--list",
+                "tab-content#about__tabs--content"
+              ]
+        },
+        "tab-list#about__tabs--list":{
+            "children": [
+                "tab-list.item#about__tabs--first",
+                "tab-list.item#about__tabs--second"
+            ]
+        },
+        "tab-list.item#about__tabs--first":{
+            "props":{
+                "tabId":"about__tabs--first",
+                "label":"Es tendencia",
+                "defaultActiveTab":true
+              }
+        },
+        "tab-list.item#about__tabs--second":{
+            "props":{
+                "tabId":"about__tabs--second",
+                "label":"Cónocenos",
+                "defaultActiveTab":false
+              }
+        },
+        "tab-content#about__tabs--content":{
+            "children": [
+                "tab-content.item#about__tabs--first",
+                "tab-content.item#about__tabs--second"
+            ]
+        },
+        "tab-content.item#about__tabs--first":{
+            "title":"about__tabs--content",
+            "props":{
+                "tabId":"about__tabs--first"
+            },
+            "children":[
+                "rich-text#tabs-content--reviews-and-ratings"
+            ]
+        },
+        "tab-content.item#about__tabs--second":{
+            "title":"about__tabs--content",
+            "props":{
+                "tabId":"about__tabs--second"
+            },
+            "children":[
+                "product-reviews"
+            ]
+        }
+}

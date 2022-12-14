@@ -1,0 +1,6 @@
+.flexRowContent--about__history :last-child{
+    justify-content:flex-end
+}
+.flexCol--about__history{
+    max-width: 500px;
+}

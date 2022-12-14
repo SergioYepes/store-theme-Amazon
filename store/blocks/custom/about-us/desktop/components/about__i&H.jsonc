@@ -1,0 +1,128 @@
+{
+    
+    "flex-layout.row#about__info&History": {
+      "title":"about__info&History",
+      "children": [
+        "flex-layout.col#about__info",
+        "flex-layout.col#about__history"
+      ],
+      "props":{
+        "blockClass":"about__history"
+      }
+    },
+    "flex-layout.col#about__info":{
+      "title":"about__info",
+      "children":[
+        "image#about-us",
+        "flex-layout.col#about__info--links"
+      ]
+    },
+
+    "image#about-us": {
+      "props": {
+        "src": "assets/img/CUSTOM__ABOUT/descargar.jpg",
+        "maxHeight": "700px",
+        "minWidth":"750px"
+      }
+    },
+    "flex-layout.col#about__info--links":{
+      "title":"about__info--links",
+      "children":[
+        "link#about__info--link1",
+        "link#about__info--link2",
+        "link#about__info--link3"
+      ]
+    },
+
+    "link#about__info--link1":{
+      "title":"about__info-link",
+      "props":{
+        "label":"El compromiso de Amazon con España, más fuerte que nunca. Seguimos contratando, invirtiendo e innovando para nuestros clientes españoles"
+      }
+    },
+    "link#about__info--link2":{
+      "title":"about__info-link",
+      "props":{
+        "label":"España es un país de talento y oportunidades, y nos complace desempeñar un papel protagonista en su fomento, al tiempo que apoyamos el crecimiento del país."
+      }
+    },
+    "link#about__info--link3":{
+      "title":"about__info-link",
+      "props":{
+        "label":"Leer más"
+      }
+    },
+
+
+    // History
+    "flex-layout.col#about__history":{
+      "title":"about__history",
+      "children":[
+        "rich-text#about__history--title",
+        "info-card#about__history--first",
+        "info-card#about__history--second",
+        "info-card#about__history--third",
+        "info-card#about__history--fourth",
+        "link#about__history"
+      ],
+      "props":{
+        "blockClass":"about__history"
+      }
+    },
+    "info-card#about__history--first": {
+      "props": {
+        "id": "info-card-example",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "assets/img/CUSTOM__ABOUT/infoCard1.jpg",
+        "headline": "Amazon regala alegría en su campaña navideña de este año",
+        "blockClass": "info-card-example",
+        "textAlignment": "center"
+      }
+    },
+    "info-card#about__history--second": {
+      "props": {
+        "id": "info-card-example",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "assets/img/CUSTOM__ABOUT/infoCard2.jpg",
+        "headline": "Un lugar para desarrollar tu carrera y alcanzar tu potencial",
+        "blockClass": "info-card-example",
+        "textAlignment": "center"
+      }
+    },
+    "info-card#about__history--third": {
+      "props": {
+        "id": "info-card-example",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "assets/img/CUSTOM__ABOUT/infoCard3.jpg",
+        "headline": "Nuestro compromiso con las pymes españolas",
+        "blockClass": "info-card-example",
+        "textAlignment": "center"
+      }
+    },"info-card#about__history--fourth": {
+      "props": {
+        "id": "info-card-example",
+        "isFullModeStyle": false,
+        "textPosition": "left",
+        "imageUrl": "assets/img/CUSTOM__ABOUT/infoCard4.jpg",
+        "headline": "Queremos ser la compañía más segura de la Tierra, y este es el equipo encargado de conseguirlo",
+        "blockClass": "info-card-example",
+        "textAlignment": "center"
+      }
+    },
+    "rich-text#about__history--title":{
+      "title":"about__history",
+      "props":{
+        "text":"Historias destacadas"
+      }
+    },
+    "link#about__history":{
+      "title":"about__history",
+      "props":{
+        "label":"Ver todas las historias"
+      }
+    }
+
+   }

@@ -38,3 +38,22 @@
     padding:0;
     margin:0
 }
+
+
+
+
+/* about us */
+
+.infoCardContainer{
+    flex-direction: row-reverse;
+}
+.infoCardHeadline--info-card-example{
+    font-size: initial;
+    text-align: inherit;
+}
+.infoCardHeadline--info-card-example:hover{
+    text-decoration: underline;
+}
+.infoCardCallActionContainer--info-card-example{
+    display: none;
+}

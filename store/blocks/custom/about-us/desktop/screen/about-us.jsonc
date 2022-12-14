@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#about-us": {
+        "children": [
+            "flex-layout.col#about-us"
+
+        ]
+      },
+    "flex-layout.col#about-us":{
+        "children": [
+            "flex-layout.row#about__info&History",
+            "flex-layout.row#about__tabs"
+          ]
+    }
+}
