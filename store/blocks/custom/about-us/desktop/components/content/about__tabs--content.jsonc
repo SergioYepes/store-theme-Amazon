@@ -1,0 +1,290 @@
+{
+    "flex-layout.row#about__tabs--firstCont":{
+        "title":"tabs--cont",
+        "children":[
+            "flex-layout.col#firstCont--firstCol",
+            "flex-layout.col#firstCont--secondCol",
+            "flex-layout.col#firstCont--thirdCol",
+            "flex-layout.col#firstCont--fourthCol"
+        ]
+        
+    },
+    "flex-layout.row#about__tabs--secondCont":{
+        "title":"tabs--cont",
+        "children":[
+            "flex-layout.col#secondCont--firstCol",
+            "flex-layout.col#secondCont--secondCol",
+            "flex-layout.col#secondCont--thirdCol",
+            "flex-layout.col#secondCont--fourthCol"
+        ]
+        
+    },
+    "flex-layout.row#about__tabs--thirdCont":{
+        "title":"tabs--cont",
+        "children":[
+            "flex-layout.col#thirdCont--firstCol",
+            "flex-layout.col#thirdCont--secondCol",
+            "flex-layout.col#thirdCont--thirdCol",
+            "flex-layout.col#thirdCont--fourthCol"
+        ]
+        
+    },
+    "flex-layout.row#about__tabs--fourthCont":{
+        "title":"tabs--cont",
+        "children":[
+            "flex-layout.col#fourthCont--firstCol",
+            "flex-layout.col#fourthCont--secondCol",
+            "flex-layout.col#fourthCont--thirdCol",
+            "flex-layout.col#fourthCont--fourthCol"
+        ]
+        
+    },
+    "flex-layout.row#about__tabs--fifthCont":{
+        "title":"tabs--cont",
+        "children":[
+            "flex-layout.col#fifthCont--firstCol"
+        ]
+        
+    },
+    "flex-layout.row#about__tabs--sixthCont":{
+        "title":"tabs--cont",
+        "children":[
+            "flex-layout.col#sixthCont--firstCol",
+            "flex-layout.col#sixthCont--secondCol",
+            "flex-layout.col#sixthCont--thirdCol",
+            "flex-layout.col#sixthCont--fourthCol"
+        ]
+        
+    },
+    "flex-layout.row#about__tabs--seventhCont":{
+        "title":"tabs--cont",
+        "children":[
+            "flex-layout.col#seventhCont--firstCol",
+            "flex-layout.col#seventhCont--secondCol",
+            "flex-layout.col#seventhCont--thirdCol"
+        ]
+        
+    },
+    
+    "flex-layout.row#fecha":{
+        "title":"firstCont fecha",
+        "children":[
+            "link#LeerMas",
+            "rich-text#fecha"
+        ]
+    },
+    // first Cont
+    
+    "flex-layout.col#firstCont--firstCol":{
+        "title":"tabs--firstCont-col",
+        "children":[
+            "image#firstCont--firstCol",
+            "link#firstCont--firstCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#firstCont--secondCol":{
+        "title":"tabs--firstCont-col",
+        "children":[
+            "image#firstCont--secondCol",
+            "link#firstCont--secondCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#firstCont--thirdCol":{
+        "title":"tabs--firstCont-col",
+        "children":[
+            "image#firstCont--thirdCol",
+            "link#firstCont--thirdCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#firstCont--fourthCol":{
+        "title":"tabs--firstCont-col",
+        "children":[
+            "image#firstCont--fourthCol",
+            "link#firstCont--fourthCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+
+    // second Cont
+    
+    "flex-layout.col#secondCont--firstCol":{
+        "title":"tabs--secondCont-col",
+        "children":[
+            "image#secondCont--firstCol",
+            "link#secondCont--firstCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#secondCont--secondCol":{
+        "title":"tabs--secondCont-col",
+        "children":[
+            "image#secondCont--secondCol",
+            "link#secondCont--secondCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#secondCont--thirdCol":{
+        "title":"tabs--secondCont-col",
+        "children":[
+            "image#secondCont--thirdCol",
+            "link#secondCont--thirdCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#secondCont--fourthCol":{
+        "title":"tabs--secondCont-col",
+        "children":[
+            "image#secondCont--fourthCol",
+            "link#secondCont--fourthCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    // third Cont
+    
+    "flex-layout.col#thirdCont--firstCol":{
+        "title":"tabs--thirdCont-col",
+        "children":[
+            "image#thirdCont--firstCol",
+            "link#thirdCont--firstCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#thirdCont--secondCol":{
+        "title":"tabs--thirdCont-col",
+        "children":[
+            "image#thirdCont--secondCol",
+            "link#thirdCont--secondCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#thirdCont--thirdCol":{
+        "title":"tabs--thirdCont-col",
+        "children":[
+            "image#thirdCont--thirdCol",
+            "link#thirdCont--thirdCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#thirdCont--fourthCol":{
+        "title":"tabs--thirdCont-col",
+        "children":[
+            "image#thirdCont--fourthCol",
+            "link#thirdCont--fourthCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+
+    // fourth Cont
+    
+    "flex-layout.col#fourthCont--firstCol":{
+        "title":"tabs--fourthCont-col",
+        "children":[
+            "image#fourthCont--firstCol",
+            "link#fourthCont--firstCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#fourthCont--secondCol":{
+        "title":"tabs--fourthCont-col",
+        "children":[
+            "image#fourthCont--secondCol",
+            "link#fourthCont--secondCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#fourthCont--thirdCol":{
+        "title":"tabs--fourthCont-col",
+        "children":[
+            "image#fourthCont--thirdCol",
+            "link#fourthCont--thirdCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#fourthCont--fourthCol":{
+        "title":"tabs--fourthCont-col",
+        "children":[
+            "image#fourthCont--fourthCol",
+            "link#fourthCont--fourthCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+
+    // fifth Cont
+    
+    "flex-layout.col#fifthCont--firstCol":{
+        "title":"tabs--fifthCont-col",
+        "children":[
+            "image#fifthCont--firstCol",
+            "link#fifthCont--firstCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    // sixth Cont
+    
+    "flex-layout.col#sixthCont--firstCol":{
+        "title":"tabs--sixthCont-col",
+        "children":[
+            "image#sixthCont--firstCol",
+            "link#sixthCont--firstCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#sixthCont--secondCol":{
+        "title":"tabs--sixthCont-col",
+        "children":[
+            "image#sixthCont--secondCol",
+            "link#sixthCont--secondCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#sixthCont--thirdCol":{
+        "title":"tabs--sixthCont-col",
+        "children":[
+            "image#sixthCont--thirdCol",
+            "link#sixthCont--thirdCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#sixthCont--fourthCol":{
+        "title":"tabs--sixthCont-col",
+        "children":[
+            "image#sixthCont--fourthCol",
+            "link#sixthCont--fourthCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+
+    // seventh Cont
+    
+    "flex-layout.col#seventhCont--firstCol":{
+        "title":"tabs--seventhCont-col",
+        "children":[
+            "image#seventhCont--firstCol",
+            "link#seventhCont--firstCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#seventhCont--secondCol":{
+        "title":"tabs--seventhCont-col",
+        "children":[
+            "image#seventhCont--secondCol",
+            "link#seventhCont--secondCol",
+            "flex-layout.row#fecha"
+        ]
+    },
+    "flex-layout.col#seventhCont--thirdCol":{
+        "title":"tabs--seventhCont-col",
+        "children":[
+            "image#seventhCont--thirdCol",
+            "link#seventhCont--thirdCol",
+            "flex-layout.row#fecha"
+        ]
+    }
+    
+   
+    
+
+}

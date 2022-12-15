@@ -7,7 +7,7 @@
         "flex-layout.col#about__history"
       ],
       "props":{
-        "blockClass":"about__history"
+        "blockClass":"about__I-H"
       }
     },
     "flex-layout.col#about__info":{
@@ -15,7 +15,10 @@
       "children":[
         "image#about-us",
         "flex-layout.col#about__info--links"
-      ]
+      ],
+      "props":{
+        "blockClass":"about__info"
+      }
     },
 
     "image#about-us": {
@@ -31,24 +34,32 @@
         "link#about__info--link1",
         "link#about__info--link2",
         "link#about__info--link3"
-      ]
+      ],
+      "props":{
+        "blockClass":"about__info-link",
+        "fullWidth":true,
+        "preventHorizontalStretch":true
+      }
     },
 
     "link#about__info--link1":{
       "title":"about__info-link",
       "props":{
+        "blockClass":"about__info-link",
         "label":"El compromiso de Amazon con España, más fuerte que nunca. Seguimos contratando, invirtiendo e innovando para nuestros clientes españoles"
       }
     },
     "link#about__info--link2":{
       "title":"about__info-link",
       "props":{
+        "blockClass":"about__info-link2",
         "label":"España es un país de talento y oportunidades, y nos complace desempeñar un papel protagonista en su fomento, al tiempo que apoyamos el crecimiento del país."
       }
     },
     "link#about__info--link3":{
       "title":"about__info-link",
       "props":{
+        "blockClass":"about__info-link3",
         "label":"Leer más"
       }
     },
@@ -115,13 +126,15 @@
     "rich-text#about__history--title":{
       "title":"about__history",
       "props":{
-        "text":"Historias destacadas"
+        "text":"Historias destacadas",
+        "blockClass":"about__history"
       }
     },
     "link#about__history":{
       "title":"about__history",
       "props":{
-        "label":"Ver todas las historias"
+        "label":"Ver todas las historias",
+        "blockClass":"about__history--link"
       }
     }
 

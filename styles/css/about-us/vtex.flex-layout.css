@@ -1,6 +1,41 @@
-.flexRowContent--about__history :last-child{
+.flexRow--bigAbout{
+    background-color:#fff
+}
+
+.flexRowContent--about__I-H{
+    display:relative;
+    align-items:flex-start !important
+}
+.flexRowContent--about__I-H :last-child{
     justify-content:flex-end
 }
 .flexCol--about__history{
     max-width: 500px;
+    overflow: hidden;
+    width: 100%;
+    margin-top:30px;
+    margin-right: 28px;
+    padding: 0;
+    height: calc(100% - 96px);
+    /* border: 1px solid red; */
 }
+.flexCol--about__history :last-child{
+    margin-top:1px;   
+}
+
+.flexCol--about__info{
+    margin-left: 150px;
+    margin-top:30px;
+    min-width: fit-content;
+    /* border: 1px solid red; */
+
+}
+.flexCol--about__info-link{
+    padding:50px 40px;
+}
+.flexCol--about__info-link :nth-child(2n){
+    margin-top: 20px;
+}
+
+
+

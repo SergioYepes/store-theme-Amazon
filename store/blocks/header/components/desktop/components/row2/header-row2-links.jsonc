@@ -82,7 +82,7 @@
             "rich-text#ebooks"
         ],
         "props":{
-            "href":"queso",
+            "href":"electrodomesticos/ladrillos",
             "displayMode":"button",
             "blockClass":"drawerButton"
         }

@@ -3,7 +3,10 @@
         "children": [
             "flex-layout.col#about-us"
 
-        ]
+        ],
+        "props":{
+            "blockClass":"bigAbout"
+        }
       },
     "flex-layout.col#about-us":{
         "children": [

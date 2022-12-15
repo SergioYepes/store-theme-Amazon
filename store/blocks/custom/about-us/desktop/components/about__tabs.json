@@ -44,7 +44,11 @@
                 "tabId":"about__tabs--first"
             },
             "children":[
-                "rich-text#tabs-content--reviews-and-ratings"
+                "flex-layout.row#about__tabs--firstCont",
+                "flex-layout.row#about__tabs--secondCont",
+                "flex-layout.row#about__tabs--thirdCont",
+                "flex-layout.row#about__tabs--fourthCont",
+                "flex-layout.row#about__tabs--fifthCont"
             ]
         },
         "tab-content.item#about__tabs--second":{
@@ -53,7 +57,8 @@
                 "tabId":"about__tabs--second"
             },
             "children":[
-                "product-reviews"
+                "flex-layout.row#about__tabs--sixthCont",
+                "flex-layout.row#about__tabs--seventhCont"
             ]
         }
 }
