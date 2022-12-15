@@ -1,0 +1,91 @@
+{
+        "flex-layout.row#about__tabs":{
+            "title":"about__tabs--cont",
+            "children":[
+                "tab-layout#about__tabs"
+            ],
+            "props":{
+                "blockClass":"about__tabs"
+            }
+
+        },
+
+        "tab-layout#about__tabs":{
+            "children": [
+                "tab-list#about__tabs--list",
+                "tab-content#about__tabs--content"
+              ]
+        },
+        "tab-list#about__tabs--list":{
+            "children": [
+                "tab-list.item#about__tabs--first",
+                "tab-list.item#about__tabs--second"
+            ]
+        },
+        "tab-list.item#about__tabs--first":{
+            "props":{
+                "tabId":"about__tabs--first",
+                "label":"Es tendencia",
+                "defaultActiveTab":true
+              }
+        },
+        "tab-list.item#about__tabs--second":{
+            "props":{
+                "tabId":"about__tabs--second",
+                "label":"Cónocenos",
+                "defaultActiveTab":false
+              }
+        },
+        "tab-content#about__tabs--content":{
+            "children": [
+                "tab-content.item#about__tabs--first",
+                "tab-content.item#about__tabs--second"
+            ]
+        },
+        "tab-content.item#about__tabs--first":{
+            "title":"about__tabs--content",
+            "props":{
+                "tabId":"about__tabs--first"
+            },
+            "children":[
+                // "flex-layout.row#about__tabs--firstCont",
+                // "flex-layout.row#about__tabs--secondCont",
+                // "flex-layout.row#about__tabs--thirdCont",
+                // "flex-layout.row#about__tabs--fourthCont",
+                // "flex-layout.row#about__tabs--fifthCont"
+                "flex-layout.col#firstCont--firstCol",
+                "flex-layout.col#firstCont--secondCol",
+                "flex-layout.col#firstCont--thirdCol",
+                "flex-layout.col#firstCont--fourthCol",
+                "flex-layout.col#secondCont--firstCol",
+                "flex-layout.col#secondCont--secondCol",
+                "flex-layout.col#secondCont--thirdCol",
+                "flex-layout.col#secondCont--fourthCol",
+                "flex-layout.col#thirdCont--firstCol",
+                "flex-layout.col#thirdCont--secondCol",
+                "flex-layout.col#thirdCont--thirdCol",
+                "flex-layout.col#thirdCont--fourthCol",
+                "flex-layout.col#fourthCont--firstCol",
+                "flex-layout.col#fourthCont--secondCol",
+                "flex-layout.col#fourthCont--thirdCol",
+                "flex-layout.col#fourthCont--fourthCol",
+                "flex-layout.col#fifthCont--firstCol"
+
+            ]
+        },
+        "tab-content.item#about__tabs--second":{
+            "title":"about__tabs--content",
+            "props":{
+                "tabId":"about__tabs--second"
+            },
+            "children":[
+                "flex-layout.col#sixthCont--firstCol",
+                "flex-layout.col#sixthCont--secondCol",
+                "flex-layout.col#sixthCont--thirdCol",
+                "flex-layout.col#sixthCont--fourthCol",
+                "flex-layout.col#seventhCont--firstCol",
+                "flex-layout.col#seventhCont--secondCol",
+                "flex-layout.col#seventhCont--thirdCol"
+            ]
+        }
+}

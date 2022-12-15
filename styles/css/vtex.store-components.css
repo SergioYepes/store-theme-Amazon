@@ -38,3 +38,37 @@
     padding:0;
     margin:0
 }
+
+
+
+
+/* about us */
+
+.infoCardContainer{
+    flex-direction: row-reverse;
+}
+.infoCardHeadline--info-card-example{
+    font-size: initial;
+    text-align: inherit;
+}
+.infoCardHeadline--info-card-example:hover{
+    text-decoration: underline;
+}
+.infoCardCallActionContainer--info-card-example{
+    display: none;
+}
+.infoCardContainer--info-card-example{
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdde1;
+    border-left: 1px solid #dbdde1;
+    height: 100%;
+    padding: 15px 20px;
+}
+.infoCardImage--info-card-example{
+    width: 140px;
+}
+.infoCardImageContainer--info-card-example{
+    width: fit-content;
+}

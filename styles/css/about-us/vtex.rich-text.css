@@ -1,0 +1,19 @@
+.wrapper--about__history{
+    text-transform: uppercase;
+    font-size: 12px;
+    border-bottom: 1px solid #dbdde1;
+    padding: 30px 20px 20px;
+    letter-spacing: 2px;
+}
+.wrapper--about__history :global(.vtex-rich-text-0-x-paragraph){
+    color: #707379 !important;
+}
+.container--about__history{
+    justify-content:flex-start!important;
+}
+.container--fecha{
+    justify-content:flex-end !important;
+}
+.wrapper--fecha :global(.vtex-rich-text-0-x-paragraph){
+    color: #707379 !important;
+}

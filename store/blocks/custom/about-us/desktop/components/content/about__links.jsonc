@@ -1,0 +1,221 @@
+{
+    "link#firstCont--firstCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Amazon lanza “A micro abierto” en España para sensibilizar sobre la salud mental en los jóvenes",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#firstCont--secondCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Inauguramos en Sevilla nuestro mayor techo solar de Europa",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#firstCont--thirdCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Cómo conseguimos el embalaje perfecto para tu pedido",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#firstCont--fourthCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Navegando por las autopistas del mar: así son nuestras entregas entre España e Italia",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+
+
+    "link#secondCont--firstCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Las 13 000 pymes españolas que venden en Amazon exportaron más de 850 millones de euros en 2021",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#secondCont--secondCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Amazon supera los 1,5 GW de capacidad renovable en España",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#secondCont--thirdCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Pedaleando por la diversidad funcional junto a la Fundación Alberto Contador",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#secondCont--fourthCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Amazon abre las puertas de sus centros logísticos a Down Madrid",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+
+
+    "link#thirdCont--firstCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Un desfile de moda para celebrar 10 años del primer centro logístico de Amazon en España",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#thirdCont--secondCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Descubre cómo el Equipo Europeo de Tecnología Avanzada de Amazon mejora la experiencia de sus empleados y clientes en Europa",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#thirdCont--thirdCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Amazon: todo tipo de puestos de trabajo para todo tipo de personas",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#thirdCont--fourthCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Amazon apoya a Ucrania",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+
+
+    "link#fourthCont--firstCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Una medalla solidaria para ayudar a los refugiados ucranianos",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#fourthCont--secondCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Despega con Amazon: el podcast para emprendedores y pymes",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#fourthCont--thirdCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Consejos para mejorar tu currículum",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#fourthCont--fourthCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"¿Qué significan los Principios de Liderazgo de Amazon?",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#fifthCont--firstCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Los clientes de Amazon reconocen la labor de los colaboradores de reparto",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+
+    "link#sixthCont--firstCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Un lugar para desarrollar tu carrera y alcanzar tu potencial",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#sixthCont--secondCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Cómo el deep learning está ayudando a Amazon a optimizar el embalaje",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#sixthCont--thirdCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Conoce a nuestras Amazon Stars 2021",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#sixthCont--fourthCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Llenar de oportunidades la España vaciada",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+
+
+    "link#seventhCont--firstCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Nuestros héroes no llevan capa, sino polos de Amazon",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#seventhCont--secondCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Amazon no utiliza bolsas de plástico de un solo uso para envíos desde su propia red de distribución",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+    "link#seventhCont--thirdCol":{
+        "title":"about__tabs titleLink",
+        "props":{
+            "label":"Amazon supera los 1,15 GW de capacidad renovable en España con cuatro nuevos proyectos",
+            "href":"/",
+            "blockClass":"about__tabs-link"
+        }
+    },
+
+
+    "link#LeerMas":{
+        "title":"about__tabs fecha",
+        "props":{
+            "label":"Leer más",
+            "blockClass":"LeerMas"
+        }
+    },
+    "rich-text#fecha":{
+        "title":"about__tabs fecha",
+        "props":{
+            "text":"15.12.2022",
+            "blockClass":"fecha"
+        }
+    }
+
+
+}
