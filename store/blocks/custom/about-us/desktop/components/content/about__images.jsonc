@@ -3,8 +3,8 @@
         "title":"about__images firstCont first image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/firstCont-first.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -14,8 +14,8 @@
         "title":"about__images firstCont second image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/firstCont-second.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -25,8 +25,8 @@
         "title":"about__images firstCont third image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/firstCont-third.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -36,8 +36,8 @@
         "title":"about__images firstCont fourth image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/firstCont-fourth.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -47,8 +47,8 @@
         "title":"about__images secondCont first image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/secondCont-first.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -58,8 +58,8 @@
         "title":"about__images secondCont second image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/secondCont-second.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -69,8 +69,8 @@
         "title":"about__images secondCont third image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/secondCont-third.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -80,8 +80,8 @@
         "title":"about__images secondCont fourth image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/secondCont-fourth.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -91,8 +91,8 @@
         "title":"about__images thirdCont first image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/thirdCont-first.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -102,8 +102,8 @@
         "title":"about__images thirdCont second image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/thirdCont-second.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -113,8 +113,8 @@
         "title":"about__images thirdCont third image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/thirdCont-third.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -124,8 +124,8 @@
         "title":"about__images thirdCont fourth image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/thirdCont-fourth.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -135,8 +135,8 @@
         "title":"about__images fourthCont first image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/fourthCont-first.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -146,8 +146,8 @@
         "title":"about__images fourthCont second image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/fourthCont-second.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -157,8 +157,8 @@
         "title":"about__images fourthCont third image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/fourthCont-third.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -168,8 +168,8 @@
         "title":"about__images fourthCont fourth image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/fourthCont-fourth.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -179,8 +179,8 @@
         "title":"about__images fifthCont first image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/fifthCont-first.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -190,8 +190,8 @@
         "title":"about__images sixthCont first image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/sixthCont-first.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -201,8 +201,8 @@
         "title":"about__images sixthCont second image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/sixthCont-second.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -212,8 +212,8 @@
         "title":"about__images sixthCont third image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/sixthCont-third.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -223,8 +223,8 @@
         "title":"about__images sixthCont fourth image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/sixthCont-fourth.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -234,8 +234,8 @@
         "title":"about__images seventhCont first image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/seventhCont-first.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -245,8 +245,8 @@
         "title":"about__images seventhCont second image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/seventhCont-second.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }
@@ -256,8 +256,8 @@
         "title":"about__images seventhCont third image",
         "props": {
             "src": "assets/img/CUSTOM__ABOUT/tabs/seventhCont-third.jpg",
-            "maxHeight": "220px",
-            "maxWidth":"250px",
+            "maxHeight": "295px",
+            "maxWidth":"295px",
             "link":{
                 "url":"#"
             }

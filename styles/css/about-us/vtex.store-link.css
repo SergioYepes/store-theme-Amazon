@@ -36,3 +36,14 @@
     color: #0f1218 !important;
 
 }
+.link--about__tabs-link{
+    padding: 17px 10px 20px !important;
+    font-size: 18px;    
+    line-height: 1.33;
+    margin: 3px 0 30px;
+    color:#333e48 !important; 
+    appearance: auto;
+}
+.link--LeerMas{
+    color: #000 !important;
+}

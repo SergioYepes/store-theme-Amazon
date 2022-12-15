@@ -39,3 +39,62 @@
 
 
 
+
+/* Tabs */
+
+.flexRow--about__tabs :global(.vtex-tab-layout-0-x-listContainer){
+    justify-content:flex-start;
+    border-bottom: 2px solid #d8d8d8;
+    padding-bottom: 25px;
+    overflow: auto;
+    overflow-y: hidden;
+    padding-left: 35px;
+}
+.flexRow--about__tabs :global(.vtex-button){
+    color: #707379 !important;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.57;
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.flexRow--about__tabs :global(.vtex-button):focus{
+    
+    background-color: #232f3e;
+    color: #fff !important;
+}
+
+.flexRow--about__tabs :global(.vtex-tab-layout-0-x-contentItem){
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding-top: 30px;
+    padding-left: 45px;
+}
+.flexCol--tabs--cont{
+    position: relative;
+    background: #fff;
+    height: 100% ;
+    padding: 0;
+}
+
+.flexRow--fechaRow{
+    margin-top: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0f1218 !important;
+    font-family: "amazon_ember_serif",Times,serif;
+    line-height: 20px;
+}

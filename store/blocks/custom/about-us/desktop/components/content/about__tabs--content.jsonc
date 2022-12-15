@@ -71,7 +71,10 @@
         "children":[
             "link#LeerMas",
             "rich-text#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"fechaRow"
+        }
     },
     // first Cont
     
@@ -81,7 +84,10 @@
             "image#firstCont--firstCol",
             "link#firstCont--firstCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#firstCont--secondCol":{
         "title":"tabs--firstCont-col",
@@ -89,7 +95,10 @@
             "image#firstCont--secondCol",
             "link#firstCont--secondCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#firstCont--thirdCol":{
         "title":"tabs--firstCont-col",
@@ -97,7 +106,10 @@
             "image#firstCont--thirdCol",
             "link#firstCont--thirdCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#firstCont--fourthCol":{
         "title":"tabs--firstCont-col",
@@ -105,10 +117,13 @@
             "image#firstCont--fourthCol",
             "link#firstCont--fourthCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
 
-    // second Cont
+    // second Row
     
     "flex-layout.col#secondCont--firstCol":{
         "title":"tabs--secondCont-col",
@@ -116,7 +131,10 @@
             "image#secondCont--firstCol",
             "link#secondCont--firstCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#secondCont--secondCol":{
         "title":"tabs--secondCont-col",
@@ -124,7 +142,10 @@
             "image#secondCont--secondCol",
             "link#secondCont--secondCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#secondCont--thirdCol":{
         "title":"tabs--secondCont-col",
@@ -132,7 +153,10 @@
             "image#secondCont--thirdCol",
             "link#secondCont--thirdCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#secondCont--fourthCol":{
         "title":"tabs--secondCont-col",
@@ -140,9 +164,12 @@
             "image#secondCont--fourthCol",
             "link#secondCont--fourthCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
-    // third Cont
+    // third Row
     
     "flex-layout.col#thirdCont--firstCol":{
         "title":"tabs--thirdCont-col",
@@ -150,7 +177,10 @@
             "image#thirdCont--firstCol",
             "link#thirdCont--firstCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#thirdCont--secondCol":{
         "title":"tabs--thirdCont-col",
@@ -158,7 +188,10 @@
             "image#thirdCont--secondCol",
             "link#thirdCont--secondCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#thirdCont--thirdCol":{
         "title":"tabs--thirdCont-col",
@@ -166,7 +199,10 @@
             "image#thirdCont--thirdCol",
             "link#thirdCont--thirdCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#thirdCont--fourthCol":{
         "title":"tabs--thirdCont-col",
@@ -174,10 +210,13 @@
             "image#thirdCont--fourthCol",
             "link#thirdCont--fourthCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
 
-    // fourth Cont
+    // fourth Row
     
     "flex-layout.col#fourthCont--firstCol":{
         "title":"tabs--fourthCont-col",
@@ -185,7 +224,10 @@
             "image#fourthCont--firstCol",
             "link#fourthCont--firstCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#fourthCont--secondCol":{
         "title":"tabs--fourthCont-col",
@@ -193,7 +235,10 @@
             "image#fourthCont--secondCol",
             "link#fourthCont--secondCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#fourthCont--thirdCol":{
         "title":"tabs--fourthCont-col",
@@ -201,7 +246,10 @@
             "image#fourthCont--thirdCol",
             "link#fourthCont--thirdCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#fourthCont--fourthCol":{
         "title":"tabs--fourthCont-col",
@@ -209,10 +257,13 @@
             "image#fourthCont--fourthCol",
             "link#fourthCont--fourthCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
 
-    // fifth Cont
+    // fifth Row
     
     "flex-layout.col#fifthCont--firstCol":{
         "title":"tabs--fifthCont-col",
@@ -220,9 +271,12 @@
             "image#fifthCont--firstCol",
             "link#fifthCont--firstCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
-    // sixth Cont
+    // sixth Row
     
     "flex-layout.col#sixthCont--firstCol":{
         "title":"tabs--sixthCont-col",
@@ -230,7 +284,10 @@
             "image#sixthCont--firstCol",
             "link#sixthCont--firstCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#sixthCont--secondCol":{
         "title":"tabs--sixthCont-col",
@@ -238,7 +295,10 @@
             "image#sixthCont--secondCol",
             "link#sixthCont--secondCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#sixthCont--thirdCol":{
         "title":"tabs--sixthCont-col",
@@ -246,7 +306,10 @@
             "image#sixthCont--thirdCol",
             "link#sixthCont--thirdCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#sixthCont--fourthCol":{
         "title":"tabs--sixthCont-col",
@@ -254,10 +317,13 @@
             "image#sixthCont--fourthCol",
             "link#sixthCont--fourthCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
 
-    // seventh Cont
+    // seventh Row
     
     "flex-layout.col#seventhCont--firstCol":{
         "title":"tabs--seventhCont-col",
@@ -265,7 +331,10 @@
             "image#seventhCont--firstCol",
             "link#seventhCont--firstCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#seventhCont--secondCol":{
         "title":"tabs--seventhCont-col",
@@ -273,7 +342,10 @@
             "image#seventhCont--secondCol",
             "link#seventhCont--secondCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     },
     "flex-layout.col#seventhCont--thirdCol":{
         "title":"tabs--seventhCont-col",
@@ -281,7 +353,10 @@
             "image#seventhCont--thirdCol",
             "link#seventhCont--thirdCol",
             "flex-layout.row#fecha"
-        ]
+        ],
+        "props":{
+            "blockClass":"tabs--cont"
+        }
     }
     
    

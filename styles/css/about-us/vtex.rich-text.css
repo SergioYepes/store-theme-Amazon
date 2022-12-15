@@ -11,3 +11,9 @@
 .container--about__history{
     justify-content:flex-start!important;
 }
+.container--fecha{
+    justify-content:flex-end !important;
+}
+.wrapper--fecha :global(.vtex-rich-text-0-x-paragraph){
+    color: #707379 !important;
+}
