@@ -9,18 +9,15 @@
         "title":"drawer menu contenido content",
         "children":[
             "rich-text#header-sticky2--Contenido",
-            "menu-item#header-sticky2--Prime",
-            "menu-item#header-sticky2--music",
-            "menu-item#header-sticky2--photos"
-        ]
-    },
-    "flex-layout.col#header-sticky2--Prime":{
-        "title":"drawer menu prime content",
-        "children":[
-            "rich-text#header-sticky2--Prime",
-            "menu-item#header-sticky2--Todos",
-            "menu-item#header-sticky2--Peliculas",
-            "menu-item#header-sticky2--Series"
+            "drawer#contenido--Prime",
+            "drawer#contenido--music",
+            "drawer#contenido--photos",
+            "drawer#contenido--echo",
+            "drawer#contenido--fireTV",
+            "drawer#contenido--eBooks",
+            "drawer#contenido--tablets",
+            "drawer#contenido--android",
+            "drawer#contenido--audible"
         ]
     },
     "rich-text#header-sticky2--Contenido":{
@@ -29,43 +26,6 @@
             "text":"Contenido",
             "blockClass":"deptosMenu"
         }
-    },
-    "rich-text#header-sticky2--Prime":{
-        "title":"Amazon Prime video",
-        "props":{
-            "text":"Amazon Prime video",
-            "blockClass":"deptosMenu"
-        }
-    },
-    "menu#header-sticky2--Prime":{
-        "title":"drawer menu prime",
-        "children":[
-            "flex-layout.col#header-sticky2--Prime"
-        ]
-    },
-    "menu-item#header-sticky2--Prime":{
-        "title":"drawer menu department4",
-        "props":{
-            "id":"department4",
-            "type":"custom",
-            "itemProps":{
-                "type":"internal",
-                "href":"https://www.google.com",
-                "noFollow":true,
-                "tagTitle":"Prime",
-                "onMountBehavior":"open",
-                "text":"Amazon Prime video"
-            }
-        },
-        "blocks": [
-            "submenu#header-sticky2--Prime"
-        ]
-    },
-    "submenu#header-sticky2--Prime":{
-        "title":"drawer menu prime submenu",
-        "children":[
-            "menu#header-sticky2--Prime"
-        ]
     },
     "menu-item#header-sticky2--music":{
         "title":"drawer menu department5",
@@ -94,48 +54,6 @@
                 "text":"Amazon photos"
             }
         }
-    },
-    //Prime
-    "menu-item#header-sticky2--Todos":{
-        "title":"drawer menu department4-1",
-        "props":{
-            "id":"department4-1",
-            "type":"custom",
-            "itemProps":{
-                "type":"internal",
-                "href":"#",
-                "noFollow":true,
-                "tagTitle":"Todos",
-                "text":"Todos los videos"
-            }
-        }
-    },
-    "menu-item#header-sticky2--Peliculas":{
-        "title":"drawer menu department4-2",
-        "props":{
-            "id":"department4-2",
-            "type":"custom",
-            "itemProps":{
-                "type":"internal",
-                "href":"#",
-                "noFollow":true,
-                "tagTitle":"Todos",
-                "text":"Peliculas"
-            }
-        }
-    },
-    "menu-item#header-sticky2--Series":{
-        "title":"drawer menu department4-3",
-        "props":{
-            "id":"department4-3",
-            "type":"custom",
-            "itemProps":{
-                "type":"internal",
-                "href":"#",
-                "noFollow":true,
-                "tagTitle":"Todos",
-                "text":"Series"
-            }
-        }
     }
+    
 }

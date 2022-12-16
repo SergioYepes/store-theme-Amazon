@@ -7,8 +7,16 @@
 }
 .closeIconContainer{
     position:absolute;
-    right:0;
+    right: -50px;
+    background-color: #8080804f;
 }
 .closeIcon{
     color: #ffff
+}
+.closed :global(.vtex-store-drawer-0-x-closeIconContainer){
+    display:none
+}
+.childrenContainer--music{
+    display: flex;
+    flex-direction: column;
 }

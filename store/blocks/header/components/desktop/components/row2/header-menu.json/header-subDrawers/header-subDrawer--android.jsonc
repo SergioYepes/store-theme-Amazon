@@ -1,0 +1,98 @@
+{
+    "drawer#contenido--android":{
+        "title":"innerDrawer block",
+        "children": [
+            "flex-layout.col#header-sticky2--android"    
+        ],
+        "blocks":[
+            "drawer-header#innerDrawer-eighth",
+            "drawer-trigger#innerDrawer-eighth"   
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none",
+          "blockClass":"music"
+        }
+    },
+    "drawer-header#innerDrawer-eighth":{
+        "title": "header text of eighth sub-drawer",
+        "children": [
+            "flex-layout.col#innerDrawer-header"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "drawer-trigger#innerDrawer-eighth":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "rich-text#header-sticky2--android"
+        ]
+      },
+
+    "rich-text#header-sticky2--android":{
+        "title":"Amazon android",
+        "props":{
+            "text":"Appstore para Android",
+            "blockClass":"deptosMenu"
+        }
+    },
+
+    "flex-layout.col#header-sticky2--android":{
+        "title":"drawer menu prime content",
+        "children":[
+            "rich-text#header-sticky2--android",
+            "menu-item#header-sticky2--APPS",
+            "menu-item#header-sticky2--juegos",
+            "menu-item#header-sticky2--coins",
+            "menu-item#header-sticky2--amazonApps",
+            "menu-item#header-sticky2--subscriptores"
+        ]
+    },
+
+
+    //android
+    
+    "menu-item#header-sticky2--coins":{
+        "title":"drawer menu android-1",
+        "props":{
+            "id":"android-1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Amazon Coins" 
+            }
+        }
+    },
+    "menu-item#header-sticky2--amazonApps":{
+        "title":"drawer menu android-2",
+        "props":{
+            "id":"android-2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Aplicaciones Amazon"
+            }
+        }
+    },
+    "menu-item#header-sticky2--subscriptores":{
+        "title":"drawer menu android-3",
+        "props":{
+            "id":"android-3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Mis aplicaciones y subscripciones"
+            }
+        }
+    }
+}

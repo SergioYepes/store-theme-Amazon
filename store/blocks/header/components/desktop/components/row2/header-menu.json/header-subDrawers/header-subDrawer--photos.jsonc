@@ -1,0 +1,122 @@
+{
+    "drawer#contenido--photos":{
+        "title":"innerDrawer block",
+        "children": [
+            "flex-layout.col#header-sticky2--photos"
+
+        ],
+        "blocks":[
+            "drawer-header#innerDrawer-third",
+            "drawer-trigger#innerDrawer-third"   
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none",
+          "blockClass":"music"
+        }
+    },
+    "drawer-header#innerDrawer-third":{
+        "title": "header text of third sub-drawer",
+        "children": [
+            "flex-layout.col#innerDrawer-header"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "drawer-trigger#innerDrawer-third":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "rich-text#header-sticky2--photos"
+        ]
+      },
+
+    "rich-text#header-sticky2--photos":{
+        "title":"Amazon Photos",
+        "props":{
+            "text":"Amazon Photos",
+            "blockClass":"deptosMenu"
+        }
+    },
+
+    "flex-layout.col#header-sticky2--photos":{
+        "title":"drawer menu prime content",
+        "children":[
+            "rich-text#header-sticky2--PhotosTitle",
+            "menu-item#header-sticky2--amazonPhotos",
+            "menu-item#header-sticky2--amazonDrive",
+            "menu-item#header-sticky2--descargarGratuitas",
+            "menu-item#header-sticky2--iniciarSesion"
+
+        ]
+    },
+
+
+    "rich-text#header-sticky2--PhotosTitle":{
+        "title":"Amazon Photos",
+        "props":{
+            "text":"Amazon Photos",
+            "blockClass":"deptosMenu"
+        }
+    },
+
+
+    //photos
+    
+    "menu-item#header-sticky2--amazonPhotos":{
+        "title":"drawer menu Photos-1",
+        "props":{
+            "id":"Photos-1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Amazon Photos" 
+            }
+        }
+    },
+    "menu-item#header-sticky2--amazonDrive":{
+        "title":"drawer menu Photos-2",
+        "props":{
+            "id":"Photos-2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Amazon Drive"
+            }
+        }
+    },
+    "menu-item#header-sticky2--descargarGratuitas":{
+        "title":"drawer menu Photos-3",
+        "props":{
+            "id":"Photos-3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Descarga las aplicaciones gratuitas"
+            }
+        }
+    },
+    "menu-item#header-sticky2--iniciarSesion":{
+        "title":"drawer menu Photos-4",
+        "props":{
+            "id":"Photos-4",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Inicia sesión"
+            }
+        }
+    }
+}

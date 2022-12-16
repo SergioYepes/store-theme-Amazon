@@ -1,0 +1,107 @@
+{
+    "drawer#contenido--Prime":{
+        "title":"innerDrawer block",
+        "children": [
+            "flex-layout.col#header-sticky2--Prime"
+        ],
+        "blocks":[
+            "drawer-header#innerDrawer-first",
+            "drawer-trigger#innerDrawer-first"
+            
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none"
+        }
+    },
+    "drawer-header#innerDrawer-first":{
+        "title": "Texto del Header del primer sub-drawer",
+        "children": [
+            "flex-layout.col#innerDrawer-header"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "drawer-trigger#innerDrawer-first":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "rich-text#header-sticky2--Prime"
+        ]
+      },
+    "rich-text#header-sticky2--Prime":{
+        "title":"Amazon Prime video",
+        "props":{
+            "text":"Amazon Prime video",
+            "blockClass":"deptosMenu"
+        }
+    },
+    "flex-layout.col#header-sticky2--Prime":{
+        "title":"drawer menu prime content",
+        "children":[
+            "rich-text#header-sticky2--Prime",
+            "menu-item#header-sticky2--Todos",
+            "menu-item#header-sticky2--Peliculas",
+            "menu-item#header-sticky2--Series"
+        ]
+    },
+
+
+    // header
+    "flex-layout.col#innerDrawer-header":{
+        "title": "innerDrawer first head",
+        "children": [
+            "flex-layout.col#header-sticky2--login",
+            "drawer-close-button"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": "header__sub-drawer"
+        }
+    },
+
+    //Prime
+    "menu-item#header-sticky2--Todos":{
+        "title":"drawer menu Prime-1",
+        "props":{
+            "id":"department4-1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Todos los videos"
+            }
+        }
+    },
+    "menu-item#header-sticky2--Peliculas":{
+        "title":"drawer menu Prime-2",
+        "props":{
+            "id":"department4-2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Peliculas"
+            }
+        }
+    },
+    "menu-item#header-sticky2--Series":{
+        "title":"drawer menu Prime-3",
+        "props":{
+            "id":"department4-3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Series"
+            }
+        }
+    }
+}

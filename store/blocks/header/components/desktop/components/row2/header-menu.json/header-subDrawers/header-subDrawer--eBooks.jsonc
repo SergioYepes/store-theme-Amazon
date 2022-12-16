@@ -1,0 +1,211 @@
+{
+    "drawer#contenido--eBooks":{
+        "title":"innerDrawer block",
+        "children": [
+            "flex-layout.col#header-sticky2--eBooks",
+            "flex-layout.col#header-sticky2--eBooks__second",
+            "flex-layout.col#header-sticky2--eBooks__third"
+
+
+        ],
+        "blocks":[
+            "drawer-header#innerDrawer-sixth",
+            "drawer-trigger#innerDrawer-sixth"   
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none",
+          "blockClass":"music"
+        }
+    },
+    "drawer-header#innerDrawer-sixth":{
+        "title": "header text of sixth sub-drawer",
+        "children": [
+            "flex-layout.col#innerDrawer-header"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "drawer-trigger#innerDrawer-sixth":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "rich-text#header-sticky2--eBooks"
+        ]
+      },
+
+    "rich-text#header-sticky2--eBooks":{
+        "title":"Amazon eBooks",
+        "props":{
+            "text":"E-readers Y eBooks Kindle",
+            "blockClass":"deptosMenu"
+        }
+    },
+
+    "flex-layout.col#header-sticky2--eBooks":{
+        "title":"drawer menu prime content",
+        "children":[
+            "rich-text#header-sticky2--eReaders",
+            "menu-item#header-sticky2--eReaders",
+            "menu-item#header-sticky2--accesorios"
+            
+        ]
+    },
+    "flex-layout.col#header-sticky2--eBooks__second":{
+        "title":"drawer menu prime content",
+        "children":[
+            "rich-text#header-sticky2--tienda",
+            "menu-item#header-sticky2--eBooks",
+            "menu-item#header-sticky2--kindleUnlimited",
+            "menu-item#header-sticky2--primeReading",
+            "menu-item#header-sticky2--kindleFlash"   
+        ]
+    },
+    "flex-layout.col#header-sticky2--eBooks__third":{
+        "title":"drawer menu prime content",
+        "children":[
+            "rich-text#header-sticky2--appsKindle",
+            "menu-item#header-sticky2--appsKindle",
+            "menu-item#header-sticky2--kindleCloud",
+            "menu-item#header-sticky2--gestionarContenido"
+        ]
+    },
+
+
+    "rich-text#header-sticky2--eReaders":{
+        "title":"eReaders",
+        "props":{
+            "text":"E-Readers Kindle",
+            "blockClass":"deptosMenu"
+        }
+    },
+    "rich-text#header-sticky2--tienda":{
+        "title":"series",
+        "props":{
+            "text":"Tienda Kindle",
+            "blockClass":"deptosMenu"
+        }
+    },"rich-text#header-sticky2--appsKindle":{
+        "title":"appsKindle",
+        "props":{
+            "text":"Aplicaciones kindle y Recursos",
+            "blockClass":"deptosMenu"
+        }
+    },
+
+    //TV
+    
+    "menu-item#header-sticky2--eReaders":{
+        "title":"drawer menu eBooks-1",
+        "props":{
+            "id":"eBooks-1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"E-Readers Kindle" 
+            }
+        }
+    },
+    "menu-item#header-sticky2--eBooks":{
+        "title":"drawer menu eBooks-2",
+        "props":{
+            "id":"eBooks-2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"eBooks Kindle"
+            }
+        }
+    },
+    "menu-item#header-sticky2--kindleUnlimited":{
+        "title":"drawer menu eBooks-3",
+        "props":{
+            "id":"eBooks-3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Kindle Unlimited"
+            }
+        }
+    },
+    "menu-item#header-sticky2--primeReading":{
+        "title":"drawer menu eBooks-4",
+        "props":{
+            "id":"eBooks-4",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Prime Reading"
+            }
+        }
+    },
+    "menu-item#header-sticky2--kindleFlash":{
+        "title":"drawer menu eBooks-5",
+        "props":{
+            "id":"eBooks-5",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Kindle Flash"
+            }
+        }
+    },
+    "menu-item#header-sticky2--appsKindle":{
+        "title":"drawer menu eBooks-6",
+        "props":{
+            "id":"eBooks-6",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Apps de Kindle gratuitas"
+            }
+        }
+    }
+    ,
+    "menu-item#header-sticky2--kindleCloud":{
+        "title":"drawer menu eBooks-7",
+        "props":{
+            "id":"eBooks-7",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Kindle Cloud Reader"
+            }
+        }
+    },
+    "menu-item#header-sticky2--gestionarContenido":{
+        "title":"drawer menu eBooks-8",
+        "props":{
+            "id":"eBooks-8",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Gestionar contenido y dispositivos"
+            }
+        }
+    }
+}

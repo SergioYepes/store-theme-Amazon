@@ -10,10 +10,7 @@
         "children":[
             "flex-layout.col#header-sticky2--login",
             "flex-layout.row#header-sticky2--tendencias",
-            "flex-layout.row#header-sticky2--Contenido"
-            // "flex-layout.row#header-sticky2--Departamentos",
-            // "flex-layout.row#header-sticky2--Programas",
-            // "flex-layout.row#header-sticky2--Ayuda"   
+            "flex-layout.row#header-sticky2--Contenido" 
         ]
     },
     "flex-layout.col#header-sticky2--login":{

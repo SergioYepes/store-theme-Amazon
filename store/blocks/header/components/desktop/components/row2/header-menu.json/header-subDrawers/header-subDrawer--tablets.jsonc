@@ -1,0 +1,122 @@
+{
+    "drawer#contenido--tablets":{
+        "title":"innerDrawer block",
+        "children": [
+            "flex-layout.col#header-sticky2--tablets",
+            "flex-layout.col#header-sticky2--tablets__second"        
+        ],
+        "blocks":[
+            "drawer-header#innerDrawer-seventh",
+            "drawer-trigger#innerDrawer-seventh"   
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none",
+          "blockClass":"music"
+        }
+    },
+    "drawer-header#innerDrawer-seventh":{
+        "title": "header text of seventh sub-drawer",
+        "children": [
+            "flex-layout.col#innerDrawer-header"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "drawer-trigger#innerDrawer-seventh":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "rich-text#header-sticky2--tablets"
+        ]
+      },
+
+    "rich-text#header-sticky2--tablets":{
+        "title":"Amazon tablets",
+        "props":{
+            "text":"Tablets Fire",
+            "blockClass":"deptosMenu"
+        }
+    },
+
+    "flex-layout.col#header-sticky2--tablets":{
+        "title":"drawer menu prime content",
+        "children":[
+            "rich-text#header-sticky2--tablets",
+            "menu-item#header-sticky2--tablets",
+            "menu-item#header-sticky2--accesorios"
+            
+        ]
+    },
+    "flex-layout.col#header-sticky2--tablets__second":{
+        "title":"drawer menu prime content",
+        "children":[
+            "rich-text#header-sticky2--recursos",
+            "menu-item#header-sticky2--APPS",
+            "menu-item#header-sticky2--juegos",
+            "menu-item#header-sticky2--músicaDigital",
+            "menu-item#header-sticky2--eBooks",
+            "menu-item#header-sticky2--gestionarContenido"  
+        ]
+    },
+
+
+    //TV
+    
+    "menu-item#header-sticky2--tablets":{
+        "title":"drawer menu tablets-1",
+        "props":{
+            "id":"tablets-1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Tablets Fire" 
+            }
+        }
+    },
+    "menu-item#header-sticky2--APPS":{
+        "title":"drawer menu tablets-2",
+        "props":{
+            "id":"tablets-2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Apps"
+            }
+        }
+    },
+    "menu-item#header-sticky2--juegos":{
+        "title":"drawer menu tablets-3",
+        "props":{
+            "id":"tablets-3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"juegos"
+            }
+        }
+    },
+    "menu-item#header-sticky2--músicaDigital":{
+        "title":"drawer menu tablets-4",
+        "props":{
+            "id":"tablets-4",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Música digital"
+            }
+        }
+    }
+}
