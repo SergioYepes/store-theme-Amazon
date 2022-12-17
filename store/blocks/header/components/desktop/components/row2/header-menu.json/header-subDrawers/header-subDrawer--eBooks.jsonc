@@ -2,9 +2,9 @@
     "drawer#contenido--eBooks":{
         "title":"innerDrawer block",
         "children": [
-            "flex-layout.col#header-sticky2--eBooks",
-            "flex-layout.col#header-sticky2--eBooks__second",
-            "flex-layout.col#header-sticky2--eBooks__third"
+            "flex-layout.col#drawerMenu--eBooks",
+            "flex-layout.col#drawerMenu--eBooks__second",
+            "flex-layout.col#drawerMenu--eBooks__third"
 
 
         ],
@@ -30,62 +30,63 @@
     "drawer-trigger#innerDrawer-sixth":{
         "title":"row2 drawer trigger",
         "children": [
-            "rich-text#header-sticky2--eBooks"
+            "rich-text#drawerMenu--eBooks",
+            "link#drawerMenu--icon"
         ]
       },
 
-    "rich-text#header-sticky2--eBooks":{
+    "rich-text#drawerMenu--eBooks":{
         "title":"Amazon eBooks",
         "props":{
             "text":"E-readers Y eBooks Kindle",
-            "blockClass":"deptosMenu"
+            "blockClass":"deptosMenuTrigger"
         }
     },
 
-    "flex-layout.col#header-sticky2--eBooks":{
+    "flex-layout.col#drawerMenu--eBooks":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#header-sticky2--eReaders",
-            "menu-item#header-sticky2--eReaders",
-            "menu-item#header-sticky2--accesorios"
+            "rich-text#drawerMenu--eReaders",
+            "menu-item#drawerMenu--eReaders",
+            "menu-item#drawerMenu--accesorios"
             
         ]
     },
-    "flex-layout.col#header-sticky2--eBooks__second":{
+    "flex-layout.col#drawerMenu--eBooks__second":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#header-sticky2--tienda",
-            "menu-item#header-sticky2--eBooks",
-            "menu-item#header-sticky2--kindleUnlimited",
-            "menu-item#header-sticky2--primeReading",
-            "menu-item#header-sticky2--kindleFlash"   
+            "rich-text#drawerMenu--tienda",
+            "menu-item#drawerMenu--eBooks",
+            "menu-item#drawerMenu--kindleUnlimited",
+            "menu-item#drawerMenu--primeReading",
+            "menu-item#drawerMenu--kindleFlash"   
         ]
     },
-    "flex-layout.col#header-sticky2--eBooks__third":{
+    "flex-layout.col#drawerMenu--eBooks__third":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#header-sticky2--appsKindle",
-            "menu-item#header-sticky2--appsKindle",
-            "menu-item#header-sticky2--kindleCloud",
-            "menu-item#header-sticky2--gestionarContenido"
+            "rich-text#drawerMenu--appsKindle",
+            "menu-item#drawerMenu--appsKindle",
+            "menu-item#drawerMenu--kindleCloud",
+            "menu-item#drawerMenu--gestionarContenido"
         ]
     },
 
 
-    "rich-text#header-sticky2--eReaders":{
+    "rich-text#drawerMenu--eReaders":{
         "title":"eReaders",
         "props":{
             "text":"E-Readers Kindle",
             "blockClass":"deptosMenu"
         }
     },
-    "rich-text#header-sticky2--tienda":{
+    "rich-text#drawerMenu--tienda":{
         "title":"series",
         "props":{
             "text":"Tienda Kindle",
             "blockClass":"deptosMenu"
         }
-    },"rich-text#header-sticky2--appsKindle":{
+    },"rich-text#drawerMenu--appsKindle":{
         "title":"appsKindle",
         "props":{
             "text":"Aplicaciones kindle y Recursos",
@@ -95,7 +96,7 @@
 
     //TV
     
-    "menu-item#header-sticky2--eReaders":{
+    "menu-item#drawerMenu--eReaders":{
         "title":"drawer menu eBooks-1",
         "props":{
             "id":"eBooks-1",
@@ -109,7 +110,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--eBooks":{
+    "menu-item#drawerMenu--eBooks":{
         "title":"drawer menu eBooks-2",
         "props":{
             "id":"eBooks-2",
@@ -123,7 +124,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--kindleUnlimited":{
+    "menu-item#drawerMenu--kindleUnlimited":{
         "title":"drawer menu eBooks-3",
         "props":{
             "id":"eBooks-3",
@@ -137,7 +138,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--primeReading":{
+    "menu-item#drawerMenu--primeReading":{
         "title":"drawer menu eBooks-4",
         "props":{
             "id":"eBooks-4",
@@ -151,7 +152,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--kindleFlash":{
+    "menu-item#drawerMenu--kindleFlash":{
         "title":"drawer menu eBooks-5",
         "props":{
             "id":"eBooks-5",
@@ -165,7 +166,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--appsKindle":{
+    "menu-item#drawerMenu--appsKindle":{
         "title":"drawer menu eBooks-6",
         "props":{
             "id":"eBooks-6",
@@ -180,7 +181,7 @@
         }
     }
     ,
-    "menu-item#header-sticky2--kindleCloud":{
+    "menu-item#drawerMenu--kindleCloud":{
         "title":"drawer menu eBooks-7",
         "props":{
             "id":"eBooks-7",
@@ -194,7 +195,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--gestionarContenido":{
+    "menu-item#drawerMenu--gestionarContenido":{
         "title":"drawer menu eBooks-8",
         "props":{
             "id":"eBooks-8",

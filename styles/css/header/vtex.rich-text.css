@@ -58,3 +58,25 @@
     font-size:15px;
     padding: 0;
 }
+.paragraph--deptosMenu{
+    padding-bottom: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #111;
+    text-transform: capitalize;
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 36px;
+    padding-top: 13px;
+    overflow-x: visible;
+    white-space: nowrap;
+}
+.paragraph--deptosMenuTrigger{
+    text-decoration: none;
+    color: #111;
+    padding-right: 20px;
+    padding-left: 36px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}

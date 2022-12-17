@@ -2,8 +2,8 @@
     "drawer#contenido--tablets":{
         "title":"innerDrawer block",
         "children": [
-            "flex-layout.col#header-sticky2--tablets",
-            "flex-layout.col#header-sticky2--tablets__second"        
+            "flex-layout.col#drawerMenu--tablets",
+            "flex-layout.col#drawerMenu--tablets__second"        
         ],
         "blocks":[
             "drawer-header#innerDrawer-seventh",
@@ -27,43 +27,44 @@
     "drawer-trigger#innerDrawer-seventh":{
         "title":"row2 drawer trigger",
         "children": [
-            "rich-text#header-sticky2--tablets"
+            "rich-text#drawerMenu--tablets",
+            "link#drawerMenu--icon"
         ]
       },
 
-    "rich-text#header-sticky2--tablets":{
+    "rich-text#drawerMenu--tablets":{
         "title":"Amazon tablets",
         "props":{
             "text":"Tablets Fire",
-            "blockClass":"deptosMenu"
+            "blockClass":"deptosMenuTrigger"
         }
     },
 
-    "flex-layout.col#header-sticky2--tablets":{
+    "flex-layout.col#drawerMenu--tablets":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#header-sticky2--tablets",
-            "menu-item#header-sticky2--tablets",
-            "menu-item#header-sticky2--accesorios"
+            "rich-text#drawerMenu--tablets",
+            "menu-item#drawerMenu--tablets",
+            "menu-item#drawerMenu--accesorios"
             
         ]
     },
-    "flex-layout.col#header-sticky2--tablets__second":{
+    "flex-layout.col#drawerMenu--tablets__second":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#header-sticky2--recursos",
-            "menu-item#header-sticky2--APPS",
-            "menu-item#header-sticky2--juegos",
-            "menu-item#header-sticky2--músicaDigital",
-            "menu-item#header-sticky2--eBooks",
-            "menu-item#header-sticky2--gestionarContenido"  
+            "rich-text#drawerMenu--recursos",
+            "menu-item#drawerMenu--APPS",
+            "menu-item#drawerMenu--juegos",
+            "menu-item#drawerMenu--músicaDigital",
+            "menu-item#drawerMenu--eBooks",
+            "menu-item#drawerMenu--gestionarContenido"  
         ]
     },
 
 
     //TV
     
-    "menu-item#header-sticky2--tablets":{
+    "menu-item#drawerMenu--tablets":{
         "title":"drawer menu tablets-1",
         "props":{
             "id":"tablets-1",
@@ -77,7 +78,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--APPS":{
+    "menu-item#drawerMenu--APPS":{
         "title":"drawer menu tablets-2",
         "props":{
             "id":"tablets-2",
@@ -91,7 +92,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--juegos":{
+    "menu-item#drawerMenu--juegos":{
         "title":"drawer menu tablets-3",
         "props":{
             "id":"tablets-3",
@@ -105,7 +106,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--músicaDigital":{
+    "menu-item#drawerMenu--músicaDigital":{
         "title":"drawer menu tablets-4",
         "props":{
             "id":"tablets-4",

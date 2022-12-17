@@ -2,8 +2,8 @@
     "drawer#contenido--fireTV":{
         "title":"innerDrawer block",
         "children": [
-            "flex-layout.col#header-sticky2--fireTV",
-            "flex-layout.col#header-sticky2--fireTV__second"
+            "flex-layout.col#drawerMenu--fireTV",
+            "flex-layout.col#drawerMenu--fireTV__second"
 
         ],
         "blocks":[
@@ -28,48 +28,49 @@
     "drawer-trigger#innerDrawer-fifth":{
         "title":"row2 drawer trigger",
         "children": [
-            "rich-text#header-sticky2--fireTV"
+            "rich-text#drawerMenu--fireTV",
+            "link#drawerMenu--icon"
         ]
       },
 
-    "rich-text#header-sticky2--fireTV":{
+    "rich-text#drawerMenu--fireTV":{
         "title":"Amazon fireTV",
         "props":{
             "text":"Amazon Fire TV",
-            "blockClass":"deptosMenu"
+            "blockClass":"deptosMenuTrigger"
         }
     },
 
-    "flex-layout.col#header-sticky2--fireTV":{
+    "flex-layout.col#drawerMenu--fireTV":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#header-sticky2--reproduce",
-            "menu-item#header-sticky2--fireTV",
-            "menu-item#header-sticky2--streaming",
-            "menu-item#header-sticky2--teleListos",
-            "menu-item#header-sticky2--accesorios"
+            "rich-text#drawerMenu--reproduce",
+            "menu-item#drawerMenu--fireTV",
+            "menu-item#drawerMenu--streaming",
+            "menu-item#drawerMenu--teleListos",
+            "menu-item#drawerMenu--accesorios"
             
         ]
     },
-    "flex-layout.col#header-sticky2--fireTV__second":{
+    "flex-layout.col#drawerMenu--fireTV__second":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#header-sticky2--series",
-            "menu-item#header-sticky2--appFireTv",
-            "menu-item#header-sticky2--PrimeVideo",
-            "menu-item#header-sticky2--amazonDrive"
+            "rich-text#drawerMenu--series",
+            "menu-item#drawerMenu--appFireTv",
+            "menu-item#drawerMenu--PrimeVideo",
+            "menu-item#drawerMenu--amazonDrive"
         ]
     },
 
 
-    "rich-text#header-sticky2--reproduce":{
+    "rich-text#drawerMenu--reproduce":{
         "title":"reproduce",
         "props":{
             "text":"Ve y Reproduce",
             "blockClass":"deptosMenu"
         }
     },
-    "rich-text#header-sticky2--series":{
+    "rich-text#drawerMenu--series":{
         "title":"series",
         "props":{
             "text":"Películas, Series Y Más",
@@ -79,7 +80,7 @@
 
     //TV
     
-    "menu-item#header-sticky2--fireTV":{
+    "menu-item#drawerMenu--fireTV":{
         "title":"drawer menu fireTV-1",
         "props":{
             "id":"fireTV-1",
@@ -93,7 +94,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--streaming":{
+    "menu-item#drawerMenu--streaming":{
         "title":"drawer menu fireTV-2",
         "props":{
             "id":"fireTV-2",
@@ -107,7 +108,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--teleListos":{
+    "menu-item#drawerMenu--teleListos":{
         "title":"drawer menu fireTV-3",
         "props":{
             "id":"fireTV-3",
@@ -121,7 +122,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--accesorios":{
+    "menu-item#drawerMenu--accesorios":{
         "title":"drawer menu fireTV-4",
         "props":{
             "id":"fireTV-4",
@@ -135,7 +136,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--appFireTv":{
+    "menu-item#drawerMenu--appFireTv":{
         "title":"drawer menu fireTV-5",
         "props":{
             "id":"fireTV-5",
@@ -149,7 +150,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--PrimeVideo":{
+    "menu-item#drawerMenu--PrimeVideo":{
         "title":"drawer menu fireTV-6",
         "props":{
             "id":"fireTV-6",

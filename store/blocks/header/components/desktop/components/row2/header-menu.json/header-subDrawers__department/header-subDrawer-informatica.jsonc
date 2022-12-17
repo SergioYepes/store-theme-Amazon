@@ -1,0 +1,307 @@
+{
+    "drawer#departamentos--informática":{
+        "title":"innerDrawer block",
+        "children": [
+            "flex-layout.col#drawerMenu--informática",
+            "flex-layout.col#drawerMenu--informatica__second"
+        ],
+        "blocks":[
+            "drawer-header#innerDrawer-thirteenth",
+            "drawer-trigger#innerDrawer-thirteenth"   
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none",
+          "blockClass":"music"
+        }
+    },
+    "drawer-header#innerDrawer-thirteenth":{
+        "title": "header text of thirteenth sub-drawer",
+        "children": [
+            "flex-layout.col#innerDrawer-header"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "drawer-trigger#innerDrawer-thirteenth":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "rich-text#drawerMenu--informática",
+            "link#drawerMenu--icon"
+        ]
+      },
+
+    "rich-text#drawerMenu--informática":{
+        "title":"informática",
+        "props":{
+            "text":"informática y Alexa",
+            "blockClass":"deptosMenuTrigger"
+        }
+    },
+
+    "flex-layout.col#drawerMenu--informática":{
+        "title":"drawer menu informática content",
+        "children":[
+            "rich-text#drawerMenu--informática",
+            "menu-item#drawerMenu--portatiles",
+            "menu-item#drawerMenu--tablets",
+            "menu-item#drawerMenu--sobremesas",
+            "menu-item#drawerMenu--monitores",
+            "menu-item#drawerMenu--componentes",
+            "menu-item#drawerMenu--accesoriosInformatica",
+            "menu-item#drawerMenu--impresoras",
+            "menu-item#drawerMenu--software",
+            "menu-item#drawerMenu--gaming",
+            "menu-item#drawerMenu--juegosPC",
+            "menu-item#drawerMenu--todoInformatica"
+        ]
+    },
+    "flex-layout.col#drawerMenu--informatica__second":{
+        "title":"drawer menu informática content",
+        "children":[
+            "rich-text#drawerMenu--oficina",
+            "menu-item#drawerMenu--material",
+            "menu-item#drawerMenu--papel",
+            "menu-item#drawerMenu--boligrafos",
+            "menu-item#drawerMenu--oficinaElectronica",
+            "menu-item#drawerMenu--todoOficina"
+        ]
+    },
+
+    "rich-text#drawerMenu--oficina":{
+        "title":"oficina",
+        "props":{
+            "text":"Oficina y Papelería",
+            "blockClass":"deptosMenu"
+        }
+    },
+
+    //informática
+    
+    "menu-item#drawerMenu--portatiles":{
+        "title":"drawer menu informática-1",
+        "props":{
+            "id":"informática-1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Portatiles" 
+            }
+        }
+    },
+    "menu-item#drawerMenu--tablets":{
+        "title":"drawer menu informática-2",
+        "props":{
+            "id":"informática-2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Tablets"
+            }
+        }
+    },
+    "menu-item#drawerMenu--sobremesas":{
+        "title":"drawer menu informática-3",
+        "props":{
+            "id":"informática-3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Sobremesas"
+            }
+        }
+    },
+    "menu-item#drawerMenu--monitores":{
+        "title":"drawer menu informática-4",
+        "props":{
+            "id":"informática-4",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Monitores"
+            }
+        }
+    },
+    "menu-item#drawerMenu--componentes":{
+        "title":"drawer menu informática-5",
+        "props":{
+            "id":"informática-5",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Componentes"
+            }
+        }
+    },
+    "menu-item#drawerMenu--accesoriosInformatica":{
+        "title":"drawer menu informática-6",
+        "props":{
+            "id":"informática-6",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Accesorios de informática"
+            }
+        }
+    },
+    "menu-item#drawerMenu--impresoras":{
+        "title":"drawer menu informática-7",
+        "props":{
+            "id":"informática-7",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Impresoras y tinta"
+            }
+        }
+    },
+    "menu-item#drawerMenu--software":{
+        "title":"drawer menu informática-8",
+        "props":{
+            "id":"informática-8",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Software"
+            }
+        }
+    },
+    "menu-item#drawerMenu--gaming":{
+        "title":"drawer menu informática-9",
+        "props":{
+            "id":"informática-9",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Gaming"
+            }
+        }
+    },
+    "menu-item#drawerMenu--juegosPC":{
+        "title":"drawer menu informática-10",
+        "props":{
+            "id":"informática-10",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Juegos para PC"
+            }
+        }
+    },
+    "menu-item#drawerMenu--todoInformatica":{
+        "title":"drawer menu informática-11",
+        "props":{
+            "id":"informática-11",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Todo en Informatica"
+            }
+        }
+    },
+    "menu-item#drawerMenu--material":{
+        "title":"drawer menu informática-12",
+        "props":{
+            "id":"informática-12",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Material de oficina"
+            }
+        }
+    },
+    "menu-item#drawerMenu--papel":{
+        "title":"drawer menu informática-13",
+        "props":{
+            "id":"informática-13",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Papel"
+            }
+        }
+    },
+    "menu-item#drawerMenu--boligrafos":{
+        "title":"drawer menu informática-14",
+        "props":{
+            "id":"informática-14",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Bolígrafos y material de escritura"
+            }
+        }
+    },
+    "menu-item#drawerMenu--oficinaElectronica":{
+        "title":"drawer menu informática-15",
+        "props":{
+            "id":"informática-15",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Electrónica de oficin"
+            }
+        }
+    },
+    "menu-item#drawerMenu--todoOficina":{
+        "title":"drawer menu informática-16",
+        "props":{
+            "id":"informática-16",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Todo en Oficina y papeleria"
+            }
+        }
+    }
+
+}

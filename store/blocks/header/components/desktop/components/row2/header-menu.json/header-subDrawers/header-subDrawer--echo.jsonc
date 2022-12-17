@@ -2,10 +2,10 @@
     "drawer#contenido--echo":{
         "title":"innerDrawer block",
         "children": [
-            "flex-layout.col#header-sticky2--echo",
-            "flex-layout.col#header-sticky2--echo__second",
-            "flex-layout.col#header-sticky2--echo__third",
-            "flex-layout.col#header-sticky2--echo__fourth"
+            "flex-layout.col#drawerMenu--echo",
+            "flex-layout.col#drawerMenu--echo__second",
+            "flex-layout.col#drawerMenu--echo__third",
+            "flex-layout.col#drawerMenu--echo__fourth"
         ],
         "blocks":[
             "drawer-header#innerDrawer-fourth",
@@ -29,84 +29,85 @@
     "drawer-trigger#innerDrawer-fourth":{
         "title":"row2 drawer trigger",
         "children": [
-            "rich-text#header-sticky2--echo"
+            "rich-text#drawerMenu--echo",
+            "link#drawerMenu--icon"
         ]
       },
 
-    "rich-text#header-sticky2--echo":{
+    "rich-text#drawerMenu--echo":{
         "title":"echo",
         "props":{
             "text":"Echo y Alexa",
-            "blockClass":"deptosMenu"
+            "blockClass":"deptosMenuTrigger"
         }
     },
 
-    "flex-layout.col#header-sticky2--echo":{
+    "flex-layout.col#drawerMenu--echo":{
         "title":"drawer menu echo content",
         "children":[
-            "rich-text#header-sticky2--dispositivos",
-            "menu-item#header-sticky2--dispositivos",
-            "menu-item#header-sticky2--altavoces",
-            "menu-item#header-sticky2--pantallas",
-            "menu-item#header-sticky2--estésDondeEstés"
+            "rich-text#drawerMenu--dispositivos",
+            "menu-item#drawerMenu--dispositivos",
+            "menu-item#drawerMenu--altavoces",
+            "menu-item#drawerMenu--pantallas",
+            "menu-item#drawerMenu--estésDondeEstés"
         ]
     },
-    "flex-layout.col#header-sticky2--echo__second":{
+    "flex-layout.col#drawerMenu--echo__second":{
         "title":"drawer menu echo content",
         "children":[
-            "rich-text#header-sticky2--seguridad",
-            "menu-item#header-sticky2--seguridad",
-            "menu-item#header-sticky2--camaras",
-            "menu-item#header-sticky2--videoTimbres",
-            "menu-item#header-sticky2--alarmas"
+            "rich-text#drawerMenu--seguridad",
+            "menu-item#drawerMenu--seguridad",
+            "menu-item#drawerMenu--camaras",
+            "menu-item#drawerMenu--videoTimbres",
+            "menu-item#drawerMenu--alarmas"
         ]
     },
-    "flex-layout.col#header-sticky2--echo__third":{
+    "flex-layout.col#drawerMenu--echo__third":{
         "title":"drawer menu echo content",
         "children":[
-            "rich-text#header-sticky2--alexa",
-            "menu-item#header-sticky2--luces",
-            "menu-item#header-sticky2--enCasa",
-            "menu-item#header-sticky2--wifi",
-            "menu-item#header-sticky2--certificado"
+            "rich-text#drawerMenu--alexa",
+            "menu-item#drawerMenu--luces",
+            "menu-item#drawerMenu--enCasa",
+            "menu-item#drawerMenu--wifi",
+            "menu-item#drawerMenu--certificado"
         ]
     },
-    "flex-layout.col#header-sticky2--echo__fourth":{
+    "flex-layout.col#drawerMenu--echo__fourth":{
         "title":"drawer menu echo content",
         "children":[
-            "rich-text#header-sticky2--recursos",
-            "menu-item#header-sticky2--conoce",
-            "menu-item#header-sticky2--privacidad",
-            "menu-item#header-sticky2--app",
-            "menu-item#header-sticky2--alexaIntegrada",
-            "menu-item#header-sticky2--skills",
-            "menu-item#header-sticky2--unlimited"
+            "rich-text#drawerMenu--recursos",
+            "menu-item#drawerMenu--conoce",
+            "menu-item#drawerMenu--privacidad",
+            "menu-item#drawerMenu--app",
+            "menu-item#drawerMenu--alexaIntegrada",
+            "menu-item#drawerMenu--skills",
+            "menu-item#drawerMenu--unlimited"
         ]
     },
 
 
-    "rich-text#header-sticky2--dispositivos":{
+    "rich-text#drawerMenu--dispositivos":{
         "title":"Dispositivos echo",
         "props":{
             "text":"Dispositivos Echo",
             "blockClass":"deptosMenu"
         }
     },
-    "rich-text#header-sticky2--seguridad":{
+    "rich-text#drawerMenu--seguridad":{
         "title":"seguridad",
         "props":{
             "text":"Seguridad Del Hogar Y Conectividad",
             "blockClass":"deptosMenu"
         }
     },
-    "rich-text#header-sticky2--alexa":{
+    "rich-text#drawerMenu--alexa":{
         "title":"Alexa",
         "props":{
             "text":"Alexa y Hogar Digital",
             "blockClass":"deptosMenu"
         }
     },
-    "rich-text#header-sticky2--recursos":{
+    "rich-text#drawerMenu--recursos":{
         "title":"recursos",
         "props":{
             "text":"Contenido Y Recuros",
@@ -116,7 +117,7 @@
 
     //Echo
     
-    "menu-item#header-sticky2--dispositivos":{
+    "menu-item#drawerMenu--dispositivos":{
         "title":"drawer menu echo-1",
         "props":{
             "id":"echo-1",
@@ -130,7 +131,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--altavoces":{
+    "menu-item#drawerMenu--altavoces":{
         "title":"drawer menu echo-2",
         "props":{
             "id":"echo-2",
@@ -144,7 +145,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--pantallas":{
+    "menu-item#drawerMenu--pantallas":{
         "title":"drawer menu echo-3",
         "props":{
             "id":"echo-3",
@@ -158,7 +159,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--estésDondeEstés":{
+    "menu-item#drawerMenu--estésDondeEstés":{
         "title":"drawer menu echo-4",
         "props":{
             "id":"echo-4",
@@ -172,7 +173,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--seguridad":{
+    "menu-item#drawerMenu--seguridad":{
         "title":"drawer menu echo-5",
         "props":{
             "id":"echo-5",
@@ -186,7 +187,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--camaras":{
+    "menu-item#drawerMenu--camaras":{
         "title":"drawer menu echo-6",
         "props":{
             "id":"echo-6",
@@ -200,7 +201,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--videoTimbres":{
+    "menu-item#drawerMenu--videoTimbres":{
         "title":"drawer menu echo-7",
         "props":{
             "id":"echo-7",
@@ -214,7 +215,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--alarmas":{
+    "menu-item#drawerMenu--alarmas":{
         "title":"drawer menu echo-8",
         "props":{
             "id":"echo-8",
@@ -228,7 +229,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--luces":{
+    "menu-item#drawerMenu--luces":{
         "title":"drawer menu echo-9",
         "props":{
             "id":"echo-9",
@@ -242,7 +243,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--enCasa":{
+    "menu-item#drawerMenu--enCasa":{
         "title":"drawer menu echo-10",
         "props":{
             "id":"echo-10",
@@ -256,7 +257,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--wifi":{
+    "menu-item#drawerMenu--wifi":{
         "title":"drawer menu echo-11",
         "props":{
             "id":"echo-11",
@@ -270,7 +271,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--certificado":{
+    "menu-item#drawerMenu--certificado":{
         "title":"drawer menu echo-12",
         "props":{
             "id":"echo-12",
@@ -284,7 +285,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--conoce":{
+    "menu-item#drawerMenu--conoce":{
         "title":"drawer menu echo-13",
         "props":{
             "id":"echo-13",
@@ -298,7 +299,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--privacidad":{
+    "menu-item#drawerMenu--privacidad":{
         "title":"drawer menu echo-14",
         "props":{
             "id":"echo-14",
@@ -312,7 +313,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--app":{
+    "menu-item#drawerMenu--app":{
         "title":"drawer menu echo-15",
         "props":{
             "id":"echo-15",
@@ -326,7 +327,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--alexaIntegrada":{
+    "menu-item#drawerMenu--alexaIntegrada":{
         "title":"drawer menu echo-16",
         "props":{
             "id":"echo-16",
@@ -340,7 +341,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--skills":{
+    "menu-item#drawerMenu--skills":{
         "title":"drawer menu echo-17",
         "props":{
             "id":"echo-17",

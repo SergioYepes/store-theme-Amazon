@@ -2,7 +2,7 @@
     "drawer#contenido--photos":{
         "title":"innerDrawer block",
         "children": [
-            "flex-layout.col#header-sticky2--photos"
+            "flex-layout.col#drawerMenu--photos"
 
         ],
         "blocks":[
@@ -27,32 +27,33 @@
     "drawer-trigger#innerDrawer-third":{
         "title":"row2 drawer trigger",
         "children": [
-            "rich-text#header-sticky2--photos"
+            "rich-text#drawerMenu--photos",
+            "link#drawerMenu--icon"
         ]
       },
 
-    "rich-text#header-sticky2--photos":{
+    "rich-text#drawerMenu--photos":{
         "title":"Amazon Photos",
         "props":{
             "text":"Amazon Photos",
-            "blockClass":"deptosMenu"
+            "blockClass":"deptosMenuTrigger"
         }
     },
 
-    "flex-layout.col#header-sticky2--photos":{
+    "flex-layout.col#drawerMenu--photos":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#header-sticky2--PhotosTitle",
-            "menu-item#header-sticky2--amazonPhotos",
-            "menu-item#header-sticky2--amazonDrive",
-            "menu-item#header-sticky2--descargarGratuitas",
-            "menu-item#header-sticky2--iniciarSesion"
+            "rich-text#drawerMenu--PhotosTitle",
+            "menu-item#drawerMenu--amazonPhotos",
+            "menu-item#drawerMenu--amazonDrive",
+            "menu-item#drawerMenu--descargarGratuitas",
+            "menu-item#drawerMenu--iniciarSesion"
 
         ]
     },
 
 
-    "rich-text#header-sticky2--PhotosTitle":{
+    "rich-text#drawerMenu--PhotosTitle":{
         "title":"Amazon Photos",
         "props":{
             "text":"Amazon Photos",
@@ -63,7 +64,7 @@
 
     //photos
     
-    "menu-item#header-sticky2--amazonPhotos":{
+    "menu-item#drawerMenu--amazonPhotos":{
         "title":"drawer menu Photos-1",
         "props":{
             "id":"Photos-1",
@@ -77,7 +78,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--amazonDrive":{
+    "menu-item#drawerMenu--amazonDrive":{
         "title":"drawer menu Photos-2",
         "props":{
             "id":"Photos-2",
@@ -91,7 +92,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--descargarGratuitas":{
+    "menu-item#drawerMenu--descargarGratuitas":{
         "title":"drawer menu Photos-3",
         "props":{
             "id":"Photos-3",
@@ -105,7 +106,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--iniciarSesion":{
+    "menu-item#drawerMenu--iniciarSesion":{
         "title":"drawer menu Photos-4",
         "props":{
             "id":"Photos-4",

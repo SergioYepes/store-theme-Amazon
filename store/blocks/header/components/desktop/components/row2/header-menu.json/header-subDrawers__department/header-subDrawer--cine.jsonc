@@ -1,0 +1,145 @@
+{
+    "drawer#departamentos--cine":{
+        "title":"innerDrawer block",
+        "children": [
+            "flex-layout.col#drawerMenu--cine"  
+        ],
+        "blocks":[
+            "drawer-header#innerDrawer-eleventh",
+            "drawer-trigger#innerDrawer-eleventh"   
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none",
+          "blockClass":"music"
+        }
+    },
+    "drawer-header#innerDrawer-eleventh":{
+        "title": "header text of eleventh sub-drawer",
+        "children": [
+            "flex-layout.col#innerDrawer-header"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "drawer-trigger#innerDrawer-eleventh":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "rich-text#drawerMenu--cine",
+            "link#drawerMenu--icon"
+        ]
+      },
+
+    "rich-text#drawerMenu--cine":{
+        "title":"cine",
+        "props":{
+            "text":"Cine, Tv Y Música",
+            "blockClass":"deptosMenuTrigger"
+        }
+    },
+
+    "flex-layout.col#drawerMenu--cine":{
+        "title":"drawer menu cine content",
+        "children":[
+            "rich-text#drawerMenu--cine",
+            "menu-item#drawerMenu--cine",
+            "menu-item#drawerMenu--seriesTV",
+            "menu-item#drawerMenu--laBlu-ray",
+            "menu-item#drawerMenu--vinilos",
+            "menu-item#drawerMenu--unlimited",
+            "menu-item#drawerMenu--prime",
+            "menu-item#drawerMenu--músicaDigital",
+            "menu-item#drawerMenu--instrumentos"
+        ]
+    },
+    
+
+    //cine
+    
+    "menu-item#drawerMenu--cine":{
+        "title":"drawer menu cine-1",
+        "props":{
+            "id":"cine-1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Todo en Cine y TV" 
+            }
+        }
+    },
+    "menu-item#drawerMenu--seriesTV":{
+        "title":"drawer menu cine-2",
+        "props":{
+            "id":"cine-2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"series TV"
+            }
+        }
+    },
+    "menu-item#drawerMenu--laBlu-ray":{
+        "title":"drawer menu cine-3",
+        "props":{
+            "id":"cine-3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Blu-ray"
+            }
+        }
+    },
+    "menu-item#drawerMenu--vinilos":{
+        "title":"drawer menu cine-4",
+        "props":{
+            "id":"cine-4",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"CDs y vinilos"
+            }
+        }
+    },
+    "menu-item#drawerMenu--prime":{
+        "title":"drawer menu cine-5",
+        "props":{
+            "id":"cine-5",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"cine de texto y universitarios"
+            }
+        }
+    },
+    "menu-item#drawerMenu--instrumentos":{
+        "title":"drawer menu cine-6",
+        "props":{
+            "id":"cine-6",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Instrumentos musicales"
+            }
+        }
+    }
+    
+}

@@ -2,8 +2,8 @@
     "drawer#contenido--music":{
         "title":"innerDrawer block",
         "children": [
-            "flex-layout.col#header-sticky2--music",
-            "flex-layout.col#header-sticky2--music__second"
+            "flex-layout.col#drawerMenu--music",
+            "flex-layout.col#drawerMenu--music__second"
 
         ],
         "blocks":[
@@ -28,48 +28,49 @@
     "drawer-trigger#innerDrawer-second":{
         "title":"row2 drawer trigger",
         "children": [
-            "rich-text#header-sticky2--music"
+            "rich-text#drawerMenu--music",
+            "link#drawerMenu--icon"
         ]
       },
 
-    "rich-text#header-sticky2--music":{
+    "rich-text#drawerMenu--music":{
         "title":"Amazon Music",
         "props":{
             "text":"Amazon Music",
-            "blockClass":"deptosMenu"
+            "blockClass":"deptosMenuTrigger"
         }
     },
 
-    "flex-layout.col#header-sticky2--music":{
+    "flex-layout.col#drawerMenu--music":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#header-sticky2--escuchar",
-            "menu-item#header-sticky2--unlimited",
-            "menu-item#header-sticky2--musicPrime",
-            "menu-item#header-sticky2--musicaGratis",
-            "menu-item#header-sticky2--abrirLector",
-            "menu-item#header-sticky2--descargarApp"
+            "rich-text#drawerMenu--escuchar",
+            "menu-item#drawerMenu--unlimited",
+            "menu-item#drawerMenu--musicPrime",
+            "menu-item#drawerMenu--musicaGratis",
+            "menu-item#drawerMenu--abrirLector",
+            "menu-item#drawerMenu--descargarApp"
 
         ]
     },
-    "flex-layout.col#header-sticky2--music__second":{
+    "flex-layout.col#drawerMenu--music__second":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#header-sticky2--comprarM",
-            "menu-item#header-sticky2--Cd",
-            "menu-item#header-sticky2--TiendaMusica"
+            "rich-text#drawerMenu--comprarM",
+            "menu-item#drawerMenu--Cd",
+            "menu-item#drawerMenu--TiendaMusica"
         ]
     },
 
 
-    "rich-text#header-sticky2--escuchar":{
+    "rich-text#drawerMenu--escuchar":{
         "title":"Escuchar en streaming",
         "props":{
             "text":"Escuchar en streaming",
             "blockClass":"deptosMenu"
         }
     },
-    "rich-text#header-sticky2--comprarM":{
+    "rich-text#drawerMenu--comprarM":{
         "title":"Comprar Musica",
         "props":{
             "text":"Comprar Musica",
@@ -79,7 +80,7 @@
 
     //Music
     
-    "menu-item#header-sticky2--unlimited":{
+    "menu-item#drawerMenu--unlimited":{
         "title":"drawer menu Music-1",
         "props":{
             "id":"Music-1",
@@ -93,7 +94,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--musicPrime":{
+    "menu-item#drawerMenu--musicPrime":{
         "title":"drawer menu Music-2",
         "props":{
             "id":"Music-2",
@@ -107,7 +108,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--musicaGratis":{
+    "menu-item#drawerMenu--musicaGratis":{
         "title":"drawer menu Music-3",
         "props":{
             "id":"Music-3",
@@ -121,7 +122,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--abrirLector":{
+    "menu-item#drawerMenu--abrirLector":{
         "title":"drawer menu Music-4",
         "props":{
             "id":"Music-4",
@@ -135,7 +136,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--descargarApp":{
+    "menu-item#drawerMenu--descargarApp":{
         "title":"drawer menu Music-5",
         "props":{
             "id":"Music-5",
@@ -149,7 +150,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--Cd":{
+    "menu-item#drawerMenu--Cd":{
         "title":"drawer menu Music-6",
         "props":{
             "id":"Music-6",
@@ -163,7 +164,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--TiendaMusica":{
+    "menu-item#drawerMenu--TiendaMusica":{
         "title":"drawer menu Music-7",
         "props":{
             "id":"Music-7",

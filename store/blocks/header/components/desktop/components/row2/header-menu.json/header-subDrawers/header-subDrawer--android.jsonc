@@ -2,7 +2,7 @@
     "drawer#contenido--android":{
         "title":"innerDrawer block",
         "children": [
-            "flex-layout.col#header-sticky2--android"    
+            "flex-layout.col#drawerMenu--android"    
         ],
         "blocks":[
             "drawer-header#innerDrawer-eighth",
@@ -26,34 +26,35 @@
     "drawer-trigger#innerDrawer-eighth":{
         "title":"row2 drawer trigger",
         "children": [
-            "rich-text#header-sticky2--android"
+            "rich-text#drawerMenu--android",
+            "link#drawerMenu--icon"
         ]
       },
 
-    "rich-text#header-sticky2--android":{
+    "rich-text#drawerMenu--android":{
         "title":"Amazon android",
         "props":{
             "text":"Appstore para Android",
-            "blockClass":"deptosMenu"
+            "blockClass":"deptosMenuTrigger"
         }
     },
 
-    "flex-layout.col#header-sticky2--android":{
+    "flex-layout.col#drawerMenu--android":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#header-sticky2--android",
-            "menu-item#header-sticky2--APPS",
-            "menu-item#header-sticky2--juegos",
-            "menu-item#header-sticky2--coins",
-            "menu-item#header-sticky2--amazonApps",
-            "menu-item#header-sticky2--subscriptores"
+            "rich-text#drawerMenu--android",
+            "menu-item#drawerMenu--APPS",
+            "menu-item#drawerMenu--juegos",
+            "menu-item#drawerMenu--coins",
+            "menu-item#drawerMenu--amazonApps",
+            "menu-item#drawerMenu--subscriptores"
         ]
     },
 
 
     //android
     
-    "menu-item#header-sticky2--coins":{
+    "menu-item#drawerMenu--coins":{
         "title":"drawer menu android-1",
         "props":{
             "id":"android-1",
@@ -67,7 +68,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--amazonApps":{
+    "menu-item#drawerMenu--amazonApps":{
         "title":"drawer menu android-2",
         "props":{
             "id":"android-2",
@@ -81,7 +82,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--subscriptores":{
+    "menu-item#drawerMenu--subscriptores":{
         "title":"drawer menu android-3",
         "props":{
             "id":"android-3",

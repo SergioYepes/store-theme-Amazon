@@ -57,3 +57,29 @@
     border-color: #0000;
     text-decoration: none !important;
 }
+
+
+/* Drawer */
+
+.link--deptosMenuTodo{
+    display:flex;
+    text-decoration: none!important;
+    color: #111!important;
+    padding-right: 20px!important;
+    padding-left: 36px!important;
+    padding-top: 13px!important;
+    padding-bottom: 13px!important;
+}
+.label--deptosMenuTodo{
+    margin-right: 12px;
+}
+.link--deptosMenu{
+    display:flex;
+    text-decoration: none!important;
+    flex-direction: row-reverse;
+    color: #111!important;
+    padding-right: 20px!important;
+    padding-left: 36px!important;
+    padding-top: 13px!important;
+    padding-bottom: 13px!important;
+}

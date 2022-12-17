@@ -2,7 +2,7 @@
     "drawer#contenido--audible":{
         "title":"innerDrawer block",
         "children": [
-            "flex-layout.col#header-sticky2--audible"        
+            "flex-layout.col#drawerMenu--audible"        
         ],
         "blocks":[
             "drawer-header#innerDrawer-nineth",
@@ -26,33 +26,35 @@
     "drawer-trigger#innerDrawer-nineth":{
         "title":"row2 drawer trigger",
         "children": [
-            "rich-text#header-sticky2--audible"
+            "rich-text#drawerMenu--audible",
+            "link#drawerMenu--icon"
+
         ]
       },
 
-    "rich-text#header-sticky2--audible":{
+    "rich-text#drawerMenu--audible":{
         "title":"Amazon audible",
         "props":{
             "text":"Audible Audiolibros Y Podcasts",
-            "blockClass":"deptosMenu"
+            "blockClass":"deptosMenuTrigger"
         }
     },
 
-    "flex-layout.col#header-sticky2--audible":{
+    "flex-layout.col#drawerMenu--audible":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#header-sticky2--audible",
-            "menu-item#header-sticky2--subscripcion",
-            "menu-item#header-sticky2--audible",
-            "menu-item#header-sticky2--masVendidos",
-            "menu-item#header-sticky2--comoEscuchar"   
+            "rich-text#drawerMenu--audible",
+            "menu-item#drawerMenu--subscripcion",
+            "menu-item#drawerMenu--audible",
+            "menu-item#drawerMenu--masVendidos",
+            "menu-item#drawerMenu--comoEscuchar"   
         ]
     },
 
 
     //audible
     
-    "menu-item#header-sticky2--subscripcion":{
+    "menu-item#drawerMenu--subscripcion":{
         "title":"drawer menu audible-1",
         "props":{
             "id":"audible-1",
@@ -66,7 +68,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--audible":{
+    "menu-item#drawerMenu--audible":{
         "title":"drawer menu audible-2",
         "props":{
             "id":"audible-2",
@@ -80,7 +82,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--masVendidos":{
+    "menu-item#drawerMenu--masVendidos":{
         "title":"drawer menu audible-3",
         "props":{
             "id":"audible-3",
@@ -94,7 +96,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--comoEscuchar":{
+    "menu-item#drawerMenu--comoEscuchar":{
         "title":"drawer menu audible-4",
         "props":{
             "id":"audible-4",

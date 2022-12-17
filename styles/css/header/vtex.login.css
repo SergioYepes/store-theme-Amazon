@@ -1,7 +1,3 @@
-/* .buttonLink:hover{
-    background-color:#0000;
-    border: 1px solid white
-} */
 .buttonLink :global(.vtex-button):hover{
     background-color:#0000;
     border: 1px solid white

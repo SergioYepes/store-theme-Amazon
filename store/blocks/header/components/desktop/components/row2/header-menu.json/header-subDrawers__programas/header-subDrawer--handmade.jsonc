@@ -1,0 +1,217 @@
+{
+    "drawer#programas--handmade":{
+        "title":"innerDrawer block",
+        "children": [
+            "flex-layout.col#drawerMenu--handmade",
+            "flex-layout.col#drawerMenu--handmade__second"    
+        ],
+        "blocks":[
+            "drawer-header#innerDrawer-fifteenth",
+            "drawer-trigger#innerDrawer-fifteenth"   
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none",
+          "blockClass":"music"
+        }
+    },
+    "drawer-header#innerDrawer-fifteenth":{
+        "title": "header text of fifteenth sub-drawer",
+        "children": [
+            "flex-layout.col#innerDrawer-header"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "drawer-trigger#innerDrawer-fifteenth":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "rich-text#drawerMenu--handmade",
+            "link#drawerMenu--icon"
+        ]
+      },
+
+    "rich-text#drawerMenu--handmade":{
+        "title":"handmade",
+        "props":{
+            "text":"Handmade",
+            "blockClass":"deptosMenuTrigger"
+        }
+    },
+
+    "flex-layout.col#drawerMenu--handmade":{
+        "title":"drawer menu handmade content",
+        "children":[
+            "rich-text#drawerMenu--handmade",
+            "menu-item#drawerMenu--handmade",
+            "menu-item#drawerMenu--regalos",
+            "menu-item#drawerMenu--cocina",
+            "menu-item#drawerMenu--joyeria",
+            "menu-item#drawerMenu--equipoViaje",
+            "menu-item#drawerMenu--articulosFiesta",
+            "menu-item#drawerMenu--bebé",
+            "menu-item#drawerMenu--juguetes",
+            "menu-item#drawerMenu--madeItaly"
+        ]
+    },
+    "flex-layout.col#drawerMenu--handmade__second":{
+        "title":"drawer menu handmade content",
+        "children":[
+            "rich-text#drawerMenu--contactanos",
+            "menu-item#drawerMenu--venderHandmade"
+        ]
+    },
+
+    "rich-text#drawerMenu--contactanos":{
+        "title":"contactanos",
+        "props":{
+            "text":"Contáctanos",
+            "blockClass":"deptosMenu"
+        }
+    },
+    
+
+    //handmade
+    
+    "menu-item#drawerMenu--handmade":{
+        "title":"drawer menu handmade-1",
+        "props":{
+            "id":"handmade-1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Productos Handmade" 
+            }
+        }
+    },
+    "menu-item#drawerMenu--regalos":{
+        "title":"drawer menu handmade-2",
+        "props":{
+            "id":"handmade-2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Regalos"
+            }
+        }
+    },
+    "menu-item#drawerMenu--cocina":{
+        "title":"drawer menu handmade-3",
+        "props":{
+            "id":"handmade-3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Hogar y cocina"
+            }
+        }
+    },
+    "menu-item#drawerMenu--joyeria":{
+        "title":"drawer menu handmade-4",
+        "props":{
+            "id":"handmade-4",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Joyería"
+            }
+        }
+    },
+    "menu-item#drawerMenu--equipoViaje":{
+        "title":"drawer menu handmade-5",
+        "props":{
+            "id":"handmade-5",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Accesorios, bolsas y equipo de viaje"
+            }
+        }
+    },
+    "menu-item#drawerMenu--articulosFiesta":{
+        "title":"drawer menu handmade-6",
+        "props":{
+            "id":"handmade-6",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Articulos de fiesta y papelería"
+            }
+        }
+    },
+    "menu-item#drawerMenu--bebé":{
+        "title":"drawer menu handmade-7",
+        "props":{
+            "id":"handmade-7",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Bebé"
+            }
+        }
+    },
+    "menu-item#drawerMenu--juguetes":{
+        "title":"drawer menu handmade-8",
+        "props":{
+            "id":"handmade-8",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Juguetes y juegos"
+            }
+        }
+    },
+    "menu-item#drawerMenu--madeItaly":{
+        "title":"drawer menu handmade-9",
+        "props":{
+            "id":"handmade-9",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Made in Italy"
+            }
+        }
+    },
+    "menu-item#drawerMenu--venderHandmade":{
+        "title":"drawer menu handmade-10",
+        "props":{
+            "id":"handmade-10",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Envía tu aplicación para vender en Handmade"
+            }
+        }
+    }
+}

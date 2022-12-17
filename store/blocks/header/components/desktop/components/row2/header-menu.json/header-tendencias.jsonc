@@ -1,27 +1,27 @@
 {
-    "flex-layout.row#header-sticky2--tendencias":{
+    "flex-layout.row#drawerMenu--tendencias":{
         "title":"drawer menu tendencias cont",
         "children":[
-            "flex-layout.col#header-sticky2--tendencias"
+            "flex-layout.col#drawerMenu--tendencias"
         ]
     },
-    "flex-layout.col#header-sticky2--tendencias":{
+    "flex-layout.col#drawerMenu--tendencias":{
         "title":"drawer menu tendencias content",
         "children":[
-            "rich-text#header-sticky2--tendencias",
-            "menu-item#header-sticky2--vendidos",
-            "menu-item#header-sticky2--Novedades",
-            "menu-item#header-sticky2--momento"
+            "rich-text#drawerMenu--tendencias",
+            "menu-item#drawerMenu--vendidos",
+            "menu-item#drawerMenu--Novedades",
+            "menu-item#drawerMenu--momento"
         ]
     },
-    "rich-text#header-sticky2--tendencias":{
+    "rich-text#drawerMenu--tendencias":{
         "title":"Tendencias",
         "props":{
             "text":"Tendencias",
             "blockClass":"deptosMenu"
         }
     },
-    "menu-item#header-sticky2--vendidos":{
+    "menu-item#drawerMenu--vendidos":{
         "title":"drawer menu department1",
         "props":{
             "id":"department1",
@@ -35,7 +35,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--Novedades":{
+    "menu-item#drawerMenu--Novedades":{
         "title":"drawer menu department2",
         "props":{
             "id":"department2",
@@ -49,7 +49,7 @@
             }
         }
     },
-    "menu-item#header-sticky2--momento":{
+    "menu-item#drawerMenu--momento":{
         "title":"drawer menu department3",
         "props":{
             "id":"department3",

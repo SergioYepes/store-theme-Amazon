@@ -2,32 +2,39 @@
     "menu#header-sticky2":{
         "title":"row2 drawer menu full",
         "children":[
-            "flex-layout.col#header-sticky2"
+            "flex-layout.col#drawerMenu"
         ]
     },
-    "flex-layout.col#header-sticky2":{
+    "flex-layout.col#drawerMenu":{
         "title":"drawer menu block",
         "children":[
-            "flex-layout.col#header-sticky2--login",
-            "flex-layout.row#header-sticky2--tendencias",
-            "flex-layout.row#header-sticky2--Contenido" 
-        ]
+            "flex-layout.col#drawerMenu--login",
+            "flex-layout.row#drawerMenu--tendencias",
+            "flex-layout.row#drawerMenu--Contenido",
+            "flex-layout.row#drawerMenu--departamentos",
+            "flex-layout.row#drawerMenu--programas",
+            "flex-layout.row#drawerMenu--ayuda"
+        ],
+        "props":{
+            "blockClass":"drawerMenu"
+        }
     },
-    "flex-layout.col#header-sticky2--login":{
+    "flex-layout.col#drawerMenu--login":{
         "title":"login button",
         "children":[
-            "login#header-sticky2--headerLogin"
+            "login#drawerMenu--headerLogin"
         ],
         "props":{
             "blockClass":"loginDrawer"
         }
     },
 
-    "login#header-sticky2--headerLogin":{
+    "login#drawerMenu--headerLogin":{
         "title":"login header drawer",
             "props":{
                 "showIconProfile":true,
-                "optionsTitle":"Identifícate >"
+                "optionsTitle":"Identifícate >",
+                "blockClass":"drawerMenu"
             }
     }
 
