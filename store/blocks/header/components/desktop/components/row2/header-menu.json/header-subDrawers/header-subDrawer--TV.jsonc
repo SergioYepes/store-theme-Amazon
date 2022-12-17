@@ -1,0 +1,168 @@
+{
+    "drawer#contenido--fireTV":{
+        "title":"innerDrawer block",
+        "children": [
+            "flex-layout.col#drawerMenu--fireTV",
+            "flex-layout.col#drawerMenu--fireTV__second"
+
+        ],
+        "blocks":[
+            "drawer-header#innerDrawer-fifth",
+            "drawer-trigger#innerDrawer-fifth"   
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none",
+          "blockClass":"music"
+        }
+    },
+    "drawer-header#innerDrawer-fifth":{
+        "title": "header text of fifth sub-drawer",
+        "children": [
+            "flex-layout.col#innerDrawer-header"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "drawer-trigger#innerDrawer-fifth":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "rich-text#drawerMenu--fireTV",
+            "link#drawerMenu--icon"
+        ]
+      },
+
+    "rich-text#drawerMenu--fireTV":{
+        "title":"Amazon fireTV",
+        "props":{
+            "text":"Amazon Fire TV",
+            "blockClass":"deptosMenuTrigger"
+        }
+    },
+
+    "flex-layout.col#drawerMenu--fireTV":{
+        "title":"drawer menu prime content",
+        "children":[
+            "rich-text#drawerMenu--reproduce",
+            "menu-item#drawerMenu--fireTV",
+            "menu-item#drawerMenu--streaming",
+            "menu-item#drawerMenu--teleListos",
+            "menu-item#drawerMenu--accesorios"
+            
+        ]
+    },
+    "flex-layout.col#drawerMenu--fireTV__second":{
+        "title":"drawer menu prime content",
+        "children":[
+            "rich-text#drawerMenu--series",
+            "menu-item#drawerMenu--appFireTv",
+            "menu-item#drawerMenu--PrimeVideo",
+            "menu-item#drawerMenu--amazonDrive"
+        ]
+    },
+
+
+    "rich-text#drawerMenu--reproduce":{
+        "title":"reproduce",
+        "props":{
+            "text":"Ve y Reproduce",
+            "blockClass":"deptosMenu"
+        }
+    },
+    "rich-text#drawerMenu--series":{
+        "title":"series",
+        "props":{
+            "text":"Películas, Series Y Más",
+            "blockClass":"deptosMenu"
+        }
+    },
+
+    //TV
+    
+    "menu-item#drawerMenu--fireTV":{
+        "title":"drawer menu fireTV-1",
+        "props":{
+            "id":"fireTV-1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Todos los Fire TV" 
+            }
+        }
+    },
+    "menu-item#drawerMenu--streaming":{
+        "title":"drawer menu fireTV-2",
+        "props":{
+            "id":"fireTV-2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Dispositivos para streaming"
+            }
+        }
+    },
+    "menu-item#drawerMenu--teleListos":{
+        "title":"drawer menu fireTV-3",
+        "props":{
+            "id":"fireTV-3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Televisores inteligentes"
+            }
+        }
+    },
+    "menu-item#drawerMenu--accesorios":{
+        "title":"drawer menu fireTV-4",
+        "props":{
+            "id":"fireTV-4",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Accesorios"
+            }
+        }
+    },
+    "menu-item#drawerMenu--appFireTv":{
+        "title":"drawer menu fireTV-5",
+        "props":{
+            "id":"fireTV-5",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Apps y juegos para Fire TV Stick"
+            }
+        }
+    },
+    "menu-item#drawerMenu--PrimeVideo":{
+        "title":"drawer menu fireTV-6",
+        "props":{
+            "id":"fireTV-6",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Prime Video"
+            }
+        }
+    }
+
+}

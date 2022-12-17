@@ -1,0 +1,217 @@
+{
+    "drawer#programas--cheques":{
+        "title":"innerDrawer block",
+        "children": [
+            "flex-layout.col#drawerMenu--cheques",
+            "flex-layout.col#drawerMenu--cheques__second"    
+        ],
+        "blocks":[
+            "drawer-header#innerDrawer-fourteenth",
+            "drawer-trigger#innerDrawer-fourteenth"   
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none",
+          "blockClass":"music"
+        }
+    },
+    "drawer-header#innerDrawer-fourteenth":{
+        "title": "header text of fourteenth sub-drawer",
+        "children": [
+            "flex-layout.col#innerDrawer-header"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "drawer-trigger#innerDrawer-fourteenth":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "rich-text#drawerMenu--cheques",
+            "link#drawerMenu--icon"
+        ]
+      },
+
+    "rich-text#drawerMenu--cheques":{
+        "title":"cheques",
+        "props":{
+            "text":"Cheques Regalo y Recargas",
+            "blockClass":"deptosMenuTrigger"
+        }
+    },
+
+    "flex-layout.col#drawerMenu--cheques":{
+        "title":"drawer menu cheques content",
+        "children":[
+            "rich-text#drawerMenu--cheques",
+            "menu-item#drawerMenu--saldo",
+            "menu-item#drawerMenu--recargaOnline",
+            "menu-item#drawerMenu--recargaTienda",
+            "menu-item#drawerMenu--canjear"
+        ]
+    },
+    "flex-layout.col#drawerMenu--cheques__second":{
+        "title":"drawer menu cheques content",
+        "children":[
+            "rich-text#drawerMenu--regalo",
+            "menu-item#drawerMenu--todosCheques",
+            "menu-item#drawerMenu--vendidos",
+            "menu-item#drawerMenu--e-cheques",
+            "menu-item#drawerMenu--paraImprimir",
+            "menu-item#drawerMenu--porCorreo",
+            "menu-item#drawerMenu--cumpleaños"
+        ]
+    },
+
+    "rich-text#drawerMenu--regalo":{
+        "title":"regalo",
+        "props":{
+            "text":"Tienda Cheques Regalo",
+            "blockClass":"deptosMenu"
+        }
+    },
+    
+
+    //cheques
+    
+    "menu-item#drawerMenu--saldo":{
+        "title":"drawer menu cheques-1",
+        "props":{
+            "id":"cheques-1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Saldo de Cheques de Regalo" 
+            }
+        }
+    },
+    "menu-item#drawerMenu--recargaOnline":{
+        "title":"drawer menu cheques-2",
+        "props":{
+            "id":"cheques-2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Recarga tu cuenta online"
+            }
+        }
+    },
+    "menu-item#drawerMenu--recargaTienda":{
+        "title":"drawer menu cheques-3",
+        "props":{
+            "id":"cheques-3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Recarga tu cuenta en tienda"
+            }
+        }
+    },
+    "menu-item#drawerMenu--canjear":{
+        "title":"drawer menu cheques-4",
+        "props":{
+            "id":"cheques-4",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Canjear un Cheque de Regalo"
+            }
+        }
+    },
+    "menu-item#drawerMenu--todosCheques":{
+        "title":"drawer menu cheques-5",
+        "props":{
+            "id":"cheques-5",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Todos los Cheques de Regalo"
+            }
+        }
+    },
+    "menu-item#drawerMenu--vendidos":{
+        "title":"drawer menu cheques-6",
+        "props":{
+            "id":"cheques-6",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Los más vendidos"
+            }
+        }
+    },
+    "menu-item#drawerMenu--e-cheques":{
+        "title":"drawer menu cheques-7",
+        "props":{
+            "id":"cheques-7",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"E-Cheques Regalo"
+            }
+        }
+    },
+    "menu-item#drawerMenu--paraImprimir":{
+        "title":"drawer menu cheques-8",
+        "props":{
+            "id":"cheques-8",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Para imprimir"
+            }
+        }
+    },
+    "menu-item#drawerMenu--porCorreo":{
+        "title":"drawer menu cheques-9",
+        "props":{
+            "id":"cheques-9",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Por correo"
+            }
+        }
+    },
+    "menu-item#drawerMenu--cumpleaños":{
+        "title":"drawer menu cheques-10",
+        "props":{
+            "id":"cheques-10",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Cumpleaños"
+            }
+        }
+    }
+}

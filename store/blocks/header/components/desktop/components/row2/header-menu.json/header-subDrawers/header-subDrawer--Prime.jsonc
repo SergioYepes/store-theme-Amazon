@@ -1,0 +1,139 @@
+{
+    "drawer#contenido--Prime":{
+        "title":"innerDrawer block",
+        "children": [
+            "flex-layout.col#drawerMenu--Prime"
+        ],
+        "blocks":[
+            "drawer-header#innerDrawer-first",
+            "drawer-trigger#innerDrawer-first"
+            
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none"
+        }
+    },
+    "drawer-header#innerDrawer-first":{
+        "title": "Texto del Header del primer sub-drawer",
+        "children": [
+            "flex-layout.col#innerDrawer-header"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "drawer-trigger#innerDrawer-first":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "rich-text#drawerMenu--Prime",
+            "link#drawerMenu--icon"
+        ]
+      },
+    "rich-text#drawerMenu--Prime":{
+        "title":"Amazon Prime video",
+        "props":{
+            "text":"Amazon Prime video",
+            "blockClass":"deptosMenuTrigger"
+        }
+    },
+    "flex-layout.col#drawerMenu--Prime":{
+        "title":"drawer menu prime content",
+        "children":[
+            "rich-text#drawerMenu--Prime",
+            "menu-item#drawerMenu--Todos",
+            "menu-item#drawerMenu--Peliculas",
+            "menu-item#drawerMenu--Series"
+        ]
+    },
+    "link#drawerMenu--icon":{
+        "title":"drawer menu flechaDerecha logo",
+        "children":[
+            "logo#drawerMenu-flechaDerecha"
+        ]
+    },
+    "logo#drawerMenu-flechaDerecha":{
+        "title":"flecha abajo logo",
+        "props":{
+            "url": "assets/svg/flechaDerecha.svg",
+            "width":"20"
+        }
+    },
+
+
+
+    // header
+    "flex-layout.col#innerDrawer-header":{
+        "title": "innerDrawer first head",
+        "children": [
+            "flex-layout.col#drawerMenu--login",
+            "flex-layout.row#drawerMenu--close"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "blockClass": "header__sub-drawer"
+        }
+    },
+    "flex-layout.row#drawerMenu--close":{
+        "title": "innerDrawer second head",
+        "children": [
+            "drawer-close-button",
+            "rich-text#drawerMenu--Menu"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto"
+        }
+    },
+    "rich-text#drawerMenu--Menu":{
+        "title":"Menu Principal",
+        "props":{
+            "text":"Menu Principal"
+        }
+    },
+
+    //Prime
+    "menu-item#drawerMenu--Todos":{
+        "title":"drawer menu Prime-1",
+        "props":{
+            "id":"department4-1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Todos los videos"
+            }
+        }
+    },
+    "menu-item#drawerMenu--Peliculas":{
+        "title":"drawer menu Prime-2",
+        "props":{
+            "id":"department4-2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Peliculas"
+            }
+        }
+    },
+    "menu-item#drawerMenu--Series":{
+        "title":"drawer menu Prime-3",
+        "props":{
+            "id":"department4-3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Series"
+            }
+        }
+    }
+}

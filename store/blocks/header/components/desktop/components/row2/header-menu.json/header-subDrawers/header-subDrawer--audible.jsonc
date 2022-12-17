@@ -1,0 +1,113 @@
+{
+    "drawer#contenido--audible":{
+        "title":"innerDrawer block",
+        "children": [
+            "flex-layout.col#drawerMenu--audible"        
+        ],
+        "blocks":[
+            "drawer-header#innerDrawer-nineth",
+            "drawer-trigger#innerDrawer-nineth"   
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none",
+          "blockClass":"music"
+        }
+    },
+    "drawer-header#innerDrawer-nineth":{
+        "title": "header text of nineth sub-drawer",
+        "children": [
+            "flex-layout.col#innerDrawer-header"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "drawer-trigger#innerDrawer-nineth":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "rich-text#drawerMenu--audible",
+            "link#drawerMenu--icon"
+
+        ]
+      },
+
+    "rich-text#drawerMenu--audible":{
+        "title":"Amazon audible",
+        "props":{
+            "text":"Audible Audiolibros Y Podcasts",
+            "blockClass":"deptosMenuTrigger"
+        }
+    },
+
+    "flex-layout.col#drawerMenu--audible":{
+        "title":"drawer menu prime content",
+        "children":[
+            "rich-text#drawerMenu--audible",
+            "menu-item#drawerMenu--subscripcion",
+            "menu-item#drawerMenu--audible",
+            "menu-item#drawerMenu--masVendidos",
+            "menu-item#drawerMenu--comoEscuchar"   
+        ]
+    },
+
+
+    //audible
+    
+    "menu-item#drawerMenu--subscripcion":{
+        "title":"drawer menu audible-1",
+        "props":{
+            "id":"audible-1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Subscripcion de Audible" 
+            }
+        }
+    },
+    "menu-item#drawerMenu--audible":{
+        "title":"drawer menu audible-2",
+        "props":{
+            "id":"audible-2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Todos los Audiolibros y Podcasts"
+            }
+        }
+    },
+    "menu-item#drawerMenu--masVendidos":{
+        "title":"drawer menu audible-3",
+        "props":{
+            "id":"audible-3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Más vendidos"
+            }
+        }
+    },
+    "menu-item#drawerMenu--comoEscuchar":{
+        "title":"drawer menu audible-4",
+        "props":{
+            "id":"audible-4",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Como escuchar"
+            }
+        }
+    }
+}

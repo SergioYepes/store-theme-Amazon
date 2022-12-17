@@ -16,7 +16,6 @@
 }
 .flexRowContent{
     display: flex;
-    /* justify-content:space-between; */
     align-items: center;
 }
 .flexRowContent--desktop2{
@@ -104,14 +103,33 @@
 .flexColChild--minicartProducts-content{
     text-align: center;
 }
+
+
+/* Drawer */
+
 .flexCol--loginDrawer{
     background-color: #232f3e;
     height: 50px;
-    align-items: center;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+.flexCol--loginDrawer :global(.vtex-login-2-x-profile) {
+    max-width: 160px !important;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 19px;
+    line-height: 25px;
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 0!important;
+}
+.flexCol--loginDrawer :global(.vtex-login-2-x-profileIcon) {
+    height: 25px;
+    width: 27px;
 }
 
-
-
-/* .stretchChildrenWidth.flex{
-    width: auto;
-} */
+.flexColChild--drawerMenu{
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ddd;
+}

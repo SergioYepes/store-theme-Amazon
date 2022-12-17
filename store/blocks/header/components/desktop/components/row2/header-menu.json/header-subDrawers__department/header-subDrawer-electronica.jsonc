@@ -1,0 +1,204 @@
+{
+    "drawer#departamentos--electrónica":{
+        "title":"innerDrawer block",
+        "children": [
+            "flex-layout.col#drawerMenu--electrónica"  
+        ],
+        "blocks":[
+            "drawer-header#innerDrawer-twelfth",
+            "drawer-trigger#innerDrawer-twelfth"   
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none",
+          "blockClass":"music"
+        }
+    },
+    "drawer-header#innerDrawer-twelfth":{
+        "title": "header text of twelfth sub-drawer",
+        "children": [
+            "flex-layout.col#innerDrawer-header"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "drawer-trigger#innerDrawer-twelfth":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "rich-text#drawerMenu--electrónica",
+            "link#drawerMenu--icon"
+        ]
+      },
+
+    "rich-text#drawerMenu--electrónica":{
+        "title":"electrónica",
+        "props":{
+            "text":"Electrónica",
+            "blockClass":"deptosMenuTrigger"
+        }
+    },
+
+    "flex-layout.col#drawerMenu--electrónica":{
+        "title":"drawer menu electrónica content",
+        "children":[
+            "rich-text#drawerMenu--electrónica",
+            "menu-item#drawerMenu--fotografía",
+            "menu-item#drawerMenu--telefonía",
+            "menu-item#drawerMenu--homeCinema",
+            "menu-item#drawerMenu--Hi-Fi",
+            "menu-item#drawerMenu--gps",
+            "menu-item#drawerMenu--instrumentos",
+            "menu-item#drawerMenu--accesoriosElectronica",
+            "menu-item#drawerMenu--informatica",
+            "menu-item#drawerMenu--hogarDigital",
+            "menu-item#drawerMenu--renewed",
+            "menu-item#drawerMenu--todoElectronica"
+        ]
+    },
+    
+
+    //electrónica
+    
+    "menu-item#drawerMenu--fotografía":{
+        "title":"drawer menu electrónica-1",
+        "props":{
+            "id":"electrónica-1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Fotografía y videocámaras" 
+            }
+        }
+    },
+    "menu-item#drawerMenu--telefonía":{
+        "title":"drawer menu electrónica-2",
+        "props":{
+            "id":"electrónica-2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Móviles y telefonía"
+            }
+        }
+    },
+    "menu-item#drawerMenu--homeCinema":{
+        "title":"drawer menu electrónica-3",
+        "props":{
+            "id":"electrónica-3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"TV,Vídeo y Home Cinema"
+            }
+        }
+    },
+    "menu-item#drawerMenu--Hi-Fi":{
+        "title":"drawer menu electrónica-4",
+        "props":{
+            "id":"electrónica-4",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Audio y Hi-Fi"
+            }
+        }
+    },
+    "menu-item#drawerMenu--gps":{
+        "title":"drawer menu electrónica-5",
+        "props":{
+            "id":"electrónica-5",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"GPS"
+            }
+        }
+    },
+    "menu-item#drawerMenu--accesoriosElectronica":{
+        "title":"drawer menu electrónica-6",
+        "props":{
+            "id":"electrónica-6",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Accesorios de electrónica"
+            }
+        }
+    },
+    "menu-item#drawerMenu--informatica":{
+        "title":"drawer menu electrónica-7",
+        "props":{
+            "id":"electrónica-7",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Informatica"
+            }
+        }
+    },
+    "menu-item#drawerMenu--hogarDigital":{
+        "title":"drawer menu electrónica-8",
+        "props":{
+            "id":"electrónica-8",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Hogar Digital"
+            }
+        }
+    },
+    "menu-item#drawerMenu--renewed":{
+        "title":"drawer menu electrónica-9",
+        "props":{
+            "id":"electrónica-9",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Amazon Renewed"
+            }
+        }
+    },
+    "menu-item#drawerMenu--todoElectronica":{
+        "title":"drawer menu electrónica-10",
+        "props":{
+            "id":"electrónica-10",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Todo en Electrónica"
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,175 @@
+{
+    "drawer#departamentos--libros":{
+        "title":"innerDrawer block",
+        "children": [
+            "flex-layout.col#drawerMenu--libros",
+            "flex-layout.col#drawerMenu--libros__second"    
+        ],
+        "blocks":[
+            "drawer-header#innerDrawer-tenth",
+            "drawer-trigger#innerDrawer-tenth"   
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none",
+          "blockClass":"music"
+        }
+    },
+    "drawer-header#innerDrawer-tenth":{
+        "title": "header text of tenth sub-drawer",
+        "children": [
+            "flex-layout.col#innerDrawer-header"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "drawer-trigger#innerDrawer-tenth":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "rich-text#drawerMenu--libros",
+            "link#drawerMenu--icon"
+        ]
+      },
+
+    "rich-text#drawerMenu--libros":{
+        "title":"libros",
+        "props":{
+            "text":"Libros",
+            "blockClass":"deptosMenuTrigger"
+        }
+    },
+
+    "flex-layout.col#drawerMenu--libros":{
+        "title":"drawer menu libros content",
+        "children":[
+            "rich-text#drawerMenu--libros",
+            "menu-item#drawerMenu--libros",
+            "menu-item#drawerMenu--eBooks",
+            "menu-item#drawerMenu--kindleUnlimited",
+            "menu-item#drawerMenu--primeReading",
+            "menu-item#drawerMenu--librosIngles",
+            "menu-item#drawerMenu--librosMundo",
+            "menu-item#drawerMenu--librosInfantiles",
+            "menu-item#drawerMenu--librosUniversitarios"
+        ]
+    },
+    "flex-layout.col#drawerMenu--libros__second":{
+        "title":"drawer menu libros content",
+        "children":[
+            "rich-text#drawerMenu--audiolibros",
+            "menu-item#drawerMenu--audiolibrosAudible",
+            "menu-item#drawerMenu--subscripcionAudible"
+        ]
+    },
+
+    "rich-text#drawerMenu--audiolibros":{
+        "title":"audiolibros",
+        "props":{
+            "text":"Audiolibros De Audible",
+            "blockClass":"deptosMenu"
+        }
+    },
+    
+
+    //libros
+    
+    "menu-item#drawerMenu--libros":{
+        "title":"drawer menu libros-1",
+        "props":{
+            "id":"libros-1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Libros" 
+            }
+        }
+    },
+    "menu-item#drawerMenu--librosIngles":{
+        "title":"drawer menu libros-2",
+        "props":{
+            "id":"libros-2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Libros en inglés"
+            }
+        }
+    },
+    "menu-item#drawerMenu--librosMundo":{
+        "title":"drawer menu libros-3",
+        "props":{
+            "id":"libros-3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Libros en idiomas extranjeros"
+            }
+        }
+    },
+    "menu-item#drawerMenu--librosInfantiles":{
+        "title":"drawer menu libros-4",
+        "props":{
+            "id":"libros-4",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Libros infantiles y juveniles"
+            }
+        }
+    },
+    "menu-item#drawerMenu--librosUniversitarios":{
+        "title":"drawer menu libros-5",
+        "props":{
+            "id":"libros-5",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Libros de texto y universitarios"
+            }
+        }
+    },
+    "menu-item#drawerMenu--audiolibrosAudible":{
+        "title":"drawer menu libros-6",
+        "props":{
+            "id":"libros-6",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Audiolibros Audible y más"
+            }
+        }
+    },
+    "menu-item#drawerMenu--subscripcionAudible":{
+        "title":"drawer menu libros-7",
+        "props":{
+            "id":"libros-7",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Subscripcion de Audible"
+            }
+        }
+    }
+}

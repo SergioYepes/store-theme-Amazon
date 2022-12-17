@@ -1,0 +1,182 @@
+{
+    "drawer#contenido--music":{
+        "title":"innerDrawer block",
+        "children": [
+            "flex-layout.col#drawerMenu--music",
+            "flex-layout.col#drawerMenu--music__second"
+
+        ],
+        "blocks":[
+            "drawer-header#innerDrawer-second",
+            "drawer-trigger#innerDrawer-second"   
+        ],
+        "props":{
+          "slideDirection":"leftToRight",
+          "backdropMode":"none",
+          "blockClass":"music"
+        }
+    },
+    "drawer-header#innerDrawer-second":{
+        "title": "header text of second sub-drawer",
+        "children": [
+            "flex-layout.col#innerDrawer-header"
+        ],
+        "props":{
+            "blockClass":"phone__sub-drawer"
+        }
+    },
+    "drawer-trigger#innerDrawer-second":{
+        "title":"row2 drawer trigger",
+        "children": [
+            "rich-text#drawerMenu--music",
+            "link#drawerMenu--icon"
+        ]
+      },
+
+    "rich-text#drawerMenu--music":{
+        "title":"Amazon Music",
+        "props":{
+            "text":"Amazon Music",
+            "blockClass":"deptosMenuTrigger"
+        }
+    },
+
+    "flex-layout.col#drawerMenu--music":{
+        "title":"drawer menu prime content",
+        "children":[
+            "rich-text#drawerMenu--escuchar",
+            "menu-item#drawerMenu--unlimited",
+            "menu-item#drawerMenu--musicPrime",
+            "menu-item#drawerMenu--musicaGratis",
+            "menu-item#drawerMenu--abrirLector",
+            "menu-item#drawerMenu--descargarApp"
+
+        ]
+    },
+    "flex-layout.col#drawerMenu--music__second":{
+        "title":"drawer menu prime content",
+        "children":[
+            "rich-text#drawerMenu--comprarM",
+            "menu-item#drawerMenu--Cd",
+            "menu-item#drawerMenu--TiendaMusica"
+        ]
+    },
+
+
+    "rich-text#drawerMenu--escuchar":{
+        "title":"Escuchar en streaming",
+        "props":{
+            "text":"Escuchar en streaming",
+            "blockClass":"deptosMenu"
+        }
+    },
+    "rich-text#drawerMenu--comprarM":{
+        "title":"Comprar Musica",
+        "props":{
+            "text":"Comprar Musica",
+            "blockClass":"deptosMenu"
+        }
+    },
+
+    //Music
+    
+    "menu-item#drawerMenu--unlimited":{
+        "title":"drawer menu Music-1",
+        "props":{
+            "id":"Music-1",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Amazon Music unlimited" 
+            }
+        }
+    },
+    "menu-item#drawerMenu--musicPrime":{
+        "title":"drawer menu Music-2",
+        "props":{
+            "id":"Music-2",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Amazon Music prime"
+            }
+        }
+    },
+    "menu-item#drawerMenu--musicaGratis":{
+        "title":"drawer menu Music-3",
+        "props":{
+            "id":"Music-3",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Escucha música gratis"
+            }
+        }
+    },
+    "menu-item#drawerMenu--abrirLector":{
+        "title":"drawer menu Music-4",
+        "props":{
+            "id":"Music-4",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Abrir el lector web"
+            }
+        }
+    },
+    "menu-item#drawerMenu--descargarApp":{
+        "title":"drawer menu Music-5",
+        "props":{
+            "id":"Music-5",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Descargar nuestas aplicaciones"
+            }
+        }
+    },
+    "menu-item#drawerMenu--Cd":{
+        "title":"drawer menu Music-6",
+        "props":{
+            "id":"Music-6",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"CD's y vinilos"
+            }
+        }
+    },
+    "menu-item#drawerMenu--TiendaMusica":{
+        "title":"drawer menu Music-7",
+        "props":{
+            "id":"Music-7",
+            "type":"custom",
+            "itemProps":{
+                "type":"internal",
+                "href":"#",
+                "noFollow":true,
+                "tagTitle":"Todos",
+                "text":"Tienda de Música digital"
+            }
+        }
+    }
+
+}

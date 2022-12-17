@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#drawerMenu--programas":{
+        "title":"drawer menu programas cont",
+        "children":[
+            "flex-layout.col#drawerMenu--programas"
+        ]
+    },
+    "flex-layout.col#drawerMenu--programas":{
+        "title":"drawer menu programas cont",
+        "children":[
+            "rich-text#drawerMenu--programas",
+            "link#programas--financiación",
+            "drawer#programas--cheques",
+            "drawer#programas--handmade",
+            "link#programas--luxury",
+            "flex-layout.row#drawerMenu--verTodo"
+        ]
+    },
+    "rich-text#drawerMenu--programas":{
+        "title":"programas",
+        "props":{
+            "text":"Programas Y Características",
+            "blockClass":"deptosMenu"
+        }
+    },
+    "flex-layout.row#drawerMenu--verTodo":{
+        "title":"drawer menu verTodo cont",
+        "children":[
+            "link#verTodo"
+        ]
+    },
+    "link#programas--financiación":{
+        "title":"financiación link",
+        "children":[
+            "logo#drawerMenu-flechaDerecha"
+        ],
+        "props":{
+            "href":"/electrodomesticos",
+            "label":"Opciones de financiación",
+            "blockClass":"deptosMenu"
+        }
+    },
+    "link#programas--luxury":{
+        "title":"luxury link",
+        "children":[
+            "logo#drawerMenu-flechaDerecha"
+        ],
+        "props":{
+            "href":"/electrodomesticos",
+            "label":"Luxury Stores",
+            "blockClass":"deptosMenu"
+        }
+    }
+
+}

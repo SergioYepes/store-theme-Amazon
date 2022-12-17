@@ -1,0 +1,80 @@
+{
+    
+    "flex-layout.row#drawerMenu--ayuda":{
+        "title":"drawer menu ayuda cont",
+        "children":[
+            "flex-layout.col#drawerMenu--ayuda"
+        ]
+    },
+    "flex-layout.col#drawerMenu--ayuda":{
+        "title":"drawer menu ayuda content",
+        "children":[
+            "rich-text#drawerMenu--ayuda",
+            "link#drawerMenu--miCuenta",
+            "link#drawerMenu--idioma1",
+            "link#drawerMenu--idioma2",
+            "link#drawerMenu--cliente",
+            "link#drawerMenu--login"
+        ]
+    },
+    "rich-text#drawerMenu--ayuda":{
+        "title":"ayuda",
+        "props":{
+            "text":"Ayuda Y Ajustes",
+            "blockClass":"deptosMenu"
+        }
+    },
+    "link#drawerMenu--miCuenta":{
+        "title":"verTodo link",
+        "props":{
+            "href":"/account",
+            "label":"Mi cuenta",
+            "blockClass":"deptosMenu"
+        }
+    },
+    "link#drawerMenu--idioma1":{
+        "title":"verTodo link",
+        "children":[
+            "logo#dialectGrey"
+        ],
+        "props":{
+            "href":"/account",
+            "label":"Español",
+            "blockClass":"deptosMenu"
+        }
+    },
+    "link#drawerMenu--idioma2":{
+        "title":"verTodo link",
+        "children":[
+            "logo#españaMobile"
+        ],
+        "props":{
+            "href":"/account",
+            "label":"Español",
+            "blockClass":"deptosMenu"
+        }
+    },
+    "link#drawerMenu--cliente":{
+        "title":"verTodo link",
+        "props":{
+            "href":"/account",
+            "label":"Atención al cliente",
+            "blockClass":"deptosMenu"
+        }
+    },
+    "link#drawerMenu--login":{
+        "title":"verTodo link",
+        "props":{
+            "href":"/login",
+            "label":"Identificarse",
+            "blockClass":"deptosMenu"
+        }
+    },
+    "logo#dialectGrey":{
+        "title":"logo dialect grey",
+        "props":{
+            "url": "assets/svg/globoGris.svg",
+            "width":"20"
+        }
+    }
+}
