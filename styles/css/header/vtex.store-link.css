@@ -76,10 +76,21 @@
 .link--deptosMenu{
     display:flex;
     text-decoration: none!important;
-    flex-direction: row-reverse;
+    justify-content:space-between ;
     color: #111!important;
-    padding-right: 20px!important;
     padding-left: 36px!important;
     padding-top: 13px!important;
     padding-bottom: 13px!important;
+}
+.link--deptosMenuIdioma{
+    display:flex;
+    text-decoration: none!important;
+    color: #111!important;
+    padding-left: 36px!important;
+    padding-top: 13px!important;
+    padding-bottom: 13px!important;
+}
+
+.link--deptosMenuIdioma :global(.vtex-store-components-3-x-logoContainer){
+    margin-left: 10px;
 }
