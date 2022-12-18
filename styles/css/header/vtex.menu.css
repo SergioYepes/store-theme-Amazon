@@ -23,10 +23,11 @@
     font-size: 14px;
     line-height: 16px;
 }
-.styledLinkContent{
+.styledLinkContainer{
     text-decoration: none;
     color: #111;
     padding-right: 10px;
-    padding-left: 26px;
-    
+    padding-left: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px !important;
 }

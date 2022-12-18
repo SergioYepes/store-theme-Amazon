@@ -40,7 +40,7 @@
         "props":{
             "href":"/account",
             "label":"Español",
-            "blockClass":"deptosMenu"
+            "blockClass":"deptosMenuIdioma"
         }
     },
     "link#drawerMenu--idioma2":{
@@ -51,7 +51,7 @@
         "props":{
             "href":"/account",
             "label":"Español",
-            "blockClass":"deptosMenu"
+            "blockClass":"deptosMenuIdioma"
         }
     },
     "link#drawerMenu--cliente":{
@@ -69,7 +69,8 @@
             "label":"Identificarse",
             "blockClass":"deptosMenu"
         }
-    },
+    }
+    ,
     "logo#dialectGrey":{
         "title":"logo dialect grey",
         "props":{
