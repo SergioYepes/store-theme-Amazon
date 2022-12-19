@@ -43,7 +43,7 @@
     "flex-layout.col#drawerMenu--informática":{
         "title":"drawer menu informática content",
         "children":[
-            "rich-text#drawerMenu--informática",
+            "rich-text#drawerMenu--informáticaTitle",
             "menu-item#drawerMenu--portatiles",
             "menu-item#drawerMenu--tablets",
             "menu-item#drawerMenu--sobremesas",
@@ -56,6 +56,13 @@
             "menu-item#drawerMenu--juegosPC",
             "menu-item#drawerMenu--todoInformatica"
         ]
+    },
+    "rich-text#drawerMenu--informáticaTitle":{
+        "title":"informática",
+        "props":{
+            "text":"informática y Alexa",
+            "blockClass":"deptosMenu"
+        }
     },
     "flex-layout.col#drawerMenu--informatica__second":{
         "title":"drawer menu informática content",

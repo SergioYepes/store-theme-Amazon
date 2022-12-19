@@ -43,11 +43,18 @@
     "flex-layout.col#drawerMenu--tablets":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#drawerMenu--tablets",
+            "rich-text#drawerMenu--tabletsTitle",
             "menu-item#drawerMenu--tablets",
             "menu-item#drawerMenu--accesorios"
             
         ]
+    },
+    "rich-text#drawerMenu--tabletsTitle":{
+        "title":"Amazon tablets",
+        "props":{
+            "text":"Tablets Fire",
+            "blockClass":"deptosMenu"
+        }
     },
     "flex-layout.col#drawerMenu--tablets__second":{
         "title":"drawer menu prime content",

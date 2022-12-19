@@ -42,13 +42,20 @@
     "flex-layout.col#drawerMenu--android":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#drawerMenu--android",
+            "rich-text#drawerMenu--androidTitle",
             "menu-item#drawerMenu--APPS",
             "menu-item#drawerMenu--juegos",
             "menu-item#drawerMenu--coins",
             "menu-item#drawerMenu--amazonApps",
             "menu-item#drawerMenu--subscriptores"
         ]
+    },
+    "rich-text#drawerMenu--androidTitle":{
+        "title":"Amazon android",
+        "props":{
+            "text":"Appstore para Android",
+            "blockClass":"deptosMenu"
+        }
     },
 
 

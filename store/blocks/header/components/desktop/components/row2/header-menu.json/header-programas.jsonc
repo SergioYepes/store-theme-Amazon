@@ -31,9 +31,6 @@
     },
     "link#programas--financiación":{
         "title":"financiación link",
-        "children":[
-            "logo#drawerMenu-flechaDerecha"
-        ],
         "props":{
             "href":"/electrodomesticos",
             "label":"Opciones de financiación",
@@ -42,9 +39,6 @@
     },
     "link#programas--luxury":{
         "title":"luxury link",
-        "children":[
-            "logo#drawerMenu-flechaDerecha"
-        ],
         "props":{
             "href":"/electrodomesticos",
             "label":"Luxury Stores",

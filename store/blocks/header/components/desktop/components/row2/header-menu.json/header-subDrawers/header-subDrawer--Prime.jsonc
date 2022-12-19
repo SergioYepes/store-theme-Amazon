@@ -40,7 +40,7 @@
     "flex-layout.col#drawerMenu--Prime":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#drawerMenu--Prime",
+            "rich-text#drawerMenu--PrimeTitle",
             "menu-item#drawerMenu--Todos",
             "menu-item#drawerMenu--Peliculas",
             "menu-item#drawerMenu--Series"
@@ -57,6 +57,13 @@
         "props":{
             "url": "assets/svg/flechaDerecha.svg",
             "width":"20"
+        }
+    },
+    "rich-text#drawerMenu--PrimeTitle":{
+        "title":"Amazon Prime video",
+        "props":{
+            "text":"Amazon Prime video",
+            "blockClass":"deptosMenu"
         }
     },
 
@@ -83,7 +90,8 @@
         ],
         "props": {
             "preserveLayoutOnMobile": true,
-            "colSizing": "auto"
+            "colSizing": "auto",
+            "blockClass":"close__sub-drawer"
         }
     },
     "rich-text#drawerMenu--Menu":{

@@ -133,3 +133,28 @@
     padding-bottom: 3px;
     border-bottom: 1px solid #ddd;
 }
+
+.flexRow--close__sub-drawer{
+    font-weight: 600;
+    border-bottom: 1px solid #d5dbdb;
+    text-transform: uppercase;
+    display: flex;
+    text-decoration: none;
+    color: #111;
+    padding-right: 20px;
+    padding-left: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.flexRowContent--close__sub-drawer{
+    justify-content:flex-start
+}
+.flexRowContent--close__sub-drawer :global(.vtex-rich-text-0-x-paragraph){
+    color:#111
+}
+.flexRowContent--close__sub-drawer :global(.vtex-store-drawer-0-x-closeIconButton){
+    padding:0
+}
+.flexRowContent--close__sub-drawer :global(.vtex-store-drawer-0-x-closeIcon){
+    color:#111
+}
