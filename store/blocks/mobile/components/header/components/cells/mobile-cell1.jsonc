@@ -13,22 +13,6 @@
           "fullWidth": true
         }
       },
-      "drawer#header__mobile--menu": {
-        "title":"drawer header mobile",
-        "children": [
-          "flex-layout.row#login__mobile--cont",
-          "menu#header__mobile"
-        ],
-        "blocks":[
-            "drawer-trigger"
-        ]
-      },
-      "drawer-trigger":{
-        "title":"drawer trigger header mobile",
-        "children": [
-            "logo#hamburgerMenu"
-        ]
-      },
       "rich-text#prueba":{
         "title":"texto de prueba",
         "props":{
@@ -83,7 +67,6 @@
       "flex-layout.row#login__mobile--cont":{
         "title":"login header cont",
         "children":[
-          // "link#login__mobile",
           "login#login__mobile",
           "minicart.v2"
         ],
