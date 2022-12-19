@@ -42,7 +42,7 @@
     "flex-layout.col#drawerMenu--electrónica":{
         "title":"drawer menu electrónica content",
         "children":[
-            "rich-text#drawerMenu--electrónica",
+            "rich-text#drawerMenu--electrónicaTitle",
             "menu-item#drawerMenu--fotografía",
             "menu-item#drawerMenu--telefonía",
             "menu-item#drawerMenu--homeCinema",
@@ -56,7 +56,13 @@
             "menu-item#drawerMenu--todoElectronica"
         ]
     },
-    
+    "rich-text#drawerMenu--electrónicaTitle":{
+        "title":"electrónica",
+        "props":{
+            "text":"Electrónica",
+            "blockClass":"deptosMenu"
+        }
+    },
 
     //electrónica
     

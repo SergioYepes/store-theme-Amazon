@@ -43,7 +43,7 @@
     "flex-layout.col#drawerMenu--libros":{
         "title":"drawer menu libros content",
         "children":[
-            "rich-text#drawerMenu--libros",
+            "rich-text#drawerMenu--librosTitle",
             "menu-item#drawerMenu--libros",
             "menu-item#drawerMenu--eBooks",
             "menu-item#drawerMenu--kindleUnlimited",
@@ -53,6 +53,13 @@
             "menu-item#drawerMenu--librosInfantiles",
             "menu-item#drawerMenu--librosUniversitarios"
         ]
+    },
+    "rich-text#drawerMenu--librosTitle":{
+        "title":"libros",
+        "props":{
+            "text":"Libros",
+            "blockClass":"deptosMenu"
+        }
     },
     "flex-layout.col#drawerMenu--libros__second":{
         "title":"drawer menu libros content",

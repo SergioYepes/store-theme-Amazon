@@ -43,7 +43,7 @@
     "flex-layout.col#drawerMenu--handmade":{
         "title":"drawer menu handmade content",
         "children":[
-            "rich-text#drawerMenu--handmade",
+            "rich-text#drawerMenu--handmadeTitle",
             "menu-item#drawerMenu--handmade",
             "menu-item#drawerMenu--regalos",
             "menu-item#drawerMenu--cocina",
@@ -55,6 +55,14 @@
             "menu-item#drawerMenu--madeItaly"
         ]
     },
+    "rich-text#drawerMenu--handmadeTitle":{
+        "title":"handmade",
+        "props":{
+            "text":"Handmade",
+            "blockClass":"deptosMenu"
+        }
+    },
+    
     "flex-layout.col#drawerMenu--handmade__second":{
         "title":"drawer menu handmade content",
         "children":[

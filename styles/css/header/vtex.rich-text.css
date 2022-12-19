@@ -58,6 +58,10 @@
     font-size:15px;
     padding: 0;
 }
+.wrapper--deptosMenu{
+    padding-top: 5px;
+    border-top: 1px solid #dbdde1
+}
 .paragraph--deptosMenu{
     padding-bottom: 5px;
     font-size: 18px;

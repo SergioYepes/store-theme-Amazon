@@ -33,6 +33,7 @@
         "title":"login header drawer",
             "props":{
                 "showIconProfile":true,
+                "logInButtonBehavior":"link",
                 "optionsTitle":"Identifícate >",
                 "blockClass":"drawerMenu"
             }

@@ -43,12 +43,19 @@
     "flex-layout.col#drawerMenu--cheques":{
         "title":"drawer menu cheques content",
         "children":[
-            "rich-text#drawerMenu--cheques",
+            "rich-text#drawerMenu--chequesTitle",
             "menu-item#drawerMenu--saldo",
             "menu-item#drawerMenu--recargaOnline",
             "menu-item#drawerMenu--recargaTienda",
             "menu-item#drawerMenu--canjear"
         ]
+    },
+    "rich-text#drawerMenu--chequesTitle":{
+        "title":"cheques",
+        "props":{
+            "text":"Cheques Regalo y Recargas",
+            "blockClass":"deptosMenu"
+        }
     },
     "flex-layout.col#drawerMenu--cheques__second":{
         "title":"drawer menu cheques content",

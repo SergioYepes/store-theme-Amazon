@@ -3,7 +3,8 @@
     padding-left: 0.75rem!important;
 }
 .drawer{
-    max-width: 300px !important;
+    max-width: 350px !important;
+    background-color:#ffff
 }
 .closeIconContainer{
     position:absolute;
@@ -23,4 +24,6 @@
 .drawerTriggerContainer{
     display: flex;
     justify-content:space-between
+}
+.drawerContent{
 }

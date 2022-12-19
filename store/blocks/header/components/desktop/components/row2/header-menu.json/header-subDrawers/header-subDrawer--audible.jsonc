@@ -43,12 +43,19 @@
     "flex-layout.col#drawerMenu--audible":{
         "title":"drawer menu prime content",
         "children":[
-            "rich-text#drawerMenu--audible",
+            "rich-text#drawerMenu--audibleTitle",
             "menu-item#drawerMenu--subscripcion",
             "menu-item#drawerMenu--audible",
             "menu-item#drawerMenu--masVendidos",
             "menu-item#drawerMenu--comoEscuchar"   
         ]
+    },
+    "rich-text#drawerMenu--audibleTitle":{
+        "title":"Amazon audible",
+        "props":{
+            "text":"Audible Audiolibros Y Podcasts",
+            "blockClass":"deptosMenu"
+        }
     },
 
 

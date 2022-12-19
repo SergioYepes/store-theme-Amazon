@@ -42,7 +42,7 @@
     "flex-layout.col#drawerMenu--cine":{
         "title":"drawer menu cine content",
         "children":[
-            "rich-text#drawerMenu--cine",
+            "rich-text#drawerMenu--cineTitle",
             "menu-item#drawerMenu--cine",
             "menu-item#drawerMenu--seriesTV",
             "menu-item#drawerMenu--laBlu-ray",
@@ -52,6 +52,13 @@
             "menu-item#drawerMenu--músicaDigital",
             "menu-item#drawerMenu--instrumentos"
         ]
+    },
+    "rich-text#drawerMenu--cineTitle":{
+        "title":"cine",
+        "props":{
+            "text":"Cine, Tv Y Música",
+            "blockClass":"deptosMenu"
+        }
     },
     
 
