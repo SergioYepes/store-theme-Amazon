@@ -1,10 +1,4 @@
 {
-  // "store.product": {
-  //   "children": [
-  //     "vtex.store-components:product-name",
-  //     "add-to-list-btn"
-  //   ]
-  // }
   "store.product": {
     "title":"search product",
     "children": [
