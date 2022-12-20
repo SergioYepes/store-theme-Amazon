@@ -24,7 +24,6 @@
           "list-context.bullets-diagramation"
         ],
         "props":{
-          // "blockClass":"bullet-group",
           "itemsPerPage":{
             "desktop":1,
             "tablet":2,
@@ -110,15 +109,7 @@
       "flex-layout.row#bullet--group":{
         "title":"slider bullet-group",
         "props":{
-          // "itemsPerPage":{
-          //   "desktop":1,
-          //   "tablet":3,
-          //   "mobile":5
-          // },
-          // "infinite":true,
           "fullWidth": true
-          // "showNavigationArrows":"never",
-          // "usePagination":false
         }
       },
       "flex-layout.row#bullet--login-group":{

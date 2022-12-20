@@ -5,7 +5,6 @@
             "flex-layout.col#home__info--first",
             "flex-layout.col#home__info--second",
             "flex-layout.row#home__priceless--first",
-            // "flex-layout.col#home__info--third",
             "flex-layout.col#home__info--fourth"
         ],
         "props":{
@@ -85,7 +84,6 @@
         "props":{
             "text":"Ofertas relámpago",
             "textColor": "c-on-emphasis",
-            // "textAlignment": "LEFT",
             "blockClass":"rich-text--homeInfo"
         }
     },

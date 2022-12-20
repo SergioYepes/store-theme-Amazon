@@ -59,11 +59,8 @@
       "product-images#products--productD": {
         "title":"product images",
         "props": {
-          // "displayThumbnailsArrows": true,
           "showNavigationArrows":false,
           "zoomMode":"in-place-hover"
-      
-          // "displayMode":"first-image"
         }
       },
       "product-price#product-details--productD": {

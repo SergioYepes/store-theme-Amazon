@@ -3,8 +3,6 @@
         "title":"home mobile Slider",
         "children":[
             "slider-layout#mobile__Slider--first"
-            // ,
-            // "slider-layout#mobile__Slider--second"
         ],
         "props":{
             "blockClass":"mobile__Slider"
