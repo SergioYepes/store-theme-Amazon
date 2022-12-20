@@ -2,9 +2,13 @@
 
 The Amazon Store is basic store front model based on the VTEX IO Store Framework.
 
-![Amazon](https://github.com/SergioYepes/store-theme-Amazon/blob/dev/assets/img/readme/AmazonTheme.jpg)
 
 This shop is like Amazon.es
+
+
+
+![Amazon](https://github.com/SergioYepes/store-theme-Amazon/blob/dev/assets/img/readme/AmazonTheme.jpg)
+
 
 
 ## Configuration
