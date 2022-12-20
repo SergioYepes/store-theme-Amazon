@@ -13,7 +13,6 @@
         "title":"brand result",
         "blocks": [
           "search-result-layout.desktop#brand",
-        //   "search-result-layout.mobile#brand"
           "search-not-found-layout"
         ]
       }

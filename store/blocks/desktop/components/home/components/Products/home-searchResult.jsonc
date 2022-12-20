@@ -45,20 +45,19 @@
     "search-content#home__searchResult":{
         "title":"searchResult content",
         "blocks":[
-            "gallery",
+            "gallery#home__searchResult",
             "not-found"
         ]
     },
-    "gallery":{
+    "gallery#home__searchResult":{
         "title":"searchResult gallery",
         "blocks":[
             "product-summary.shelf#home__searchResult"
         ]
     },
-    "product-summary.shelf":{
+    "product-summary.shelf#home__searchResult":{
         "title":"searchResult children",
         "children": [
-            // "add-to-list-btn",
             "product-summary-image",
             "product-summary-name",
             "product-rating-inline",

@@ -76,10 +76,6 @@
             "image#home__categorySlider6--fourteenth",
             "image#home__categorySlider6--fifteenth",
             "image#home__categorySlider6--sixteenth"
-            // "image#home__categorySlider6--seventeenth",
-            // "image#home__categorySlider6--eighteenth",
-            // "image#home__categorySlider6--nineteenth",
-            // "image#home__categorySlider6--twentieth"
         ]
     },
     "image#home__categorySlider6--first":{
@@ -258,36 +254,5 @@
             }
         }
     }
-    // "image#home__categorySlider6--seventeenth":{
-    //     "src": "assets/img/categorySlider6/categorySlider6--seventeenth.jpg",
-    //         "maxHeight": "220px",
-    //         "maxWidth":"220px",
-    //         "link":{
-    //             "url":"#"
-    //         }
-    // },
-    // "image#home__categorySlider6--eighteenth":{
-    //     "src": "assets/img/categorySlider6/categorySlider6--eighteenth.jpg",
-    //         "maxHeight": "220px",
-    //         "maxWidth":"220px",
-    //         "link":{
-    //             "url":"#"
-    //         }
-    // },
-    // "image#home__categorySlider6--nineteenth":{
-    //     "src": "assets/img/categorySlider6/categorySlider6--nineteenth.jpg",
-    //         "maxHeight": "220px",
-    //         "maxWidth":"220px",
-    //         "link":{
-    //             "url":"#"
-    //         }
-    // },
-    // "image#home__categorySlider6--twentieth":{
-    //     "src": "assets/img/categorySlider6/categorySlider6--twentieth.jpg",
-    //         "maxHeight": "220px",
-    //         "maxWidth":"220px",
-    //         "link":{
-    //             "url":"#"
-    //         }
-    // }
+
 }

@@ -95,7 +95,6 @@
     "flex-layout.col#home__ideas--Block-first":{
         "title":"ideas block--first cont",
         "children":[
-            // "image#home__ideas--Block-one",
             "flex-layout.row#home__ideas--Block-one-name",
             "flex-layout.row#home__ideas--Block-one-price"
         ],
@@ -117,7 +116,6 @@
     "flex-layout.col#home__ideas--Block-third":{
         "title":"ideas block--third cont",
         "children":[
-            // "image#home__ideas--Block-three",
             "flex-layout.row#home__ideas--Block-three-name",
             "flex-layout.row#home__ideas--Block-three-price"
         ],
@@ -128,7 +126,6 @@
     "flex-layout.col#home__ideas--Block-fourth":{
         "title":"ideas block--fourth cont",
         "children":[
-            // "image#home__ideas--Block-four",
             "flex-layout.row#home__ideas--Block-four-name",
             "flex-layout.row#home__ideas--Block-four-price"
         ],

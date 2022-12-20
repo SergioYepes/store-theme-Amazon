@@ -47,8 +47,6 @@
         "title":"department product shelf",
         "children": [
             "product-summary-image#department-gallery2",
-            // "product-summary-name#department-gallery2",
-            // "product-list-price",
             "product-selling-price#department-gallery2",
             "product-price-savings",
             "product-installments#department-gallery2",

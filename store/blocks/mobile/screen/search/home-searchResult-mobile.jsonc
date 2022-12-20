@@ -18,14 +18,10 @@
     },
     "search-content#home__searchResult":{
         "blocks":[
-            "gallery",
+            "gallery#home__searchResult",
             "not-found"
         ]
-    },
-    "gallery":{
-        "blocks":[
-            "product-summary.shelf"
-        ]
     }
+    
 
 }

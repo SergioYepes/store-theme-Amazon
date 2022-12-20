@@ -48,11 +48,6 @@
                 "tabId":"about__tabs--first"
             },
             "children":[
-                // "flex-layout.row#about__tabs--firstCont",
-                // "flex-layout.row#about__tabs--secondCont",
-                // "flex-layout.row#about__tabs--thirdCont",
-                // "flex-layout.row#about__tabs--fourthCont",
-                // "flex-layout.row#about__tabs--fifthCont"
                 "flex-layout.col#firstCont--firstCol",
                 "flex-layout.col#firstCont--secondCol",
                 "flex-layout.col#firstCont--thirdCol",

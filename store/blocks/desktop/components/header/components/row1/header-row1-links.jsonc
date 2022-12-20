@@ -45,7 +45,6 @@
         "title":"row1 link locate",
         "children":[
             "flex-layout.row#locate"
-            // "overlay-trigger#hoverLocate"
         ],
         "props":{
             "href":"/locate",
@@ -61,7 +60,6 @@
         "props":{
           "displayMode":"button",
           "blockClass":"drawerButton"
-          // "href":"checkout/#/cart"
         }
       }
 }
