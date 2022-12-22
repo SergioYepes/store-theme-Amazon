@@ -1,0 +1,10 @@
+{
+    "menu#header__mobile":{
+        "children":[
+            "flex-layout.col#drawerMenu"
+        ],
+        "props":{
+            "orientation":"vertical"
+        }
+    }
+}

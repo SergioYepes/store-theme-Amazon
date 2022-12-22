@@ -1,0 +1,76 @@
+{
+    "flex-layout.row#home__searchResult":{
+        "title":"home search result desktop",
+        "children":[
+            "search-result-layout.customQuery#home__searchResult"
+        ],
+        "props":{
+            "blockClass": "ProductSearch"
+        }
+    },
+    "search-result-layout.customQuery#home__searchResult":{
+        "title":"searchResult cont",
+        "blocks": [
+            "search-result-layout.desktop#home__searchResult",
+            "search-result-layout.mobile#home__searchResult",
+            "search-not-found-layout"
+        ],
+        "props":{
+            "querySchema":{
+                "skusFilter":"ALL_AVAILABLE",
+                "simulationBehavior":"default"
+            }
+        }
+    },
+    "search-result-layout.desktop#home__searchResult":{
+        "title":"searchResult desktop",
+        "children":[
+            "flex-layout.row#home__searchResult--desktop"
+        ]
+    },
+    "flex-layout.row#home__searchResult--desktop":{
+        "title":"searchResult column cont",
+        "children":[
+            "flex-layout.col#home__searchResult--desktop"
+        ]
+    },
+    "flex-layout.col#home__searchResult--desktop":{
+        "title":"searchResult column cont",
+        "children":[
+            "rich-text#home__searchResult--title",
+            "search-content#home__searchResult"
+        ]
+    },
+    
+    "search-content#home__searchResult":{
+        "title":"searchResult content",
+        "blocks":[
+            "gallery#home__searchResult",
+            "not-found"
+        ]
+    },
+    "gallery#home__searchResult":{
+        "title":"searchResult gallery",
+        "blocks":[
+            "product-summary.shelf#home__searchResult"
+        ]
+    },
+    "product-summary.shelf#home__searchResult":{
+        "title":"searchResult children",
+        "children": [
+            "product-summary-image",
+            "product-summary-name",
+            "product-rating-inline",
+            "product-summary-price",
+            "add-to-cart-button"
+          ]
+    },
+    "rich-text#home__searchResult--title":{
+        "title":"lo mas visto",
+        "props":{
+            "text":"Los clientes que han visto productos que aparecen en tu historial de navegación también han visto",
+            "blockClass":"home__searchResult"
+        }
+    }
+
+}

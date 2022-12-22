@@ -1,0 +1,22 @@
+{
+    "overlay-trigger": {
+        "title":"row1 overlay Departamentos block",
+        "children": [
+          "department-search"  
+        ],
+        "props":{
+          "blockClass":"Departamentos"
+        }
+      },
+    
+    "overlay-trigger#hoverLocate":{
+        "title":"row1 overlay Locate block",
+        "props":{
+          "placement": "bottom"
+        },
+        "children":[
+
+        ]
+    }
+
+}

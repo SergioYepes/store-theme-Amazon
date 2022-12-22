@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#home__showcaseProduct--first":{
+        "title":"home showcaseProduct first",
+        "children":[
+            "flex-layout.col#home__showcaseProductCard1--first"
+        ],
+        "props":{
+            "blockClass":"homeInfoSecond"
+        }
+
+    }
+
+}

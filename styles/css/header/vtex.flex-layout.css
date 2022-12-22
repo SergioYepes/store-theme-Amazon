@@ -113,6 +113,9 @@
     align-items: flex-start;
     padding-left: 30px;
 }
+.flexCol--loginDrawer :global(.vtex-button):hover {
+    border: 1px solid #0000!important;
+}
 .flexCol--loginDrawer :global(.vtex-login-2-x-profile) {
     max-width: 160px !important;
     display: inline-block;

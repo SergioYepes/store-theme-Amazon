@@ -1,0 +1,19 @@
+{
+    "store.search#brand": {
+        "title":"search brand",
+        "blocks": ["search-result-layout#brand"],
+        "props": {
+            "context": {
+                "skuFilter": "ALL",
+                "simulationBehavior": "default"
+            }
+         }
+      },
+      "search-result-layout#brand":{
+        "title":"brand result",
+        "blocks": [
+          "search-result-layout.desktop#brand",
+          "search-not-found-layout"
+        ]
+      }
+}

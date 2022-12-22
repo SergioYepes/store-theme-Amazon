@@ -1,0 +1,15 @@
+{
+    "search-result-layout.mobile":{
+        "title":"result response",
+        "children": [
+            "flex-layout.row#home__searchResult--mobile"
+
+        ]
+    },
+    "rich-text#Title":{
+        "title":"result response",
+        "props":{
+            "text":"# austria"
+        }
+    }
+}

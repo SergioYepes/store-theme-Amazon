@@ -1,0 +1,30 @@
+{
+    "search-result-layout.mobile#department":{
+        "children": [
+            "flex-layout.row#department-mobile",
+            "flex-layout.row#department-results"
+        ]
+    },
+    "flex-layout.row#department-results":{
+        "children":[
+            "search-content#phone"
+        ]
+    },
+    "search-content#phone":{
+        "blocks": [
+            "gallery#gird-and-list",
+            "not-found"
+        ]
+    },
+    "flex-layout.row#department-mobile":{
+        "children":[
+          "flex-layout.col#department-mobile"
+        ]
+    },
+    "flex-layout.col#department-mobile":{
+      "children":[
+        "breadcrumb.search"
+      ]
+    }
+
+}

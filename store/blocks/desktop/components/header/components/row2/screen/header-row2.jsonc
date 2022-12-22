@@ -1,0 +1,40 @@
+{
+    "header-row#desktop2": {
+        "title":"header desktop row 2",
+        "props": {
+          "blockClass": "sticky-header2"
+        },
+        "children": [
+          "flex-layout.row#desktop2"
+        ]
+      },
+      "flex-layout.row#desktop2":{
+        "title":"row2 cont",
+        "props": {
+            "horizontalAlign": "left",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass":"desktop2"
+          },
+          "children": [
+            "drawer#header-sticky2",
+            "link#header-sticky2--one",
+            "link#header-sticky2--two",
+            "link#header-sticky2--three",
+            "link#header-sticky2--four",
+            "link#header-sticky2--five",
+            "link#header-sticky2--six",
+            "link#header-sticky2--seven",
+            "link#header-sticky2--eigth",
+            "link#header-sticky2--nine",
+            "link#header-sticky2--ten",
+            "link#header-sticky2--eleven",
+            "link#header-sticky2--twelve"
+          ]
+      }
+
+
+       
+}
