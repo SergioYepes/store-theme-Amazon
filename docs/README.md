@@ -66,13 +66,15 @@ If the process runs without any errors, the following message will be displayed:
 
 This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
 
-### Paso 6 - Ejecute un preview de la tienda
+### Step 6 - Run a store preview
 
-Entonces ha llegado el momento de cargar todos los cambios que realizó en sus archivos locales a la plataforma. Para eso, use el comando `vtex link`.
+Then it is time to upload all the changes you made in your local files to the platform. To do this, use the `vtex link` command.
 
-Si el proceso se ejecuta sin ningún error, se mostrará el siguiente mensaje: `Aplicación vinculada con éxito`. Luego, ejecute el comando `vtex browser` para abrir una ventana del navegador que tenga su tienda vinculada.
+If the process runs without any errors, the following message will be displayed: `Application linked successfully`. Next, run the `vtex browser` command to open a browser window with your linked store.
 
-Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cuenta y el espacio de trabajo en el que está trabajando.
+This will allow you to see the changes applied in real time, across the account and workspace you are working in.
+
+Translated with www.DeepL.com/Translator (free version)
 
 ## peerDependencies
 1. "vtex.wish-list": "1.x",
