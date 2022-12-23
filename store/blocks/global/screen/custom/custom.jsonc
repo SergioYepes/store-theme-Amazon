@@ -3,5 +3,10 @@
         "blocks": [
           "flex-layout.row#about-us"
         ]
+      },
+    "store.custom#pdf-reader": {
+        "blocks": [
+          "flex-layout.row#pdf-reader"
+        ]
       }
 }
