@@ -132,6 +132,8 @@ Translated with www.DeepL.com/Translator (free version)
 1. "itgloberspartnercl.whatsapp-button"
 2. "itgloberspartnercl.bullets-diagramation"
 3. "itgloberspartnercl.add-to-cart-info"
+4. "itgloberspartnercl.custom-department-search"
+5. "itgloberspartnercl.pdf-reader"
 
 
 ## Contributors
