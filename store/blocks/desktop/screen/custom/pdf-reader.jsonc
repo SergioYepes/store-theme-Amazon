@@ -1,19 +1,25 @@
 {
     "flex-layout.row#pdf-reader": {
         "children": [
-            "flex-layout.col#pdf-reader"
+            "flex-layout.col#pdf-reader",
+            "flex-layout.row#quick-order"
 
         ],
         "props":{
             "blockClass":"bigAbout"
         }
       },
+    "flex-layout.row#quick-order":{
+        "children":[
+            "quick-order"
+        ]
+    },
     "flex-layout.col#pdf-reader":{
         "children": [
             "pdf-reader"
           ]
     },
-    "pdf-reader":{
+    "pdf-reader":{ 
         "props":{
             "pdfUrl":"assets/documents/Ley 1258 de 2008.pdf",
             "width":"300px",
