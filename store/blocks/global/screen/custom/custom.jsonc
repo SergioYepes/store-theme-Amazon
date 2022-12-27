@@ -8,5 +8,10 @@
         "blocks": [
           "flex-layout.row#pdf-reader"
         ]
+      },
+      "store.custom#custom-grid": {
+        "blocks": [
+          "flex-layout.row#custom-grid"
+        ]
       }
 }

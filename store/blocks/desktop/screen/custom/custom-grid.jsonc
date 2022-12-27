@@ -1,0 +1,50 @@
+{
+    "flex-layout.row#custom-grid": {
+    "children": [
+        "custom-grid"
+
+    ],
+    "props":{
+        "blockClass":"bigAbout"
+    }
+  },
+"custom-grid": {
+    "children": [
+      "rich-text#custom__grid--1",
+      "rich-text#custom__grid--2",
+      "rich-text#custom__grid--3",
+      "rich-text#custom__grid--4",
+      "rich-text#custom__grid--5"
+    ]
+  },
+  "rich-text#custom__grid--1": {
+    "props": {
+      "blockClass": "custom__grid--1",
+      "text": "# 1\n ¿Donde puedes realizar tu solicitud?"
+    }
+  },
+  "rich-text#custom__grid--2": {
+    "props": {
+      "blockClass": "custom__grid--2",
+      "text": "# 2\n ¿Que información debes tener?"
+    }
+  },
+  "rich-text#custom__grid--3": {
+    "props": {
+      "blockClass": "custom__grid--3",
+      "text": "# 3\n ¿Donde debes entregar el producto?"
+    }
+  },
+  "rich-text#custom__grid--4": {
+    "props": {
+      "blockClass": "custom__grid--4",
+      "text": "# 4\n ¿Cuanto tiempo se demora tu producto en servicio técnico?"
+    }
+  },
+  "rich-text#custom__grid--5": {
+    "props": {
+      "blockClass": "custom__grid--5",
+      "text": "# 5\n ¿como sabras el estado de tu solicitud?"
+    }
+  }
+}
