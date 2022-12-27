@@ -4,5 +4,8 @@
     },
     "store.custom#pdf-reader":{
         "path":"/pdf"
+    },
+    "store.custom#custom-grid":{
+        "path":"/grid"
     }
 }
