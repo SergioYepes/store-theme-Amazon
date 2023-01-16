@@ -2,6 +2,7 @@
     "header-layout.desktop": {
         "title":"header desktop",
         "children": [
+          "header-row#desktop3",
           "header-row#desktop",
           "header-row#desktop2"
         ],

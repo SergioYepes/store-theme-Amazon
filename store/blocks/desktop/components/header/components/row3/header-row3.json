@@ -1,0 +1,31 @@
+{
+    "header-row#desktop3": {
+        "title":"header desktop row 3",
+        "props": {
+          "blockClass": "sticky-header"
+        },
+        "children": [
+          "flex-layout.row#desktop3"
+        ]
+      },
+      "flex-layout.row#desktop3":{
+        "title":"countdown cont",
+        "children":[
+            "rich-text#grandesDescuentos",
+            "header-spacer",
+            "header-spacer",
+            "countdown"
+        ],
+        "props":{
+            "blockClass":"header__countdown"
+        }
+      },
+      "rich-text#grandesDescuentos":{
+        "title":"Grandes Descuentos",
+        "props":{
+            "text":"Disfruta de nuestros grandes descuentos",
+            "blockClass":"header__countdown"
+        }
+      }
+
+}

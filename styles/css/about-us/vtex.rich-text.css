@@ -17,3 +17,11 @@
 .wrapper--fecha :global(.vtex-rich-text-0-x-paragraph){
     color: #707379 !important;
 }
+.paragraph--custom__grid--1,
+.paragraph--custom__grid--2,
+.paragraph--custom__grid--3,
+.paragraph--custom__grid--4,
+.paragraph--custom__grid--5
+{
+    color: #000 !important
+}
